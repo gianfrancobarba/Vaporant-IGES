@@ -1,0 +1,11 @@
+﻿# === Ambiente di sviluppo IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+
+# === OS ===
+.DS_Store
+
+# === Documentazione di progetto (TEMPORANEAMENTE esclusa dai commit) ===
+# Rimuovere queste righe quando si vorrà versionare la documentazione.
+StorageSession/docs/
