@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rimuovere dal carrello un prodotto presente&#xd;
+URL cart?action=deleteC&amp;id=.. + verifica</description>
+   <name>TC_5.3_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52eec628-812e-4d84-9862-c495db5a9058</testCaseGuid>
+</TestCaseEntity>

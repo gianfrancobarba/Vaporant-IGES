@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere un prodotto già presente (sotto la disponibilità)&#xd;
+URL cart?action=addC&amp;id=.. + verifica</description>
+   <name>TC_5.2_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe3d4347-bd9a-4a22-be35-cb15de644366</testCaseGuid>
+</TestCaseEntity>

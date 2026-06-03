@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto con quantità non numerica&#xd;
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito</description>
+   <name>TC_5.4_5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0aa418bb-184b-467b-953a-b9cbe7fecb4b</testCaseGuid>
+</TestCaseEntity>

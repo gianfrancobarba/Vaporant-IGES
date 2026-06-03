@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dettaglio prodotto id 2 (kiwi)&#xd;
+Click prodotto / URL + verifica nome+prezzo</description>
+   <name>TC_4.3_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2f614b2-19b4-440a-8d5d-91e9e6ad374c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinare il catalogo per prezzo&#xd;
+Navigazione URL + verifica ordine</description>
+   <name>TC_4.2_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5151b0a8-bbb5-4e4e-843e-58efd1927e44</testCaseGuid>
+</TestCaseEntity>

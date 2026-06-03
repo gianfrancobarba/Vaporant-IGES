@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto con quantità oltre la disponibilità&#xd;
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito</description>
+   <name>TC_5.4_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a13084c1-e9a1-4c38-ac28-310bc56950e0</testCaseGuid>
+</TestCaseEntity>

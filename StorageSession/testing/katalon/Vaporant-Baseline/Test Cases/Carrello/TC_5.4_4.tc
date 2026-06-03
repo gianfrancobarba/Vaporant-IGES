@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto con quantità non compilata&#xd;
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito</description>
+   <name>TC_5.4_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf145959-27b9-4211-9562-09177c04c6fb</testCaseGuid>
+</TestCaseEntity>

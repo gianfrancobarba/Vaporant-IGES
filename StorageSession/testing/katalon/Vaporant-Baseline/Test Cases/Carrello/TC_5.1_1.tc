@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visualizzare il carrello contenente prodotti&#xd;
+Aggiungi → apri carrello → verifica</description>
+   <name>TC_5.1_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99a70997-3985-46ab-8809-b89d7ba102fe</testCaseGuid>
+</TestCaseEntity>

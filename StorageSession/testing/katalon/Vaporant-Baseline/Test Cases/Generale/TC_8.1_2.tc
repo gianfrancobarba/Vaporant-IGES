@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pagine info (Contatti, Chi siamo, Privacy, Termini)	Click link nel Footer + verifica pagina</description>
+   <name>TC_8.1_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93dd8d46-2e6b-46b1-a7bc-9202a71ac13d</testCaseGuid>
+</TestCaseEntity>

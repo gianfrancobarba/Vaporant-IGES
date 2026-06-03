@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login con credenziali valide	&#xd;
+Compila form + submit → verifica (atteso Fail: errore)</description>
+   <name>TC_1.1_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9bbb9283-90e8-4245-aabf-2e7c07bef628</testCaseGuid>
+</TestCaseEntity>

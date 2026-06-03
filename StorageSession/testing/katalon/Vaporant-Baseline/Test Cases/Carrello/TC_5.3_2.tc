@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rimuovere un prodotto non presente nel carrello&#xd;
+URL cart?action=deleteC&amp;id=.. + verifica</description>
+   <name>TC_5.3_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1eef61f9-d585-4334-a868-f3eb6f14f69f</testCaseGuid>
+</TestCaseEntity>

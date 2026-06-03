@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visualizzare il catalogo senza parametro di ordinamento&#xd;
+Navigazione URL + verifica ordine</description>
+   <name>TC_4.2_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6b77fdf-0680-4de4-942b-1f674942dfb6</testCaseGuid>
+</TestCaseEntity>
