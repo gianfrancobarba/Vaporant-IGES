@@ -52,7 +52,6 @@ public class ContenutoDaoImpl implements ContenutoDAO{
 
 
             result = preparedStatement.executeUpdate();
-            updateStorage(contenutoOrdine.getId_prodotto(), contenutoOrdine.getQuantita());
 
         } finally {
             try {
