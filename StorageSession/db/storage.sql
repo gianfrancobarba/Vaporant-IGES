@@ -56,7 +56,7 @@ CREATE TABLE Ordine(
     ID_Indirizzo INT NOT NULL,
     prezzoTot FLOAT NOT NULL CHECK(prezzoTot >= 0.1),
     dataAcquisto DATE NOT NULL,
-    metodoPagamento VARCHAR(50) check(metodoPagamento = "PayPal" OR metodoPagamento = "Carta di credito/debito"),
+    metodoPagamento VARCHAR(50) check(metodoPagamento = 'PayPal' OR metodoPagamento = 'Carta di credito/debito'),
     FOREIGN KEY(ID_Indirizzo) REFERENCES Indirizzo(ID),
     FOREIGN KEY(ID_Utente) REFERENCES Utente(ID)
 );
