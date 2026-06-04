@@ -11,14 +11,16 @@
 	}
 	ProductBean product = (ProductBean) session.getAttribute("product");
 	
-  	UserBean user = null;
-	if(session.getAttribute("user") == null)
-		response.sendRedirect("loginForm.jsp");//aggiungere pagina errore che dice stai cercando di accedere dove non puoi 
-	else
-		user = (UserBean) session.getAttribute("user");
+  	UserBean user = (UserBean) session.getAttribute("user");
+	if(user == null) {
+		response.sendRedirect("loginForm.jsp");
+		return;
+	}
 	
-	if (user.getTipo() != "admin")
-		response.sendRedirect("ErrorPageAccess.jsp");	
+	if (!"admin".equals(user.getTipo())) {
+		response.sendRedirect("ErrorPageAccess.jsp");
+		return;
+	}	
  	
 %>
 
