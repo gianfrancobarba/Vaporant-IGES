@@ -135,7 +135,6 @@ public class AddressDaoImpl implements AddressDAO {
         	   	address.setId(rs.getInt("ID"));
                 address.setCap(rs.getString("cap"));
                 address.setCitta(rs.getString("citta"));
-                address.setId(rs.getInt("ID"));
                 address.setId_utente(rs.getInt("ID_Utente"));
                 address.setNumCivico(rs.getString("numCivico"));
                 address.setProvincia(rs.getString("provincia"));
@@ -187,7 +186,6 @@ public class AddressDaoImpl implements AddressDAO {
                 address.setId(rs.getInt("ID"));
                 address.setCap(rs.getString("cap"));
                 address.setCitta(rs.getString("citta"));
-                address.setId(rs.getInt("ID"));
                 address.setId_utente(rs.getInt("ID_Utente"));
                 address.setNumCivico(rs.getString("numCivico"));
                 address.setProvincia(rs.getString("provincia"));
@@ -234,7 +232,6 @@ public class AddressDaoImpl implements AddressDAO {
                 address.setId(rs.getInt("ID"));
                 address.setCap(rs.getString("cap"));
                 address.setCitta(rs.getString("citta"));
-                address.setId(rs.getInt("ID"));
                 address.setId_utente(rs.getInt("ID_Utente"));
                 address.setNumCivico(rs.getString("numCivico"));
                 address.setProvincia(rs.getString("provincia"));
