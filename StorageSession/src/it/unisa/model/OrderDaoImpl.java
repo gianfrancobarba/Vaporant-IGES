@@ -71,7 +71,7 @@ public class OrderDaoImpl implements OrderDAO {
     Connection connection = null;
     PreparedStatement preparedStatement = null;
 
-    String selectSQL = "DELETE * FROM " + TABLE + " WHERE ID_Ordine= ?";
+    String selectSQL = "DELETE FROM " + TABLE + " WHERE ID_Ordine= ?";
 
     int result;
 

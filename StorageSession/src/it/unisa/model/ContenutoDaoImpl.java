@@ -74,7 +74,7 @@ public class ContenutoDaoImpl implements ContenutoDAO{
 		Connection connection = null;
         PreparedStatement preparedStatement = null;
         
-        String selectSQL = "DELETE * FROM " + TABLE + " WHERE ID_Ordine = ? AND ID_Prodotto = ?";
+        String selectSQL = "DELETE FROM " + TABLE + " WHERE ID_Ordine = ? AND ID_Prodotto = ?";
         
         int result;
         

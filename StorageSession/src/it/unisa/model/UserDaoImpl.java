@@ -80,7 +80,7 @@ public class UserDaoImpl implements UserDAO {
 		Connection connection = null;
         PreparedStatement preparedStatement = null;
         
-        String selectSQL = "DELETE * FROM " + TABLE + " WHERE id = ?";
+        String selectSQL = "DELETE FROM " + TABLE + " WHERE id = ?";
         
         int result;
         
