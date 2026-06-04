@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto con quantità inferiore a 1&#xd;
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito</description>
+   <name>TC_5.4_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d90bd17f-9751-41ac-acdd-2bb439495c07</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ricerca senza corrispondenze&#xd;
+Digita nel campo ricerca + verifica dropdown</description>
+   <name>TC_4.4_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db9e3231-3738-4cce-ae80-97b1eeca6755</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere al carrello un id inesistente&#xd;
+URL cart?action=addC&amp;id=.. + verifica</description>
+   <name>TC_5.2_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>036a06d0-aeaa-4575-967f-be471ef8f723</testCaseGuid>
+</TestCaseEntity>

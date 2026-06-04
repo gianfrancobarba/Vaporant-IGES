@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Registrazione con dati validi&#xd;
+Compila form + submit → verifica (atteso Fail: errore)</description>
+   <name>TC_2.1_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf151a73-8758-43bf-a308-8c8f0085d6ae</testCaseGuid>
+</TestCaseEntity>

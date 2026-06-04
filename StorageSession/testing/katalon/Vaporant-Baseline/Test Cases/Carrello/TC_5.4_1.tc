@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiorna quantità a valore valido	&#xd;
+Form carrello: imposta qty + &quot;Aggiorna&quot;</description>
+   <name>TC_5.4_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ad50671-e737-460b-9682-5996eae58f18</testCaseGuid>
+</TestCaseEntity>

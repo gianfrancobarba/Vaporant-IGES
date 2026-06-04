@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dettaglio id non numerico (abc)	&#xd;
+URL + verifica errore 500 (incident)</description>
+   <name>TC_4.3_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ab97e67-92fb-4a9d-9d1e-aee323511e6c</testCaseGuid>
+</TestCaseEntity>

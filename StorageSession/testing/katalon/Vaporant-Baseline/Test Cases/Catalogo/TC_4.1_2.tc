@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Catalogo vuoto → messaggio&#xd;
+&#xd;
+Richiede DB svuotato → manuale/opzionale, per non alterare la baseline</description>
+   <name>TC_4.1_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6563dc4c-6714-4a8e-b00f-8daf5cf30bbb</testCaseGuid>
+</TestCaseEntity>

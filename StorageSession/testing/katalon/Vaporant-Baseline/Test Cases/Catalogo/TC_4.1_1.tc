@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Catalogo mostra i 4 prodotti seed</description>
+   <name>TC_4.1_1</name>
+   <tag>Navigazione + verifica testo (es. &quot;kiwi&quot;)</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4bd9e47-99e9-4dc7-bc40-919e547dce16</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere al carrello un prodotto non ancora presente&#xd;
+URL cart?action=addC&amp;id=.. + verifica</description>
+   <name>TC_5.2_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a16ba3f-e225-4c71-a49f-d3d3c268a7c1</testCaseGuid>
+</TestCaseEntity>

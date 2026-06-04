@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ricercare un prodotto per corrispondenza parziale&#xd;
+Digita nel campo ricerca + verifica dropdown</description>
+   <name>TC_4.4_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffdc33d9-514d-439b-be18-542e14533ac4</testCaseGuid>
+</TestCaseEntity>

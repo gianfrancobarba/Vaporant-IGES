@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Comportamento con campo di ricerca vuoto&#xd;
+Digita nel campo ricerca + verifica dropdown</description>
+   <name>TC_4.4_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3974a574-d65a-4993-96cf-6a12b05baf2f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dettaglio id inesistente (999)	&#xd;
+URL + verifica (atteso robustezza → incident)</description>
+   <name>TC_4.3_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>313cf24b-c2be-438a-90f4-bd84266d9a89</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinamento del catalogo con colonna inesistente (errore gestito atteso; incident reale)</description>
+   <name>TC_4.2_4</name>
+   <tag>Catalogo - ordinamento - caso di errore</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c1f4a6e-4d2b-4e7a-9f3c-7a1b2c3d4e5f</testCaseGuid>
+</TestCaseEntity>

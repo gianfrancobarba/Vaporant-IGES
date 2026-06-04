@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificare la sanificazione del parametro di ordinamento (SQL injection)&#xd;
+Navigazione URL + verifica (atteso vulnerabilità → incident)</description>
+   <name>TC_4.2_5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>326a86e1-fe65-4a44-9253-d276804a6a0f</testCaseGuid>
+</TestCaseEntity>
