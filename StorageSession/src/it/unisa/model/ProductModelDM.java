@@ -20,7 +20,7 @@ public class ProductModelDM implements ProductModel {
 		PreparedStatement preparedStatement = null;
 
 		String insertSQL = "INSERT INTO " + ProductModelDM.TABLE_NAME
-				+ " (nome, descrizione, quantita, prezzoAttuale) VALUES (?, ?, ?, ?)";
+				+ " (nome, descrizione, quantita, prezzoAttuale, tipo, colore) VALUES (?, ?, ?, ?, ?, ?)";
 
 		try {
 			connection = DriverManagerConnectionPool.getConnection();
@@ -29,6 +29,8 @@ public class ProductModelDM implements ProductModel {
 			preparedStatement.setString(2, product.getDescription());
 			preparedStatement.setInt(3, product.getQuantityStorage());
 			preparedStatement.setFloat(4, product.getPrice());
+			preparedStatement.setString(5, product.getTipo());
+			preparedStatement.setString(6, product.getColore());
 
 			preparedStatement.executeUpdate();
 

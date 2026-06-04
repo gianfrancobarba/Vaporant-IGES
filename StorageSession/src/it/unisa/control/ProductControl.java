@@ -43,14 +43,18 @@ public class ProductControl extends HttpServlet {
                 {
                     String name = request.getParameter("name");
                     String description = request.getParameter("description");
-                    int price = Integer.parseInt(request.getParameter("price"));
+                    float price = Float.parseFloat(request.getParameter("price"));
                     int quantity = Integer.parseInt(request.getParameter("quantity"));
+                    String tipo = request.getParameter("tipo");
+                    String colore = request.getParameter("colore");
 
                     ProductBean bean = new ProductBean();
                     bean.setName(name);
                     bean.setDescription(description);
                     bean.setPrice(price);
                     bean.setQuantityStorage(quantity);
+                    bean.setTipo(tipo);
+                    bean.setColore(colore);
                     model.doSave(bean);
                 }
             }
