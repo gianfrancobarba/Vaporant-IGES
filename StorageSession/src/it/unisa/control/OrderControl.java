@@ -1,6 +1,7 @@
 package it.unisa.control;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
@@ -83,7 +84,7 @@ public class OrderControl extends HttpServlet {
 		for(ProductBean prod : cart.getProducts())
 		{
 			try {
-				contDao.saveContenuto(new ContenutoBean(idOrdine,prod.getCode(),prod.getQuantity(),22,prod.getPrice()));
+				contDao.saveContenuto(new ContenutoBean(idOrdine,prod.getCode(),prod.getQuantity(),22,new BigDecimal(String.valueOf(prod.getPrice()))));
 				System.out.println("prodotto " +  i++ + prod.toString());
 				productDao.updateQuantityStorage(prod, prod.getQuantityStorage() - prod.getQuantity());
 				

@@ -46,7 +46,7 @@ public class ContenutoDaoImpl implements ContenutoDAO{
             preparedStatement.setInt(1, contenutoOrdine.getId_ordine());
             preparedStatement.setInt(2, contenutoOrdine.getId_prodotto());
             preparedStatement.setInt(3, contenutoOrdine.getQuantita());
-            preparedStatement.setFloat(4, contenutoOrdine.getPrezzoAcquisto());
+            preparedStatement.setBigDecimal(4, contenutoOrdine.getPrezzoAcquisto());
             preparedStatement.setInt(5, contenutoOrdine.getIvaAcquisto());
 
 
@@ -126,7 +126,7 @@ public class ContenutoDaoImpl implements ContenutoDAO{
         	   contenutoOrdine.setId_ordine(rs.getInt("ID_Ordine"));
         	   contenutoOrdine.setId_prodotto(rs.getInt("ID_Prodotto"));
         	   contenutoOrdine.setIvaAcquisto(rs.getInt("ivaAcquisto"));
-        	   contenutoOrdine.setPrezzoAcquisto(rs.getFloat("prezzoAcquisto"));
+        	   contenutoOrdine.setPrezzoAcquisto(rs.getBigDecimal("prezzoAcquisto"));
         	   contenutoOrdine.setQuantita(rs.getInt("quantita"));
             }
             

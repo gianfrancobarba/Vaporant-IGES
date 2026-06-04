@@ -1,14 +1,16 @@
 package it.unisa.model;
 
+import java.math.BigDecimal;
+
 public class ContenutoBean {
 	private int id_ordine, id_prodotto, quantita, ivaAcquisto;
-	private float prezzoAcquisto;
+	private BigDecimal prezzoAcquisto;
 	
 	public ContenutoBean() {
 		
 	}
 	
-	public ContenutoBean(int ord, int prod, int quant, int iva, float prezzo)
+	public ContenutoBean(int ord, int prod, int quant, int iva, BigDecimal prezzo)
 	{
 		id_ordine = ord;
 		id_prodotto = prod;
@@ -41,10 +43,10 @@ public class ContenutoBean {
 	public void setIvaAcquisto(int ivaAcquisto) {
 		this.ivaAcquisto = ivaAcquisto;
 	}
-	public float getPrezzoAcquisto() {
+	public BigDecimal getPrezzoAcquisto() {
 		return prezzoAcquisto;
 	}
-	public void setPrezzoAcquisto(float prezzoAcquisto) {
+	public void setPrezzoAcquisto(BigDecimal prezzoAcquisto) {
 		this.prezzoAcquisto = prezzoAcquisto;
 	}
 	
