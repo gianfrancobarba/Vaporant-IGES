@@ -13,6 +13,4 @@ public interface OrderDAO {
 	
 	public ArrayList<OrderBean> findByIdUtente(int id) throws SQLException;
 
-	int getIdfromDB() throws SQLException; 
-	
 }

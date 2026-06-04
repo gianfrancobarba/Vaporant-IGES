@@ -70,19 +70,13 @@ public class OrderControl extends HttpServlet {
 		
 		OrderBean order = new OrderBean(idUtente,idIndirizzo, cart.getPrezzoTotale(), LocalDate.now(), payment);
 		
+		int idOrdine = -1;
+
 		try {
-			orderDao.saveOrder(order);
+			idOrdine = orderDao.saveOrder(order);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
-		int idOrdine = -1;
-		
-		try {
-			idOrdine = orderDao.getIdfromDB();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} 
 		
 		
 		int i = 0;
