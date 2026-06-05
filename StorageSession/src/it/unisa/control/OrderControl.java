@@ -46,7 +46,6 @@ public class OrderControl extends HttpServlet {
 		UserBean user = (UserBean) session.getAttribute("user");
 		
 		int idUtente = user.getId();
-		System.out.println("order " + user.getId());
 		
 		String payment = req.getParameter("payment");
 		int idIndirizzo = Integer.parseInt(req.getParameter("addressDropdown"));
@@ -80,12 +79,10 @@ public class OrderControl extends HttpServlet {
 		}
 		
 		
-		int i = 0;
 		for(ProductBean prod : cart.getProducts())
 		{
 			try {
 				contDao.saveContenuto(new ContenutoBean(idOrdine,prod.getCode(),prod.getQuantity(),22,new BigDecimal(String.valueOf(prod.getPrice()))));
-				System.out.println("prodotto " +  i++ + prod.toString());
 				productDao.updateQuantityStorage(prod, prod.getQuantityStorage() - prod.getQuantity());
 				
 			} catch (SQLException e) {

@@ -87,9 +87,7 @@ public class AddressDaoImpl implements AddressDAO {
         	preparedStatement = connection.prepareStatement(selectSQL);
             
             preparedStatement.setInt(1, address.getId());
-            
-            System.out.println(preparedStatement);
-            
+
             result = preparedStatement.executeUpdate();   
             
             connection.commit();
