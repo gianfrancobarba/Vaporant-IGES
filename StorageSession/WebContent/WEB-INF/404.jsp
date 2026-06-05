@@ -45,7 +45,7 @@
     <div class="container">
         <h1>Oops! Pagina non trovata</h1>
         <p>La pagina che stai cercando non è disponibile o è stata spostata.</p>
-        <p>Torna alla <a href="http://localhost:7390/StorageSession/ProductView.jsp">pagina principale</a> per continuare la navigazione.</p>
+        <p>Torna alla <a href="${pageContext.request.contextPath}/ProductView.jsp">pagina principale</a> per continuare la navigazione.</p>
     </div>
 </body>
 </html>
