@@ -67,7 +67,7 @@
         </tbody>
     </table>
 
-    <span>Totale: <%= cart.getPrezzoTotale() %>£</span>
+    <span>Totale: <%= cart.getPrezzoTotale() %>€</span>
 
     <form action="Ordine" method="POST" class="none">
         <%-- Dropdown per l'indirizzo di spedizione --%>
