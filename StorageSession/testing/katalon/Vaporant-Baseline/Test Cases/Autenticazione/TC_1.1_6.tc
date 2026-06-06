@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login con email in formato non valido (invio bloccato dal browser)</description>
+   <name>TC_1.1_6</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0011-4011-8011-000000001106</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login con password errata (accesso negato)</description>
+   <name>TC_1.1_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0011-4011-8011-000000001102</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Invocazione di /logout da ospite (nessuna sessione)</description>
+   <name>TC_1.2_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0012-4012-8012-000000001202</testCaseGuid>
+</TestCaseEntity>
