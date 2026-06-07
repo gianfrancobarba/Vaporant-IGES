@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Due modifiche password consecutive nella stessa sessione (sincronizzazione sessione-DB, defect-exposing)</description>
+   <name>TC_3.4_6</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030406</testCaseGuid>
+</TestCaseEntity>

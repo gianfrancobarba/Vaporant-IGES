@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere indirizzo con Numero Civico oltre 4 caratteri (BVA CHAR(4))</description>
+   <name>TC_3.6_13</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030613</testCaseGuid>
+</TestCaseEntity>

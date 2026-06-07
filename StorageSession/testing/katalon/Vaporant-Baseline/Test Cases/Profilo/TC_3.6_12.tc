@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere indirizzo con Cap oltre 5 caratteri (BVA CHAR(5))</description>
+   <name>TC_3.6_12</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030612</testCaseGuid>
+</TestCaseEntity>
