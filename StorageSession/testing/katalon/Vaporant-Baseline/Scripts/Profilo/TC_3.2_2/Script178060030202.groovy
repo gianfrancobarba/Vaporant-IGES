@@ -25,13 +25,12 @@ WebUI.delay(1)
 WebUI.setText(css('#emailInput'), '')
 WebUI.click(css('#submitButton'))
 WebUI.delay(2)
-if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL)) {
-	WebUI.acceptAlert()
-}
-// Oracolo da requisito (UI): l'email vuota va RIFIUTATA -> ricaricando il profilo l'email deve restare quella originale.
-// REALE: ModifyControl non valida -> salva il vuoto -> l'email originale non c'e' piu' -> FAILED = incident (hardening CR_02).
-WebUI.navigateToUrl(GlobalVariable.base + 'Utente.jsp')
-WebUI.delay(1)
+String msg = WebUI.getAlertText()
+WebUI.acceptAlert()
 WebUI.takeScreenshot()
-WebUI.verifyTextPresent('t.mansi@studenti.unisa.it', false, FailureHandling.CONTINUE_ON_FAILURE)
+// Oracolo da requisito (UI): l'email vuota va RIFIUTATA -> NON deve comparire il messaggio di conferma.
+// (L'oracolo guarda l'alert, non il profilo: per il bug di sync sessione il profilo mostra comunque il
+//  valore di sessione, mascherando la corruzione.) REALE: ModifyControl non valida -> "Email modificata
+// con successo" -> FAILED = incident (hardening CR_02).
+WebUI.verifyNotMatch(msg, '.*Email modificata con successo.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

@@ -43,16 +43,26 @@ class SeedReset {
 			GlobalVariable.dbName as String
 		]
 
+		File log = new File(System.getProperty('java.io.tmpdir'), 'seedreset.log')
+
 		ProcessBuilder pb = new ProcessBuilder(cmd)
 		pb.redirectInput(script)
 		pb.redirectErrorStream(true)
+		pb.redirectOutput(log)
 
 		Process p = pb.start()
-		String output = p.getInputStream().getText('UTF-8')
-		int code = p.waitFor()
+		// Timeout di sicurezza: la fixture non deve MAI appendere la suite.
+		boolean finished = p.waitFor(20, java.util.concurrent.TimeUnit.SECONDS)
+		if (!finished) {
+			p.destroyForcibly()
+			KeywordUtil.markFailed('Fixture reset seed: timeout 20s (possibile lock sul DB). Vedi ' + log.getAbsolutePath())
+			return
+		}
 
+		int code = p.exitValue()
 		if (code != 0) {
 			// Fallimento del ripristino ambiente = precondizione non soddisfatta.
+			String output = log.exists() ? log.getText('UTF-8') : ''
 			KeywordUtil.markFailed('Fixture reset seed fallita (exit=' + code + '): ' + output)
 		} else {
 			KeywordUtil.logInfo('Seed ripristinato prima di: ' + context.getTestCaseId())

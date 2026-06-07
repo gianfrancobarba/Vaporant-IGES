@@ -1,3 +1,4 @@
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -32,6 +33,9 @@ WebUI.navigateToUrl(GlobalVariable.base + 'Utente.jsp')
 WebUI.delay(1)
 WebUI.waitForElementPresent(css('table'), 10)
 WebUI.takeScreenshot()
-// Oracolo (UI): il nuovo indirizzo compare tra gli indirizzi del cliente.
-WebUI.verifyTextPresent('Via Roma', false)
+// Oracolo da requisito (UI): il nuovo indirizzo deve comparire tra gli indirizzi del cliente.
+// REALE (incident): l'app usa autocommit=false (DriverManagerConnectionPool) e i DAO non chiamano mai
+// commit() -> saveAddress non viene committato -> la lettura non vede il nuovo indirizzo -> FAILED =
+// incident (gestione transazioni/connessioni, hardening CR_02).
+WebUI.verifyTextPresent('Via Roma', false, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

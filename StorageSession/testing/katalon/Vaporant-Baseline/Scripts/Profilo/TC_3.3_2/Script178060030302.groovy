@@ -25,12 +25,10 @@ WebUI.delay(1)
 WebUI.setText(css('#phoneInput'), '')
 WebUI.click(css('#submitPhoneButton'))
 WebUI.delay(2)
-if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL)) {
-	WebUI.acceptAlert()
-}
-// Oracolo da requisito (UI): telefono vuoto RIFIUTATO -> il numero originale resta. REALE: salvato vuoto -> FAILED = incident.
-WebUI.navigateToUrl(GlobalVariable.base + 'Utente.jsp')
-WebUI.delay(1)
+String msg = WebUI.getAlertText()
+WebUI.acceptAlert()
 WebUI.takeScreenshot()
-WebUI.verifyTextPresent('3409876321', false, FailureHandling.CONTINUE_ON_FAILURE)
+// Oracolo da requisito (UI): telefono vuoto RIFIUTATO -> NON deve comparire il messaggio di conferma.
+// REALE: ModifyControl non valida -> "Numero di cellulare modificato con successo" -> FAILED = incident (CR_02).
+WebUI.verifyNotMatch(msg, '.*Numero di cellulare modificato con successo.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

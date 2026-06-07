@@ -25,12 +25,10 @@ WebUI.delay(1)
 WebUI.setText(css('#emailInput'), '   ')
 WebUI.click(css('#submitButton'))
 WebUI.delay(2)
-if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL)) {
-	WebUI.acceptAlert()
-}
-// Oracolo da requisito (UI): email di soli spazi RIFIUTATA -> l'email originale resta. REALE: salvata -> FAILED = incident.
-WebUI.navigateToUrl(GlobalVariable.base + 'Utente.jsp')
-WebUI.delay(1)
+String msg = WebUI.getAlertText()
+WebUI.acceptAlert()
 WebUI.takeScreenshot()
-WebUI.verifyTextPresent('t.mansi@studenti.unisa.it', false, FailureHandling.CONTINUE_ON_FAILURE)
+// Oracolo da requisito (UI): email di soli spazi RIFIUTATA -> NON deve comparire "Email modificata con successo".
+// REALE: nessuna validazione -> messaggio di successo -> FAILED = incident (hardening CR_02).
+WebUI.verifyNotMatch(msg, '.*Email modificata con successo.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

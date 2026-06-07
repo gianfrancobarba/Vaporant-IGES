@@ -25,13 +25,10 @@ WebUI.delay(1)
 WebUI.setText(css('#emailInput'), 'emailnonvalida')
 WebUI.click(css('#submitButton'))
 WebUI.delay(2)
-if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL)) {
-	WebUI.acceptAlert()
-}
-// Oracolo da requisito (UI): email in formato non valido RIFIUTATA -> l'email originale resta.
-// REALE: il campo emailInput e' type=text e ModifyControl non valida -> salvata -> FAILED = incident (hardening CR_02).
-WebUI.navigateToUrl(GlobalVariable.base + 'Utente.jsp')
-WebUI.delay(1)
+String msg = WebUI.getAlertText()
+WebUI.acceptAlert()
 WebUI.takeScreenshot()
-WebUI.verifyTextPresent('t.mansi@studenti.unisa.it', false, FailureHandling.CONTINUE_ON_FAILURE)
+// Oracolo da requisito (UI): email in formato non valido RIFIUTATA -> NON deve comparire "Email modificata con successo".
+// REALE: il campo e' type=text e ModifyControl non valida -> messaggio di successo -> FAILED = incident (hardening CR_02).
+WebUI.verifyNotMatch(msg, '.*Email modificata con successo.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

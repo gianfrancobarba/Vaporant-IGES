@@ -9,16 +9,23 @@
 -- Reset DATA-ONLY (niente DROP/CREATE): mantiene lo schema e le connessioni
 -- del pool di Tomcat valide. Le righe INSERT sono copiate VERBATIM da
 -- db/storage.sql (il seed ufficiale). Se storage.sql cambia, riallineare qui.
--- (TRUNCATE azzera anche l'AUTO_INCREMENT; gli ID sono espliciti -> stato
---  identico al baseline.)
+--
+-- Si usa DELETE (non TRUNCATE): TRUNCATE richiede un metadata lock ESCLUSIVO e
+-- si blocca se l'app (Tomcat) tiene una transazione aperta sulle tabelle (leak
+-- del legacy, che CR_02 sistemera'). DELETE usa un lock SHARED_WRITE, compatibile
+-- -> nessun hang. Gli ID di seed sono espliciti -> stato identico al baseline
+-- (l'AUTO_INCREMENT non azzerato e' irrilevante per gli oracoli). I timeout brevi
+-- evitano attese lunghe in caso di lock residuo.
 -- ============================================================================
 
+SET SESSION lock_wait_timeout = 10;
+SET SESSION innodb_lock_wait_timeout = 10;
 SET FOREIGN_KEY_CHECKS = 0;
-TRUNCATE TABLE Contenuto;
-TRUNCATE TABLE Ordine;
-TRUNCATE TABLE Indirizzo;
-TRUNCATE TABLE Prodotto;
-TRUNCATE TABLE Utente;
+DELETE FROM Contenuto;
+DELETE FROM Ordine;
+DELETE FROM Indirizzo;
+DELETE FROM Prodotto;
+DELETE FROM Utente;
 SET FOREIGN_KEY_CHECKS = 1;
 
 -- --- seed Utente (verbatim da storage.sql) ---
