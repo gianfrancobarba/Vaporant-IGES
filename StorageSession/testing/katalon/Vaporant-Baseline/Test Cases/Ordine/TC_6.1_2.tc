@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negare il checkout a un ospite (atteso redirect a loginForm)</description>
+   <name>TC_6.1_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0061-4061-8061-000000060102</testCaseGuid>
+</TestCaseEntity>

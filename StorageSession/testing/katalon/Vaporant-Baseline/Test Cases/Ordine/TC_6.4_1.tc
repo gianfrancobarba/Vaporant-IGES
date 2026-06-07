@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scaricare la fattura PDF relativa a un acquisto</description>
+   <name>TC_6.4_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0061-4061-8061-000000060401</testCaseGuid>
+</TestCaseEntity>

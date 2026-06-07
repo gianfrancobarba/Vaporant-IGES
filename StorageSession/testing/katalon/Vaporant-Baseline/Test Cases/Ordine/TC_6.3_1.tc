@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visualizzare il riepilogo dopo un acquisto</description>
+   <name>TC_6.3_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0061-4061-8061-000000060301</testCaseGuid>
+</TestCaseEntity>
