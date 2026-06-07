@@ -1,6 +1,6 @@
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
@@ -11,9 +11,10 @@ TestObject css(String sel) {
 	return t
 }
 
-// TC_2.1_12 — Telefono di soli spazi (RF_GR_3) — ROBUSTEZZA (WARNING, giudizio manuale)
+// TC_2.1_12 — Registrazione con Telefono di soli spazi (RF_GR_3) — oracolo da requisito (incident atteso)
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.base + 'SignForm.jsp')
+WebUI.delay(1)
 WebUI.executeJavaScript("document.getElementById('nome').value='Mario';" +
 	"document.getElementById('cognome').value='Rossi';" +
 	"document.getElementById('data_nascita').value='2000-05-15';" +
@@ -21,11 +22,9 @@ WebUI.executeJavaScript("document.getElementById('nome').value='Mario';" +
 	"document.getElementById('telefono').value='   ';" +
 	"document.getElementById('email').value='mario.rossi@example.com';" +
 	"document.getElementById('password').value='Password1';", null)
-WebUI.takeScreenshot()
 WebUI.click(css('#submit'))
 WebUI.delay(2)
 WebUI.takeScreenshot()
-// Atteso: rifiuto. Reale: nessuna validazione dei soli spazi. Eseguire su DB con email/CF di riferimento NUOVI.
-// Interpretare lo screenshot: loginForm.jsp ("Non hai un account") = accettato -> incident TIR; SignForm.jsp = rifiutato.
-KeywordUtil.markWarning('Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.')
+// Oracolo da requisito (UI): Telefono di soli spazi RIFIUTATO -> resta su SignForm. REALE: accettato -> loginForm -> FAILED = incident (CR_02).
+WebUI.verifyTextNotPresent('Non hai un account', false, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()

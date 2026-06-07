@@ -1,5 +1,30 @@
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-// TC_2.1_6 — Telefono non compilato (RF_GR_3) — CASO MANUALE (validazione lato client HTML5 required)
-KeywordUtil.markWarning('Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l\'invio (campo obbligatorio).')
+// helper: crea un TestObject da un selettore CSS
+TestObject css(String sel) {
+	TestObject t = new TestObject(sel)
+	t.addProperty('css', ConditionType.EQUALS, sel)
+	return t
+}
+
+// TC_2.1_6 — Registrazione con Telefono non compilato (RF_GR_3) — validazione client (atteso PASSED)
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.base + 'SignForm.jsp')
+WebUI.delay(1)
+// Tutti i campi validi tranne Telefono (lasciato vuoto)
+WebUI.executeJavaScript("document.getElementById('nome').value='Mario';" +
+	"document.getElementById('cognome').value='Rossi';" +
+	"document.getElementById('data_nascita').value='2000-05-15';" +
+	"document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" +
+	"document.getElementById('email').value='mario.rossi@example.com';" +
+	"document.getElementById('password').value='Password1';", null)
+Object valid = WebUI.executeJavaScript("return document.getElementById('telefono').checkValidity()", null)
+WebUI.verifyEqual(valid, false)
+WebUI.click(css('#submit'))
+WebUI.delay(1)
+WebUI.takeScreenshot()
+WebUI.verifyTextNotPresent('Non hai un account', false)
+WebUI.closeBrowser()
