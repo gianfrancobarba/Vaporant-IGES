@@ -105,14 +105,14 @@ public class AddressDaoImpl implements AddressDAO {
 
 
 	@Override
-    public ArrayList<AddressBean> findByID(int id) throws SQLException {
+    public ArrayList<AddressBean> findByUserId(int idUtente) throws SQLException {
 
         String selectSQL = "SELECT * FROM "+ TABLE + " WHERE ID_Utente = ?";
 
         try (Connection connection = ds.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
 
-            preparedStatement.setInt(1, id);
+            preparedStatement.setInt(1, idUtente);
 
             try (ResultSet rs = preparedStatement.executeQuery()) {
                 if (!rs.isBeforeFirst()) return null;
@@ -137,7 +137,8 @@ public class AddressDaoImpl implements AddressDAO {
         }
     }
 
-    public AddressBean findAddressByID(int id) throws SQLException {
+    @Override
+    public AddressBean findById(int id) throws SQLException {
 
         String selectSQL = "SELECT * FROM "+ TABLE + " WHERE ID = ?";
 

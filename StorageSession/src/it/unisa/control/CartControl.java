@@ -39,7 +39,7 @@ public class CartControl extends HttpServlet {
 				if (action.equalsIgnoreCase("addC"))
 				{
 					int id = Integer.parseInt(request.getParameter("id"));
-					ProductBean prod = model.doRetrieveByKey(id);
+					ProductBean prod = model.findByKey(id);
 					if (prod != null) {
 						cart.addProduct(prod);
 					}
@@ -47,7 +47,7 @@ public class CartControl extends HttpServlet {
 				} else if (action.equalsIgnoreCase("deleteC"))
 					{
 						int id = Integer.parseInt(request.getParameter("id"));
-						ProductBean prod = model.doRetrieveByKey(id);
+						ProductBean prod = model.findByKey(id);
 						if (prod != null) {
 							cart.deleteProduct(prod);
 						}
@@ -56,7 +56,7 @@ public class CartControl extends HttpServlet {
 						{
 							int id = Integer.parseInt(request.getParameter("id"));
 							int quantita = Integer.parseInt(request.getParameter("quantita"));
-							ProductBean prod = model.doRetrieveByKey(id);
+							ProductBean prod = model.findByKey(id);
 							if (prod != null) {
 								cart.aggiorna(prod, quantita);
 							}
@@ -65,7 +65,7 @@ public class CartControl extends HttpServlet {
 							{
 								int id = Integer.parseInt(request.getParameter("id"));
 								int quantita = Integer.parseInt(request.getParameter("quantita"));
-								ProductBean prod = model.doRetrieveByKey(id);
+								ProductBean prod = model.findByKey(id);
 								if (prod != null) {
 									cart.aggiorna(prod, quantita);
 								}

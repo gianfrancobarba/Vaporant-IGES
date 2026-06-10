@@ -17,8 +17,8 @@
 	
 	   AddressDaoImpl addressDao = new AddressDaoImpl();
 	   List<AddressBean> indirizzi = null;
-	   if(addressDao.findByID(user.getId()) != null)
-	   		indirizzi =  addressDao.findByID(user.getId());
+	   if(addressDao.findByUserId(user.getId()) != null)
+	   		indirizzi =  addressDao.findByUserId(user.getId());
 	
 	   OrderDaoImpl orderDao = new OrderDaoImpl();
 	   List<OrderBean> ordini = null;
@@ -106,7 +106,7 @@
         	                document.getElementById("editButton").classList.remove("hidden");
         	                document.getElementById("submitButton").classList.add("hidden");
         	            } else {
-        	                alert("Si è verificato un errore durante la modifica dell'email. Riprova più tardi.");
+        	                alert("Si ï¿½ verificato un errore durante la modifica dell'email. Riprova piï¿½ tardi.");
         	                document.getElementById("emailInput").disabled = false;
         	                document.getElementById("submitButton").disabled = false;
         	            }
@@ -136,7 +136,7 @@
         	                document.getElementById("editPhoneButton").classList.remove("hidden");
         	                document.getElementById("submitPhoneButton").classList.add("hidden");
         	            } else {
-        	                alert("Si è verificato un errore durante la modifica del numero di cellulare. Riprova più tardi.");
+        	                alert("Si ï¿½ verificato un errore durante la modifica del numero di cellulare. Riprova piï¿½ tardi.");
         	                document.getElementById("phoneInput").disabled = false;
         	                document.getElementById("submitPhoneButton").disabled = false;
         	            }
@@ -170,7 +170,7 @@
                                 alert("Vecchia password errata. Riprova.");
                             }
                         } else {
-                            alert("Si è verificato un errore durante la modifica della password. Riprova più tardi.");
+                            alert("Si ï¿½ verificato un errore durante la modifica della password. Riprova piï¿½ tardi.");
                         }
                     }
                 };
@@ -216,7 +216,7 @@
          <thead>
             <tr>
                <th>Indirizzo</th>
-               <th>Città</th>
+               <th>Cittï¿½</th>
                <th>Provincia</th>
             </tr>
          </thead>

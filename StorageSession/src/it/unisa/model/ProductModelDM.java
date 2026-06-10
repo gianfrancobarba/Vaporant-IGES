@@ -35,7 +35,7 @@ public class ProductModelDM implements ProductModel {
 	}
 
 	@Override
-	public void doSave(ProductBean product) throws SQLException {
+	public void save(ProductBean product) throws SQLException {
 
 		String insertSQL = "INSERT INTO " + ProductModelDM.TABLE_NAME
 				+ " (nome, descrizione, quantita, prezzoAttuale, tipo, colore) VALUES (?, ?, ?, ?, ?, ?)";
@@ -55,7 +55,7 @@ public class ProductModelDM implements ProductModel {
 	}
 
 	@Override
-	public ProductBean doRetrieveByKey(int id) throws SQLException {
+	public ProductBean findByKey(int id) throws SQLException {
 
 		String selectSQL = "SELECT * FROM " + ProductModelDM.TABLE_NAME + " WHERE ID = ?";
 
@@ -85,7 +85,7 @@ public class ProductModelDM implements ProductModel {
 	}
 
 	@Override
-	public boolean doDelete(int id) throws SQLException {
+	public boolean delete(int id) throws SQLException {
 
 		String deleteSQL = "DELETE FROM " + ProductModelDM.TABLE_NAME + " WHERE ID = ?";
 
@@ -100,7 +100,7 @@ public class ProductModelDM implements ProductModel {
 	}
 
 	@Override
-	public Collection<ProductBean> doRetrieveAll(String order) throws SQLException {
+	public Collection<ProductBean> findAll(String order) throws SQLException {
 
 		String selectSQL = "SELECT * FROM " + ProductModelDM.TABLE_NAME;
 

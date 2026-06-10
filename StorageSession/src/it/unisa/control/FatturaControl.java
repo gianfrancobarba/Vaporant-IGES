@@ -55,7 +55,7 @@ public class FatturaControl extends HttpServlet {
 
 		AddressBean address = null;
 		try {
-			address = addressDao.findAddressByID(order.getId_indirizzo());
+			address = addressDao.findById(order.getId_indirizzo());
 		} catch (SQLException e) {
 			e.printStackTrace();
 			response.sendRedirect("error-page.jsp");

@@ -55,7 +55,7 @@ public class OrderControl extends HttpServlet {
 		
 		String indirizzoFatt = null;
 		try {
-			indirizzoFatt = addressDao.findAddressByID(idIndirizzoFatt).toStringScript();
+			indirizzoFatt = addressDao.findById(idIndirizzoFatt).toStringScript();
 		} catch (SQLException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();

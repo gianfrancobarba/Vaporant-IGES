@@ -27,7 +27,7 @@ public class DetailsControl extends HttpServlet {
 					ProductBean product = null;
 					try {
 						int id = Integer.parseInt(request.getParameter("id"));
-						product = model.doRetrieveByKey(id);
+						product = model.findByKey(id);
 					} catch (NumberFormatException e) {
 						product = null;
 					}

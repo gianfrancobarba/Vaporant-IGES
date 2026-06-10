@@ -1,7 +1,9 @@
 package it.unisa.control;
 
-import java.io.IOException; 
+import java.io.IOException;
 import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,31 +15,26 @@ import it.unisa.model.ProductModelDM;
 
 public class ProductControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private static final Logger LOGGER = Logger.getLogger(ProductControl.class.getName());
 
-	// ProductModelDS usa il DataSource
-	// ProductModelDM usa il DriverManager	
-	
-	static boolean isDataSource = true;
-	
-	static ProductModel model = new ProductModelDM();
-	
 	public ProductControl() {
 		super();
 	}
-	
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        ProductModel model = new ProductModelDM();
         String action = request.getParameter("action");
 
         try {
             if (action != null) {
 
-                if (action.equalsIgnoreCase("delete")) 
+                if (action.equalsIgnoreCase("delete"))
                 {
 
                     int id = Integer.parseInt(request.getParameter("id"));
-                    model.doDelete(id);
+                    model.delete(id);
                 }
                 else if(action.equalsIgnoreCase("insert"))
                 {
@@ -55,31 +52,31 @@ public class ProductControl extends HttpServlet {
                     bean.setQuantityStorage(quantity);
                     bean.setTipo(tipo);
                     bean.setColore(colore);
-                    model.doSave(bean);
+                    model.save(bean);
                 }
             }
 
         } catch (SQLException e) {
-                System.out.println("Error:" + e.getMessage());
+                LOGGER.log(Level.SEVERE, "Errore nella gestione del prodotto", e);
           }
 
         String sort = request.getParameter("sort");
 
         try {
-        	
+
             request.getSession().removeAttribute("products");
-            request.getSession().setAttribute("products", model.doRetrieveAll(sort));
-        
+            request.getSession().setAttribute("products", model.findAll(sort));
+
         } catch (SQLException e) {
-            System.out.println("Error:" + e.getMessage());
+            LOGGER.log(Level.SEVERE, "Errore nel recupero dei prodotti", e);
         }
-        
-        if(request.getSession().getAttribute("tipo").equals("admin")) 
+
+        if(request.getSession().getAttribute("tipo").equals("admin"))
         	response.sendRedirect("ProductViewAdmin.jsp");
         else
         	response.sendRedirect("ProductView.jsp");
 	}
-	
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
