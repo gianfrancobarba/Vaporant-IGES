@@ -67,4 +67,17 @@ public class UserService {
 			throw new ServiceException("Errore nell'aggiornamento della password", e);
 		}
 	}
+
+	/**
+	 * Aggiorna l'indirizzo di fatturazione denormalizzato ({@code Utente.indirizzoFatt}).
+	 * Da non confondere con {@link AddressService}, che gestisce le entita' della tabella
+	 * {@code indirizzo}.
+	 */
+	public void updateBillingAddress(UserBean user, String indirizzoFatt) {
+		try {
+			userDao.updateAddress(indirizzoFatt, user);
+		} catch (SQLException e) {
+			throw new ServiceException("Errore nell'aggiornamento dell'indirizzo di fatturazione", e);
+		}
+	}
 }

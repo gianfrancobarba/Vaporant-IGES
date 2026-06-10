@@ -1,36 +1,35 @@
 package it.unisa.control;
 
 import java.io.IOException;
-import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import it.unisa.exception.ServiceException;
 import it.unisa.model.AddressBean;
-import it.unisa.model.AddressDaoImpl;
 import it.unisa.model.UserBean;
-import it.unisa.model.UserDaoImpl;
+import it.unisa.service.AddressService;
 
 
 public class AddressControl extends HttpServlet{
 	private static final long serialVersionUID = 1L;
-	
-	static AddressDaoImpl addressDao = new AddressDaoImpl();
-	static UserDaoImpl userDao = new UserDaoImpl();
-       
+	private static final Logger LOGGER = Logger.getLogger(AddressControl.class.getName());
+
     public AddressControl() {
         super();
     }
-    
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		AddressBean address = new AddressBean();
-		
+
 		UserBean user = (UserBean) request.getSession().getAttribute("user");
-		
+
 		if(user != null)
 		{
 			String citta = request.getParameter("citta");
@@ -43,16 +42,18 @@ public class AddressControl extends HttpServlet{
 			address.setProvincia(prov);
 			address.setStato(request.getParameter("stato"));
 			address.setVia(via);
+
+			AddressService addressService = new AddressService();
 			try {
-				addressDao.saveAddress(address);
+				addressService.save(address);
 				response.sendRedirect("Utente.jsp");
-			} catch (SQLException e) {
-				e.printStackTrace();
+			} catch (ServiceException e) {
+				LOGGER.log(Level.SEVERE, "Errore nel salvataggio dell'indirizzo", e);
 			}
 		}
 
     }
-    
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		doGet(request, response);

@@ -3,12 +3,12 @@ package it.unisa.control;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.text.Normalizer;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -22,18 +22,18 @@ import org.apache.pdfbox.pdmodel.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
 
+import it.unisa.exception.ServiceException;
 import it.unisa.model.AddressBean;
-import it.unisa.model.AddressDaoImpl;
 import it.unisa.model.OrderBean;
 import it.unisa.model.ProductBean;
 import it.unisa.model.UserBean;
+import it.unisa.service.AddressService;
+import it.unisa.service.InvoiceService;
 
 public class FatturaControl extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-	private static AddressDaoImpl addressDao = new AddressDaoImpl();
-
-	private static final int IVA = 22;
+	private static final Logger LOGGER = Logger.getLogger(FatturaControl.class.getName());
 
 	public FatturaControl() {
 		super();
@@ -53,19 +53,20 @@ public class FatturaControl extends HttpServlet {
 			return;
 		}
 
+		AddressService addressService = new AddressService();
 		AddressBean address = null;
 		try {
-			address = addressDao.findById(order.getId_indirizzo());
-		} catch (SQLException e) {
-			e.printStackTrace();
+			address = addressService.findById(order.getId_indirizzo());
+		} catch (ServiceException e) {
+			LOGGER.log(Level.SEVERE, "Errore nel recupero dell'indirizzo per la fattura", e);
 			response.sendRedirect("error-page.jsp");
 			return;
 		}
 
+		InvoiceService invoiceService = new InvoiceService();
 		BigDecimal imponibile = order.getPrezzoTot();
-		BigDecimal totaleIva = imponibile.multiply(BigDecimal.valueOf(IVA))
-				.divide(BigDecimal.valueOf(100), 4, RoundingMode.HALF_UP);
-		BigDecimal totaleFattura = imponibile.add(totaleIva);
+		BigDecimal totaleIva = invoiceService.calcolaIva(imponibile);
+		BigDecimal totaleFattura = invoiceService.calcolaTotale(imponibile, totaleIva);
 		DecimalFormat df = new DecimalFormat("#0.00");
 
 		// Generazione del PDF a runtime (nessun template esterno, nessun percorso assoluto)
@@ -116,7 +117,7 @@ public class FatturaControl extends HttpServlet {
 				// Totali
 				cs.setFont(PDType1Font.HELVETICA_BOLD, 12);
 				y = line(cs, margin, y, leading, "Imponibile: EUR " + df.format(imponibile));
-				y = line(cs, margin, y, leading, "IVA (" + IVA + "%): EUR " + df.format(totaleIva));
+				y = line(cs, margin, y, leading, "IVA (" + InvoiceService.IVA_PERCENT + "%): EUR " + df.format(totaleIva));
 				y = line(cs, margin, y, leading, "Totale fattura: EUR " + df.format(totaleFattura));
 			}
 
