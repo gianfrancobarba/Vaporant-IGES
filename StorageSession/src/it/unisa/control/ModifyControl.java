@@ -2,19 +2,22 @@ package it.unisa.control;
 import java.io.IOException;
 
 import java.io.PrintWriter;
-import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import it.unisa.exception.ServiceException;
 import it.unisa.model.UserBean;
-import it.unisa.model.UserDaoImpl;
+import it.unisa.service.UserService;
 
 public class ModifyControl extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    
+    private static final Logger LOGGER = Logger.getLogger(ModifyControl.class.getName());
+
 public ModifyControl() {
 	super();
 }
@@ -22,43 +25,39 @@ public ModifyControl() {
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
         UserBean user =  (UserBean) request.getSession().getAttribute("user");
-        UserDaoImpl need = new UserDaoImpl();
-        
+        UserService userService = new UserService();
+
         if (action.equals("modificaEmail")) {
-            String nuovaMail =(String) request.getParameter("nuovaEmail");
+            String nuovaMail = request.getParameter("nuovaEmail");
             try {
-            	need.modifyMail(user, nuovaMail);
-            	user = need.findById(user.getId());
+            	UserBean updated = userService.updateEmail(user, nuovaMail);
                 response.setStatus(HttpServletResponse.SC_OK);
                 response.setContentType("application/json");
                 PrintWriter out = response.getWriter();
-                out.print("{ \"email\": \"" + user.getEmail() + "\" }");
+                out.print("{ \"email\": \"" + updated.getEmail() + "\" }");
                 out.flush();
-			} catch (SQLException e) {
-				e.printStackTrace();
+			} catch (ServiceException e) {
+				LOGGER.log(Level.SEVERE, "Errore nella modifica dell'email", e);
 			}
         } else if (action.equals("modificaTelefono")) {
             String nuovoTelefono = request.getParameter("nuovoTelefono");
             try {
-				need.modifyTelefono(user, nuovoTelefono);
-				user = need.findById(user.getId());
+				UserBean updated = userService.updateTelefono(user, nuovoTelefono);
                 response.setStatus(HttpServletResponse.SC_OK);
                 response.setContentType("application/json");
                 PrintWriter out = response.getWriter();
-                out.print("{ \"numTelefono\": \"" + user.getNumTelefono() + "\" }");
+                out.print("{ \"numTelefono\": \"" + updated.getNumTelefono() + "\" }");
                 out.flush();
-			} catch (SQLException e){
-				e.printStackTrace();
+			} catch (ServiceException e){
+				LOGGER.log(Level.SEVERE, "Errore nella modifica del telefono", e);
 			}
         }else if(action.equals("modificaPassword")){
         	 String nuovaPsw = request.getParameter("nuovaPassword");
         	 String vecchiaPsw = request.getParameter("vecchiaPassword");
 
         	    try {
-        	    	boolean success = true;
-        	        if (need.modifyPsw(nuovaPsw, vecchiaPsw, user) == 0) {
-        	            success = false;
-        	        } else {
+        	        boolean success = userService.updatePassword(user, nuovaPsw, vecchiaPsw);
+        	        if (success) {
         	            response.setStatus(HttpServletResponse.SC_OK);
         	        }
         	        String jsonResponse = "{\"success\": " + success + "}";
@@ -71,8 +70,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
         	        try (PrintWriter out = response.getWriter()) {
         	            out.print(jsonResponse);
         	        }
-				} catch (SQLException e) {
-						e.printStackTrace();
+				} catch (ServiceException e) {
+						LOGGER.log(Level.SEVERE, "Errore nella modifica della password", e);
 				}
         	}else {
         		response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
