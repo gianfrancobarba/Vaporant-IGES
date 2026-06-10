@@ -3,9 +3,14 @@ package it.unisa.model;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -141,6 +146,34 @@ public class ProductModelDM implements ProductModel {
 			preparedStatement.setInt(1, quantita);
 			preparedStatement.setInt(2, prod.getCode());
 			preparedStatement.executeUpdate();
+		}
+	}
+
+	@Override
+	public List<Map<String, Object>> searchByName(String nome) throws SQLException {
+
+		String selectSQL = "SELECT * FROM " + ProductModelDM.TABLE_NAME + " WHERE nome LIKE ?";
+
+		try (Connection connection = ds.getConnection();
+				PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
+
+			preparedStatement.setString(1, "%" + nome + "%");
+
+			try (ResultSet rs = preparedStatement.executeQuery()) {
+				List<Map<String, Object>> results = new ArrayList<>();
+				ResultSetMetaData metaData = rs.getMetaData();
+				int colonne = metaData.getColumnCount();
+
+				while (rs.next()) {
+					Map<String, Object> riga = new HashMap<>();
+					for (int i = 1; i <= colonne; i++) {
+						riga.put(metaData.getColumnName(i), rs.getObject(i));
+					}
+					results.add(riga);
+				}
+
+				return results;
+			}
 		}
 	}
 

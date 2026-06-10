@@ -1,7 +1,6 @@
 package it.unisa.control;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -9,9 +8,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import it.unisa.exception.ServiceException;
 import it.unisa.model.ProductBean;
-import it.unisa.model.ProductModel;
-import it.unisa.model.ProductModelDM;
+import it.unisa.service.ProductService;
 
 public class ProductControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -24,7 +23,7 @@ public class ProductControl extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        ProductModel model = new ProductModelDM();
+        ProductService productService = new ProductService();
         String action = request.getParameter("action");
 
         try {
@@ -34,7 +33,7 @@ public class ProductControl extends HttpServlet {
                 {
 
                     int id = Integer.parseInt(request.getParameter("id"));
-                    model.delete(id);
+                    productService.delete(id);
                 }
                 else if(action.equalsIgnoreCase("insert"))
                 {
@@ -52,11 +51,11 @@ public class ProductControl extends HttpServlet {
                     bean.setQuantityStorage(quantity);
                     bean.setTipo(tipo);
                     bean.setColore(colore);
-                    model.save(bean);
+                    productService.save(bean);
                 }
             }
 
-        } catch (SQLException e) {
+        } catch (ServiceException e) {
                 LOGGER.log(Level.SEVERE, "Errore nella gestione del prodotto", e);
           }
 
@@ -65,9 +64,9 @@ public class ProductControl extends HttpServlet {
         try {
 
             request.getSession().removeAttribute("products");
-            request.getSession().setAttribute("products", model.findAll(sort));
+            request.getSession().setAttribute("products", productService.findAll(sort));
 
-        } catch (SQLException e) {
+        } catch (ServiceException e) {
             LOGGER.log(Level.SEVERE, "Errore nel recupero dei prodotti", e);
         }
 
