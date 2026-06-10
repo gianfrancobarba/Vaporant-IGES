@@ -2,6 +2,8 @@ package it.unisa.control;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +17,8 @@ import it.unisa.model.UserBean;
 
 public class CartControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+	private static final Logger LOGGER = Logger.getLogger(CartControl.class.getName());
+
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
@@ -33,34 +36,45 @@ public class CartControl extends HttpServlet {
 		
 		try {
 			if (action != null) {
-				if (action.equalsIgnoreCase("addC")) 
+				if (action.equalsIgnoreCase("addC"))
 				{
 					int id = Integer.parseInt(request.getParameter("id"));
 					ProductBean prod = model.doRetrieveByKey(id);
-					cart.addProduct(prod);
-										
-				} else if (action.equalsIgnoreCase("deleteC")) 
+					if (prod != null) {
+						cart.addProduct(prod);
+					}
+
+				} else if (action.equalsIgnoreCase("deleteC"))
 					{
 						int id = Integer.parseInt(request.getParameter("id"));
-						cart.deleteProduct(model.doRetrieveByKey(id));
+						ProductBean prod = model.doRetrieveByKey(id);
+						if (prod != null) {
+							cart.deleteProduct(prod);
+						}
 					}
 					else if(action.equalsIgnoreCase("aggiorna"))
 						{
 							int id = Integer.parseInt(request.getParameter("id"));
 							int quantita = Integer.parseInt(request.getParameter("quantita"));
-							cart.aggiorna(model.doRetrieveByKey(id),quantita);
+							ProductBean prod = model.doRetrieveByKey(id);
+							if (prod != null) {
+								cart.aggiorna(prod, quantita);
+							}
 						}
 						else if(action.equalsIgnoreCase("aggiornaCheck"))
 							{
 								int id = Integer.parseInt(request.getParameter("id"));
 								int quantita = Integer.parseInt(request.getParameter("quantita"));
-								cart.aggiorna(model.doRetrieveByKey(id),quantita);
+								ProductBean prod = model.doRetrieveByKey(id);
+								if (prod != null) {
+									cart.aggiorna(prod, quantita);
+								}
 								checkout = true;
-								
+
 							}
 			}
 		} catch (SQLException e) {
-			System.out.println("Error:" + e.getMessage());
+			LOGGER.log(Level.SEVERE, "Errore nella gestione del carrello", e);
 		}
 		
 

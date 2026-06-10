@@ -65,6 +65,10 @@ public class ProductModelDM implements ProductModel {
 			preparedStatement.setInt(1, id);
 
 			try (ResultSet rs = preparedStatement.executeQuery()) {
+				if (!rs.isBeforeFirst()) {
+					return null;
+				}
+
 				ProductBean bean = new ProductBean();
 
 				while (rs.next()) {

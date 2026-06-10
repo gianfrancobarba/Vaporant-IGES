@@ -13,7 +13,12 @@
 </head>
 <body>
 	<jsp:include page="Header.jsp" />
-	
+
+	<% if (product == null) { %>
+	<main class="product-container">
+		<p>Prodotto non trovato.</p>
+	</main>
+	<% } else { %>
 	<main class="product-container">
       <div class="left-column">
         <img src="img<%=product.getCode()%>.jpg" alt="">
@@ -28,7 +33,7 @@
 
         <div class="product-price">
           <span><%=product.getPrice()%>€</span>
-          <% 
+          <%
           if(product.getQuantityStorage() == 0) { %>
               <a href="#" class="cart-btn">Prodotto terminato!</a>
           <% } else { %>
@@ -37,7 +42,8 @@
         </div>
       </div>
     </main>
-    
+    <% } %>
+
 	<jsp:include page="Footer.jsp" />
 </body>
 </html>
