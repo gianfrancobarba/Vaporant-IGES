@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -12,12 +14,13 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 public class UserDaoImpl implements UserDAO {
-	
+
 	private static final String TABLE = "utente";
-	
+	private static final Logger LOGGER = Logger.getLogger(UserDaoImpl.class.getName());
+
     private static DataSource ds;
 
-    
+
     	//connessione al database
     static {
         try {
@@ -27,23 +30,19 @@ public class UserDaoImpl implements UserDAO {
             ds = (DataSource) envCtx.lookup("jdbc/storage");
 
         } catch (NamingException e) {
-            System.out.println("Error:" + e.getMessage());
+            LOGGER.log(Level.SEVERE, "Errore nel lookup del DataSource jdbc/storage", e);
         }
     }
-    
+
 	@Override
 	public int saveUser(UserBean user) throws SQLException {
-        Connection connection = null;  		
-        PreparedStatement preparedStatement = null;
-        int result;
 
         String insertSQL = "INSERT INTO " + UserDaoImpl.TABLE
                            + " (nome, cognome, dataNascita, CF, numTelefono, email, psw, indirizzoFatt)"
-                           + "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+                           + " VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
-        try {
-        	connection = ds.getConnection();
-            preparedStatement = connection.prepareStatement(insertSQL);
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
 
             preparedStatement.setString(1, user.getNome());
             preparedStatement.setString(2, user.getCognome());
@@ -54,270 +53,154 @@ public class UserDaoImpl implements UserDAO {
             preparedStatement.setString(7, user.getPassword());
             preparedStatement.setString(8, user.getIndirizzoFatt());
 
- 
-            result = preparedStatement.executeUpdate();
-
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-                
-            } finally {
-            	if(connection != null) {
-            		connection.close();
-            	}
-            }
+            return preparedStatement.executeUpdate();
         }
-        
-        return result;
 	}
 
 
 	@Override
 	public int deleteUser(UserBean user) throws SQLException {
-		
-		
-		Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        
-        String selectSQL = "DELETE FROM " + TABLE + " WHERE id = ?";
-        
-        int result;
-        
-        try
-        {
-        	connection = DriverManagerConnectionPool.getConnection();
-            preparedStatement = connection.prepareStatement(selectSQL);
-            
+
+        String deleteSQL = "DELETE FROM " + TABLE + " WHERE id = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL)) {
+
             preparedStatement.setInt(1, user.getId());
-  
-            result = preparedStatement.executeUpdate();   
-            
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-            } finally {
-            	
-               DriverManagerConnectionPool.releaseConnection(connection);
-            }
+
+            return preparedStatement.executeUpdate();
         }
-        
-        return result;
 	}
-	
-public UserBean findByCred(String email, String password) throws SQLException {
-		
-		Connection connection = null;
-        PreparedStatement preparedStatement = null;
+
+	@Override
+	public UserBean findByCred(String email, String password) throws SQLException {
 
         String selectSQL = "SELECT * FROM " + TABLE + " WHERE email = ? AND psw = ?";
-        UserBean user = null;
 
-        try {
-        	connection = ds.getConnection();
-            preparedStatement = connection.prepareStatement(selectSQL);
-            
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
+
             preparedStatement.setString(1, email);
             preparedStatement.setString(2, password);
 
-            ResultSet rs = preparedStatement.executeQuery();
-            if(!rs.isBeforeFirst()) return null;
-            
-            user = new UserBean();
-           
-           while (rs.next()) {
+            try (ResultSet rs = preparedStatement.executeQuery()) {
+                if (!rs.isBeforeFirst()) return null;
 
-        	   user.setEmail(rs.getString("email"));
-               user.setCodF(rs.getString("CF"));
-               user.setNome(rs.getString("nome"));
-               user.setCognome(rs.getString("cognome"));
-               user.setNumTelefono(rs.getString("numTelefono"));
-               user.setId(rs.getInt("ID"));
-               user.setPassword(rs.getString("psw"));
-               user.setTipo(rs.getString("tipo"));
-               user.setDataNascita(LocalDate.parse(rs.getDate("dataNascita").toString()));
-               user.setIndirizzoFatt(rs.getString("indirizzoFatt"));
-               
-            }
-            
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-            } finally {
-            	if(connection != null) {
-            		connection.close();
-            	}
+                UserBean user = new UserBean();
+
+                while (rs.next()) {
+                    user.setEmail(rs.getString("email"));
+                    user.setCodF(rs.getString("CF"));
+                    user.setNome(rs.getString("nome"));
+                    user.setCognome(rs.getString("cognome"));
+                    user.setNumTelefono(rs.getString("numTelefono"));
+                    user.setId(rs.getInt("ID"));
+                    user.setPassword(rs.getString("psw"));
+                    user.setTipo(rs.getString("tipo"));
+                    user.setDataNascita(LocalDate.parse(rs.getDate("dataNascita").toString()));
+                    user.setIndirizzoFatt(rs.getString("indirizzoFatt"));
+                }
+
+                return user;
             }
         }
-        
-        return user;
 	}
 
-@Override
-public UserBean findById(int ID) throws SQLException {
-	
-	Connection connection = null;
-    PreparedStatement preparedStatement = null;
+	@Override
+	public UserBean findById(int ID) throws SQLException {
 
-    String selectSQL = "SELECT * FROM " + TABLE + " WHERE ID = ?";
-    UserBean user = null;
+        String selectSQL = "SELECT * FROM " + TABLE + " WHERE ID = ?";
 
-    try {
-    	connection = ds.getConnection();
-        preparedStatement = connection.prepareStatement(selectSQL);
-        
-        preparedStatement.setInt(1, ID);
-     
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
 
-        ResultSet rs = preparedStatement.executeQuery();
-        if(!rs.isBeforeFirst()) return null;
-        
-        user = new UserBean();
-       
-       while (rs.next()) {
+            preparedStatement.setInt(1, ID);
 
-            user.setEmail(rs.getString("email"));
-            user.setCodF(rs.getString("CF"));
-            user.setNome(rs.getString("nome"));
-            user.setCognome(rs.getString("cognome"));
-            user.setNumTelefono(rs.getString("numTelefono"));
-            user.setId(rs.getInt("ID"));
-            user.setPassword(rs.getString("psw"));
-            user.setTipo(rs.getString("tipo"));
-            user.setDataNascita(LocalDate.parse(rs.getDate("dataNascita").toString()));
-           
-        }
-        
-    } finally {
-        try {
-            if (preparedStatement != null)
-                preparedStatement.close();
-        } finally {
-        	if(connection != null) {
-        		connection.close();
-        	}
-        }
-    }
-    
-    return user;
-}
+            try (ResultSet rs = preparedStatement.executeQuery()) {
+                if (!rs.isBeforeFirst()) return null;
 
-@Override
-public void modifyMail(UserBean user, String email) throws SQLException{
-	Connection connection = null;
-    PreparedStatement preparedStatement = null;
-    String modify = "UPDATE utente SET email = ? "
-    				+ " WHERE ID = ?";
-    try {
-    	connection = ds.getConnection();
-        preparedStatement = connection.prepareStatement(modify);
-        
-        preparedStatement.setString(1, email);
-        preparedStatement.setInt(2, user.getId());
-        
-        preparedStatement.executeUpdate();
-          
-        
-    } finally {
-        try {
-            if (preparedStatement != null)
-                preparedStatement.close();
-        } finally {
-        	if(connection != null) {
-        		connection.close();
-        	}
-        }
-    }
-}
-@Override
-public void modifyTelefono(UserBean user, String cell) throws SQLException{
-	Connection connection = null;
-    PreparedStatement preparedStatement = null;
-    
-    
-    String modify = "UPDATE utente SET numTelefono = ? "
-    				+ " WHERE ID = ?";
-    try {
-    	connection = ds.getConnection();
-        preparedStatement = connection.prepareStatement(modify);
-        
-        preparedStatement.setString(1, cell);
-        preparedStatement.setInt(2, user.getId());
-        
-        preparedStatement.executeUpdate();
-               
-    } finally {
-        try {
-            if (preparedStatement != null)
-                preparedStatement.close();
-        } finally {
-        	if(connection != null) {
-        		connection.close();
-        	}
-        }
-    }
-}
+                UserBean user = new UserBean();
 
-@Override
-public int modifyPsw(String newPsw, String oldPsw, UserBean user) throws SQLException{
-	Connection connection = null;
-    PreparedStatement preparedStatement = null;
-    
-    if(oldPsw.compareTo(user.getPassword()) != 0) {
-    	return 0;
-    }
-    String modify = "UPDATE utente SET psw = ? "
-			+ " WHERE ID = ? AND psw = ?";
-    try {
-    	connection = ds.getConnection();
-        preparedStatement = connection.prepareStatement(modify);
-        
-        preparedStatement.setString(1, newPsw);
-        preparedStatement.setInt(2, user.getId());
-        preparedStatement.setString(3, oldPsw);
+                while (rs.next()) {
+                    user.setEmail(rs.getString("email"));
+                    user.setCodF(rs.getString("CF"));
+                    user.setNome(rs.getString("nome"));
+                    user.setCognome(rs.getString("cognome"));
+                    user.setNumTelefono(rs.getString("numTelefono"));
+                    user.setId(rs.getInt("ID"));
+                    user.setPassword(rs.getString("psw"));
+                    user.setTipo(rs.getString("tipo"));
+                    user.setDataNascita(LocalDate.parse(rs.getDate("dataNascita").toString()));
+                }
 
-        
-        preparedStatement.executeUpdate();
-               
-    } finally {
-        try {
-            if (preparedStatement != null)
-                preparedStatement.close();
-        } finally {
-        	if(connection != null) {
-        		connection.close();
-        	}
-        }
-    }
-    return 1;
-}
-@Override
-public void updateAddress(String address, UserBean user) throws SQLException {
-    user.setIndirizzoFatt(address);
-
-    Connection connection = null;
-    PreparedStatement preparedStatement = null;
-
-    String updateSQL = "UPDATE " + TABLE + " SET indirizzoFatt = ? WHERE ID = ?";
-
-    try {
-        connection = ds.getConnection();
-        preparedStatement = connection.prepareStatement(updateSQL);
-        preparedStatement.setString(1, address);
-        preparedStatement.setInt(2, user.getId());
-        preparedStatement.executeUpdate();
-
-    } finally {
-        try {
-            if (preparedStatement != null)
-                preparedStatement.close();
-        } finally {
-            if (connection != null) {
-                connection.close();
+                return user;
             }
         }
-    }
-}
+	}
+
+	@Override
+	public void modifyMail(UserBean user, String email) throws SQLException {
+
+	    String modify = "UPDATE utente SET email = ? WHERE ID = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(modify)) {
+
+            preparedStatement.setString(1, email);
+            preparedStatement.setInt(2, user.getId());
+
+            preparedStatement.executeUpdate();
+        }
+	}
+
+	@Override
+	public void modifyTelefono(UserBean user, String cell) throws SQLException {
+
+	    String modify = "UPDATE utente SET numTelefono = ? WHERE ID = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(modify)) {
+
+            preparedStatement.setString(1, cell);
+            preparedStatement.setInt(2, user.getId());
+
+            preparedStatement.executeUpdate();
+        }
+	}
+
+	@Override
+	public int modifyPsw(String newPsw, String oldPsw, UserBean user) throws SQLException {
+
+	    if (oldPsw.compareTo(user.getPassword()) != 0) {
+	    	return 0;
+	    }
+
+	    String modify = "UPDATE utente SET psw = ? WHERE ID = ? AND psw = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(modify)) {
+
+            preparedStatement.setString(1, newPsw);
+            preparedStatement.setInt(2, user.getId());
+            preparedStatement.setString(3, oldPsw);
+
+            preparedStatement.executeUpdate();
+        }
+	    return 1;
+	}
+
+	@Override
+	public void updateAddress(String address, UserBean user) throws SQLException {
+	    user.setIndirizzoFatt(address);
+
+	    String updateSQL = "UPDATE " + TABLE + " SET indirizzoFatt = ? WHERE ID = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(updateSQL)) {
+
+            preparedStatement.setString(1, address);
+            preparedStatement.setInt(2, user.getId());
+            preparedStatement.executeUpdate();
+        }
+	}
 }

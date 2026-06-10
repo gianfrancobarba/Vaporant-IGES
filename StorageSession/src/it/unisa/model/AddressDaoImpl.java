@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -13,35 +15,33 @@ import javax.sql.DataSource;
 
 public class AddressDaoImpl implements AddressDAO {
 	private static final String TABLE = "indirizzo";
+	private static final Logger LOGGER = Logger.getLogger(AddressDaoImpl.class.getName());
+
 	private static DataSource ds;
 
-    
+
 	//connessione al database
 	static {
 	    try {
 	        Context initCtx = new InitialContext();
 	        Context envCtx = (Context) initCtx.lookup("java:comp/env");
-	
+
 	        ds = (DataSource) envCtx.lookup("jdbc/storage");
-	
+
 	    } catch (NamingException e) {
-	        System.out.println("Error:" + e.getMessage());
+	        LOGGER.log(Level.SEVERE, "Errore nel lookup del DataSource jdbc/storage", e);
 	    }
 	}
-    
+
 	@Override
 	public int saveAddress(AddressBean address) throws SQLException {
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        int result;
 
         String insertSQL = "INSERT INTO " + AddressDaoImpl.TABLE
                            + " (ID_Utente, stato, citta, via, numCivico, cap, provincia)"
-                           + "VALUES (?, ?, ?, ?, ?, ?, ?)";
+                           + " VALUES (?, ?, ?, ?, ?, ?, ?)";
 
-        try {
-        	connection = ds.getConnection();
-        	preparedStatement = connection.prepareStatement(insertSQL);
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
 
             preparedStatement.setInt(1, address.getId_utente());
             preparedStatement.setString(2, address.getStato());
@@ -51,202 +51,121 @@ public class AddressDaoImpl implements AddressDAO {
             preparedStatement.setString(6, address.getCap());
             preparedStatement.setString(7, address.getProvincia());
 
-
-            result = preparedStatement.executeUpdate();
-
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-                
-            } finally {
-            	if(connection != null) {
-            		connection.close();
-            	}
-            }
+            return preparedStatement.executeUpdate();
         }
-        
-        return result;
 	}
 
 
 	@Override
 	public int deleteAddress(AddressBean address) throws SQLException {
-		
-		
-		Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        
-        String selectSQL = "DELETE FROM " + TABLE + " WHERE ID = ?";
-        
-        int result;
-        
-        try
-        {
-        	connection = ds.getConnection();
-        	preparedStatement = connection.prepareStatement(selectSQL);
-            
+
+        String deleteSQL = "DELETE FROM " + TABLE + " WHERE ID = ?";
+
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL)) {
+
             preparedStatement.setInt(1, address.getId());
 
-            result = preparedStatement.executeUpdate();   
-            
-            connection.commit();
-        	
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-            } finally {
-            	if(connection != null) {
-            		connection.close();
-            	}
-            }
+            return preparedStatement.executeUpdate();
         }
-        
-        return result;
 	}
 
 	@Override
 	public AddressBean findByCred(String cap, String via, String numCivico) throws SQLException {
-		
-		Connection connection = null;
-        PreparedStatement preparedStatement = null;
 
         String selectSQL = "SELECT * FROM " + TABLE + " WHERE cap = ? AND via = ? AND numCivico = ?";
-        AddressBean address = null;
 
-        try {
-//            connection = DriverManagerConnectionPool.getConnection();
-        	connection = ds.getConnection();
-        	preparedStatement = connection.prepareStatement(selectSQL);
-            
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
+
             preparedStatement.setString(1, cap);
             preparedStatement.setString(2, via);
             preparedStatement.setString(3, numCivico);
-            
-            ResultSet rs = preparedStatement.executeQuery();
-            if(!rs.isBeforeFirst()) return null;
-            
-            address = new AddressBean();
-           
-           while (rs.next()) {
-        	   	address.setId(rs.getInt("ID"));
-                address.setCap(rs.getString("cap"));
-                address.setCitta(rs.getString("citta"));
-                address.setId_utente(rs.getInt("ID_Utente"));
-                address.setNumCivico(rs.getString("numCivico"));
-                address.setProvincia(rs.getString("provincia"));
-                address.setStato(rs.getString("stato"));
-                address.setVia(rs.getString("via"));
-               
-            }
-            
-        } finally {
-            try {
-                if (preparedStatement != null)
-                    preparedStatement.close();
-            } finally {
-            	if(connection != null) {
-            		connection.close();
-            	}
-//                DriverManagerConnectionPool.releaseConnection(connection);
+
+            try (ResultSet rs = preparedStatement.executeQuery()) {
+                if (!rs.isBeforeFirst()) return null;
+
+                AddressBean address = new AddressBean();
+
+                while (rs.next()) {
+                    address.setId(rs.getInt("ID"));
+                    address.setCap(rs.getString("cap"));
+                    address.setCitta(rs.getString("citta"));
+                    address.setId_utente(rs.getInt("ID_Utente"));
+                    address.setNumCivico(rs.getString("numCivico"));
+                    address.setProvincia(rs.getString("provincia"));
+                    address.setStato(rs.getString("stato"));
+                    address.setVia(rs.getString("via"));
+                }
+
+                return address;
             }
         }
-        
-        return address;
 	}
 
 
 	@Override
     public ArrayList<AddressBean> findByID(int id) throws SQLException {
 
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        ArrayList<AddressBean> ListaIndirizzi = new ArrayList<AddressBean>();
-
         String selectSQL = "SELECT * FROM "+ TABLE + " WHERE ID_Utente = ?";
 
-
-        try {
-            connection = DriverManagerConnectionPool.getConnection();
-            preparedStatement = connection.prepareStatement(selectSQL);
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
 
             preparedStatement.setInt(1, id);
 
-            ResultSet rs = preparedStatement.executeQuery();
+            try (ResultSet rs = preparedStatement.executeQuery()) {
+                if (!rs.isBeforeFirst()) return null;
 
-            if(!rs.isBeforeFirst()) return null;
+                ArrayList<AddressBean> ListaIndirizzi = new ArrayList<AddressBean>();
 
-
-
-            while (rs.next()) {
-                AddressBean address = new AddressBean();
-                address.setId(rs.getInt("ID"));
-                address.setCap(rs.getString("cap"));
-                address.setCitta(rs.getString("citta"));
-                address.setId_utente(rs.getInt("ID_Utente"));
-                address.setNumCivico(rs.getString("numCivico"));
-                address.setProvincia(rs.getString("provincia"));
-                address.setStato(rs.getString("stato"));
-                address.setVia(rs.getString("via"));
-                ListaIndirizzi.add(address);
+                while (rs.next()) {
+                    AddressBean address = new AddressBean();
+                    address.setId(rs.getInt("ID"));
+                    address.setCap(rs.getString("cap"));
+                    address.setCitta(rs.getString("citta"));
+                    address.setId_utente(rs.getInt("ID_Utente"));
+                    address.setNumCivico(rs.getString("numCivico"));
+                    address.setProvincia(rs.getString("provincia"));
+                    address.setStato(rs.getString("stato"));
+                    address.setVia(rs.getString("via"));
+                    ListaIndirizzi.add(address);
                 }
 
-      } finally {
-          try {
-              if (preparedStatement != null)
-                  preparedStatement.close();
-          } finally {
-              DriverManagerConnectionPool.releaseConnection(connection);
-          }
-      }
-
-      return ListaIndirizzi;
+                return ListaIndirizzi;
+            }
+        }
     }
-    public AddressBean findAddressByID(int id) throws SQLException {
 
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        AddressBean address = new AddressBean();
+    public AddressBean findAddressByID(int id) throws SQLException {
 
         String selectSQL = "SELECT * FROM "+ TABLE + " WHERE ID = ?";
 
-
-        try {
-            connection = DriverManagerConnectionPool.getConnection();
-            preparedStatement = connection.prepareStatement(selectSQL);
+        try (Connection connection = ds.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
 
             preparedStatement.setInt(1, id);
 
-            ResultSet rs = preparedStatement.executeQuery();
+            try (ResultSet rs = preparedStatement.executeQuery()) {
+                if (!rs.isBeforeFirst()) return null;
 
-            if(!rs.isBeforeFirst()) return null;
+                AddressBean address = new AddressBean();
 
-
-
-            while (rs.next()) {
-              
-                address = new AddressBean();
-                address.setId(rs.getInt("ID"));
-                address.setCap(rs.getString("cap"));
-                address.setCitta(rs.getString("citta"));
-                address.setId_utente(rs.getInt("ID_Utente"));
-                address.setNumCivico(rs.getString("numCivico"));
-                address.setProvincia(rs.getString("provincia"));
-                address.setStato(rs.getString("stato"));
-                address.setVia(rs.getString("via"));
+                while (rs.next()) {
+                    address = new AddressBean();
+                    address.setId(rs.getInt("ID"));
+                    address.setCap(rs.getString("cap"));
+                    address.setCitta(rs.getString("citta"));
+                    address.setId_utente(rs.getInt("ID_Utente"));
+                    address.setNumCivico(rs.getString("numCivico"));
+                    address.setProvincia(rs.getString("provincia"));
+                    address.setStato(rs.getString("stato"));
+                    address.setVia(rs.getString("via"));
                 }
 
-      } finally {
-          try {
-              if (preparedStatement != null)
-                  preparedStatement.close();
-          } finally {
-              DriverManagerConnectionPool.releaseConnection(connection);
-          }
-      }
-
-      return address;
+                return address;
+            }
+        }
     }
-	
+
 }
