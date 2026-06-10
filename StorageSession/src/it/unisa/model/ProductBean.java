@@ -86,8 +86,4 @@ public class ProductBean implements Serializable {
 	public String toString() {
 		return "N - " + name + " - I. " + id + " - P. " + price + " - Q." + quantity + " - D. " + description + " - QS. " + quantityStorage;
 	}
-	
-	public String toStringProduct() {
-		return name + " " + id + " " + price + " " + description;
-	}
 }

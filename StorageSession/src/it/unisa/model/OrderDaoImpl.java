@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -48,7 +49,7 @@ public class OrderDaoImpl implements OrderDAO {
 
       preparedStatement.setInt(1, ordine.getId_utente());
       preparedStatement.setInt(2, ordine.getId_indirizzo());
-      preparedStatement.setDouble(3, ordine.getPrezzoTot());
+      preparedStatement.setBigDecimal(3, ordine.getPrezzoTot());
       preparedStatement.setString(4, ordine.getDataAcquisto().toString());
       preparedStatement.setString(5, ordine.getMetodoPagamento());
 
@@ -124,7 +125,7 @@ public class OrderDaoImpl implements OrderDAO {
         ordine.setId_ordine(rs.getInt("ID_Ordine"));
         ordine.setId_utente(rs.getInt("ID_Utente"));
         ordine.setId_indirizzo(rs.getInt("ID_Indirizzo"));
-        ordine.setPrezzoTot(rs.getDouble("prezzoTot"));
+        ordine.setPrezzoTot(rs.getBigDecimal("prezzoTot"));
         ordine.setDataAcquisto(
           LocalDate.parse(rs.getDate("dataAcquisto").toString())
         );
@@ -164,7 +165,7 @@ public ArrayList<OrderBean> findByIdUtente(int id) throws SQLException{
         ordine.setId_ordine(rs.getInt("ID_Ordine"));
         ordine.setId_utente(rs.getInt("ID_Utente"));
         ordine.setId_indirizzo(rs.getInt("ID_Indirizzo"));
-        ordine.setPrezzoTot(rs.getDouble("prezzoTot"));
+        ordine.setPrezzoTot(rs.getBigDecimal("prezzoTot"));
         ordine.setDataAcquisto(
         LocalDate.parse(rs.getDate("dataAcquisto").toString()));
         ordine.setMetodoPagamento(rs.getString("metodoPagamento"));

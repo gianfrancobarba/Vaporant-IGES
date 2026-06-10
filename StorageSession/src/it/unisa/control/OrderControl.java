@@ -74,6 +74,7 @@ public class OrderControl extends HttpServlet {
 
 		try {
 			idOrdine = orderDao.saveOrder(order);
+			order.setId_ordine(idOrdine);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

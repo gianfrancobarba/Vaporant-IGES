@@ -1,21 +1,19 @@
 package it.unisa.model;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class OrderBean {
-	private static int cont = 1;
 	private int id_ordine, id_utente, id_indirizzo;
-	private double prezzoTot;
+	private BigDecimal prezzoTot;
 	private LocalDate dataAcquisto;
 	private String metodoPagamento;
-	
+
 	public OrderBean() {
 
 	}
-	
-	public OrderBean(int idUtente, int idIndirizzo, double pTot, LocalDate dataAcq, String payment)
+
+	public OrderBean(int idUtente, int idIndirizzo, BigDecimal pTot, LocalDate dataAcq, String payment)
 	{
-		id_ordine = cont;
-		cont += 1;
 		id_utente = idUtente;
 		id_indirizzo = idIndirizzo;
 		prezzoTot = pTot;
@@ -47,11 +45,11 @@ public class OrderBean {
 		this.id_indirizzo = id_indirizzo;
 	}
 
-	public double getPrezzoTot() {
+	public BigDecimal getPrezzoTot() {
 		return prezzoTot;
 	}
 
-	public void setPrezzoTot(double prezzoTot) {
+	public void setPrezzoTot(BigDecimal prezzoTot) {
 		this.prezzoTot = prezzoTot;
 	}
 
@@ -70,29 +68,29 @@ public class OrderBean {
 	public void setMetodoPagamento(String metodoPagamento) {
 		this.metodoPagamento = metodoPagamento;
 	}
-	
+
 public String toString() {
-		
+
 		String s = "";
-		
+
 		s += id_ordine;
-		s += " - "; 
-		
+		s += " - ";
+
 	    s += id_utente;
-		s += " - "; 
+		s += " - ";
 
 		s += id_indirizzo;
-		s += " - "; 
-		
+		s += " - ";
+
 	    s += prezzoTot;
-		s += " - "; 
-		
+		s += " - ";
+
 		s += dataAcquisto;
-		s += " - "; 
-		
+		s += " - ";
+
 	    s += metodoPagamento;
-		s += "\n"; 
-		
+		s += "\n";
+
 		return s;
 	}
 

@@ -2,6 +2,8 @@ package it.unisa.control;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.text.Normalizer;
@@ -60,9 +62,10 @@ public class FatturaControl extends HttpServlet {
 			return;
 		}
 
-		double imponibile = order.getPrezzoTot();
-		double totaleIva = imponibile / 100 * IVA;
-		double totaleFattura = imponibile + totaleIva;
+		BigDecimal imponibile = order.getPrezzoTot();
+		BigDecimal totaleIva = imponibile.multiply(BigDecimal.valueOf(IVA))
+				.divide(BigDecimal.valueOf(100), 4, RoundingMode.HALF_UP);
+		BigDecimal totaleFattura = imponibile.add(totaleIva);
 		DecimalFormat df = new DecimalFormat("#0.00");
 
 		// Generazione del PDF a runtime (nessun template esterno, nessun percorso assoluto)
