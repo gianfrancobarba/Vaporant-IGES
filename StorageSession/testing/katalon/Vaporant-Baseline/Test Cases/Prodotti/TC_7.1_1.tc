@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Inserire un nuovo prodotto con dati validi (da admin)</description>
+   <name>TC_7.1_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0071-4071-8071-000000070101</testCaseGuid>
+</TestCaseEntity>

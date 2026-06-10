@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Modificare password con vecchia corretta e nuova valida</description>
+   <name>TC_3.4_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030401</testCaseGuid>
+</TestCaseEntity>

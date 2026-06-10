@@ -11,14 +11,16 @@
 	}
 	ProductBean product = (ProductBean) session.getAttribute("product");
 	
-  	UserBean user = null;
-	if(session.getAttribute("user") == null)
-		response.sendRedirect("loginForm.jsp");//aggiungere pagina errore che dice stai cercando di accedere dove non puoi 
-	else
-		user = (UserBean) session.getAttribute("user");
+  	UserBean user = (UserBean) session.getAttribute("user");
+	if(user == null) {
+		response.sendRedirect("loginForm.jsp");
+		return;
+	}
 	
-	if (user.getTipo() != "admin")
-		response.sendRedirect("ErrorPageAccess.jsp");	
+	if (!"admin".equals(user.getTipo())) {
+		response.sendRedirect("ErrorPageAccess.jsp");
+		return;
+	}	
  	
 %>
 
@@ -90,8 +92,14 @@
 		<textarea name="description" maxlength="100" rows="3" required placeholder="Descrizione del prodoto.."></textarea><br>
 		</div>
 		
+		<label for="tipo">Tipo:</label>
+		<input name="tipo" type="text" maxlength="20" required placeholder="Tipo (es. Svapo).."><br>
+
+		<label for="colore">Colore:</label>
+		<input name="colore" type="text" maxlength="20" required placeholder="Colore (es. Nero).."><br>
+
 		<label for="price">Prezzo:</label>
-		<input name="price" type="number" min="0" value="0" required><br>
+		<input name="price" type="number" min="0.1" step="0.01" value="0.1" required><br>
 
 		<label for="quantity">Quantità:</label> 
 		<input name="quantity" type="number" min="1" value="1" required><br>

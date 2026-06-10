@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Modificare numero di telefono con valore valido</description>
+   <name>TC_3.3_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030301</testCaseGuid>
+</TestCaseEntity>

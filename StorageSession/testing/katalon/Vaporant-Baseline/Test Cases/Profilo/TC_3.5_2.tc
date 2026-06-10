@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visualizzare gli indirizzi di un cliente che non ne possiede (cliente nuovo registrato via UI)</description>
+   <name>TC_3.5_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030502</testCaseGuid>
+</TestCaseEntity>

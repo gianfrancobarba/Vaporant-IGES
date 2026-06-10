@@ -45,7 +45,7 @@
     <div class="container">
         <h1>Errore del Server</h1>
         <p>Si è verificato un errore interno del server. Ci scusiamo per l'inconveniente.</p>
-        <p>Torna alla <a href="http://localhost:7390/StorageSession/ProductView.jsp">pagina principale</a> per continuare la navigazione.</p>
+        <p>Torna alla <a href="${pageContext.request.contextPath}/ProductView.jsp">pagina principale</a> per continuare la navigazione.</p>
     </div>
 </body>
 </html>

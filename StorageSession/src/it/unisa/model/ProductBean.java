@@ -11,6 +11,7 @@ public class ProductBean implements Serializable {
 	String description;
 	float price;
 	int quantity, quantityStorage;
+	String tipo, colore;
 
 	
 	public ProductBean() {
@@ -63,6 +64,22 @@ public class ProductBean implements Serializable {
 
 	public void setQuantityStorage(int quantityS) {
 		this.quantityStorage = quantityS;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getColore() {
+		return colore;
+	}
+
+	public void setColore(String colore) {
+		this.colore = colore;
 	}
 
 	@Override

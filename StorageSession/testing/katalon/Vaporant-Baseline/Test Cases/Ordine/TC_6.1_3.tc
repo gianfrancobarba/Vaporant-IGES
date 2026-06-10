@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout di un cliente senza indirizzi (link Aggiungi indirizzo)</description>
+   <name>TC_6.1_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0061-4061-8061-000000060103</testCaseGuid>
+</TestCaseEntity>

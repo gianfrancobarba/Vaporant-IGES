@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negare la rimozione a un utente non amministratore (incident di sicurezza)</description>
+   <name>TC_7.2_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0071-4071-8071-000000070204</testCaseGuid>
+</TestCaseEntity>

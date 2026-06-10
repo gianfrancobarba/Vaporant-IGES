@@ -9,4 +9,29 @@
       <initValue>'http://localhost:8080/Vaporant_IGES_war_exploded/'</initValue>
       <name>base</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Percorso del client mysql.exe (usato dalla fixture SeedReset per ripristinare il seed). Adattare alla propria installazione MySQL.</description>
+      <initValue>'C:\\Program Files\\MySQL\\MySQL Server 9.7\\bin\\mysql.exe'</initValue>
+      <name>mysqlExe</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Utente del database (fixture di reset).</description>
+      <initValue>'root'</initValue>
+      <name>dbUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password del database (fixture di reset).</description>
+      <initValue>'3946'</initValue>
+      <name>dbPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nome dello schema del database (fixture di reset).</description>
+      <initValue>'storage'</initValue>
+      <name>dbName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Se true, la fixture SeedReset ripristina il seed prima di ogni test (indipendenza/ripetibilita'). Mettere false per disattivarla.</description>
+      <initValue>true</initValue>
+      <name>resetSeed</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

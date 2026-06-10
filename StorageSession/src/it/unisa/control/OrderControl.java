@@ -1,6 +1,7 @@
 package it.unisa.control;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
@@ -45,7 +46,6 @@ public class OrderControl extends HttpServlet {
 		UserBean user = (UserBean) session.getAttribute("user");
 		
 		int idUtente = user.getId();
-		System.out.println("order " + user.getId());
 		
 		String payment = req.getParameter("payment");
 		int idIndirizzo = Integer.parseInt(req.getParameter("addressDropdown"));
@@ -70,27 +70,19 @@ public class OrderControl extends HttpServlet {
 		
 		OrderBean order = new OrderBean(idUtente,idIndirizzo, cart.getPrezzoTotale(), LocalDate.now(), payment);
 		
+		int idOrdine = -1;
+
 		try {
-			orderDao.saveOrder(order);
+			idOrdine = orderDao.saveOrder(order);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		
-		int idOrdine = -1;
 		
-		try {
-			idOrdine = orderDao.getIdfromDB();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} 
-		
-		
-		int i = 0;
 		for(ProductBean prod : cart.getProducts())
 		{
 			try {
-				contDao.saveContenuto(new ContenutoBean(idOrdine,prod.getCode(),prod.getQuantity(),22,prod.getPrice()));
-				System.out.println("prodotto " +  i++ + prod.toString());
+				contDao.saveContenuto(new ContenutoBean(idOrdine,prod.getCode(),prod.getQuantity(),22,new BigDecimal(String.valueOf(prod.getPrice()))));
 				productDao.updateQuantityStorage(prod, prod.getQuantityStorage() - prod.getQuantity());
 				
 			} catch (SQLException e) {

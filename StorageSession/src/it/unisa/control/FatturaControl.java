@@ -1,10 +1,10 @@
 package it.unisa.control;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.text.DecimalFormat;
+import java.text.Normalizer;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -15,8 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
-import org.apache.pdfbox.pdmodel.interactive.form.PDField;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
+import org.apache.pdfbox.pdmodel.font.PDType1Font;
 
 import it.unisa.model.AddressBean;
 import it.unisa.model.AddressDaoImpl;
@@ -25,139 +27,147 @@ import it.unisa.model.ProductBean;
 import it.unisa.model.UserBean;
 
 public class FatturaControl extends HttpServlet {
-	
+
 	private static final long serialVersionUID = 1L;
-	private static AddressDaoImpl AddressDao = new AddressDaoImpl();
-	
-    public FatturaControl() {
-        super();
-    }
+	private static AddressDaoImpl addressDao = new AddressDaoImpl();
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-            	
-    	// Recupera i dati necessari dalla sessione
-        
-    	UserBean user = (UserBean) request.getSession().getAttribute("user");
-        OrderBean order = (OrderBean) request.getSession().getAttribute("order");
-        @SuppressWarnings("unchecked")
-		List<ProductBean> listaProdotti = (List<ProductBean>) request.getSession().getAttribute("listaProd");
-        AddressBean address = null;
-        try {
-			 address = AddressDao.findAddressByID(order.getId_indirizzo());
-		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-        
-        int iva = 22;
-        
-        double totaleIva = order.getPrezzoTot() / 100 * iva;
+	private static final int IVA = 22;
 
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
- 
-        
-        try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
-        
-        // Importa modello fattura
-            PDDocument document = null;
-            try {
-                document = PDDocument.load(new File("C:\\Users\\tulli\\Desktop\\TSW\\struttura_fattura.pdf"));
-            } catch (IOException e) {
-                // Gestione dell'eccezione: log, reindirizzamento, messaggio di errore, ecc.
-                e.printStackTrace();
-                // Esempio di reindirizzamento a una pagina di errore
-                response.sendRedirect("error-page.jsp");
-                return;
-            }
-
-            // modulo del documento
-            PDAcroForm acroForm = document.getDocumentCatalog().getAcroForm();
-
-            // Imposta i valori
-            try {
-                acroForm.getField("nfattura").setValue(String.valueOf(order.getId_ordine()));
-                acroForm.getField("Data").setValue(LocalDate.now().toString());
-                acroForm.getField("IVA").setValue(iva + "%");
-                acroForm.getField("nomeCognome").setValue(user.getCognome() + " " + user.getNome());
-                acroForm.getField("dataNascita").setValue(user.getDataNascita().toString());
-                acroForm.getField("indirizzo").setValue(address.toStringScript());
-                acroForm.getField("numeroTelefono").setValue(user.getNumTelefono());
-
-                int i = 1;
-                String prodottoRow = "ProdottoRow";
-                String quantitaRow = "QuantitaRow";
-                String prezzoRow = "PrezzoRow";
-                String totaleRow = "TotaleRow";
-
-                for (ProductBean prod : listaProdotti) {
-                    acroForm.getField(prodottoRow + i).setValue(prod.getName());
-                    acroForm.getField(quantitaRow + i).setValue(String.valueOf(prod.getQuantity()));
-                    acroForm.getField(prezzoRow + i).setValue("€ " + String.valueOf(prod.getPrice()));
-                    acroForm.getField(totaleRow + i).setValue("€ " + String.valueOf(prod.getPrice() * prod.getQuantity()));
-                    i++;
-                }
-
-                acroForm.getField("Imponibile").setValue("€ " + String.valueOf(decimalFormat.format(order.getPrezzoTot())));
-                acroForm.getField("totaleIva").setValue(String.valueOf(decimalFormat.format(totaleIva)));
-                acroForm.getField("totaleFattura").setValue(String.valueOf(decimalFormat.format(order.getPrezzoTot() + totaleIva)));
-            } catch (IOException e) {
-                
-            	// Gestione dell'eccezione: log, reindirizzamento, messaggio di errore, ecc.
-                e.printStackTrace();
-                return;
-            }
-
-            List<PDField> fields = acroForm.getFields();
-
-            // Imposta l'attributo "read-only" per ogni campo modulo
-            for (PDField field : fields) {
-                field.setReadOnly(true);
-            }
-
-            // Salva il documento in un array di byte
-            try {
-                document.save(outputStream);
-            } catch (IOException e) {
-            	
-                // Gestione dell'eccezione: log, reindirizzamento, messaggio di errore, ecc.
-                e.printStackTrace();
-                return;
-            } finally {
-                document.close();
-            }
-
-            // Imposta il tipo di contenuto della risposta come PDF
-            response.setContentType("application/pdf");
-            
-            // Download della fattura
-            String fileName = "fattura.pdf";
-            response.setHeader("Content-Disposition", "attachment; filename=\"" + fileName + "\"");
-
-            // Restituisci l'array di byte del documento PDF
-            try (ServletOutputStream outputStream2 = response.getOutputStream()) {
-                outputStream.writeTo(outputStream2);
-                outputStream2.flush();
-            } catch (IOException e) {
-            	
-                // Gestione dell'eccezione: log, reindirizzamento, messaggio di errore, ecc.
-                e.printStackTrace();
-                
-            }
-        } catch (IOException e) {
-        	
-            // Gestione dell'eccezione: log, reindirizzamento, messaggio di errore, ecc.
-            
-        	e.printStackTrace();
-            
-        }
-        
-        
-    }
-
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		doGet(request, response);
+	public FatturaControl() {
+		super();
 	}
 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		UserBean user = (UserBean) request.getSession().getAttribute("user");
+		OrderBean order = (OrderBean) request.getSession().getAttribute("order");
+		@SuppressWarnings("unchecked")
+		List<ProductBean> listaProdotti = (List<ProductBean>) request.getSession().getAttribute("listaProd");
+
+		// Dati indispensabili mancanti: nessuna fattura da generare
+		if (user == null || order == null || listaProdotti == null) {
+			response.sendRedirect("error-page.jsp");
+			return;
+		}
+
+		AddressBean address = null;
+		try {
+			address = addressDao.findAddressByID(order.getId_indirizzo());
+		} catch (SQLException e) {
+			e.printStackTrace();
+			response.sendRedirect("error-page.jsp");
+			return;
+		}
+
+		double imponibile = order.getPrezzoTot();
+		double totaleIva = imponibile / 100 * IVA;
+		double totaleFattura = imponibile + totaleIva;
+		DecimalFormat df = new DecimalFormat("#0.00");
+
+		// Generazione del PDF a runtime (nessun template esterno, nessun percorso assoluto)
+		try (PDDocument document = new PDDocument();
+				ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
+
+			PDPage page = new PDPage(PDRectangle.A4);
+			document.addPage(page);
+
+			float margin = 50;
+			float leading = 18f;
+			float y = page.getMediaBox().getHeight() - margin;
+
+			try (PDPageContentStream cs = new PDPageContentStream(document, page)) {
+
+				// Intestazione
+				cs.setFont(PDType1Font.HELVETICA_BOLD, 20);
+				y = line(cs, margin, y, leading, "Fattura n. " + order.getId_ordine());
+				y -= leading;
+
+				// Dati documento e cliente
+				cs.setFont(PDType1Font.HELVETICA, 12);
+				y = line(cs, margin, y, leading, "Data: " + LocalDate.now());
+				y = line(cs, margin, y, leading, "Cliente: " + user.getCognome() + " " + user.getNome());
+				y = line(cs, margin, y, leading, "Data di nascita: " + user.getDataNascita());
+				y = line(cs, margin, y, leading, "Telefono: " + user.getNumTelefono());
+				if (address != null) {
+					y = line(cs, margin, y, leading, "Indirizzo: " + address.toStringScript());
+				}
+				y -= leading;
+
+				// Tabella prodotti (font monospaziato per l'allineamento delle colonne)
+				cs.setFont(PDType1Font.COURIER_BOLD, 11);
+				y = line(cs, margin, y, leading,
+						rpad("Prodotto", 26) + rpad("Quantita", 12) + rpad("Prezzo", 16) + "Totale");
+
+				cs.setFont(PDType1Font.COURIER, 11);
+				for (ProductBean prod : listaProdotti) {
+					double totaleRiga = prod.getPrice() * prod.getQuantity();
+					String riga = rpad(prod.getName(), 26)
+							+ rpad(String.valueOf(prod.getQuantity()), 12)
+							+ rpad("EUR " + df.format(prod.getPrice()), 16)
+							+ "EUR " + df.format(totaleRiga);
+					y = line(cs, margin, y, leading, riga);
+				}
+				y -= leading;
+
+				// Totali
+				cs.setFont(PDType1Font.HELVETICA_BOLD, 12);
+				y = line(cs, margin, y, leading, "Imponibile: EUR " + df.format(imponibile));
+				y = line(cs, margin, y, leading, "IVA (" + IVA + "%): EUR " + df.format(totaleIva));
+				y = line(cs, margin, y, leading, "Totale fattura: EUR " + df.format(totaleFattura));
+			}
+
+			document.save(outputStream);
+
+			// Download del PDF
+			response.setContentType("application/pdf");
+			response.setHeader("Content-Disposition", "attachment; filename=\"fattura.pdf\"");
+			try (ServletOutputStream out = response.getOutputStream()) {
+				outputStream.writeTo(out);
+				out.flush();
+			}
+		}
+	}
+
+	/** Scrive una riga di testo (sanificata) alla posizione data e ritorna la nuova ordinata. */
+	private static float line(PDPageContentStream cs, float x, float y, float leading, String text)
+			throws IOException {
+		cs.beginText();
+		cs.newLineAtOffset(x, y);
+		cs.showText(sanitize(text));
+		cs.endText();
+		return y - leading;
+	}
+
+	/**
+	 * Rimuove i diacritici (a&grave; -> a, e&grave; -> e, ...) e i caratteri non ASCII, per compatibilita'
+	 * con i font standard del PDF (che non includono tutti i glifi Unicode, ad es. il simbolo dell'euro).
+	 */
+	private static String sanitize(String s) {
+		if (s == null) {
+			return "";
+		}
+		String n = Normalizer.normalize(s, Normalizer.Form.NFD).replaceAll("\\p{M}", "");
+		return n.replaceAll("[^\\x20-\\x7E]", "");
+	}
+
+	/** Tronca o riempie con spazi la stringa alla lunghezza data, lasciando almeno uno spazio di separazione. */
+	private static String rpad(String s, int len) {
+		if (s == null) {
+			s = "";
+		}
+		if (s.length() >= len) {
+			return s.substring(0, Math.max(0, len - 1)) + " ";
+		}
+		StringBuilder sb = new StringBuilder(s);
+		while (sb.length() < len) {
+			sb.append(' ');
+		}
+		return sb.toString();
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
 }

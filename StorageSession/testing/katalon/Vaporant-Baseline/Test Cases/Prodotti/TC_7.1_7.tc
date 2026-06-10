@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto inserimento con Quantita inferiore a 1 (validazione client min=1)</description>
+   <name>TC_7.1_7</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0071-4071-8071-000000070107</testCaseGuid>
+</TestCaseEntity>

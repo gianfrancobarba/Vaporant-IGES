@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Collection;
 import java.util.LinkedList;
 
@@ -20,7 +19,7 @@ public class ProductModelDM implements ProductModel {
 		PreparedStatement preparedStatement = null;
 
 		String insertSQL = "INSERT INTO " + ProductModelDM.TABLE_NAME
-				+ " (nome, descrizione, quantita, prezzoAttuale) VALUES (?, ?, ?, ?)";
+				+ " (nome, descrizione, quantita, prezzoAttuale, tipo, colore) VALUES (?, ?, ?, ?, ?, ?)";
 
 		try {
 			connection = DriverManagerConnectionPool.getConnection();
@@ -29,6 +28,8 @@ public class ProductModelDM implements ProductModel {
 			preparedStatement.setString(2, product.getDescription());
 			preparedStatement.setInt(3, product.getQuantityStorage());
 			preparedStatement.setFloat(4, product.getPrice());
+			preparedStatement.setString(5, product.getTipo());
+			preparedStatement.setString(6, product.getColore());
 
 			preparedStatement.executeUpdate();
 
@@ -87,7 +88,6 @@ public class ProductModelDM implements ProductModel {
 		int result = 0;
 
 		String deleteSQL = "DELETE FROM " + ProductModelDM.TABLE_NAME + " WHERE ID = ?";
-		String autoIncrement = "alter table prodotto auto_increment = 1";
 
 		try {
 			connection = DriverManagerConnectionPool.getConnection();
@@ -95,11 +95,7 @@ public class ProductModelDM implements ProductModel {
 			preparedStatement.setInt(1, id);
 			
 			result = preparedStatement.executeUpdate();
-			Statement stmt =  connection.createStatement();
-			
-			stmt.executeUpdate(autoIncrement); 
 			connection.commit();
-			stmt.close();
 		} finally {
 			try {
 				if (preparedStatement != null)

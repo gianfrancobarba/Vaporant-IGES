@@ -34,7 +34,7 @@ public class OrderDaoImpl implements OrderDAO {
   public int saveOrder(OrderBean ordine) throws SQLException {
     Connection connection = null;
     PreparedStatement preparedStatement = null;
-    int result;
+    int generatedId = -1;
 
     String insertSQL =
       "INSERT INTO " +
@@ -44,7 +44,7 @@ public class OrderDaoImpl implements OrderDAO {
 
     try {
       connection = ds.getConnection();
-      preparedStatement = connection.prepareStatement(insertSQL);
+      preparedStatement = connection.prepareStatement(insertSQL, Statement.RETURN_GENERATED_KEYS);
 
       preparedStatement.setInt(1, ordine.getId_utente());
       preparedStatement.setInt(2, ordine.getId_indirizzo());
@@ -52,9 +52,14 @@ public class OrderDaoImpl implements OrderDAO {
       preparedStatement.setString(4, ordine.getDataAcquisto().toString());
       preparedStatement.setString(5, ordine.getMetodoPagamento());
 
-      result = preparedStatement.executeUpdate();
+      preparedStatement.executeUpdate();
 
       connection.commit();
+
+      ResultSet generatedKeys = preparedStatement.getGeneratedKeys();
+      if (generatedKeys.next()) {
+        generatedId = generatedKeys.getInt(1);
+      }
     } finally {
       try {
         if (preparedStatement != null) preparedStatement.close();
@@ -63,7 +68,7 @@ public class OrderDaoImpl implements OrderDAO {
       }
     }
 
-    return result;
+    return generatedId;
   }
 
   @Override
@@ -71,7 +76,7 @@ public class OrderDaoImpl implements OrderDAO {
     Connection connection = null;
     PreparedStatement preparedStatement = null;
 
-    String selectSQL = "DELETE * FROM " + TABLE + " WHERE ID_Ordine= ?";
+    String selectSQL = "DELETE FROM " + TABLE + " WHERE ID_Ordine= ?";
 
     int result;
 
@@ -136,36 +141,6 @@ public class OrderDaoImpl implements OrderDAO {
     }
 
     return ordine;
-  }
-
-  @Override
-  public int getIdfromDB() throws SQLException {
-    Connection connection = null;
-    Statement statement = null;
-    int id = -1;
-
-    try {
-      connection = ds.getConnection();
-      statement = connection.createStatement();
-
-      ResultSet rs = statement.executeQuery(
-        "SELECT * FROM " + OrderDaoImpl.TABLE
-      );
-
-      if (rs.last()) {
-        id = rs.getInt("ID_Ordine");
-      }
-
-      return id;
-    } finally {
-      try {
-        if (statement != null) statement.close();
-      } finally {
-        if (connection != null) {
-          connection.close();
-        }
-      }
-    }
   }
 
 @Override

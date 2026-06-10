@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aggiungere indirizzo con Cap non compilato (campo obbligatorio)</description>
+   <name>TC_3.6_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0031-4031-8031-000000030604</testCaseGuid>
+</TestCaseEntity>

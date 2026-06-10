@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rifiuto inserimento con Quantita non compilata (validazione client)</description>
+   <name>TC_7.1_8</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0071-4071-8071-000000070108</testCaseGuid>
+</TestCaseEntity>

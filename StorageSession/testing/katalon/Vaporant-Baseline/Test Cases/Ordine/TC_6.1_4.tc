@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout con carrello vuoto/assente (robustezza, incident atteso NPE/500)</description>
+   <name>TC_6.1_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0061-4061-8061-000000060104</testCaseGuid>
+</TestCaseEntity>

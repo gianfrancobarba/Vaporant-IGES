@@ -10,12 +10,13 @@ CREATE TABLE Utente(
     numTelefono VARCHAR(14),  -- Si potrebbe mettere unique ma magari un utente ha piu account con lo stesso numTelefono
     email VARCHAR(40) UNIQUE NOT NULL,
     psw VARCHAR(30) NOT NULL, 
-    tipo VARCHAR(5) DEFAULT 'user' NOT NULL CHECK(tipo = 'user' OR tipo = 'admin') 
+    tipo VARCHAR(5) DEFAULT 'user' NOT NULL CHECK(tipo = 'user' OR tipo = 'admin'),
+    indirizzoFatt VARCHAR(255)
 );
-INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', 'ABC123.','admin');
-INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', 'CBA321.','admin');
-INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '123ABC.', 'admin');
-INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '321CBA.', 'user');
+INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', 'ABC123.','admin', NULL);
+INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', 'CBA321.','admin', NULL);
+INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '123ABC.', 'admin', NULL);
+INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '321CBA.', 'user', NULL);
 
 CREATE TABLE Indirizzo(
     ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -55,7 +56,7 @@ CREATE TABLE Ordine(
     ID_Indirizzo INT NOT NULL,
     prezzoTot FLOAT NOT NULL CHECK(prezzoTot >= 0.1),
     dataAcquisto DATE NOT NULL,
-    metodoPagamento VARCHAR(50) check(metodoPagamento = "PayPal" OR metodoPagamento = "Carta di credito/debito"),
+    metodoPagamento VARCHAR(50) check(metodoPagamento = 'PayPal' OR metodoPagamento = 'Carta di credito/debito'),
     FOREIGN KEY(ID_Indirizzo) REFERENCES Indirizzo(ID),
     FOREIGN KEY(ID_Utente) REFERENCES Utente(ID)
 );

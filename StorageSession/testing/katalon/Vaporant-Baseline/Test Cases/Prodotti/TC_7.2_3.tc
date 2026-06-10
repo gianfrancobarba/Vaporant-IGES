@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rimozione di un prodotto referenziato da un ordine (vincolo FK, incident: errore silenzioso)</description>
+   <name>TC_7.2_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0071-4071-8071-000000070203</testCaseGuid>
+</TestCaseEntity>

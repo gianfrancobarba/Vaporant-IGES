@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Registrazione con Password di soli spazi bianchi (robustezza)</description>
+   <name>TC_2.1_13</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-0021-4021-8021-000000002113</testCaseGuid>
+</TestCaseEntity>
