@@ -8,4 +8,4 @@ out/
 
 # === Documentazione di progetto (TEMPORANEAMENTE esclusa dai commit) ===
 # Rimuovere queste righe quando si vorrà versionare la documentazione.
-StorageSession/docs/
+docs/

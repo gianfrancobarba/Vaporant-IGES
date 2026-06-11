@@ -9,7 +9,7 @@
 > (incident). La suite è **black-box** (ancorata ai requisiti) → resta valida dopo la reingegnerizzazione (CR_01)
 > e si riesegue come **regressione** (test-all) dopo ogni CR.
 >
-> **Riferimento dei casi di test**: `StorageSession/docs/testing/VAPORANT_TCS_V_1.0/VAPORANT_TCS_V_1.0.md`.
+> **Riferimento dei casi di test**: `docs/testing/VAPORANT_TCS_V_1.0/VAPORANT_TCS_V_1.0.md`.
 > Questa guida copre **solo** i casi *eseguibili al baseline*; gli altri sono **Blocked** (vedi §5).
 
 ---
@@ -60,7 +60,7 @@ in `findByCred`): tutta l'area autenticata è quindi inaccessibile. Di conseguen
 
 1. **File → New → Project**.
    - **Name**: `Vaporant-Baseline`
-   - **Location**: `C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon`
+   - **Location**: `C:\Users\gianf\Documents\Vaporant-IGES\testing\katalon`
      → così il progetto vive **fuori** da `docs/` (che è gitignored) ed è **versionabile**.
    - **Type**: *WebUI*.
 2. (Opzionale ma consigliato) **Project → Settings → Execution → Default → Base URL**:
