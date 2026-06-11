@@ -4,11 +4,8 @@
 <%@ page import="it.unisa.model.AddressBean" %>
 <%@ page import="it.unisa.model.OrderBean" %>
 <%
+	// AuthFilter garantisce un utente autenticato per questa pagina.
 	UserBean user = (UserBean) request.getSession().getAttribute("user");
-
-	if(user.getEmail() == null){
-		response.sendRedirect("loginForm.jsp");
-	}
 
 	// indirizzi e ordini sono caricati in sessione al login (e risincronizzati dopo
 	// ogni aggiunta indirizzo / acquisto), non ri-interrogati qui.

@@ -1,23 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.util.List,it.unisa.model.Cart,it.unisa.model.ProductBean,it.unisa.model.UserBean,it.unisa.model.AddressBean" %>
+    pageEncoding="UTF-8" import="java.util.List,it.unisa.model.Cart,it.unisa.model.ProductBean,it.unisa.model.AddressBean" %>
 
 <%
+    // AuthFilter garantisce un utente autenticato per questa pagina.
     Cart cart = (Cart) request.getSession().getAttribute("cart");
     request.setAttribute("cart", cart);
 
-    UserBean user = null;
-    List<AddressBean> indirizzi = null;
-
-    if (session.getAttribute("user") == null) {
-        request.getSession().setAttribute("action", "checkout");
-        response.sendRedirect("loginForm.jsp");
-    } else {
-        user = (UserBean) session.getAttribute("user");
-
-        // gli indirizzi sono caricati in sessione al login (e risincronizzati dopo
-        // l'aggiunta di un nuovo indirizzo), non ri-interrogati qui.
-        indirizzi = (List<AddressBean>) session.getAttribute("indirizzi");
-    }
+    // gli indirizzi sono caricati in sessione al login (e risincronizzati dopo
+    // l'aggiunta di un nuovo indirizzo), non ri-interrogati qui.
+    List<AddressBean> indirizzi = (List<AddressBean>) session.getAttribute("indirizzi");
 %>
 
 <!DOCTYPE html>
@@ -63,7 +54,8 @@
         </tbody>
     </table>
 
-    <span>Totale: <%= cart.getPrezzoTotale() %>€</span>
+    <%-- carrello assente/vuoto (robustezza): evita NPE, il form resta utilizzabile --%>
+    <span>Totale: <%= cart != null ? cart.getPrezzoTotale() : "0.00" %>€</span>
 
     <form action="Ordine" method="POST" class="none">
         <%-- Dropdown per l'indirizzo di spedizione --%>

@@ -1,20 +1,7 @@
 <%@  page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"
-    import = "it.unisa.model.UserBean"%>
+    pageEncoding="ISO-8859-1"%>
 
-<%
-	UserBean user = null;
-	if(session.getAttribute("user") == null)
-	{
-		request.getSession().setAttribute("action", "address");
-		response.sendRedirect("loginForm.jsp");
-	}
-	else
-	{
-		user = (UserBean) session.getAttribute("user");  		
-		request.getSession().setAttribute("user", user);
-	}
-%>
+<%-- AuthFilter garantisce un utente autenticato per questa pagina. --%>
 <!DOCTYPE html>
 <html lang = "it">
 <head>
