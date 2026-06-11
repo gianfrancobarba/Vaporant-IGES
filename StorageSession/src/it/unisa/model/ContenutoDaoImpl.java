@@ -36,12 +36,19 @@ public class ContenutoDaoImpl implements ContenutoDAO{
 	@Override
 	public int saveContenuto(ContenutoBean contenutoOrdine) throws SQLException {
 
+        try (Connection connection = ds.getConnection()) {
+            return saveContenuto(contenutoOrdine, connection);
+        }
+	}
+
+	@Override
+	public int saveContenuto(ContenutoBean contenutoOrdine, Connection connection) throws SQLException {
+
         String insertSQL = "INSERT INTO " + ContenutoDaoImpl.TABLE
                            + " (ID_Ordine, ID_Prodotto, quantita, prezzoAcquisto, ivaAcquisto)"
                            + " VALUES (?, ?, ?, ?, ?)";
 
-        try (Connection connection = ds.getConnection();
-                PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
+        try (PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
 
             preparedStatement.setInt(1, contenutoOrdine.getId_ordine());
             preparedStatement.setInt(2, contenutoOrdine.getId_prodotto());

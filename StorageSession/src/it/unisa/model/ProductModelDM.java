@@ -138,10 +138,17 @@ public class ProductModelDM implements ProductModel {
 	@Override
 	public void updateQuantityStorage(ProductBean prod, int quantita) throws SQLException {
 
+		try (Connection connection = ds.getConnection()) {
+			updateQuantityStorage(prod, quantita, connection);
+		}
+	}
+
+	@Override
+	public void updateQuantityStorage(ProductBean prod, int quantita, Connection connection) throws SQLException {
+
 		String updateSQL = "UPDATE " + ProductModelDM.TABLE_NAME + " SET quantita = ? WHERE ID = ?";
 
-		try (Connection connection = ds.getConnection();
-				PreparedStatement preparedStatement = connection.prepareStatement(updateSQL)) {
+		try (PreparedStatement preparedStatement = connection.prepareStatement(updateSQL)) {
 
 			preparedStatement.setInt(1, quantita);
 			preparedStatement.setInt(2, prod.getCode());

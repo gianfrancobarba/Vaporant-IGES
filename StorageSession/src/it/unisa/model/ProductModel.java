@@ -1,5 +1,6 @@
 package it.unisa.model;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Collection;
 import java.util.List;
@@ -15,6 +16,9 @@ public interface ProductModel {
 	public Collection<ProductBean> findAll(String order) throws SQLException;
 
 	void updateQuantityStorage(ProductBean prod, int quantita) throws SQLException;
+
+	// aggiorna la giacenza sulla connessione fornita (transazione governata dal service)
+	void updateQuantityStorage(ProductBean prod, int quantita, Connection connection) throws SQLException;
 
 	List<Map<String, Object>> searchByName(String nome) throws SQLException;
 

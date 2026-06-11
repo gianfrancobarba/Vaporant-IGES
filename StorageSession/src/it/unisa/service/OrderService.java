@@ -1,8 +1,16 @@
 package it.unisa.service;
 
 import java.math.BigDecimal;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.LocalDate;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
 
 import it.unisa.exception.ServiceException;
 import it.unisa.model.AddressBean;
@@ -20,12 +28,28 @@ import it.unisa.model.UserBean;
  * Logica applicativa dell'acquisto: salva l'ordine, le righe del carrello e aggiorna le
  * giacenze di magazzino. Aggiorna inoltre l'indirizzo di fatturazione dell'utente.
  *
- * <p>Nota: il salvataggio dell'ordine, delle righe e l'aggiornamento del magazzino sono
- * eseguiti in un unico blocco "tutto o niente" (qualunque errore interrompe il checkout
- * senza restituire l'ordine) in preparazione della gestione esplicita della transazione
- * (commit/rollback) prevista nella fase successiva.</p>
+ * <p>Il salvataggio dell'ordine, delle righe e l'aggiornamento del magazzino avvengono in
+ * un'unica transazione: il servizio apre la connessione, disabilita l'autocommit e passa la
+ * stessa {@link Connection} ai DAO; in caso di errore esegue il rollback (acquisto atomico),
+ * altrimenti il commit.</p>
  */
 public class OrderService {
+
+	private static final Logger LOGGER = Logger.getLogger(OrderService.class.getName());
+
+	private static DataSource ds;
+
+	// connessione al database (stesso DataSource JNDI usato dai DAO)
+	static {
+		try {
+			Context initCtx = new InitialContext();
+			Context envCtx = (Context) initCtx.lookup("java:comp/env");
+
+			ds = (DataSource) envCtx.lookup("jdbc/storage");
+		} catch (NamingException e) {
+			LOGGER.log(Level.SEVERE, "Errore nel lookup del DataSource jdbc/storage", e);
+		}
+	}
 
 	private final OrderDAO orderDao;
 	private final ContenutoDAO contenutoDao;
@@ -62,14 +86,23 @@ public class OrderService {
 		OrderBean order = new OrderBean(user.getId(), idIndirizzoSpedizione, cart.getPrezzoTotale(), LocalDate.now(),
 				metodoPagamento);
 
-		try {
-			int idOrdine = orderDao.saveOrder(order);
-			order.setId_ordine(idOrdine);
+		try (Connection connection = ds.getConnection()) {
+			connection.setAutoCommit(false);
 
-			for (ProductBean prod : cart.getProducts()) {
-				contenutoDao.saveContenuto(new ContenutoBean(idOrdine, prod.getCode(), prod.getQuantity(),
-						InvoiceService.IVA_PERCENT, new BigDecimal(String.valueOf(prod.getPrice()))));
-				productService.updateQuantityStorage(prod, prod.getQuantityStorage() - prod.getQuantity());
+			try {
+				int idOrdine = orderDao.saveOrder(order, connection);
+				order.setId_ordine(idOrdine);
+
+				for (ProductBean prod : cart.getProducts()) {
+					contenutoDao.saveContenuto(new ContenutoBean(idOrdine, prod.getCode(), prod.getQuantity(),
+							InvoiceService.IVA_PERCENT, new BigDecimal(String.valueOf(prod.getPrice()))), connection);
+					productService.updateQuantityStorage(prod, prod.getQuantityStorage() - prod.getQuantity(), connection);
+				}
+
+				connection.commit();
+			} catch (SQLException | ServiceException e) {
+				connection.rollback();
+				throw new ServiceException("Errore durante il salvataggio dell'ordine", e);
 			}
 		} catch (SQLException e) {
 			throw new ServiceException("Errore durante il salvataggio dell'ordine", e);

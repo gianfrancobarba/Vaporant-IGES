@@ -37,14 +37,21 @@ public class OrderDaoImpl implements OrderDAO {
   @Override
   public int saveOrder(OrderBean ordine) throws SQLException {
 
+    try (Connection connection = ds.getConnection()) {
+      return saveOrder(ordine, connection);
+    }
+  }
+
+  @Override
+  public int saveOrder(OrderBean ordine, Connection connection) throws SQLException {
+
     String insertSQL =
       "INSERT INTO " +
       OrderDaoImpl.TABLE +
       " (ID_Utente, ID_Indirizzo, prezzoTot, dataAcquisto, metodoPagamento)" +
       " VALUES (?, ?, ?, ?, ?)";
 
-    try (Connection connection = ds.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement(insertSQL, Statement.RETURN_GENERATED_KEYS)) {
+    try (PreparedStatement preparedStatement = connection.prepareStatement(insertSQL, Statement.RETURN_GENERATED_KEYS)) {
 
       preparedStatement.setInt(1, ordine.getId_utente());
       preparedStatement.setInt(2, ordine.getId_indirizzo());

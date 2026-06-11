@@ -1,5 +1,6 @@
 package it.unisa.service;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Collection;
 import java.util.List;
@@ -61,6 +62,19 @@ public class ProductService {
 	public void updateQuantityStorage(ProductBean prod, int quantita) {
 		try {
 			productModel.updateQuantityStorage(prod, quantita);
+		} catch (SQLException e) {
+			throw new ServiceException("Errore nell'aggiornamento della quantita' del prodotto " + prod.getCode(), e);
+		}
+	}
+
+	/**
+	 * Aggiorna la giacenza usando la connessione fornita dal chiamante, senza aprire una
+	 * propria connessione: consente al servizio chiamante di includere l'operazione nella
+	 * stessa transazione (es. il checkout in {@link OrderService}).
+	 */
+	public void updateQuantityStorage(ProductBean prod, int quantita, Connection connection) {
+		try {
+			productModel.updateQuantityStorage(prod, quantita, connection);
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nell'aggiornamento della quantita' del prodotto " + prod.getCode(), e);
 		}
