@@ -39,10 +39,12 @@ public class SignControl extends HttpServlet {
 		UserService userService = new UserService();
 		boolean registered = false;
 
-		try {
-			registered = userService.register(user);
-		} catch (ServiceException e) {
-			LOGGER.log(Level.SEVERE, "Errore nella registrazione dell'utente", e);
+		if (userService.isValidRegistration(user)) {
+			try {
+				registered = userService.register(user);
+			} catch (ServiceException e) {
+				LOGGER.log(Level.SEVERE, "Errore nella registrazione dell'utente", e);
+			}
 		}
 
 		if(registered)

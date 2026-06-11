@@ -29,6 +29,10 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 
         if (action.equals("modificaEmail")) {
             String nuovaMail = request.getParameter("nuovaEmail");
+            if (!userService.isValidEmail(nuovaMail)) {
+                response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                return;
+            }
             try {
             	UserBean updated = userService.updateEmail(user, nuovaMail);
             	request.getSession().setAttribute("user", updated);
@@ -42,6 +46,10 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 			}
         } else if (action.equals("modificaTelefono")) {
             String nuovoTelefono = request.getParameter("nuovoTelefono");
+            if (!userService.isValidTelefono(nuovoTelefono)) {
+                response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                return;
+            }
             try {
 				UserBean updated = userService.updateTelefono(user, nuovoTelefono);
 				request.getSession().setAttribute("user", updated);
@@ -56,6 +64,11 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
         }else if(action.equals("modificaPassword")){
         	 String nuovaPsw = request.getParameter("nuovaPassword");
         	 String vecchiaPsw = request.getParameter("vecchiaPassword");
+
+        	    if (!userService.isValidNewPassword(nuovaPsw)) {
+        	        response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+        	        return;
+        	    }
 
         	    try {
         	        boolean success = userService.updatePassword(user, nuovaPsw, vecchiaPsw);

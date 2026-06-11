@@ -44,14 +44,16 @@ public class ProductControl extends HttpServlet {
                     String tipo = request.getParameter("tipo");
                     String colore = request.getParameter("colore");
 
-                    ProductBean bean = new ProductBean();
-                    bean.setName(name);
-                    bean.setDescription(description);
-                    bean.setPrice(price);
-                    bean.setQuantityStorage(quantity);
-                    bean.setTipo(tipo);
-                    bean.setColore(colore);
-                    productService.save(bean);
+                    if (productService.isValidName(name)) {
+                        ProductBean bean = new ProductBean();
+                        bean.setName(name);
+                        bean.setDescription(description);
+                        bean.setPrice(price);
+                        bean.setQuantityStorage(quantity);
+                        bean.setTipo(tipo);
+                        bean.setColore(colore);
+                        productService.save(bean);
+                    }
                 }
             }
 

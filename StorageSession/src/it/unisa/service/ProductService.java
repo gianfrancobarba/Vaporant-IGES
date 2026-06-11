@@ -87,4 +87,11 @@ public class ProductService {
 			throw new ServiceException("Errore nella ricerca dei prodotti", e);
 		}
 	}
+
+	/**
+	 * Valida il nome di un nuovo prodotto: non vuoto/di soli spazi.
+	 */
+	public boolean isValidName(String name) {
+		return name != null && !name.trim().isEmpty();
+	}
 }

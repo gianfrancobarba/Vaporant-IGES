@@ -80,4 +80,40 @@ public class UserService {
 			throw new ServiceException("Errore nell'aggiornamento dell'indirizzo di fatturazione", e);
 		}
 	}
+
+	private static boolean isBlank(String s) {
+		return s == null || s.trim().isEmpty();
+	}
+
+	/**
+	 * Valida i dati di registrazione: nessun campo testuale puo' essere vuoto o di soli
+	 * spazi e il codice fiscale deve avere lunghezza 16 (Utente.CF CHAR(16)).
+	 */
+	public boolean isValidRegistration(UserBean user) {
+		return !isBlank(user.getNome()) && !isBlank(user.getCognome()) && !isBlank(user.getNumTelefono())
+				&& !isBlank(user.getEmail()) && !isBlank(user.getPassword())
+				&& user.getCodF() != null && user.getCodF().length() == 16;
+	}
+
+	/**
+	 * Valida una nuova email di profilo: non vuota/di soli spazi e in formato {x@y.z}.
+	 */
+	public boolean isValidEmail(String email) {
+		return !isBlank(email) && email.matches("^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$");
+	}
+
+	/**
+	 * Valida un nuovo numero di telefono di profilo: non vuoto/di soli spazi.
+	 */
+	public boolean isValidTelefono(String telefono) {
+		return !isBlank(telefono);
+	}
+
+	/**
+	 * Valida una nuova password di profilo: non vuota/di soli spazi (le regole di formato/
+	 * complessita' sono in carico alla messa in sicurezza).
+	 */
+	public boolean isValidNewPassword(String password) {
+		return !isBlank(password);
+	}
 }

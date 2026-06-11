@@ -44,6 +44,12 @@ public class AddressControl extends HttpServlet{
 			address.setVia(via);
 
 			AddressService addressService = new AddressService();
+			if (!addressService.isValid(address)) {
+				// dati non validi (vuoti/di soli spazi o oltre la lunghezza dei campi CHAR):
+				// si resta sul form, l'indirizzo non viene salvato
+				response.sendRedirect("AddressForm.jsp");
+				return;
+			}
 			try {
 				addressService.save(address);
 				// sincronizza la sessione: Utente.jsp legge "indirizzi" dalla sessione

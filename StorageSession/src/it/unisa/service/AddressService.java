@@ -54,4 +54,20 @@ public class AddressService {
 			throw new ServiceException("Errore nel recupero dell'indirizzo " + id, e);
 		}
 	}
+
+	private static boolean isBlank(String s) {
+		return s == null || s.trim().isEmpty();
+	}
+
+	/**
+	 * Valida un indirizzo: citta'/via/stato non vuoti o di soli spazi; provincia/cap/numero
+	 * civico entro la lunghezza dei campi dello schema (rispettivamente
+	 * {CHAR(2)}, {CHAR(5)}, {CHAR(4)}).
+	 */
+	public boolean isValid(AddressBean address) {
+		return !isBlank(address.getCitta()) && !isBlank(address.getVia()) && !isBlank(address.getStato())
+				&& address.getProvincia() != null && address.getProvincia().length() <= 2
+				&& address.getCap() != null && address.getCap().length() <= 5
+				&& address.getNumCivico() != null && address.getNumCivico().length() <= 4;
+	}
 }
