@@ -79,9 +79,11 @@ public class OrderService {
 	public OrderBean checkout(UserBean user, Cart cart, int idIndirizzoSpedizione, int idIndirizzoFatturazione,
 			String metodoPagamento) {
 
+		// guardia di esistenza: idIndirizzoFatturazione deve essere un Indirizzo.ID valido
+		// (FK su Utente.ID_IndirizzoFatturazione); se non lo e' si prosegue comunque il checkout
 		AddressBean indirizzoFatturazione = addressService.findById(idIndirizzoFatturazione);
 		if (indirizzoFatturazione != null) {
-			userService.updateBillingAddress(user, indirizzoFatturazione.toStringScript());
+			userService.updateBillingAddress(user, idIndirizzoFatturazione);
 		}
 
 		OrderBean order = new OrderBean(user.getId(), idIndirizzoSpedizione, cart.getPrezzoTotale(), LocalDate.now(),

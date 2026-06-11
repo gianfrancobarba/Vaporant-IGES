@@ -69,7 +69,11 @@ public class ProductControl extends HttpServlet {
             request.getSession().setAttribute("products", productService.findAll(sort));
 
         } catch (ServiceException e) {
+            // ordinamento non valido (es. colonna inesistente): non si inghiottisce
+            // l'errore in silenzio, l'utente viene avvisato.
             LOGGER.log(Level.SEVERE, "Errore nel recupero dei prodotti", e);
+            response.sendRedirect("error-page.jsp");
+            return;
         }
 
         if(request.getSession().getAttribute("tipo").equals("admin"))

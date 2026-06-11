@@ -9,9 +9,9 @@ CREATE TABLE Utente(
     CF CHAR(16) UNIQUE NOT NULL,
     numTelefono VARCHAR(14),  -- Si potrebbe mettere unique ma magari un utente ha piu account con lo stesso numTelefono
     email VARCHAR(40) UNIQUE NOT NULL,
-    psw VARCHAR(30) NOT NULL, 
+    psw VARCHAR(30) NOT NULL,
     tipo VARCHAR(5) DEFAULT 'user' NOT NULL CHECK(tipo = 'user' OR tipo = 'admin'),
-    indirizzoFatt VARCHAR(255)
+    ID_IndirizzoFatturazione INT  -- FK su Indirizzo aggiunta sotto (dipendenza circolare Indirizzo->Utente)
 );
 INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', 'ABC123.','admin', NULL);
 INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', 'CBA321.','admin', NULL);
@@ -34,6 +34,11 @@ INSERT INTO Indirizzo VALUES(2, 2, 'Italia', 'Boscotrecase', 'Via Trecase', '1',
 INSERT INTO Indirizzo VALUES(3, 3, 'Italia', 'Ottaviano', 'Via Terre Sperdute', '3',  '84010', 'NA');
 INSERT INTO Indirizzo VALUES(4, 4, 'Italia', 'Ravello', 'Via Sulla Montagna', '4',  '84011', 'SA');
 INSERT INTO Indirizzo VALUES(5, 4, 'Italia', 'Ravello', 'Via Sul Mare', '4B',  '84011', 'SA');
+
+-- Indirizzo di fatturazione predefinito dell'utente: relazione con Indirizzo (sostituisce
+-- il precedente campo denormalizzato Utente.indirizzoFatt). Aggiunta come ALTER perche'
+-- Indirizzo deve gia' esistere (dipendenza circolare con Utente.ID_Utente sopra).
+ALTER TABLE Utente ADD FOREIGN KEY (ID_IndirizzoFatturazione) REFERENCES Indirizzo(ID);
 
 CREATE TABLE Prodotto(
     ID INT PRIMARY KEY AUTO_INCREMENT,

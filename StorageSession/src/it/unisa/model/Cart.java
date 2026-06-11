@@ -64,6 +64,10 @@ public class Cart {
 
 	public void aggiorna(ProductBean product, int quantita) {
 
+		// validazione lato server: la quantita' non puo' superare la disponibilita' a
+		// magazzino (ne' scendere sotto 1), anche bypassando il vincolo HTML5 "max" del client
+		int quantitaValida = Math.max(1, Math.min(quantita, product.getQuantityStorage()));
+
 		int index;
 		for (index = 0; index < products.size(); index++) {
 			if (products.get(index).getCode() == product.getCode()) {
@@ -71,8 +75,8 @@ public class Cart {
 				BigDecimal prezzoUnitario = BigDecimal.valueOf(products.get(index).getPrice());
 				setPrezzoTotale(prezzoTotale.subtract(prezzoUnitario.multiply(BigDecimal.valueOf(products.get(index).getQuantity()))));
 
-				products.get(index).setQuantity(quantita);
-				setPrezzoTotale(prezzoTotale.add(prezzoUnitario.multiply(BigDecimal.valueOf(quantita))));
+				products.get(index).setQuantity(quantitaValida);
+				setPrezzoTotale(prezzoTotale.add(prezzoUnitario.multiply(BigDecimal.valueOf(quantitaValida))));
 
 				break;
 			}

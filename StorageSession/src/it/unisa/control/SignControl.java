@@ -34,7 +34,8 @@ public class SignControl extends HttpServlet {
 		user.setNumTelefono(request.getParameter("telefono"));
 		user.setEmail(request.getParameter("email"));
 		user.setPassword(request.getParameter("password"));
-		user.setIndirizzoFatt(request.getParameter("indirizzoFatt"));
+		// ID_IndirizzoFatturazione resta null alla registrazione (l'utente non ha ancora
+		// indirizzi); SignForm.jsp non invia alcun parametro "indirizzoFatt" (dead code rimosso).
 
 		UserService userService = new UserService();
 		boolean registered = false;

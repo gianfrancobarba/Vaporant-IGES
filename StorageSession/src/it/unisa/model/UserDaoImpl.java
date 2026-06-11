@@ -37,9 +37,11 @@ public class UserDaoImpl implements UserDAO {
 	@Override
 	public int saveUser(UserBean user) throws SQLException {
 
+        // ID_IndirizzoFatturazione non e' incluso: alla registrazione l'utente non ha ancora
+        // indirizzi (FK su Indirizzo), resta NULL finche' non effettua un acquisto.
         String insertSQL = "INSERT INTO " + UserDaoImpl.TABLE
-                           + " (nome, cognome, dataNascita, CF, numTelefono, email, psw, indirizzoFatt)"
-                           + " VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+                           + " (nome, cognome, dataNascita, CF, numTelefono, email, psw)"
+                           + " VALUES (?, ?, ?, ?, ?, ?, ?)";
 
         try (Connection connection = ds.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
@@ -51,7 +53,6 @@ public class UserDaoImpl implements UserDAO {
             preparedStatement.setString(5, user.getNumTelefono());
             preparedStatement.setString(6, user.getEmail());
             preparedStatement.setString(7, user.getPassword());
-            preparedStatement.setString(8, user.getIndirizzoFatt());
 
             return preparedStatement.executeUpdate();
         }
@@ -98,7 +99,8 @@ public class UserDaoImpl implements UserDAO {
                     user.setPassword(rs.getString("psw"));
                     user.setTipo(rs.getString("tipo"));
                     user.setDataNascita(LocalDate.parse(rs.getDate("dataNascita").toString()));
-                    user.setIndirizzoFatt(rs.getString("indirizzoFatt"));
+                    int idIndirizzoFatturazione = rs.getInt("ID_IndirizzoFatturazione");
+                    user.setIdIndirizzoFatturazione(rs.wasNull() ? null : idIndirizzoFatturazione);
                 }
 
                 return user;
@@ -190,15 +192,15 @@ public class UserDaoImpl implements UserDAO {
 	}
 
 	@Override
-	public void updateAddress(String address, UserBean user) throws SQLException {
-	    user.setIndirizzoFatt(address);
+	public void updateAddress(int idIndirizzoFatturazione, UserBean user) throws SQLException {
+	    user.setIdIndirizzoFatturazione(idIndirizzoFatturazione);
 
-	    String updateSQL = "UPDATE " + TABLE + " SET indirizzoFatt = ? WHERE ID = ?";
+	    String updateSQL = "UPDATE " + TABLE + " SET ID_IndirizzoFatturazione = ? WHERE ID = ?";
 
         try (Connection connection = ds.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(updateSQL)) {
 
-            preparedStatement.setString(1, address);
+            preparedStatement.setInt(1, idIndirizzoFatturazione);
             preparedStatement.setInt(2, user.getId());
             preparedStatement.executeUpdate();
         }

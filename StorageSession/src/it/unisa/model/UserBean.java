@@ -4,18 +4,20 @@ import java.time.LocalDate;
 
 public class UserBean {
 	
-	private String nome, cognome, numTelefono, email, codF, password, indirizzoFatt;
+	private String nome, cognome, numTelefono, email, codF, password;
 
 	private String tipo;
 	private LocalDate dataNascita;
 	private int id;
-	
-	
-	public String getIndirizzoFatt() {
-		return indirizzoFatt;
+
+	/** Indirizzo di fatturazione predefinito (FK su Indirizzo.ID); null se non impostato. */
+	private Integer idIndirizzoFatturazione;
+
+	public Integer getIdIndirizzoFatturazione() {
+		return idIndirizzoFatturazione;
 	}
-	public void setIndirizzoFatt(String indirizzoFatt) {
-		this.indirizzoFatt = indirizzoFatt;
+	public void setIdIndirizzoFatturazione(Integer idIndirizzoFatturazione) {
+		this.idIndirizzoFatturazione = idIndirizzoFatturazione;
 	}
 	public String getEmail() {
 		return email;
@@ -105,9 +107,9 @@ public class UserBean {
 		s += " - "; 
 		
 	    s += tipo;
-		s += "\n"; 
-		
-		s += indirizzoFatt;
+		s += "\n";
+
+		s += idIndirizzoFatturazione;
 		s += "\n";
 		
 		return s;

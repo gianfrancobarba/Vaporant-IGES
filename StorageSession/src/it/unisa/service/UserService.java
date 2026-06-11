@@ -69,13 +69,13 @@ public class UserService {
 	}
 
 	/**
-	 * Aggiorna l'indirizzo di fatturazione denormalizzato ({@code Utente.indirizzoFatt}).
-	 * Da non confondere con {@link AddressService}, che gestisce le entita' della tabella
-	 * {@code indirizzo}.
+	 * Imposta l'indirizzo di fatturazione predefinito dell'utente ({@code Utente.ID_IndirizzoFatturazione},
+	 * relazione con {@code Indirizzo}). Da non confondere con {@link AddressService}, che gestisce le
+	 * operazioni CRUD sugli indirizzi stessi.
 	 */
-	public void updateBillingAddress(UserBean user, String indirizzoFatt) {
+	public void updateBillingAddress(UserBean user, int idIndirizzoFatturazione) {
 		try {
-			userDao.updateAddress(indirizzoFatt, user);
+			userDao.updateAddress(idIndirizzoFatturazione, user);
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nell'aggiornamento dell'indirizzo di fatturazione", e);
 		}
