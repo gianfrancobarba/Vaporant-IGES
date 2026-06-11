@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -109,5 +110,16 @@ public class OrderService {
 		}
 
 		return order;
+	}
+
+	/**
+	 * Recupera lo storico ordini dell'utente (usato per la sincronizzazione della sessione).
+	 */
+	public ArrayList<OrderBean> findByIdUtente(int idUtente) {
+		try {
+			return orderDao.findByIdUtente(idUtente);
+		} catch (SQLException e) {
+			throw new ServiceException("Errore nel recupero degli ordini dell'utente " + idUtente, e);
+		}
 	}
 }

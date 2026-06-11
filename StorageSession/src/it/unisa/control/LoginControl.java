@@ -1,6 +1,7 @@
 package it.unisa.control;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -11,8 +12,12 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import it.unisa.exception.ServiceException;
+import it.unisa.model.AddressBean;
 import it.unisa.model.Cart;
+import it.unisa.model.OrderBean;
 import it.unisa.model.UserBean;
+import it.unisa.service.AddressService;
+import it.unisa.service.OrderService;
 import it.unisa.service.UserService;
 
 public class LoginControl extends HttpServlet {
@@ -47,6 +52,20 @@ public class LoginControl extends HttpServlet {
 		currentSession.setAttribute("user", user);
 		currentSession.setAttribute("tipo", user.getTipo());
 		currentSession.setAttribute("cart", cart);
+
+		// carica in sessione gli indirizzi e lo storico ordini dell'utente
+		ArrayList<AddressBean> indirizzi = new ArrayList<>();
+		ArrayList<OrderBean> ordini = new ArrayList<>();
+		try {
+			AddressService addressService = new AddressService();
+			OrderService orderService = new OrderService();
+			indirizzi = addressService.findByUserId(user.getId());
+			ordini = orderService.findByIdUtente(user.getId());
+		} catch (ServiceException e) {
+			LOGGER.log(Level.SEVERE, "Errore nel caricamento di indirizzi/ordini in sessione", e);
+		}
+		currentSession.setAttribute("indirizzi", indirizzi);
+		currentSession.setAttribute("ordini", ordini);
 
 		if(action != null && action.equalsIgnoreCase("checkout"))
 			resp.sendRedirect("checkout.jsp");

@@ -115,7 +115,7 @@ public class AddressDaoImpl implements AddressDAO {
             preparedStatement.setInt(1, idUtente);
 
             try (ResultSet rs = preparedStatement.executeQuery()) {
-                if (!rs.isBeforeFirst()) return null;
+                if (!rs.isBeforeFirst()) return new ArrayList<AddressBean>();
 
                 ArrayList<AddressBean> ListaIndirizzi = new ArrayList<AddressBean>();
 

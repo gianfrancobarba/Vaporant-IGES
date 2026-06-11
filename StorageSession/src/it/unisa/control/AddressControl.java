@@ -46,6 +46,8 @@ public class AddressControl extends HttpServlet{
 			AddressService addressService = new AddressService();
 			try {
 				addressService.save(address);
+				// sincronizza la sessione: Utente.jsp legge "indirizzi" dalla sessione
+				request.getSession().setAttribute("indirizzi", addressService.findByUserId(user.getId()));
 				response.sendRedirect("Utente.jsp");
 			} catch (ServiceException e) {
 				LOGGER.log(Level.SEVERE, "Errore nel salvataggio dell'indirizzo", e);

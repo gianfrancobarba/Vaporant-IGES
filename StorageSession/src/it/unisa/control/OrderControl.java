@@ -40,6 +40,8 @@ public class OrderControl extends HttpServlet {
 
 		try {
 			order = orderService.checkout(user, cart, idIndirizzo, idIndirizzoFatt, payment);
+			// sincronizza la sessione: Utente.jsp legge "ordini" dalla sessione
+			session.setAttribute("ordini", orderService.findByIdUtente(user.getId()));
 		} catch (ServiceException e) {
 			LOGGER.log(Level.SEVERE, "Errore durante il checkout", e);
 		}

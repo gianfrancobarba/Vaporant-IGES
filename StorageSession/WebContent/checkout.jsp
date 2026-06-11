@@ -1,14 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.sql.SQLException,java.util.ArrayList,it.unisa.model.Cart,it.unisa.model.ProductBean,it.unisa.model.AddressList,it.unisa.model.UserBean,it.unisa.model.AddressBean,com.google.gson.Gson" %>
+    pageEncoding="UTF-8" import="java.util.List,it.unisa.model.Cart,it.unisa.model.ProductBean,it.unisa.model.UserBean,it.unisa.model.AddressBean" %>
 
 <%
     Cart cart = (Cart) request.getSession().getAttribute("cart");
     request.setAttribute("cart", cart);
 
     UserBean user = null;
-    String json = null;
-
-    AddressList list = null;
+    List<AddressBean> indirizzi = null;
 
     if (session.getAttribute("user") == null) {
         request.getSession().setAttribute("action", "checkout");
@@ -16,11 +14,9 @@
     } else {
         user = (UserBean) session.getAttribute("user");
 
-        list = new AddressList(user);
-
-        if (list != null) {
-            json = list.getJson();
-        }
+        // gli indirizzi sono caricati in sessione al login (e risincronizzati dopo
+        // l'aggiunta di un nuovo indirizzo), non ri-interrogati qui.
+        indirizzi = (List<AddressBean>) session.getAttribute("indirizzi");
     }
 %>
 
@@ -76,8 +72,8 @@
             <select id="addressDropdown" name="addressDropdown" required>
                 <option value="">Seleziona un indirizzo</option>
                 <%-- Aggiungi gli indirizzi solo se l'utente ne ha --%>
-                <% if (list != null) { %>
-                    <% for (AddressBean address : list.getAddressList()) { %>
+                <% if (indirizzi != null) { %>
+                    <% for (AddressBean address : indirizzi) { %>
                         <option value="<%= address.getId() %>">
                             <%= address.toStringScript() %>
                         </option>
@@ -92,8 +88,8 @@
             <select id="addressDropdown2" name="addressDropdown2" required>
                 <option value="">Seleziona un indirizzo</option>
                 <%-- Aggiungi gli indirizzi solo se l'utente ne ha --%>
-                <% if (list != null) { %>
-                    <% for (AddressBean address : list.getAddressList()) { %>
+                <% if (indirizzi != null) { %>
+                    <% for (AddressBean address : indirizzi) { %>
                         <option value="<%= address.getId() %>">
                             <%= address.toStringScript() %>
                         </option>
@@ -104,7 +100,7 @@
 
         <%-- Bottone per aggiungere un indirizzo se l'utente non ne ha --%>
         <%
-            boolean hasAddresses = (list != null && !list.getAddressList().isEmpty());
+            boolean hasAddresses = (indirizzi != null && !indirizzi.isEmpty());
         %>
         <% if (!hasAddresses) { %>
             <div class="add">

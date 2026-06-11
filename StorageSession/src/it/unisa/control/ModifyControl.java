@@ -31,6 +31,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
             String nuovaMail = request.getParameter("nuovaEmail");
             try {
             	UserBean updated = userService.updateEmail(user, nuovaMail);
+            	request.getSession().setAttribute("user", updated);
                 response.setStatus(HttpServletResponse.SC_OK);
                 response.setContentType("application/json");
                 PrintWriter out = response.getWriter();
@@ -43,6 +44,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
             String nuovoTelefono = request.getParameter("nuovoTelefono");
             try {
 				UserBean updated = userService.updateTelefono(user, nuovoTelefono);
+				request.getSession().setAttribute("user", updated);
                 response.setStatus(HttpServletResponse.SC_OK);
                 response.setContentType("application/json");
                 PrintWriter out = response.getWriter();
@@ -58,6 +60,10 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
         	    try {
         	        boolean success = userService.updatePassword(user, nuovaPsw, vecchiaPsw);
         	        if (success) {
+        	            // sincronizza la password in sessione: senza questo, un secondo cambio
+        	            // password nella stessa sessione fallirebbe (modifyPsw confronta con
+        	            // user.getPassword() del bean di sessione, non con il valore nel DB)
+        	            user.setPassword(nuovaPsw);
         	            response.setStatus(HttpServletResponse.SC_OK);
         	        }
         	        String jsonResponse = "{\"success\": " + success + "}";

@@ -127,7 +127,7 @@ public ArrayList<OrderBean> findByIdUtente(int id) throws SQLException{
     preparedStatement.setInt(1, id);
 
     try (ResultSet rs = preparedStatement.executeQuery()) {
-      if (!rs.isBeforeFirst()) return null;
+      if (!rs.isBeforeFirst()) return new ArrayList<OrderBean>();
 
       ArrayList<OrderBean> ordini = new ArrayList<OrderBean>();
 

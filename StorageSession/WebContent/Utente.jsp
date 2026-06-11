@@ -1,29 +1,22 @@
-<%@page import="it.unisa.model.OrderDaoImpl"%>
-<%@ page import="it.unisa.model.UserDaoImpl" %>
 <%@ page import="it.unisa.model.UserBean" %>
+<%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
 <%@ page import="it.unisa.model.AddressBean" %>
 <%@ page import="it.unisa.model.OrderBean" %>
-<%@ page import="it.unisa.control.AddressControl" %>
-<%@ page import="it.unisa.model.AddressDaoImpl" %>
-<%@ page import="it.unisa.control.OrderControl" %>
-<%@ page import="it.unisa.control.ModifyControl" %>
 <%
 	UserBean user = (UserBean) request.getSession().getAttribute("user");
 
 	if(user.getEmail() == null){
 		response.sendRedirect("loginForm.jsp");
 	}
-	
-	   AddressDaoImpl addressDao = new AddressDaoImpl();
-	   List<AddressBean> indirizzi = null;
-	   if(addressDao.findByUserId(user.getId()) != null)
-	   		indirizzi =  addressDao.findByUserId(user.getId());
-	
-	   OrderDaoImpl orderDao = new OrderDaoImpl();
-	   List<OrderBean> ordini = null;
-		if(orderDao.findByIdUtente(user.getId()) != null)
-			  ordini =  orderDao.findByIdUtente(user.getId());
+
+	// indirizzi e ordini sono caricati in sessione al login (e risincronizzati dopo
+	// ogni aggiunta indirizzo / acquisto), non ri-interrogati qui.
+	List<AddressBean> indirizzi = (List<AddressBean>) request.getSession().getAttribute("indirizzi");
+	if (indirizzi == null) indirizzi = new ArrayList<AddressBean>();
+
+	List<OrderBean> ordini = (List<OrderBean>) request.getSession().getAttribute("ordini");
+	if (ordini == null) ordini = new ArrayList<OrderBean>();
 %>
 
 <!DOCTYPE html>
@@ -209,7 +202,7 @@
 	  <button id="submitPasswordButton" class="hidden" class = "btn" onclick="submitPassword()">CONFERMA</button>
       <br>
 	  </div>
-	  <%if(indirizzi != null){ %>
+	  <%if(!indirizzi.isEmpty()){ %>
 	  <div class = "address">
       <h2>INDIRIZZI</h2>
       <table>
@@ -234,7 +227,7 @@
       <br>
       <%} %>
 	  </div>
-	  <%if(ordini != null){ %>
+	  <%if(!ordini.isEmpty()){ %>
 	  <div class = "orders">
       <h2>ORDINI EFFETTUATI</h2>
       <table>
