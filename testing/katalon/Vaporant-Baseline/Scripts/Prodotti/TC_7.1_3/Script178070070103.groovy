@@ -31,8 +31,12 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 // Oracolo da requisito (UI): un nome di soli spazi va RIFIUTATO -> catalogo invariato (4 prodotti seed).
 // REALE: ProductControl non valida -> doSave committa -> prodotto con nome " " inserito -> 5 elementi.
-// Verifica: il numero di slide nel carosello deve restare 4 (non aumentare).
-Object count = WebUI.executeJavaScript("return document.querySelectorAll('.splide__slide').length", null)
-// FAILED = incident (nome sporco accettato e persistito) se count > 4; PASS se rimasto 4.
-WebUI.verifyEqual(count as Integer, 4, FailureHandling.CONTINUE_ON_FAILURE)
+// Verifica: il numero di slide nel carosello deve restare 4
+// PRODOTTO DISTINTI (il carosello mostra in loop 4 prodotti)
+Object distinti = WebUI.executeJavaScript(
+		"return new Set(" +
+				"  Array.from(document.querySelectorAll('#image-carousel a[href*=\"details?action=read\"]'))" +
+				"       .map(function(a){ return a.getAttribute('href'); })" +
+				").size", null)
+WebUI.verifyEqual(distinti as Integer, 4, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.closeBrowser()
