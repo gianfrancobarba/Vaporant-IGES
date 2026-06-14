@@ -8,7 +8,7 @@ public interface UserDAO {
 	
 	public int deleteUser(UserBean user) throws SQLException; // delete utente
 	
-	public UserBean findByCred(String email, String password) throws SQLException; // utente con le credenziali	
+	public UserBean findByCred(String email) throws SQLException; // utente per email (verifica BCrypt nel service)	
 	
 	public UserBean findById(int ID) throws SQLException;
 
@@ -18,5 +18,5 @@ public interface UserDAO {
 
 	public void updateAddress(int idIndirizzoFatturazione, UserBean user) throws SQLException;
 
-	public int modifyPsw(String newPsw, String oldPsw, UserBean user) throws SQLException;
+	public int modifyPsw(String hashedPsw, UserBean user) throws SQLException;
 }

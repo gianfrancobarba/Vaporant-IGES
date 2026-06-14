@@ -2,6 +2,8 @@ package it.unisa.service;
 
 import java.sql.SQLException;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 import it.unisa.exception.ServiceException;
 import it.unisa.model.UserBean;
 import it.unisa.model.UserDAO;
@@ -28,7 +30,13 @@ public class UserService {
 
 	public UserBean authenticate(String email, String password) {
 		try {
-			return userDao.findByCred(email, password);
+			// Il DAO restituisce l'utente per sola email (con l'hash in user.getPassword());
+			// la verifica BCrypt avviene qui nel service.
+			UserBean user = userDao.findByCred(email);
+			if (user == null || !BCrypt.checkpw(password, user.getPassword())) {
+				return null;
+			}
+			return user;
 		} catch (SQLException e) {
 			throw new ServiceException("Errore durante l'autenticazione", e);
 		}
@@ -36,6 +44,8 @@ public class UserService {
 
 	public boolean register(UserBean user) {
 		try {
+			// L'hash avviene nel service prima del salvataggio; il DAO riceve e salva l'hash.
+			user.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt(12)));
 			return userDao.saveUser(user) > 0;
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nella registrazione dell'utente", e);
@@ -62,7 +72,18 @@ public class UserService {
 
 	public boolean updatePassword(UserBean user, String newPsw, String oldPsw) {
 		try {
-			return userDao.modifyPsw(newPsw, oldPsw, user) != 0;
+			// Verifica la vecchia password sull'hash corrente del bean di sessione.
+			if (!BCrypt.checkpw(oldPsw, user.getPassword())) {
+				return false;
+			}
+			String hashedNewPsw = BCrypt.hashpw(newPsw, BCrypt.gensalt(12));
+			int result = userDao.modifyPsw(hashedNewPsw, user);
+			if (result != 0) {
+				// Aggiorna il bean di sessione con l'hash: senza questo il secondo cambio
+				// password consecutivo fallirebbe (checkpw su non-hash → "Invalid salt").
+				user.setPassword(hashedNewPsw);
+			}
+			return result != 0;
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nell'aggiornamento della password", e);
 		}

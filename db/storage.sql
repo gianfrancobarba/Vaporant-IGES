@@ -9,14 +9,14 @@ CREATE TABLE Utente(
     CF CHAR(16) UNIQUE NOT NULL,
     numTelefono VARCHAR(14),  -- Si potrebbe mettere unique ma magari un utente ha piu account con lo stesso numTelefono
     email VARCHAR(40) UNIQUE NOT NULL,
-    psw VARCHAR(30) NOT NULL,
+    psw VARCHAR(60) NOT NULL,  -- formato hash BCrypt $2a$12$... = esattamente 60 caratteri
     tipo VARCHAR(5) DEFAULT 'user' NOT NULL CHECK(tipo = 'user' OR tipo = 'admin'),
     ID_IndirizzoFatturazione INT  -- FK su Indirizzo aggiunta sotto (dipendenza circolare Indirizzo->Utente)
 );
-INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', 'ABC123.','admin', NULL);
-INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', 'CBA321.','admin', NULL);
-INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '123ABC.', 'admin', NULL);
-INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '321CBA.', 'user', NULL);
+INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', '$2a$12$eSGHRuuBCPzDBi/TdFf1YeGi7G0l7TzDPBkHMzVd3FPzQh5P44VJG','admin', NULL);
+INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', '$2a$12$5q3mY6Kqgh0dPgXoSV.zVOpMV12t6Fw9sPdz9AUP9MiVDkCvq5k4e','admin', NULL);
+INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '$2a$12$D1Rb3VhzZlxiOgfFYrGHpOZI2e18VYInV0kl7jTBZ3Wd5SJl7sLfq', 'admin', NULL);
+INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '$2a$12$N3WkLQR5uP8VtYmD4sXjRe1IJqLY5GFEkMm3bD8sZi5V1qFKB74PG', 'user', NULL);
 
 CREATE TABLE Indirizzo(
     ID INT PRIMARY KEY AUTO_INCREMENT,

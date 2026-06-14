@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -74,15 +76,15 @@ public class UserDaoImpl implements UserDAO {
 	}
 
 	@Override
-	public UserBean findByCred(String email, String password) throws SQLException {
+	public UserBean findByCred(String email) throws SQLException {
 
-        String selectSQL = "SELECT * FROM " + TABLE + " WHERE email = ? AND psw = ?";
+        // Lookup per sola email: la verifica della password (BCrypt.checkpw) avviene nel service.
+        String selectSQL = "SELECT * FROM " + TABLE + " WHERE email = ?";
 
         try (Connection connection = ds.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(selectSQL)) {
 
             preparedStatement.setString(1, email);
-            preparedStatement.setString(2, password);
 
             try (ResultSet rs = preparedStatement.executeQuery()) {
                 if (!rs.isBeforeFirst()) return null;
@@ -171,20 +173,16 @@ public class UserDaoImpl implements UserDAO {
 	}
 
 	@Override
-	public int modifyPsw(String newPsw, String oldPsw, UserBean user) throws SQLException {
+	public int modifyPsw(String hashedPsw, UserBean user) throws SQLException {
 
-	    if (oldPsw.compareTo(user.getPassword()) != 0) {
-	    	return 0;
-	    }
-
-	    String modify = "UPDATE utente SET psw = ? WHERE ID = ? AND psw = ?";
+	    // DAO puro: la verifica della vecchia password e l'hashing della nuova avvengono nel service.
+	    String modify = "UPDATE utente SET psw = ? WHERE ID = ?";
 
         try (Connection connection = ds.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(modify)) {
 
-            preparedStatement.setString(1, newPsw);
+            preparedStatement.setString(1, hashedPsw);
             preparedStatement.setInt(2, user.getId());
-            preparedStatement.setString(3, oldPsw);
 
             preparedStatement.executeUpdate();
         }
