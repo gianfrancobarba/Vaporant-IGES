@@ -84,7 +84,7 @@ public class ProductControl extends HttpServlet {
             return;
         }
 
-        if(request.getSession().getAttribute("tipo").equals("admin"))
+        if("admin".equals(request.getSession().getAttribute("tipo")))
         	response.sendRedirect("ProductViewAdmin.jsp");
         else
         	response.sendRedirect("ProductView.jsp");
