@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import it.unisa.exception.ServiceException;
 import it.unisa.model.ProductBean;
 import it.unisa.service.ProductService;
+import javax.servlet.http.HttpSession;
 
 public class ProductControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -28,6 +29,13 @@ public class ProductControl extends HttpServlet {
 
         try {
             if (action != null) {
+
+                // Guard ruolo: inserimento e rimozione prodotto sono operazioni riservate all'amministratore.
+                HttpSession session = request.getSession(false);
+                if (session == null || !"admin".equalsIgnoreCase((String) session.getAttribute("tipo"))) {
+                    response.sendRedirect("ErrorPageAccess.jsp");
+                    return;
+                }
 
                 if (action.equalsIgnoreCase("delete"))
                 {
