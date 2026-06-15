@@ -222,6 +222,12 @@ Quando vorrai committarlo (dal branch `baseline-testing`):
   ```
 - Versiona invece `Test Cases/`, `Test Suites/`, `Object Repository/`, `Profiles/` e i file `.prj`.
 
+> ⚠️ **Profilo di esecuzione `Profiles/default.glbl` — NON versionato.** Contiene valori macchina-specifici e una
+> credenziale (`mysqlExe`, `dbUser`, `dbPass`), quindi è escluso dal versionamento (`.gitignore`). Al **primo
+> setup** copia il template versionato `Profiles/default.glbl.example` → `Profiles/default.glbl` e adatta i valori
+> al tuo ambiente (path del client `mysql`, utente/password del DB locale). Senza questo file la fixture SeedReset
+> non parte.
+
 > Suggerimento: tieni i **report/screenshot** delle run di baseline anche in una cartella a parte (o allegali al
 > TER), perché `Reports/` è ignorato.
 
