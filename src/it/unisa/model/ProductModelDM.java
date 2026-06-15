@@ -117,8 +117,13 @@ public class ProductModelDM implements ProductModel {
 
 		String selectSQL = "SELECT * FROM " + ProductModelDM.TABLE_NAME;
 
-		// Whitelist anti-SQLi: solo colonne note sono ammesse come criterio di ordinamento.
-		if (order != null && !order.trim().isEmpty() && ORDER_WHITELIST.contains(order)) {
+		// Whitelist anti-SQLi: un criterio di ordinamento non vuoto è ammesso solo se è una
+		// colonna nota. Un valore non consentito (colonna inesistente o tentativo di injection)
+		// viene rifiutato con eccezione (gestita a monte → pagina d'errore), non eseguito in silenzio.
+		if (order != null && !order.trim().isEmpty()) {
+			if (!ORDER_WHITELIST.contains(order)) {
+				throw new SQLException("Parametro di ordinamento non consentito");
+			}
 			selectSQL += " ORDER BY " + order;
 		}
 
