@@ -41,9 +41,7 @@
                 <input type="email" id="email" name="email" autocomplete="off" required><br>
             
                 <label>Password</label><br>
-                <input type="password" id="password" name="password" placeholder="********" autocomplete="off" required
-                       pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,}$"
-                       title="La password deve contenere almeno 8 caratteri, una lettera maiuscola, una cifra e un carattere speciale"><br>
+                <input type="password" id="password" name="password" placeholder="********" autocomplete="off" required><br>
             
                 <input type="checkbox" id="checkbox" onclick="hidePassword();">
                 <label for="checkbox">Mostra Password</label><br>

@@ -107,23 +107,13 @@ public class UserService {
 	}
 
 	/**
-	 * Regex di complessita' della password: almeno 8 caratteri, una lettera maiuscola,
-	 * una cifra e un carattere speciale (non alfanumerico).
-	 * Applicata sia alla registrazione sia al cambio password di profilo.
-	 */
-	private static final String PASSWORD_REGEX =
-			"^(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,}$";
-
-	/**
 	 * Valida i dati di registrazione: nessun campo testuale puo' essere vuoto o di soli
-	 * spazi, il codice fiscale deve avere lunghezza 16 (Utente.CF CHAR(16)) e la password
-	 * deve rispettare le regole di complessita' (PASSWORD_REGEX).
+	 * spazi e il codice fiscale deve avere lunghezza 16 (Utente.CF CHAR(16)).
 	 */
 	public boolean isValidRegistration(UserBean user) {
 		return !isBlank(user.getNome()) && !isBlank(user.getCognome()) && !isBlank(user.getNumTelefono())
 				&& !isBlank(user.getEmail()) && !isBlank(user.getPassword())
-				&& user.getCodF() != null && user.getCodF().length() == 16
-				&& user.getPassword().matches(PASSWORD_REGEX);
+				&& user.getCodF() != null && user.getCodF().length() == 16;
 	}
 
 	/**
@@ -141,10 +131,9 @@ public class UserService {
 	}
 
 	/**
-	 * Valida una nuova password di profilo: non vuota/di soli spazi e conforme
-	 * alle regole di complessita' (PASSWORD_REGEX: min 8 car., 1 maiuscola, 1 cifra, 1 speciale).
+	 * Valida una nuova password di profilo: non vuota/di soli spazi.
 	 */
 	public boolean isValidNewPassword(String password) {
-		return !isBlank(password) && password.matches(PASSWORD_REGEX);
+		return !isBlank(password);
 	}
 }
