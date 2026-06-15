@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
-   <description></description>
+   <description>TEMPLATE del profilo di esecuzione. Copiare questo file in 'default.glbl' (stessa cartella) e adattare i valori macchina-specifici (mysqlExe, dbUser, dbPass) al proprio ambiente. Il file 'default.glbl' NON e' versionato (cfr. .gitignore).</description>
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
@@ -10,8 +10,8 @@
       <name>base</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Percorso del client mysql.exe (usato dalla fixture SeedReset per ripristinare il seed). Adattare alla propria installazione MySQL.</description>
-      <initValue>'C:\\Program Files\\MySQL\\MySQL Server 9.7\\bin\\mysql.exe'</initValue>
+      <description>Percorso del client mysql (usato dalla fixture SeedReset per ripristinare il seed). Adattare alla propria installazione MySQL. Esempi: Windows 'C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql.exe' · macOS '/opt/homebrew/bin/mysql' · Linux '/usr/bin/mysql'.</description>
+      <initValue>'PERCORSO_ASSOLUTO_AL_CLIENT_MYSQL'</initValue>
       <name>mysqlExe</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>dbUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Password del database (fixture di reset).</description>
-      <initValue>'3946'</initValue>
+      <description>Password del database (fixture di reset). Inserire la propria password locale di MySQL.</description>
+      <initValue>'LA_TUA_PASSWORD_MYSQL'</initValue>
       <name>dbPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

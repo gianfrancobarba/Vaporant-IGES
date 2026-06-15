@@ -103,7 +103,7 @@ public class UserBean {
 		s += email;
 		s += " - "; 
 		
-	    s += password;
+	    s += "[PROTECTED]";
 		s += " - "; 
 		
 	    s += tipo;

@@ -9,3 +9,7 @@ out/
 # === Documentazione di progetto (TEMPORANEAMENTE esclusa dai commit) ===
 # Rimuovere queste righe quando si vorrà versionare la documentazione.
 docs/
+
+# === Profilo Katalon locale (path e credenziali macchina-specifici) ===
+# Copiare 'default.glbl.example' in 'default.glbl' e adattarlo al proprio ambiente.
+testing/katalon/Vaporant-Baseline/Profiles/default.glbl

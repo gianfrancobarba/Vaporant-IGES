@@ -6,11 +6,14 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -24,6 +27,11 @@ public class ProductModelDM implements ProductModel {
 
 	private static final String TABLE_NAME = "prodotto";
 	private static final Logger LOGGER = Logger.getLogger(ProductModelDM.class.getName());
+
+	/** Valori ammessi per il parametro di ordinamento (colonne della tabella Prodotto). */
+	private static final Set<String> ORDER_WHITELIST = new HashSet<>(Arrays.asList(
+			"ID", "nome", "descrizione", "quantita", "prezzoAttuale", "tipo", "colore"
+	));
 
 	private static DataSource ds;
 
@@ -109,7 +117,13 @@ public class ProductModelDM implements ProductModel {
 
 		String selectSQL = "SELECT * FROM " + ProductModelDM.TABLE_NAME;
 
-		if (order != null && !order.equals("")) {
+		// Whitelist anti-SQLi: un criterio di ordinamento non vuoto è ammesso solo se è una
+		// colonna nota. Un valore non consentito (colonna inesistente o tentativo di injection)
+		// viene rifiutato con eccezione (gestita a monte → pagina d'errore), non eseguito in silenzio.
+		if (order != null && !order.trim().isEmpty()) {
+			if (!ORDER_WHITELIST.contains(order)) {
+				throw new SQLException("Parametro di ordinamento non consentito");
+			}
 			selectSQL += " ORDER BY " + order;
 		}
 
