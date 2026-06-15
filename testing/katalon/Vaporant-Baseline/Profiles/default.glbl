@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Percorso del client mysql.exe (usato dalla fixture SeedReset per ripristinare il seed). Adattare alla propria installazione MySQL.</description>
-      <initValue>'C:\\Program Files\\MySQL\\MySQL Server 9.7\\bin\\mysql.exe'</initValue>
+      <initValue>'/opt/homebrew/bin/mysql'</initValue>
       <name>mysqlExe</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

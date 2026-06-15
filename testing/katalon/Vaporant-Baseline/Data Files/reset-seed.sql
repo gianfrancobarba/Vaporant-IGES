@@ -29,10 +29,10 @@ DELETE FROM Utente;
 SET FOREIGN_KEY_CHECKS = 1;
 
 -- --- seed Utente (verbatim da storage.sql) ---
-INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', '$2a$12$eSGHRuuBCPzDBi/TdFf1YeGi7G0l7TzDPBkHMzVd3FPzQh5P44VJG','admin', NULL);
-INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', '$2a$12$5q3mY6Kqgh0dPgXoSV.zVOpMV12t6Fw9sPdz9AUP9MiVDkCvq5k4e','admin', NULL);
-INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '$2a$12$D1Rb3VhzZlxiOgfFYrGHpOZI2e18VYInV0kl7jTBZ3Wd5SJl7sLfq', 'admin', NULL);
-INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '$2a$12$N3WkLQR5uP8VtYmD4sXjRe1IJqLY5GFEkMm3bD8sZi5V1qFKB74PG', 'user', NULL);
+INSERT INTO Utente VALUES(1,'Gianfranco','Barba', '2002-02-15', 'BRBGFR02B15A508B', '3290026234', 'g.barba14@studenti.unisa.it', '$2a$12$g.c7oNc7197Wt2BR9eVAiOoxvK/tOejfZpPD3CW10Ov8P9lVFmU2i','admin', NULL);
+INSERT INTO Utente VALUES(2,'Luigi','Guida', '2002-11-09', 'GDDLGG10G11A908B', '3336543123', 'l.guida6@studenti.unisa.it', '$2a$12$9lnSPIScaJjUVDT94rFTI.vjzFialrQHToZ4B0A65ksVGJ3p5zVJu','admin', NULL);
+INSERT INTO Utente VALUES(3,'Francesco','Corcione', '2002-07-07', 'CRC07FRC07A567C', '3389076543', 'f.corcione5@studenti.unisa.it', '$2a$12$sChRszCXRN.9ytny/9bDReVqno6es.Z82djlHjbOQLE9ibvsBOpHa', 'admin', NULL);
+INSERT INTO Utente VALUES(4,'Tullio','Mansi', '2002-02-20', 'MNS02TLL20A678D', '3409876321', 't.mansi@studenti.unisa.it', '$2a$12$xbN.le//qKCsYfWwnyuzd.rJFNkeh0qjEwIzMcGByVev36n5rYKkS', 'user', NULL);
 
 -- --- seed Indirizzo (verbatim da storage.sql) ---
 INSERT INTO Indirizzo VALUES(1, 1, 'Italia', 'Avella', 'Via F. Vittoria', '12',  '83021', 'AV');

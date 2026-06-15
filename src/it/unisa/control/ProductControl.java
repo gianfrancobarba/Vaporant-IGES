@@ -85,9 +85,9 @@ public class ProductControl extends HttpServlet {
         }
 
         if("admin".equals(request.getSession().getAttribute("tipo")))
-        	response.sendRedirect("ProductViewAdmin.jsp");
+        	request.getRequestDispatcher("/ProductViewAdmin.jsp").forward(request, response);
         else
-        	response.sendRedirect("ProductView.jsp");
+        	request.getRequestDispatcher("/ProductView.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
