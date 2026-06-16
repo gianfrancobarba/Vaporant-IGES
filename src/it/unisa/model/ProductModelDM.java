@@ -186,15 +186,18 @@ public class ProductModelDM implements ProductModel {
 		// Ordinamento: colonna e direzione devono essere entrambe nella rispettiva whitelist.
 		String col = filter.getSortColumn();
 		String dir = filter.getSortDir();
+
+		if (dir != null && !dir.trim().isEmpty() && !DIRECTION_WHITELIST.contains(dir.toUpperCase())) {
+			throw new SQLException("Direzione di ordinamento non consentita: " + dir);
+		}
+
 		if (col != null && !col.trim().isEmpty()) {
 			if (!ORDER_WHITELIST.contains(col)) {
 				throw new SQLException("Parametro di ordinamento non consentito: " + col);
 			}
 			String safeDir = "ASC"; // default sicuro
-			if (dir != null && DIRECTION_WHITELIST.contains(dir.toUpperCase())) {
+			if (dir != null && !dir.trim().isEmpty()) {
 				safeDir = dir.toUpperCase();
-			} else if (dir != null && !dir.trim().isEmpty()) {
-				throw new SQLException("Direzione di ordinamento non consentita: " + dir);
 			}
 			sql.append(" ORDER BY ").append(col).append(" ").append(safeDir);
 		}

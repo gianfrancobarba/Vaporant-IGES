@@ -57,10 +57,10 @@
 				<legend>Filtra e Ordina</legend>
 
 				<label for="priceMin">Prezzo Min (€):</label>
-				<input type="number" name="priceMin" id="priceMin" min="0" step="0.01" placeholder="Es. 10.00" style="width: 80px;">
+				<input type="number" name="priceMin" id="priceMin" min="0.1" step="0.01" placeholder="Es. 10.00" style="width: 80px;">
 
-				<label for="priceMax">Prezzo Max (€):</label>
-				<input type="number" name="priceMax" id="priceMax" min="0" step="0.01" placeholder="Es. 50.00" style="width: 80px;">
+				<label for="priceMax" style="margin-left: 15px;">Prezzo Max (€):</label>
+				<input type="number" name="priceMax" id="priceMax" min="0.1" step="0.01" placeholder="Es. 50.00" style="width: 80px;">
 
 				<label for="inStock" style="margin-left: 15px;">Solo disponibili:</label>
 				<input type="checkbox" name="inStock" id="inStock">
@@ -74,6 +74,7 @@
 
 				<label for="dir">Direzione:</label>
 				<select name="dir" id="dir">
+					<option value="">(Nessuno)</option>
 					<option value="ASC">Crescente</option>
 					<option value="DESC">Decrescente</option>
 				</select>

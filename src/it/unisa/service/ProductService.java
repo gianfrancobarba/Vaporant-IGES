@@ -44,22 +44,27 @@ public class ProductService {
 	 *   (oracolo: empty-state "Non ci sono prodotti disponibili!".
 	 */
 	public Collection<ProductBean> findFiltered(ProductFilter filter) {
+		Float min = filter.getPriceMin();
+		Float max = filter.getPriceMax();
+
 		// Normalizzazione: prezzi negativi trattati come assenti
-		if (filter.getPriceMin() != null && filter.getPriceMin() < 0) {
-			filter.setPriceMin(null);
-		}
-		if (filter.getPriceMax() != null && filter.getPriceMax() < 0) {
-			filter.setPriceMax(null);
-		}
+		if (min != null && min < 0) min = null;
+		if (max != null && max < 0) max = null;
 
 		// Regola d'oracolo: min > max → range logicamente vuoto → nessuna query
-		if (filter.getPriceMin() != null && filter.getPriceMax() != null
-				&& filter.getPriceMin() > filter.getPriceMax()) {
+		if (min != null && max != null && min > max) {
 			return java.util.Collections.emptyList();
 		}
 
+		ProductFilter safeFilter = new ProductFilter();
+		safeFilter.setPriceMin(min);
+		safeFilter.setPriceMax(max);
+		safeFilter.setInStockOnly(filter.isInStockOnly());
+		safeFilter.setSortColumn(filter.getSortColumn());
+		safeFilter.setSortDir(filter.getSortDir());
+
 		try {
-			return productModel.findFiltered(filter);
+			return productModel.findFiltered(safeFilter);
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nel filtraggio del catalogo prodotti", e);
 		}

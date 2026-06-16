@@ -83,10 +83,8 @@ public class ProductControl extends HttpServlet {
                          || (maxStr != null && !maxStr.trim().isEmpty())
                          || (inStock != null && !inStock.trim().isEmpty());
 
-        try {
-            request.getSession().removeAttribute("products");
-
-            if (useFilter) {
+		try {
+			if (useFilter) {
                 ProductFilter filter = new ProductFilter();
                 // Parsing difensivo: valori non numerici ignorati (trattati come assenti)
                 if (minStr != null && !minStr.trim().isEmpty()) {
