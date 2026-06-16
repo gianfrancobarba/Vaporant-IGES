@@ -33,6 +33,11 @@ public class ProductModelDM implements ProductModel {
 			"ID", "nome", "descrizione", "quantita", "prezzoAttuale", "tipo", "colore"
 	));
 
+	/** Valori ammessi per la direzione di ordinamento (CR_04). */
+	private static final Set<String> DIRECTION_WHITELIST = new HashSet<>(Arrays.asList(
+			"ASC", "DESC"
+	));
+
 	private static DataSource ds;
 
 	// connessione al database
@@ -90,6 +95,8 @@ public class ProductModelDM implements ProductModel {
 					bean.setDescription(rs.getString("descrizione"));
 					bean.setPrice(rs.getFloat("prezzoAttuale"));
 					bean.setQuantityStorage(rs.getInt("quantita"));
+					bean.setTipo(rs.getString("tipo"));
+					bean.setColore(rs.getString("colore"));
 				}
 
 				return bean;
@@ -141,8 +148,83 @@ public class ProductModelDM implements ProductModel {
 				bean.setDescription(rs.getString("descrizione"));
 				bean.setPrice(rs.getFloat("prezzoAttuale"));
 				bean.setQuantityStorage(rs.getInt("quantita"));
+				bean.setTipo(rs.getString("tipo"));
+				bean.setColore(rs.getString("colore"));
 
 				products.add(bean);
+			}
+		}
+
+		return products;
+	}
+
+	@Override
+	public Collection<ProductBean> findFiltered(ProductFilter filter) throws SQLException {
+
+		// Costruzione dinamica del WHERE con soli parametri '?' (mai concatenazione diretta).
+		// I valori di ordinamento (colonna e direzione) sono validati via whitelist.
+		StringBuilder sql = new StringBuilder("SELECT * FROM ").append(TABLE_NAME);
+		List<Object> params = new ArrayList<>();
+		List<String> conditions = new ArrayList<>();
+
+		if (filter.getPriceMin() != null) {
+			conditions.add("prezzoAttuale >= ?");
+			params.add(filter.getPriceMin());
+		}
+		if (filter.getPriceMax() != null) {
+			conditions.add("prezzoAttuale <= ?");
+			params.add(filter.getPriceMax());
+		}
+		if (filter.isInStockOnly()) {
+			conditions.add("quantita > 0");
+		}
+
+		if (!conditions.isEmpty()) {
+			sql.append(" WHERE ").append(String.join(" AND ", conditions));
+		}
+
+		// Ordinamento: colonna e direzione devono essere entrambe nella rispettiva whitelist.
+		String col = filter.getSortColumn();
+		String dir = filter.getSortDir();
+		if (col != null && !col.trim().isEmpty()) {
+			if (!ORDER_WHITELIST.contains(col)) {
+				throw new SQLException("Parametro di ordinamento non consentito: " + col);
+			}
+			String safeDir = "ASC"; // default sicuro
+			if (dir != null && DIRECTION_WHITELIST.contains(dir.toUpperCase())) {
+				safeDir = dir.toUpperCase();
+			} else if (dir != null && !dir.trim().isEmpty()) {
+				throw new SQLException("Direzione di ordinamento non consentita: " + dir);
+			}
+			sql.append(" ORDER BY ").append(col).append(" ").append(safeDir);
+		}
+
+		Collection<ProductBean> products = new LinkedList<>();
+
+		try (Connection connection = ds.getConnection();
+				PreparedStatement ps = connection.prepareStatement(sql.toString())) {
+
+			for (int i = 0; i < params.size(); i++) {
+				Object v = params.get(i);
+				if (v instanceof Float) {
+					ps.setFloat(i + 1, (Float) v);
+				} else {
+					ps.setObject(i + 1, v);
+				}
+			}
+
+			try (ResultSet rs = ps.executeQuery()) {
+				while (rs.next()) {
+					ProductBean bean = new ProductBean();
+					bean.setCode(rs.getInt("ID"));
+					bean.setName(rs.getString("nome"));
+					bean.setDescription(rs.getString("descrizione"));
+					bean.setPrice(rs.getFloat("prezzoAttuale"));
+					bean.setQuantityStorage(rs.getInt("quantita"));
+					bean.setTipo(rs.getString("tipo"));
+					bean.setColore(rs.getString("colore"));
+					products.add(bean);
+				}
 			}
 		}
 

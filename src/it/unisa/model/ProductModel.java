@@ -15,6 +15,8 @@ public interface ProductModel {
 
 	public Collection<ProductBean> findAll(String order) throws SQLException;
 
+	public Collection<ProductBean> findFiltered(ProductFilter filter) throws SQLException;
+
 	void updateQuantityStorage(ProductBean prod, int quantita) throws SQLException;
 
 	// aggiorna la giacenza sulla connessione fornita (transazione governata dal service)
