@@ -46,6 +46,10 @@ insert into prodotto values (1,"noisy creek 2", "box semimeccanica", 12, 29.99, 
 insert into prodotto values (2,"kiwi", "pod entry level", 25, 79.99, 'Svapo', 'Rosa');
 insert into prodotto values (3,"voopoo drag 2", "box completa", 5, 49.99, 'Svapo', 'Nero');
 insert into prodotto values (4,"smok nord", "pod", 22, 69.99, 'Svapo', 'Nero');
+insert into prodotto values (5,"eleaf istick", "box batteria esaurita", 0, 39.99, 'Svapo', 'Grigio');
+insert into prodotto values (6,"resistenza ricambio", "coil singola", 100, 0.10, 'Svapo', 'Acciaio');
+insert into prodotto values (7,"dicodes dani", "box high end", 2, 249.99, 'Svapo', 'Nero');
+
 
 -- --- seed Ordine (verbatim da storage.sql) ---
 INSERT INTO Ordine VALUES (1,4,4,36.58,'2023-05-08', 'PayPal');
