@@ -82,3 +82,15 @@ CREATE TABLE Contenuto(
 INSERT INTO Contenuto VALUES(1,1,1,29.99,22);
 INSERT INTO Contenuto VALUES(2,2,1,79.99,22);
 INSERT INTO Contenuto VALUES(3,1,2,29.99,22);
+
+-- CR_04 C5: indici di supporto al filtraggio del catalogo (prezzoAttuale, quantita)
+CREATE INDEX idx_prodotto_prezzo    ON Prodotto(prezzoAttuale);
+CREATE INDEX idx_prodotto_quantita  ON Prodotto(quantita);
+
+-- CR_04 C5: indici espliciti sulle colonne FK (in InnoDB gia' auto-indicizzate dalla FK)
+CREATE INDEX idx_indirizzo_utente           ON Indirizzo(ID_Utente);
+CREATE INDEX idx_ordine_utente              ON Ordine(ID_Utente);
+CREATE INDEX idx_ordine_indirizzo           ON Ordine(ID_Indirizzo);
+CREATE INDEX idx_contenuto_prodotto         ON Contenuto(ID_Prodotto);
+CREATE INDEX idx_contenuto_ordine           ON Contenuto(ID_Ordine);
+CREATE INDEX idx_utente_indirizzo_fatt      ON Utente(ID_IndirizzoFatturazione);
