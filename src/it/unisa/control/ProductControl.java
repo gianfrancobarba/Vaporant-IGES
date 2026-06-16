@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import it.unisa.exception.ServiceException;
 import it.unisa.model.ProductBean;
+import it.unisa.model.ProductFilter;
 import it.unisa.service.ProductService;
 import javax.servlet.http.HttpSession;
 
@@ -69,16 +70,43 @@ public class ProductControl extends HttpServlet {
                 LOGGER.log(Level.SEVERE, "Errore nella gestione del prodotto", e);
           }
 
-        String sort = request.getParameter("sort");
+        // Routing filtri (CR_04): se e' presente almeno un parametro di filtro o di
+        // direzione d'ordinamento si usa findFiltered; altrimenti findAll (RF_GC_12 invariato).
+        String sort    = request.getParameter("sort");
+        String dir     = request.getParameter("dir");
+        String minStr  = request.getParameter("priceMin");
+        String maxStr  = request.getParameter("priceMax");
+        String inStock = request.getParameter("inStock");
+
+        boolean useFilter = (dir != null && !dir.trim().isEmpty())
+                         || (minStr != null && !minStr.trim().isEmpty())
+                         || (maxStr != null && !maxStr.trim().isEmpty())
+                         || (inStock != null && !inStock.trim().isEmpty());
 
         try {
-
             request.getSession().removeAttribute("products");
-            request.getSession().setAttribute("products", productService.findAll(sort));
+
+            if (useFilter) {
+                ProductFilter filter = new ProductFilter();
+                // Parsing difensivo: valori non numerici ignorati (trattati come assenti)
+                if (minStr != null && !minStr.trim().isEmpty()) {
+                    try { filter.setPriceMin(Float.parseFloat(minStr)); }
+                    catch (NumberFormatException ignored) {}
+                }
+                if (maxStr != null && !maxStr.trim().isEmpty()) {
+                    try { filter.setPriceMax(Float.parseFloat(maxStr)); }
+                    catch (NumberFormatException ignored) {}
+                }
+                filter.setInStockOnly("on".equalsIgnoreCase(inStock) || "true".equalsIgnoreCase(inStock));
+                filter.setSortColumn(sort);
+                filter.setSortDir(dir);
+                request.getSession().setAttribute("products", productService.findFiltered(filter));
+            } else {
+                request.getSession().setAttribute("products", productService.findAll(sort));
+            }
 
         } catch (ServiceException e) {
-            // ordinamento non valido (es. colonna inesistente): non si inghiottisce
-            // l'errore in silenzio, l'utente viene avvisato.
+            // sort o dir fuori whitelist: l'utente viene avvisato con la pagina d'errore.
             LOGGER.log(Level.SEVERE, "Errore nel recupero dei prodotti", e);
             response.sendRedirect("error-page.jsp");
             return;
