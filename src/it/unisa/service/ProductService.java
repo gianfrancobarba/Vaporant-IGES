@@ -8,6 +8,7 @@ import java.util.Map;
 
 import it.unisa.exception.ServiceException;
 import it.unisa.model.ProductBean;
+import it.unisa.model.ProductFilter;
 import it.unisa.model.ProductModel;
 import it.unisa.model.ProductModelDM;
 
@@ -32,6 +33,35 @@ public class ProductService {
 			return productModel.findAll(sort);
 		} catch (SQLException e) {
 			throw new ServiceException("Errore nel recupero del catalogo prodotti", e);
+		}
+	}
+
+	/**
+	 * Restituisce il catalogo filtrato secondo i criteri in {@link ProductFilter}.
+	 * Normalizzazione criteri:
+	 * - prezzi null o negativi → bound ignorato (nessun filtro su quel lato);
+	 * - priceMin > priceMax → range vuoto → lista vuota restituita senza query al DB
+	 *   (oracolo: empty-state "Non ci sono prodotti disponibili!".
+	 */
+	public Collection<ProductBean> findFiltered(ProductFilter filter) {
+		// Normalizzazione: prezzi negativi trattati come assenti
+		if (filter.getPriceMin() != null && filter.getPriceMin() < 0) {
+			filter.setPriceMin(null);
+		}
+		if (filter.getPriceMax() != null && filter.getPriceMax() < 0) {
+			filter.setPriceMax(null);
+		}
+
+		// Regola d'oracolo: min > max → range logicamente vuoto → nessuna query
+		if (filter.getPriceMin() != null && filter.getPriceMax() != null
+				&& filter.getPriceMin() > filter.getPriceMax()) {
+			return java.util.Collections.emptyList();
+		}
+
+		try {
+			return productModel.findFiltered(filter);
+		} catch (SQLException e) {
+			throw new ServiceException("Errore nel filtraggio del catalogo prodotti", e);
 		}
 	}
 
