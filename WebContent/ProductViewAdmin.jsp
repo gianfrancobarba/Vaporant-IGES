@@ -50,6 +50,39 @@
   			</div>
 		</div>
 		<h1>SCOPRI I NOSTRI PRODOTTI</h1>
+
+		<!-- Inizio Form Filtro (CR_04) -->
+		<form action="product" method="GET" class="filter-form" style="text-align: center; margin-bottom: 20px;">
+			<fieldset style="display: inline-block; padding: 15px; border-radius: 8px;">
+				<legend>Filtra e Ordina</legend>
+
+				<label for="priceMin">Prezzo Min (€):</label>
+				<input type="number" name="priceMin" id="priceMin" min="0" step="0.01" placeholder="Es. 10.00" style="width: 80px;">
+
+				<label for="priceMax">Prezzo Max (€):</label>
+				<input type="number" name="priceMax" id="priceMax" min="0" step="0.01" placeholder="Es. 50.00" style="width: 80px;">
+
+				<label for="inStock" style="margin-left: 15px;">Solo disponibili:</label>
+				<input type="checkbox" name="inStock" id="inStock">
+
+				<label for="sort" style="margin-left: 15px;">Ordina per:</label>
+				<select name="sort" id="sort">
+					<option value="">(Nessuno)</option>
+					<option value="prezzoAttuale">Prezzo</option>
+					<option value="nome">Nome</option>
+				</select>
+
+				<label for="dir">Direzione:</label>
+				<select name="dir" id="dir">
+					<option value="ASC">Crescente</option>
+					<option value="DESC">Decrescente</option>
+				</select>
+
+				<input type="submit" value="Applica" class="buttonform button1" style="margin-left: 15px;">
+			</fieldset>
+		</form>
+		<!-- Fine Form Filtro -->
+
 		<div class = "slider">
 			<section id="image-carousel" class="splide" aria-label="Beautiful Images">
   				<div class="splide__track">
