@@ -39,7 +39,7 @@
 		<h1>SCOPRI I NOSTRI PRODOTTI</h1>
 
 		<!-- Inizio Form Filtro (CR_04) -->
-		<form action="product" method="GET" class="filter-form" style="text-align: center; margin-bottom: 20px;">
+		<form action="product" method="GET" class="filter-form" style="text-align: center; margin-bottom: 20px; position: relative; z-index: 10;">
 			<fieldset style="display: inline-block; padding: 15px; border-radius: 8px;">
 				<legend>Filtra e Ordina</legend>
 
