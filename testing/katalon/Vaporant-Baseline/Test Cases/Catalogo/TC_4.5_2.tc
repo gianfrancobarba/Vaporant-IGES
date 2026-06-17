@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro fascia di prezzo: solo prezzo minimo (BVA bordo) (RF_GC_26)</description>
+   <name>TC_4.5_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90f7438e-68d6-44e7-872f-a0b15b6e9be5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro fascia di prezzo: min maggiore di max -> catalogo vuoto (RF_GC_26)</description>
+   <name>TC_4.5_4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1dad61bc-03ce-4c51-a774-921a2f80899e</testCaseGuid>
+</TestCaseEntity>

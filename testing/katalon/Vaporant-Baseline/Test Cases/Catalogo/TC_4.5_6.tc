@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro prezzo non numerico: input ignorato (robustezza) (RF_GC_26)</description>
+   <name>TC_4.5_6</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69e5b2bc-2255-4de4-a853-848670304b19</testCaseGuid>
+</TestCaseEntity>

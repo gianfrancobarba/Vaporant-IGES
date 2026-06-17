@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro fascia di prezzo: solo prezzo massimo (RF_GC_26)</description>
+   <name>TC_4.5_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb8704ec-a847-4be5-85c1-01475d639ab1</testCaseGuid>
+</TestCaseEntity>

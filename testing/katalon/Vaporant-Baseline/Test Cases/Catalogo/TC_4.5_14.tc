@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sicurezza: SQL injection sul parametro sort -> pagina d'errore (RF_GC_26)</description>
+   <name>TC_4.5_14</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>654cbada-42de-42cc-8d68-d7ae9d866c59</testCaseGuid>
+</TestCaseEntity>

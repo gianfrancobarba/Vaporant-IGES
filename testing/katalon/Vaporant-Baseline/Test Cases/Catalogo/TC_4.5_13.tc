@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sicurezza: colonna di ordinamento fuori whitelist -> pagina d'errore (RF_GC_26)</description>
+   <name>TC_4.5_13</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e28ffaab-e22c-4f98-b4e3-62a4de8c7c30</testCaseGuid>
+</TestCaseEntity>

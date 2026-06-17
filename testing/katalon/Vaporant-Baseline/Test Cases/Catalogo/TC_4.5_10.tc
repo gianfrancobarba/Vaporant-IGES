@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinamento per prezzo decrescente (RF_GC_26)</description>
+   <name>TC_4.5_10</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>324908d7-696f-473b-ade6-180faca32827</testCaseGuid>
+</TestCaseEntity>

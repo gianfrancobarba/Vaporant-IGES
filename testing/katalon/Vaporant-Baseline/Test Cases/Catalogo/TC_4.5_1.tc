@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro fascia di prezzo: range valido [40,70] (RF_GC_26)</description>
+   <name>TC_4.5_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52031079-3382-4b46-929d-0d4f21e4ab19</testCaseGuid>
+</TestCaseEntity>

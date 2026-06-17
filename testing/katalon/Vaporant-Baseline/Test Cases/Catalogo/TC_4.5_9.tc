@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinamento per prezzo crescente (RF_GC_26)</description>
+   <name>TC_4.5_9</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fccb538c-fd6f-443e-a867-1ace9e809a4c</testCaseGuid>
+</TestCaseEntity>

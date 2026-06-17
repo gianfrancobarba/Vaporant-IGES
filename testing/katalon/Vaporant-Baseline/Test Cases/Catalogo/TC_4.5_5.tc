@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro fascia di prezzo: BVA bordo inferiore di dominio 0.10 (RF_GC_26)</description>
+   <name>TC_4.5_5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15b24861-7df5-45bd-8f13-60b45346d3d4</testCaseGuid>
+</TestCaseEntity>

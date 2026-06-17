@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro prezzo negativo: bound ignorato (robustezza) (RF_GC_26)</description>
+   <name>TC_4.5_7</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>923fb6a5-a444-4d66-985d-f1a4547e8ea6</testCaseGuid>
+</TestCaseEntity>

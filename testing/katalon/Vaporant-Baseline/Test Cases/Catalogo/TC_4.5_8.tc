@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtro disponibilita': solo prodotti in stock (RF_GC_26)</description>
+   <name>TC_4.5_8</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>652af46d-676f-403f-9deb-2a164d1cfa9d</testCaseGuid>
+</TestCaseEntity>

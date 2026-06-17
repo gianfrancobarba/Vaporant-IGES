@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sicurezza: direzione di ordinamento fuori whitelist -> pagina d'errore (RF_GC_26)</description>
+   <name>TC_4.5_15</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70284c81-e294-47ab-b0d0-1c5c5a967ed0</testCaseGuid>
+</TestCaseEntity>

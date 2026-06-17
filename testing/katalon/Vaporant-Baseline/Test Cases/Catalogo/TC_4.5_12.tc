@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinamento per nome decrescente (RF_GC_26)</description>
+   <name>TC_4.5_12</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96c7c6df-ca31-42fd-9f76-dacd84216dae</testCaseGuid>
+</TestCaseEntity>

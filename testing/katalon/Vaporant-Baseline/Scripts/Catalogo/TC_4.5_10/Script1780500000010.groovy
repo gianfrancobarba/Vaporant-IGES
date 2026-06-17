@@ -1,0 +1,16 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+// TC_4.5_10 — Ordinamento per prezzo decrescente (sort=prezzoAttuale, dir=DESC) (RF_GC_26) — atteso PASSED
+// Ordine atteso: "dicodes dani" (249.99) primo ... "resistenza ricambio" (0.10) ultimo.
+// Ordinamento valutato dallo screenshot (convenzione TC_4.2).
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.base + 'ProductView.jsp')
+WebUI.delay(2)
+WebUI.navigateToUrl(GlobalVariable.base + 'product?sort=prezzoAttuale&dir=DESC')
+WebUI.delay(2)
+WebUI.takeScreenshot()
+WebUI.verifyTextPresent('SCOPRI I NOSTRI PRODOTTI', false)
+WebUI.verifyTextPresent('dicodes dani', false)
+WebUI.verifyTextPresent('resistenza ricambio', false)
+WebUI.closeBrowser()

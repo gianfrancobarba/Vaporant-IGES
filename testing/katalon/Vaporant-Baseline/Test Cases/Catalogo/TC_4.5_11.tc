@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ordinamento per nome crescente (RF_GC_26)</description>
+   <name>TC_4.5_11</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ed44f27-1952-43f6-a103-a2b8628bcf12</testCaseGuid>
+</TestCaseEntity>
