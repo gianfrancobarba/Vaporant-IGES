@@ -16,3 +16,10 @@
   - `.dockerignore` (N - Nuovo file)
 - **Note / Razionale:** 
   Creata una variante del file `context.xml` in cui l'URL, l'username e la password del DataSource JNDI sono estratti dall'ambiente tramite placeholder (es. `${DB_USER}`). Questo file sarà iniettato nell'immagine Docker, garantendo la totale assenza di credenziali hardcoded e preservando il `context.xml` originale per lo sviluppo con IntelliJ. È stato inoltre configurato il `.dockerignore` per limitare il contesto di build (escludendo `out/`, `testing/`, `docs/`, ecc.), riducendo tempi di build e dimensioni.
+
+## Unità 3: `Dockerfile` multi-stage
+- **Commit atteso:** `feat: containerizzazione dell'applicazione con Dockerfile multi-stage`
+- **File toccati (SIS parziale):**
+  - `Dockerfile` (N - Nuovo file)
+- **Note / Razionale:** 
+  Definito il container applicativo con un approccio multi-stage. Lo stage di `build` usa Maven per impacchettare l'applicazione partendo dai sorgenti. Lo stage di `runtime` usa Tomcat 9, ripulisce le webapp di default, copia il connettore MySQL nelle librerie condivise (`$CATALINA_HOME/lib`), e inietta la nostra configurazione JNDI. È stata inoltre abilitata esplicitamente la lettura delle variabili d'ambiente (`EnvironmentPropertySource`) tramite modifica al `catalina.properties`.
