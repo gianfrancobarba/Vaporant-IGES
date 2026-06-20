@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Variante parametrizzata per Docker. Il driverClassName e le credenziali arrivano dalle variabili d'ambiente. -->
+    <Resource name="jdbc/storage"
+        auth="Container"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="${DB_USER}"
+        password="${DB_PASSWORD}" 
+        url="jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+</Context>
