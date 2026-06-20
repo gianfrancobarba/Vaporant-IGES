@@ -69,8 +69,8 @@
                 <configuration>
                     <!-- Permette a Maven di trovare la struttura Web non convenzionale -->
                     <warSourceDirectory>WebContent</warSourceDirectory>
-                    <!-- Escludiamo i jar manuali per evitare duplicazioni -->
-                    <packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
+                    <!-- Escludiamo i jar manuali sorgenti per evitare duplicazioni, mantenendo le dipendenze Maven -->
+                    <warSourceExcludes>WEB-INF/lib/*.jar</warSourceExcludes>
                 </configuration>
             </plugin>
         </plugins>
