@@ -3,6 +3,7 @@ version: '3.8'
 services:
   db:
     image: mysql:8.0
+    command: --lower_case_table_names=1
     container_name: vaporant-db
     environment:
       MYSQL_ROOT_PASSWORD: 3946
