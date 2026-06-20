@@ -49,14 +49,14 @@ CREATE TABLE Prodotto(
     tipo VARCHAR(20) NOT NULL,
     colore VARCHAR(20) NOT NULL
 );
-insert into prodotto values (1,"noisy creek 2", "box semimeccanica", 12, 29.99, 'Svapo', 'Argento');
-insert into prodotto values (2,"kiwi", "pod entry level", 25, 79.99, 'Svapo', 'Rosa');
-insert into prodotto values (3,"voopoo drag 2", "box completa", 5, 49.99, 'Svapo', 'Nero');
-insert into prodotto values (4,"smok nord", "pod", 22, 69.99, 'Svapo', 'Nero');
+INSERT INTO Prodotto values (1,"noisy creek 2", "box semimeccanica", 12, 29.99, 'Svapo', 'Argento');
+INSERT INTO Prodotto values (2,"kiwi", "pod entry level", 25, 79.99, 'Svapo', 'Rosa');
+INSERT INTO Prodotto values (3,"voopoo drag 2", "box completa", 5, 49.99, 'Svapo', 'Nero');
+INSERT INTO Prodotto values (4,"smok nord", "pod", 22, 69.99, 'Svapo', 'Nero');
 -- CR_04 C5: Arricchimento seed per test filtri catalogo
-insert into prodotto values (5,"eleaf istick", "box batteria esaurita", 0, 39.99, 'Svapo', 'Grigio'); -- test: stock 0
-insert into prodotto values (6,"resistenza ricambio", "coil singola", 100, 0.10, 'Svapo', 'Acciaio'); -- test: boundary min prezzo
-insert into prodotto values (7,"dicodes dani", "box high end", 2, 249.99, 'Svapo', 'Nero'); -- test: prezzo alto e ord.
+INSERT INTO Prodotto values (5,"eleaf istick", "box batteria esaurita", 0, 39.99, 'Svapo', 'Grigio'); -- test: stock 0
+INSERT INTO Prodotto values (6,"resistenza ricambio", "coil singola", 100, 0.10, 'Svapo', 'Acciaio'); -- test: boundary min prezzo
+INSERT INTO Prodotto values (7,"dicodes dani", "box high end", 2, 249.99, 'Svapo', 'Nero'); -- test: prezzo alto e ord.
 
 
 
