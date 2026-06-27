@@ -5,6 +5,7 @@ services:
     image: mysql:8.0
     command: --lower_case_table_names=1
     container_name: vaporant-db
+    restart: unless-stopped
     environment:
       # La password arriva dal file .env (vedi .env.example); nessun segreto in chiaro nel compose.
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
@@ -22,6 +23,7 @@ services:
   app:
     build: .
     container_name: vaporant-app
+    restart: unless-stopped
     ports:
       - "8080:8080"
     environment:
@@ -36,6 +38,14 @@ services:
       db:
         # L'app si avvia solo quando il database è "healthy" (pronto a ricevere connessioni)
         condition: service_healthy
+    healthcheck:
+      # Probe HTTP sul context root: serve la welcome-file ProductView.jsp (catalogo, accessibile ospite).
+      # start_period assorbe il tempo di avvio di Tomcat e di deploy della WAR.
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/Vaporant_IGES_war_exploded/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
 
 volumes:
   mysql-data:
