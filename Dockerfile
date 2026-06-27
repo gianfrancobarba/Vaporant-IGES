@@ -25,8 +25,10 @@ RUN echo "org.apache.tomcat.util.digester.PROPERTY_SOURCE=org.apache.tomcat.util
 # Copia la variante parametrizzata del context.xml
 COPY docker/context.xml /usr/local/tomcat/conf/context.xml
 
-# Copia il pacchetto .war compilato dallo stage precedente
-COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/ROOT.war
+# Copia il pacchetto .war compilato dallo stage precedente.
+# Il nome del file determina il context path: 'Vaporant_IGES_war_exploded' allinea il container
+# all'ambiente di sviluppo IntelliJ e alla base dei test Katalon (http://localhost:8080/Vaporant_IGES_war_exploded/).
+COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/Vaporant_IGES_war_exploded.war
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
