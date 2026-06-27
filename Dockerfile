@@ -30,5 +30,15 @@ COPY docker/context.xml /usr/local/tomcat/conf/context.xml
 # all'ambiente di sviluppo IntelliJ e alla base dei test Katalon (http://localhost:8080/Vaporant_IGES_war_exploded/).
 COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/Vaporant_IGES_war_exploded.war
 
+# Installa curl: serve all'healthcheck HTTP dell'applicazione (l'immagine base non lo include)
+RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+
+# Esegue Tomcat con un utente non privilegiato (principio del minimo privilegio).
+# Tutte le operazioni che richiedono root (copie, append, install) sono già concluse sopra;
+# la porta 8080 (> 1024) è apribile anche da un utente non-root.
+RUN groupadd -r tomcat && useradd -r -g tomcat tomcat \
+ && chown -R tomcat:tomcat /usr/local/tomcat
+USER tomcat
+
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
