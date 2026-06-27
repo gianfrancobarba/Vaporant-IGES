@@ -6,7 +6,8 @@ services:
     command: --lower_case_table_names=1
     container_name: vaporant-db
     environment:
-      MYSQL_ROOT_PASSWORD: 3946
+      # La password arriva dal file .env (vedi .env.example); nessun segreto in chiaro nel compose.
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     volumes:
       # Monta lo script SQL per creare automaticamente il database e inserire i seed
       - ./db/storage.sql:/docker-entrypoint-initdb.d/01-storage.sql:ro
@@ -29,7 +30,8 @@ services:
       DB_PORT: 3306
       DB_NAME: storage
       DB_USER: root
-      DB_PASSWORD: 3946
+      # Stessa password del servizio db, presa dal file .env (nessun segreto in chiaro).
+      DB_PASSWORD: ${DB_PASSWORD}
     depends_on:
       db:
         # L'app si avvia solo quando il database è "healthy" (pronto a ricevere connessioni)

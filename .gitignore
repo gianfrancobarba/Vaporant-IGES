@@ -3,6 +3,13 @@
 *.iml
 out/
 
+# === Build Maven (immagine Docker) ===
+target/
+
+# === Variabili d'ambiente (segreti locali) ===
+# Copiare '.env.example' in '.env' e impostare le credenziali reali.
+.env
+
 # === OS ===
 .DS_Store
 
