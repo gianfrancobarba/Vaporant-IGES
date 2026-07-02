@@ -1,8 +1,10 @@
 # Profilo di TEST: espone MySQL all'host SOLO per la regressione Katalon contro il container.
-# La fixture SeedReset usa un client mysql locale su localhost:3306 per ripristinare il seed.
+# Mappa la porta host 3307 -> 3306 del container per NON entrare in conflitto con un
+# MySQL locale gia' in ascolto sulla 3306. La fixture SeedReset si connette a 127.0.0.1:3307
+# (vedi GlobalVariable dbPort nel profilo Katalon).
 # Uso:  docker compose -f docker-compose.yml -f docker-compose.test.yml up --build
 # Il docker-compose.yml di default resta hardened (DB non esposto sull'host).
 services:
   db:
     ports:
-      - "3306:3306"
+      - "3307:3306"

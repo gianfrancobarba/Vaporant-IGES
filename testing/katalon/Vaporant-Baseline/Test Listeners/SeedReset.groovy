@@ -35,9 +35,14 @@ class SeedReset {
 			return
 		}
 
-		// mysql <db> --user=.. --password=..  < reset-seed.sql
+		// mysql --host=127.0.0.1 --protocol=TCP --port=<dbPort> --user=.. --password=.. <db>  < reset-seed.sql
+		// host/porta espliciti su TCP: consentono di puntare il client a un DB su porta non standard
+		// (es. il container su 3307, vedi docker-compose.test.yml) senza conflitti col MySQL locale.
 		List<String> cmd = [
 			GlobalVariable.mysqlExe as String,
+			'--host=127.0.0.1',
+			'--protocol=TCP',
+			'--port=' + GlobalVariable.dbPort,
 			'--user=' + GlobalVariable.dbUser,
 			'--password=' + GlobalVariable.dbPass,
 			GlobalVariable.dbName as String

@@ -30,6 +30,11 @@
       <name>dbName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>Porta TCP del database per la fixture di reset. '3306' per il MySQL locale (deploy IntelliJ); '3307' per la regressione contro il container (docker-compose.test.yml mappa 3307 -> 3306).</description>
+      <initValue>'3306'</initValue>
+      <name>dbPort</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>Se true, la fixture SeedReset ripristina il seed prima di ogni test (indipendenza/ripetibilita'). Mettere false per disattivarla.</description>
       <initValue>true</initValue>
       <name>resetSeed</name>
