@@ -1,0 +1,1612 @@
+2026-06-07 14:45:10.418 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-07 14:45:10.419 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-07 14:45:11.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Profilo
+2026-06-07 14:45:11.212 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-07 14:45:11.213 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-07 14:45:11.213 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-07 14:45:11.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-07 14:45:11.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-07 14:45:11.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-07 14:45:11.296 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:45:11.296 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.1_1
+2026-06-07 14:45:11.558 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.1_1
+2026-06-07 14:45:11.605 DEBUG testcase.TC_3.1_1                        - 1: openBrowser("")
+2026-06-07 14:45:11.793 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:45:11.827 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:45:13.507 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cadedccd1fac5c6169ec9eb9768e41e7
+2026-06-07 14:45:13.508 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:45:13.508 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:45:13.508 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:45:13.512 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:45:13.540 DEBUG testcase.TC_3.1_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:45:14.370 DEBUG testcase.TC_3.1_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:45:14.371 DEBUG testcase.TC_3.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:14.377 DEBUG testcase.TC_3.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:14.382 DEBUG testcase.TC_3.1_1                        - 3: return t
+2026-06-07 14:45:15.058 DEBUG testcase.TC_3.1_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:45:15.060 DEBUG testcase.TC_3.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:15.061 DEBUG testcase.TC_3.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:15.061 DEBUG testcase.TC_3.1_1                        - 3: return t
+2026-06-07 14:45:15.638 DEBUG testcase.TC_3.1_1                        - 5: click(css("#submit"))
+2026-06-07 14:45:15.638 DEBUG testcase.TC_3.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:15.639 DEBUG testcase.TC_3.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:15.639 DEBUG testcase.TC_3.1_1                        - 3: return t
+2026-06-07 14:45:15.961 DEBUG testcase.TC_3.1_1                        - 6: delay(2)
+2026-06-07 14:45:17.989 DEBUG testcase.TC_3.1_1                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:45:18.484 DEBUG testcase.TC_3.1_1                        - 8: delay(1)
+2026-06-07 14:45:19.489 DEBUG testcase.TC_3.1_1                        - 9: takeScreenshot()
+2026-06-07 14:45:19.836 DEBUG testcase.TC_3.1_1                        - 10: verifyTextPresent("t.mansi@studenti.unisa.it", false)
+2026-06-07 14:45:20.139 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 't.mansi@studenti.unisa.it' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 't.mansi@studenti.unisa.it' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178060030101.run(Script178060030101.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-07 14:45:20.226 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 't.mansi@studenti.unisa.it' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 't.mansi@studenti.unisa.it' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178060030101.run(Script178060030101.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 't.mansi@studenti.unisa.it' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+2026-06-07 14:45:20.227 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.1_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 't.mansi@studenti.unisa.it' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178060030101.run(Script178060030101.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 't.mansi@studenti.unisa.it' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-06-07 14:45:20.228 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.1_1
+2026-06-07 14:45:20.231 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:45:20.231 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.1_2
+2026-06-07 14:45:20.305 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.1_2
+2026-06-07 14:45:20.332 DEBUG testcase.TC_3.1_2                        - 1: openBrowser("")
+2026-06-07 14:45:20.333 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:45:20.462 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:45:20.464 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:45:21.214 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b158bdb4266c36c9b3f59951168b3a47
+2026-06-07 14:45:21.215 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:45:21.215 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:45:21.215 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:45:21.215 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:45:21.224 DEBUG testcase.TC_3.1_2                        - 2: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:45:21.264 DEBUG testcase.TC_3.1_2                        - 3: delay(1)
+2026-06-07 14:45:22.277 DEBUG testcase.TC_3.1_2                        - 4: takeScreenshot()
+2026-06-07 14:45:22.572 DEBUG testcase.TC_3.1_2                        - 5: verifyTextPresent("Non hai un account", false, CONTINUE_ON_FAILURE)
+2026-06-07 14:45:22.821 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Non hai un account' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Non hai un account' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178060030102.run(Script178060030102.groovy:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-07 14:45:22.823 DEBUG testcase.TC_3.1_2                        - 6: closeBrowser()
+2026-06-07 14:45:22.954 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.1_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Non hai un account' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Non hai un account' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178060030102.run(Script178060030102.groovy:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178060030102.run(Script178060030102.groovy:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Non hai un account' is not present on page 
+	... 22 more
+
+2026-06-07 14:45:22.955 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.1_2
+2026-06-07 14:45:22.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:45:22.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.2_1
+2026-06-07 14:45:23.031 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.2_1
+2026-06-07 14:45:23.069 DEBUG testcase.TC_3.2_1                        - 1: openBrowser("")
+2026-06-07 14:45:23.070 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:45:23.071 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:45:23.862 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fd014937c1d25870598a37b6eec1abe8
+2026-06-07 14:45:23.863 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:45:23.863 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:45:23.863 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:45:23.865 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:45:23.875 DEBUG testcase.TC_3.2_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:45:24.567 DEBUG testcase.TC_3.2_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:45:24.571 DEBUG testcase.TC_3.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:24.574 DEBUG testcase.TC_3.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:24.576 DEBUG testcase.TC_3.2_1                        - 3: return t
+2026-06-07 14:45:25.140 DEBUG testcase.TC_3.2_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:45:25.141 DEBUG testcase.TC_3.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:25.141 DEBUG testcase.TC_3.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:25.143 DEBUG testcase.TC_3.2_1                        - 3: return t
+2026-06-07 14:45:25.679 DEBUG testcase.TC_3.2_1                        - 5: click(css("#submit"))
+2026-06-07 14:45:25.679 DEBUG testcase.TC_3.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:25.681 DEBUG testcase.TC_3.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:25.681 DEBUG testcase.TC_3.2_1                        - 3: return t
+2026-06-07 14:45:25.990 DEBUG testcase.TC_3.2_1                        - 6: delay(2)
+2026-06-07 14:45:27.994 DEBUG testcase.TC_3.2_1                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:45:28.056 DEBUG testcase.TC_3.2_1                        - 8: delay(1)
+2026-06-07 14:45:29.070 DEBUG testcase.TC_3.2_1                        - 9: click(css("#editButton"))
+2026-06-07 14:45:29.071 DEBUG testcase.TC_3.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:29.072 DEBUG testcase.TC_3.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:29.073 DEBUG testcase.TC_3.2_1                        - 3: return t
+2026-06-07 14:45:39.556 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:45:39.567 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:45:39.645 DEBUG testcase.TC_3.2_1                        - 10: delay(1)
+2026-06-07 14:45:40.655 DEBUG testcase.TC_3.2_1                        - 11: setText(css("#emailInput"), "nuova.mail@example.com")
+2026-06-07 14:45:40.657 DEBUG testcase.TC_3.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:45:40.658 DEBUG testcase.TC_3.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:45:40.659 DEBUG testcase.TC_3.2_1                        - 3: return t
+2026-06-07 14:45:50.802 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:46:00.780 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:46:01.066 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'nuova.mail@example.com' of object '#emailInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nuova.mail@example.com' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030201.run(Script178060030201.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:46:01.067 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.2_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'nuova.mail@example.com' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030201.run(Script178060030201.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:46:01.068 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.2_1
+2026-06-07 14:46:01.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:46:01.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:46:01.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:46:01.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:46:01.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:46:01.070 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:46:01.070 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.2_2
+2026-06-07 14:46:01.170 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.2_2
+2026-06-07 14:46:01.218 DEBUG testcase.TC_3.2_2                        - 1: openBrowser("")
+2026-06-07 14:46:01.220 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:46:01.412 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:46:01.414 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:46:02.183 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9d6828c09f822b474faf2547369b53f1
+2026-06-07 14:46:02.183 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:46:02.183 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:46:02.183 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:46:02.184 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:46:02.191 DEBUG testcase.TC_3.2_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:46:02.567 DEBUG testcase.TC_3.2_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:46:02.568 DEBUG testcase.TC_3.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:02.568 DEBUG testcase.TC_3.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:02.570 DEBUG testcase.TC_3.2_2                        - 3: return t
+2026-06-07 14:46:03.133 DEBUG testcase.TC_3.2_2                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:46:03.134 DEBUG testcase.TC_3.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:03.134 DEBUG testcase.TC_3.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:03.134 DEBUG testcase.TC_3.2_2                        - 3: return t
+2026-06-07 14:46:03.662 DEBUG testcase.TC_3.2_2                        - 5: click(css("#submit"))
+2026-06-07 14:46:03.663 DEBUG testcase.TC_3.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:03.663 DEBUG testcase.TC_3.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:03.663 DEBUG testcase.TC_3.2_2                        - 3: return t
+2026-06-07 14:46:03.930 DEBUG testcase.TC_3.2_2                        - 6: delay(2)
+2026-06-07 14:46:05.941 DEBUG testcase.TC_3.2_2                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:46:05.979 DEBUG testcase.TC_3.2_2                        - 8: delay(1)
+2026-06-07 14:46:06.987 DEBUG testcase.TC_3.2_2                        - 9: click(css("#editButton"))
+2026-06-07 14:46:06.988 DEBUG testcase.TC_3.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:06.990 DEBUG testcase.TC_3.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:06.991 DEBUG testcase.TC_3.2_2                        - 3: return t
+2026-06-07 14:46:17.253 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:46:17.262 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:46:17.339 DEBUG testcase.TC_3.2_2                        - 10: delay(1)
+2026-06-07 14:46:18.353 DEBUG testcase.TC_3.2_2                        - 11: setText(css("#emailInput"), "")
+2026-06-07 14:46:18.354 DEBUG testcase.TC_3.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:18.356 DEBUG testcase.TC_3.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:18.356 DEBUG testcase.TC_3.2_2                        - 3: return t
+2026-06-07 14:46:28.530 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:46:44.791 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:46:45.088 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text '' of object '#emailInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030202.run(Script178060030202.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:46:45.089 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.2_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030202.run(Script178060030202.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:46:45.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.2_2
+2026-06-07 14:46:45.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:46:45.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:46:45.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:46:45.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:46:45.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:46:45.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:46:45.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.2_3
+2026-06-07 14:46:45.169 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.2_3
+2026-06-07 14:46:45.210 DEBUG testcase.TC_3.2_3                        - 1: openBrowser("")
+2026-06-07 14:46:45.211 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:46:45.387 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:46:45.387 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:46:46.084 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 82c6bda275a972bfc2736dc96a78c11f
+2026-06-07 14:46:46.085 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:46:46.085 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:46:46.085 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:46:46.085 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:46:46.093 DEBUG testcase.TC_3.2_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:46:46.527 DEBUG testcase.TC_3.2_3                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:46:46.528 DEBUG testcase.TC_3.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:46.529 DEBUG testcase.TC_3.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:46.529 DEBUG testcase.TC_3.2_3                        - 3: return t
+2026-06-07 14:46:47.093 DEBUG testcase.TC_3.2_3                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:46:47.094 DEBUG testcase.TC_3.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:47.094 DEBUG testcase.TC_3.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:47.095 DEBUG testcase.TC_3.2_3                        - 3: return t
+2026-06-07 14:46:47.603 DEBUG testcase.TC_3.2_3                        - 5: click(css("#submit"))
+2026-06-07 14:46:47.604 DEBUG testcase.TC_3.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:47.604 DEBUG testcase.TC_3.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:47.605 DEBUG testcase.TC_3.2_3                        - 3: return t
+2026-06-07 14:46:47.884 DEBUG testcase.TC_3.2_3                        - 6: delay(2)
+2026-06-07 14:46:49.894 DEBUG testcase.TC_3.2_3                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:46:49.934 DEBUG testcase.TC_3.2_3                        - 8: delay(1)
+2026-06-07 14:46:50.951 DEBUG testcase.TC_3.2_3                        - 9: click(css("#editButton"))
+2026-06-07 14:46:50.953 DEBUG testcase.TC_3.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:46:50.953 DEBUG testcase.TC_3.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:46:50.954 DEBUG testcase.TC_3.2_3                        - 3: return t
+2026-06-07 14:47:01.461 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:47:01.468 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:47:01.560 DEBUG testcase.TC_3.2_3                        - 10: delay(1)
+2026-06-07 14:47:02.577 DEBUG testcase.TC_3.2_3                        - 11: setText(css("#emailInput"), "   ")
+2026-06-07 14:47:02.578 DEBUG testcase.TC_3.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:02.578 DEBUG testcase.TC_3.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:02.579 DEBUG testcase.TC_3.2_3                        - 3: return t
+2026-06-07 14:47:12.696 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:47:17.635 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:47:17.896 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text '   ' of object '#emailInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '   ' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030203.run(Script178060030203.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:47:17.897 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.2_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '   ' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030203.run(Script178060030203.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.2_3
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:47:17.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:47:17.900 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:47:17.900 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.2_4
+2026-06-07 14:47:18.010 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.2_4
+2026-06-07 14:47:18.053 DEBUG testcase.TC_3.2_4                        - 1: openBrowser("")
+2026-06-07 14:47:18.054 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:47:18.238 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:47:18.240 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:47:18.983 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = deb05be60fceab44ca9c800acea28b2b
+2026-06-07 14:47:18.983 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:47:18.984 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:47:18.984 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:47:18.984 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:47:18.992 DEBUG testcase.TC_3.2_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:47:19.672 DEBUG testcase.TC_3.2_4                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:47:19.673 DEBUG testcase.TC_3.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:19.673 DEBUG testcase.TC_3.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:19.674 DEBUG testcase.TC_3.2_4                        - 3: return t
+2026-06-07 14:47:20.224 DEBUG testcase.TC_3.2_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:47:20.224 DEBUG testcase.TC_3.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:20.224 DEBUG testcase.TC_3.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:20.224 DEBUG testcase.TC_3.2_4                        - 3: return t
+2026-06-07 14:47:20.744 DEBUG testcase.TC_3.2_4                        - 5: click(css("#submit"))
+2026-06-07 14:47:20.744 DEBUG testcase.TC_3.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:20.744 DEBUG testcase.TC_3.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:20.745 DEBUG testcase.TC_3.2_4                        - 3: return t
+2026-06-07 14:47:21.009 DEBUG testcase.TC_3.2_4                        - 6: delay(2)
+2026-06-07 14:47:23.017 DEBUG testcase.TC_3.2_4                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:47:23.073 DEBUG testcase.TC_3.2_4                        - 8: delay(1)
+2026-06-07 14:47:24.081 DEBUG testcase.TC_3.2_4                        - 9: click(css("#editButton"))
+2026-06-07 14:47:24.083 DEBUG testcase.TC_3.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:24.084 DEBUG testcase.TC_3.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:24.085 DEBUG testcase.TC_3.2_4                        - 3: return t
+2026-06-07 14:47:34.443 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:47:34.453 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:47:34.550 DEBUG testcase.TC_3.2_4                        - 10: delay(1)
+2026-06-07 14:47:35.553 DEBUG testcase.TC_3.2_4                        - 11: setText(css("#emailInput"), "emailnonvalida")
+2026-06-07 14:47:35.553 DEBUG testcase.TC_3.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:35.554 DEBUG testcase.TC_3.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:35.554 DEBUG testcase.TC_3.2_4                        - 3: return t
+2026-06-07 14:47:45.606 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:47:53.777 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:47:54.072 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'emailnonvalida' of object '#emailInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'emailnonvalida' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030204.run(Script178060030204.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:47:54.073 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'emailnonvalida' of object '#emailInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030204.run(Script178060030204.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#emailInput' located by 'By.cssSelector: #emailInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:47:54.073 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.2_4
+2026-06-07 14:47:54.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:47:54.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:47:54.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:47:54.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:47:54.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:47:54.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:47:54.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.3_1
+2026-06-07 14:47:54.143 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.3_1
+2026-06-07 14:47:54.180 DEBUG testcase.TC_3.3_1                        - 1: openBrowser("")
+2026-06-07 14:47:54.181 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:47:54.374 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:47:54.374 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:47:55.143 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 72e076590fd3508445eb7385e9941285
+2026-06-07 14:47:55.143 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:47:55.143 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:47:55.143 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:47:55.144 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:47:55.150 DEBUG testcase.TC_3.3_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:47:55.519 DEBUG testcase.TC_3.3_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:47:55.520 DEBUG testcase.TC_3.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:55.520 DEBUG testcase.TC_3.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:55.521 DEBUG testcase.TC_3.3_1                        - 3: return t
+2026-06-07 14:47:56.057 DEBUG testcase.TC_3.3_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:47:56.058 DEBUG testcase.TC_3.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:56.058 DEBUG testcase.TC_3.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:56.058 DEBUG testcase.TC_3.3_1                        - 3: return t
+2026-06-07 14:47:56.571 DEBUG testcase.TC_3.3_1                        - 5: click(css("#submit"))
+2026-06-07 14:47:56.572 DEBUG testcase.TC_3.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:56.572 DEBUG testcase.TC_3.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:56.573 DEBUG testcase.TC_3.3_1                        - 3: return t
+2026-06-07 14:47:56.836 DEBUG testcase.TC_3.3_1                        - 6: delay(2)
+2026-06-07 14:47:58.847 DEBUG testcase.TC_3.3_1                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:47:58.911 DEBUG testcase.TC_3.3_1                        - 8: delay(1)
+2026-06-07 14:47:59.924 DEBUG testcase.TC_3.3_1                        - 9: click(css("#editPhoneButton"))
+2026-06-07 14:47:59.925 DEBUG testcase.TC_3.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:47:59.926 DEBUG testcase.TC_3.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:47:59.926 DEBUG testcase.TC_3.3_1                        - 3: return t
+2026-06-07 14:48:10.167 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 1.261 -> 330 (-74,66%)
+> Remove next siblings: 330 -> 330 (-0%)
+> Remove redundant parents: 330 -> 330 (-0%)
+> Remove event handler attributes: 330 -> 330 (-0%)
+> Trim long attributes: 330 -> 330 (-0%)
+> Trim long text: 330 -> 289 (-3,29%)
+> Minify HTML syntax: 289 -> 256 (-2,65%)
+>>> Total: 1.247 -> 289 (-76,82%)
+2026-06-07 14:48:15.654 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:48:15.752 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object '#editPhoneButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030301.run(Script178060030301.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:48:15.753 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.3_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030301.run(Script178060030301.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:48:15.753 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.3_1
+2026-06-07 14:48:15.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:48:15.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.3_2
+2026-06-07 14:48:15.826 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.3_2
+2026-06-07 14:48:15.883 DEBUG testcase.TC_3.3_2                        - 1: openBrowser("")
+2026-06-07 14:48:15.884 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:48:16.036 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:48:16.037 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:48:16.714 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e250aad1c0272826f2fbc969ae80c0a3
+2026-06-07 14:48:16.714 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:48:16.714 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:48:16.714 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:48:16.714 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:48:16.719 DEBUG testcase.TC_3.3_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:48:17.097 DEBUG testcase.TC_3.3_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:48:17.097 DEBUG testcase.TC_3.3_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:17.098 DEBUG testcase.TC_3.3_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:17.100 DEBUG testcase.TC_3.3_2                        - 3: return t
+2026-06-07 14:48:17.662 DEBUG testcase.TC_3.3_2                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:48:17.663 DEBUG testcase.TC_3.3_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:17.663 DEBUG testcase.TC_3.3_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:17.663 DEBUG testcase.TC_3.3_2                        - 3: return t
+2026-06-07 14:48:18.165 DEBUG testcase.TC_3.3_2                        - 5: click(css("#submit"))
+2026-06-07 14:48:18.165 DEBUG testcase.TC_3.3_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:18.165 DEBUG testcase.TC_3.3_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:18.165 DEBUG testcase.TC_3.3_2                        - 3: return t
+2026-06-07 14:48:18.437 DEBUG testcase.TC_3.3_2                        - 6: delay(2)
+2026-06-07 14:48:20.444 DEBUG testcase.TC_3.3_2                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:48:20.485 DEBUG testcase.TC_3.3_2                        - 8: delay(1)
+2026-06-07 14:48:21.490 DEBUG testcase.TC_3.3_2                        - 9: click(css("#editPhoneButton"))
+2026-06-07 14:48:21.493 DEBUG testcase.TC_3.3_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:21.493 DEBUG testcase.TC_3.3_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:21.493 DEBUG testcase.TC_3.3_2                        - 3: return t
+2026-06-07 14:48:31.595 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 1.261 -> 330 (-74,66%)
+> Remove next siblings: 330 -> 330 (-0%)
+> Remove redundant parents: 330 -> 330 (-0%)
+> Remove event handler attributes: 330 -> 330 (-0%)
+> Trim long attributes: 330 -> 330 (-0%)
+> Trim long text: 330 -> 289 (-3,29%)
+> Minify HTML syntax: 289 -> 256 (-2,65%)
+>>> Total: 1.247 -> 289 (-76,82%)
+2026-06-07 14:48:38.452 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:48:38.547 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object '#editPhoneButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030302.run(Script178060030302.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:48:38.547 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.3_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030302.run(Script178060030302.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:48:38.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.3_2
+2026-06-07 14:48:38.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:48:38.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.3_3
+2026-06-07 14:48:38.631 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.3_3
+2026-06-07 14:48:38.693 DEBUG testcase.TC_3.3_3                        - 1: openBrowser("")
+2026-06-07 14:48:38.694 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:48:38.897 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:48:38.898 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:48:39.561 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5fea97d28a86663b73b5a22784e16614
+2026-06-07 14:48:39.561 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:48:39.561 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:48:39.561 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:48:39.561 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:48:39.567 DEBUG testcase.TC_3.3_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:48:40.327 DEBUG testcase.TC_3.3_3                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:48:40.327 DEBUG testcase.TC_3.3_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:40.327 DEBUG testcase.TC_3.3_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:40.328 DEBUG testcase.TC_3.3_3                        - 3: return t
+2026-06-07 14:48:40.883 DEBUG testcase.TC_3.3_3                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:48:40.883 DEBUG testcase.TC_3.3_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:40.883 DEBUG testcase.TC_3.3_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:40.883 DEBUG testcase.TC_3.3_3                        - 3: return t
+2026-06-07 14:48:41.403 DEBUG testcase.TC_3.3_3                        - 5: click(css("#submit"))
+2026-06-07 14:48:41.404 DEBUG testcase.TC_3.3_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:41.404 DEBUG testcase.TC_3.3_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:41.404 DEBUG testcase.TC_3.3_3                        - 3: return t
+2026-06-07 14:48:41.670 DEBUG testcase.TC_3.3_3                        - 6: delay(2)
+2026-06-07 14:48:43.683 DEBUG testcase.TC_3.3_3                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:48:43.744 DEBUG testcase.TC_3.3_3                        - 8: delay(1)
+2026-06-07 14:48:44.754 DEBUG testcase.TC_3.3_3                        - 9: click(css("#editPhoneButton"))
+2026-06-07 14:48:44.755 DEBUG testcase.TC_3.3_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:48:44.755 DEBUG testcase.TC_3.3_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:48:44.755 DEBUG testcase.TC_3.3_3                        - 3: return t
+2026-06-07 14:48:54.992 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 1.261 -> 330 (-74,66%)
+> Remove next siblings: 330 -> 330 (-0%)
+> Remove redundant parents: 330 -> 330 (-0%)
+> Remove event handler attributes: 330 -> 330 (-0%)
+> Trim long attributes: 330 -> 330 (-0%)
+> Trim long text: 330 -> 289 (-3,29%)
+> Minify HTML syntax: 289 -> 256 (-2,65%)
+>>> Total: 1.247 -> 289 (-76,82%)
+2026-06-07 14:49:01.288 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:49:01.360 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object '#editPhoneButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030303.run(Script178060030303.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:49:01.361 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.3_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '#editPhoneButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+	at Script178060030303.run(Script178060030303.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#editPhoneButton' located by 'By.cssSelector: #editPhoneButton' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:49:01.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.3_3
+2026-06-07 14:49:01.363 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:49:01.363 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.4_1
+2026-06-07 14:49:01.433 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.4_1
+2026-06-07 14:49:01.463 DEBUG testcase.TC_3.4_1                        - 1: openBrowser("")
+2026-06-07 14:49:01.464 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:49:01.658 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:49:01.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:49:02.391 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c8a7d62f19f302892a21f948a704fc32
+2026-06-07 14:49:02.391 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:49:02.391 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:49:02.391 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:49:02.391 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:49:02.398 DEBUG testcase.TC_3.4_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:49:02.776 DEBUG testcase.TC_3.4_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:49:02.777 DEBUG testcase.TC_3.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:02.778 DEBUG testcase.TC_3.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:02.779 DEBUG testcase.TC_3.4_1                        - 3: return t
+2026-06-07 14:49:03.313 DEBUG testcase.TC_3.4_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:49:03.315 DEBUG testcase.TC_3.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:03.315 DEBUG testcase.TC_3.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:03.315 DEBUG testcase.TC_3.4_1                        - 3: return t
+2026-06-07 14:49:03.833 DEBUG testcase.TC_3.4_1                        - 5: click(css("#submit"))
+2026-06-07 14:49:03.833 DEBUG testcase.TC_3.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:03.833 DEBUG testcase.TC_3.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:03.833 DEBUG testcase.TC_3.4_1                        - 3: return t
+2026-06-07 14:49:04.106 DEBUG testcase.TC_3.4_1                        - 6: delay(2)
+2026-06-07 14:49:06.116 DEBUG testcase.TC_3.4_1                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:49:06.176 DEBUG testcase.TC_3.4_1                        - 8: delay(1)
+2026-06-07 14:49:07.189 DEBUG testcase.TC_3.4_1                        - 9: click(css("#editPasswordButton"))
+2026-06-07 14:49:07.190 DEBUG testcase.TC_3.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:07.191 DEBUG testcase.TC_3.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:07.191 DEBUG testcase.TC_3.4_1                        - 3: return t
+2026-06-07 14:49:17.438 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editPasswordButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:49:17.444 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:49:17.527 DEBUG testcase.TC_3.4_1                        - 10: delay(1)
+2026-06-07 14:49:18.530 DEBUG testcase.TC_3.4_1                        - 11: setText(css("#oldPasswordInput"), "321CBA.")
+2026-06-07 14:49:18.532 DEBUG testcase.TC_3.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:18.532 DEBUG testcase.TC_3.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:18.533 DEBUG testcase.TC_3.4_1                        - 3: return t
+2026-06-07 14:49:28.692 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:49:34.944 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:49:35.227 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text '321CBA.' of object '#oldPasswordInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '321CBA.' of object '#oldPasswordInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030401.run(Script178060030401.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#oldPasswordInput' located by 'By.cssSelector: #oldPasswordInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:49:35.232 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.4_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '321CBA.' of object '#oldPasswordInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030401.run(Script178060030401.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#oldPasswordInput' located by 'By.cssSelector: #oldPasswordInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.4_1
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:49:35.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:49:35.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:49:35.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.4_2
+2026-06-07 14:49:35.318 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.4_2
+2026-06-07 14:49:35.353 DEBUG testcase.TC_3.4_2                        - 1: openBrowser("")
+2026-06-07 14:49:35.353 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:49:35.550 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:49:35.551 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:49:36.293 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = abbc0e33dc649da62b792386ffc3c637
+2026-06-07 14:49:36.293 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:49:36.293 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:49:36.293 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:49:36.293 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:49:36.302 DEBUG testcase.TC_3.4_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:49:36.674 DEBUG testcase.TC_3.4_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:49:36.674 DEBUG testcase.TC_3.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:36.675 DEBUG testcase.TC_3.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:36.675 DEBUG testcase.TC_3.4_2                        - 3: return t
+2026-06-07 14:49:37.226 DEBUG testcase.TC_3.4_2                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:49:37.227 DEBUG testcase.TC_3.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:37.227 DEBUG testcase.TC_3.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:37.227 DEBUG testcase.TC_3.4_2                        - 3: return t
+2026-06-07 14:49:37.759 DEBUG testcase.TC_3.4_2                        - 5: click(css("#submit"))
+2026-06-07 14:49:37.759 DEBUG testcase.TC_3.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:37.759 DEBUG testcase.TC_3.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:37.759 DEBUG testcase.TC_3.4_2                        - 3: return t
+2026-06-07 14:49:38.027 DEBUG testcase.TC_3.4_2                        - 6: delay(2)
+2026-06-07 14:49:40.037 DEBUG testcase.TC_3.4_2                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:49:40.102 DEBUG testcase.TC_3.4_2                        - 8: delay(1)
+2026-06-07 14:49:41.114 DEBUG testcase.TC_3.4_2                        - 9: click(css("#editPasswordButton"))
+2026-06-07 14:49:41.116 DEBUG testcase.TC_3.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:41.116 DEBUG testcase.TC_3.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:41.117 DEBUG testcase.TC_3.4_2                        - 3: return t
+2026-06-07 14:49:51.405 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editPasswordButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:49:51.408 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:49:51.486 DEBUG testcase.TC_3.4_2                        - 10: delay(1)
+2026-06-07 14:49:52.497 DEBUG testcase.TC_3.4_2                        - 11: setText(css("#oldPasswordInput"), "Sbagliata9")
+2026-06-07 14:49:52.498 DEBUG testcase.TC_3.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:49:52.498 DEBUG testcase.TC_3.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:49:52.498 DEBUG testcase.TC_3.4_2                        - 3: return t
+2026-06-07 14:50:02.528 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 14.505 -> 52 (-101,28%)
+> Remove next siblings: 52 -> 52 (-0%)
+> Remove redundant parents: 52 -> 52 (-0%)
+> Remove event handler attributes: 52 -> 52 (-0%)
+> Trim long attributes: 52 -> 52 (-0%)
+> Trim long text: 52 -> 38 (-0,1%)
+> Minify HTML syntax: 38 -> 20 (-0,13%)
+>>> Total: 14.271 -> 38 (-99,73%)
+2026-06-07 14:50:07.808 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] No possible locators found
+2026-06-07 14:50:08.075 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'Sbagliata9' of object '#oldPasswordInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sbagliata9' of object '#oldPasswordInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030402.run(Script178060030402.groovy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#oldPasswordInput' located by 'By.cssSelector: #oldPasswordInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+)
+2026-06-07 14:50:08.077 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Profilo/TC_3.4_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sbagliata9' of object '#oldPasswordInput'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script178060030402.run(Script178060030402.groovy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0607_0.run(S0607_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '#oldPasswordInput' located by 'By.cssSelector: #oldPasswordInput' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:92)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-07 14:50:08.078 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Profilo/TC_3.4_2
+2026-06-07 14:50:08.078 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-07 14:50:08.079 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-07 14:50:08.079 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-07 14:50:08.079 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-07 14:50:08.079 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-07 14:50:08.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:50:08.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.4_3
+2026-06-07 14:50:08.177 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Profilo/TC_3.4_3
+2026-06-07 14:50:08.210 DEBUG testcase.TC_3.4_3                        - 1: openBrowser("")
+2026-06-07 14:50:08.212 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-07 14:50:08.407 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-07 14:50:08.409 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-07 14:50:09.201 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 846da2682fd0d148f365e23d656df7d1
+2026-06-07 14:50:09.202 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-07 14:50:09.202 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-07 14:50:09.202 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-07 14:50:09.202 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-07 14:50:09.210 DEBUG testcase.TC_3.4_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-07 14:50:09.599 DEBUG testcase.TC_3.4_3                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-07 14:50:09.599 DEBUG testcase.TC_3.4_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:50:09.600 DEBUG testcase.TC_3.4_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:50:09.601 DEBUG testcase.TC_3.4_3                        - 3: return t
+2026-06-07 14:50:10.158 DEBUG testcase.TC_3.4_3                        - 4: setText(css("#password"), "321CBA.")
+2026-06-07 14:50:10.159 DEBUG testcase.TC_3.4_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:50:10.159 DEBUG testcase.TC_3.4_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:50:10.159 DEBUG testcase.TC_3.4_3                        - 3: return t
+2026-06-07 14:50:10.662 DEBUG testcase.TC_3.4_3                        - 5: click(css("#submit"))
+2026-06-07 14:50:10.662 DEBUG testcase.TC_3.4_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:50:10.663 DEBUG testcase.TC_3.4_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:50:10.663 DEBUG testcase.TC_3.4_3                        - 3: return t
+2026-06-07 14:50:10.935 DEBUG testcase.TC_3.4_3                        - 6: delay(2)
+2026-06-07 14:50:12.948 DEBUG testcase.TC_3.4_3                        - 7: navigateToUrl(base + "Utente.jsp")
+2026-06-07 14:50:13.044 DEBUG testcase.TC_3.4_3                        - 8: delay(1)
+2026-06-07 14:50:14.057 DEBUG testcase.TC_3.4_3                        - 9: click(css("#editPasswordButton"))
+2026-06-07 14:50:14.059 DEBUG testcase.TC_3.4_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:50:14.060 DEBUG testcase.TC_3.4_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:50:14.060 DEBUG testcase.TC_3.4_3                        - 3: return t
+2026-06-07 14:50:24.477 WARN  c.k.k.c.w.c.i.SelfHealingController      - The current locator of test object '#editPasswordButton' was broken. Propose an alternative one: '//a[contains(text(),'pagina principale')]'.
+2026-06-07 14:50:24.500 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-07 14:50:24.845 DEBUG testcase.TC_3.4_3                        - 10: delay(1)
+2026-06-07 14:50:25.855 DEBUG testcase.TC_3.4_3                        - 11: setText(css("#oldPasswordInput"), "")
+2026-06-07 14:50:25.857 DEBUG testcase.TC_3.4_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-07 14:50:25.858 DEBUG testcase.TC_3.4_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-07 14:50:25.859 DEBUG testcase.TC_3.4_3                        - 3: return t

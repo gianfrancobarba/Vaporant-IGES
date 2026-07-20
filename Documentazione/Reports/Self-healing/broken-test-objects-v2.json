@@ -1,0 +1,139 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "#editButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027pagina principale\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027pagina principale\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#emailInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#emailInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#submitButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPhoneButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editPhoneButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#phoneInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#phoneInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitPhoneButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#submitPhoneButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#oldPasswordInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#oldPasswordInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#newPasswordInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#newPasswordInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#submitPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027checkbox\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#editPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#citta",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#citta_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#provincia",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/#provincia_XPATH.png"
+    }
+  ]
+}

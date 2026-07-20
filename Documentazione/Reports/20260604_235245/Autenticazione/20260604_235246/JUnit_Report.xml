@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Autenticazione" time="13.547" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Autenticazione" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0" time="13.547" timestamp="2026-06-04T21:52:58.641Z" hostname="gianf - Gianfranco" id="Test Suites/Autenticazione" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609985433.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609988144.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609990993.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="dac61d97963e2720d4b31af0ba1f657f"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_1" time="7.738" classname="Test Cases/Autenticazione/TC_1.1_1" status="PASSED">
+         <system-out><![CDATA[04-06-2026T23:52:58 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_1: Test Cases/Autenticazione/TC_1.1_1
+
+04-06-2026T23:52:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-06-2026T23:52:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-06-2026T23:52:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-06-2026T23:53:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-06-2026T23:53:00 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+04-06-2026T23:53:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+04-06-2026T23:53:01 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+04-06-2026T23:53:01 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+04-06-2026T23:53:01 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+04-06-2026T23:53:01 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+04-06-2026T23:53:02 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+04-06-2026T23:53:02 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+04-06-2026T23:53:02 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+04-06-2026T23:53:02 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+04-06-2026T23:53:02 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+04-06-2026T23:53:03 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+04-06-2026T23:53:03 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+04-06-2026T23:53:03 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+04-06-2026T23:53:03 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+04-06-2026T23:53:03 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+04-06-2026T23:53:03 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+04-06-2026T23:53:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-06-2026T23:53:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-06-2026T23:53:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-06-2026T23:53:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609985433.png]]
+
+04-06-2026T23:53:05 - [TEST_STEP][PASSED] - verifyElementPresent(css("a[href='logout']"), 5, CONTINUE_ON_FAILURE): null
+
+04-06-2026T23:53:05 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+04-06-2026T23:53:05 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+04-06-2026T23:53:05 - [TEST_STEP][PASSED] - return t: Object 'a[href='logout']' is present
+
+04-06-2026T23:53:06 - [MESSAGE][PASSED] - Object 'a[href='logout']' is present
+
+04-06-2026T23:53:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-06-2026T23:53:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_2.1_1" time="5.705" classname="Test Cases/Autenticazione/TC_2.1_1" status="PASSED">
+         <system-out><![CDATA[04-06-2026T23:53:06 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_2.1_1: Test Cases/Autenticazione/TC_2.1_1
+
+04-06-2026T23:53:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-06-2026T23:53:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-06-2026T23:53:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-06-2026T23:53:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-06-2026T23:53:07 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+04-06-2026T23:53:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+04-06-2026T23:53:08 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-06-2026T23:53:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609988144.png]]
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+04-06-2026T23:53:08 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+04-06-2026T23:53:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-06-2026T23:53:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-06-2026T23:53:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-06-2026T23:53:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260604_235245\\Autenticazione\\20260604_235246\\1780609990993.png]]
+
+04-06-2026T23:53:11 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false, CONTINUE_ON_FAILURE): Text 'Non hai un account' is present on page 
+
+04-06-2026T23:53:11 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+04-06-2026T23:53:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-06-2026T23:53:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-06-2026T23:52:58 - [TEST_SUITE][PASSED] - Autenticazione: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

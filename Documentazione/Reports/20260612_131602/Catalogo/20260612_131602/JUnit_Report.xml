@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Catalogo" time="96.488" tests="14" passed="13" failures="1" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Catalogo" tests="14" passed="13" failures="1" errors="0" incompleted="0" skipped="0" time="96.488" timestamp="2026-06-12T11:16:18.014Z" hostname="gianf - Gianfranco" id="Test Suites/Catalogo" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262982046.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262990190.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262993459.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262997015.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263000441.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263008172.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263015584.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263022812.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263030049.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263037217.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263040397.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263045713.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263050853.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263056570.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263062423.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263068204.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263073640.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="07cd3ccddffed008968bb558bb9358e9"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Catalogo/TC_4.1_1" time="4.891" classname="Test Cases/Catalogo/TC_4.1_1" status="PASSED" tag="Navigazione + verifica testo (es. &quot;kiwi&quot;)">
+         <system-out><![CDATA[12-06-2026T13:16:18 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_1: Test Cases/Catalogo/TC_4.1_1
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+12-06-2026T13:16:18 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+12-06-2026T13:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:20 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262982046.png]]
+
+12-06-2026T13:16:22 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:22 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.1_2" time="7.97" classname="Test Cases/Catalogo/TC_4.1_2" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:16:23 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_2: Test Cases/Catalogo/TC_4.1_2
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+12-06-2026T13:16:23 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+12-06-2026T13:16:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:24 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+12-06-2026T13:16:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+12-06-2026T13:16:24 - [TEST_STEP][PASSED] - setText(css("#email"), "g.barba14@studenti.unisa.it"): null
+
+12-06-2026T13:16:24 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:16:24 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:16:24 - [TEST_STEP][PASSED] - return t: Text 'g.barba14@studenti.unisa.it' is set on object '#email'
+
+12-06-2026T13:16:25 - [MESSAGE][PASSED] - Text 'g.barba14@studenti.unisa.it' is set on object '#email'
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - setText(css("#password"), "ABC123."): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - return t: Text 'ABC123.' is set on object '#password'
+
+12-06-2026T13:16:25 - [MESSAGE][PASSED] - Text 'ABC123.' is set on object '#password'
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:16:25 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+12-06-2026T13:16:26 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+12-06-2026T13:16:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:16:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:16:28 - [TEST_STEP][PASSED] - navigateToUrl(base + "product"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+12-06-2026T13:16:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+12-06-2026T13:16:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:16:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262990190.png]]
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - verifyElementPresent(css("input[value='Aggiungi']"), 5): null
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - return t: Object 'input[value='Aggiungi']' is present
+
+12-06-2026T13:16:30 - [MESSAGE][PASSED] - Object 'input[value='Aggiungi']' is present
+
+12-06-2026T13:16:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_1" time="3.489" classname="Test Cases/Catalogo/TC_4.2_1" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:16:31 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_1: Test Cases/Catalogo/TC_4.2_1
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+12-06-2026T13:16:31 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+12-06-2026T13:16:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:33 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+12-06-2026T13:16:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+12-06-2026T13:16:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262993459.png]]
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:34 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_2" time="3.57" classname="Test Cases/Catalogo/TC_4.2_2" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:16:34 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_2: Test Cases/Catalogo/TC_4.2_2
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+12-06-2026T13:16:34 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+12-06-2026T13:16:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:35 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:36 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=prezzoAttuale"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+12-06-2026T13:16:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+12-06-2026T13:16:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781262997015.png]]
+
+12-06-2026T13:16:37 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:37 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_3" time="3.359" classname="Test Cases/Catalogo/TC_4.2_3" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:16:38 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_3: Test Cases/Catalogo/TC_4.2_3
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+12-06-2026T13:16:38 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+12-06-2026T13:16:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:40 - [TEST_STEP][PASSED] - navigateToUrl(base + "product"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+12-06-2026T13:16:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+12-06-2026T13:16:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263000441.png]]
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:41 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_4" time="7.477" classname="Test Cases/Catalogo/TC_4.2_4" status="PASSED" tag="Catalogo - ordinamento - caso di errore">
+         <system-out><![CDATA[12-06-2026T13:16:41 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_4: Test Cases/Catalogo/TC_4.2_4
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+12-06-2026T13:16:41 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+12-06-2026T13:16:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:16:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:16:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:16:42 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:16:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:16:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:16:46 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=colonna_inesistente"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+12-06-2026T13:16:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+12-06-2026T13:16:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:16:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:16:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:16:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263008172.png]]
+
+12-06-2026T13:16:48 - [TEST_STEP][PASSED] - verifyTextPresent("errore", false, CONTINUE_ON_FAILURE): Text 'errore' is present on page 
+
+12-06-2026T13:16:48 - [MESSAGE][PASSED] - Text 'errore' is present on page 
+
+12-06-2026T13:16:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:16:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_5" time="7.182" classname="Test Cases/Catalogo/TC_4.2_5" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Catalogo/TC_4.2_5 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_5.run(TC_4.2_5:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0612_2.run(S0612_2.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_5.run(TC_4.2_5:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0612_2.run(S0612_2.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[12-06-2026T13:17:10 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_5: Test Cases/Catalogo/TC_4.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more
+
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:10 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+12-06-2026T13:17:11 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:11 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:15 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome;--"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+12-06-2026T13:17:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+12-06-2026T13:17:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263037217.png]]
+
+12-06-2026T13:17:17 - [TEST_STEP][FAILED] - verifyTextPresent("errore", false, CONTINUE_ON_FAILURE): Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-06-2026T13:17:17 - [MESSAGE][FAILED] - Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-06-2026T13:17:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[12-06-2026T13:17:10 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_5: Test Cases/Catalogo/TC_4.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0612_2.run(S0612_2.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_1" time="3.331" classname="Test Cases/Catalogo/TC_4.3_1" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:18 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_1: Test Cases/Catalogo/TC_4.3_1
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+12-06-2026T13:17:18 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+12-06-2026T13:17:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:19 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+12-06-2026T13:17:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+12-06-2026T13:17:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263040397.png]]
+
+12-06-2026T13:17:20 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)kiwi", true): Text '(?i)kiwi' is present on page  using regular expression
+
+12-06-2026T13:17:21 - [MESSAGE][PASSED] - Text '(?i)kiwi' is present on page  using regular expression
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - verifyTextPresent("79.99", false): Text '79.99' is present on page 
+
+12-06-2026T13:17:21 - [MESSAGE][PASSED] - Text '79.99' is present on page 
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_2" time="5.019" classname="Test Cases/Catalogo/TC_4.3_2" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:21 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_2: Test Cases/Catalogo/TC_4.3_2
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+12-06-2026T13:17:21 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+12-06-2026T13:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:22 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=999"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+12-06-2026T13:17:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+12-06-2026T13:17:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263045713.png]]
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - verifyTextPresent("Prodotto non trovato", false, CONTINUE_ON_FAILURE): Text 'Prodotto non trovato' is present on page 
+
+12-06-2026T13:17:26 - [MESSAGE][PASSED] - Text 'Prodotto non trovato' is present on page 
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_3" time="5.09" classname="Test Cases/Catalogo/TC_4.3_3" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:26 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_3: Test Cases/Catalogo/TC_4.3_3
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+12-06-2026T13:17:26 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+12-06-2026T13:17:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:27 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=abc"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+12-06-2026T13:17:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+12-06-2026T13:17:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263050853.png]]
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - verifyTextNotPresent("Errore del Server", false, CONTINUE_ON_FAILURE): Text 'Errore del Server' is not present on page
+
+12-06-2026T13:17:31 - [MESSAGE][PASSED] - Text 'Errore del Server' is not present on page
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_1" time="5.852" classname="Test Cases/Catalogo/TC_4.4_1" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:31 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_1: Test Cases/Catalogo/TC_4.4_1
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+12-06-2026T13:17:31 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+12-06-2026T13:17:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:33 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+12-06-2026T13:17:33 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:17:33 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:17:33 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+12-06-2026T13:17:34 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+12-06-2026T13:17:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263056570.png]]
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+12-06-2026T13:17:37 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_2" time="5.837" classname="Test Cases/Catalogo/TC_4.4_2" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:37 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_2: Test Cases/Catalogo/TC_4.4_2
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+12-06-2026T13:17:37 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+12-06-2026T13:17:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:38 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:39 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "voo"): null
+
+12-06-2026T13:17:39 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:17:39 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:17:39 - [TEST_STEP][PASSED] - return t: Text 'voo' is set on object '#searchInput'
+
+12-06-2026T13:17:40 - [MESSAGE][PASSED] - Text 'voo' is set on object '#searchInput'
+
+12-06-2026T13:17:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263062423.png]]
+
+12-06-2026T13:17:42 - [TEST_STEP][PASSED] - verifyTextPresent("voopoo", false): Text 'voopoo' is present on page 
+
+12-06-2026T13:17:43 - [MESSAGE][PASSED] - Text 'voopoo' is present on page 
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_3" time="5.747" classname="Test Cases/Catalogo/TC_4.4_3" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:43 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_3: Test Cases/Catalogo/TC_4.4_3
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+12-06-2026T13:17:43 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+12-06-2026T13:17:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:44 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:45 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "zzz"): null
+
+12-06-2026T13:17:45 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:17:45 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:17:45 - [TEST_STEP][PASSED] - return t: Text 'zzz' is set on object '#searchInput'
+
+12-06-2026T13:17:46 - [MESSAGE][PASSED] - Text 'zzz' is set on object '#searchInput'
+
+12-06-2026T13:17:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-06-2026T13:17:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-06-2026T13:17:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263068204.png]]
+
+12-06-2026T13:17:48 - [TEST_STEP][PASSED] - verifyTextPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is present on page 
+
+12-06-2026T13:17:48 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is present on page 
+
+12-06-2026T13:17:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_4" time="5.486" classname="Test Cases/Catalogo/TC_4.4_4" status="PASSED">
+         <system-out><![CDATA[12-06-2026T13:17:49 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_4: Test Cases/Catalogo/TC_4.4_4
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - if (code != 0): null
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+12-06-2026T13:17:49 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-06-2026T13:17:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-06-2026T13:17:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-06-2026T13:17:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-06-2026T13:17:49 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+12-06-2026T13:17:50 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+12-06-2026T13:17:50 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:17:50 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:17:50 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+12-06-2026T13:17:51 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+12-06-2026T13:17:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+12-06-2026T13:17:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-06-2026T13:17:52 - [TEST_STEP][PASSED] - setText(css("#searchInput"), ""): null
+
+12-06-2026T13:17:52 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+12-06-2026T13:17:52 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+12-06-2026T13:17:52 - [TEST_STEP][PASSED] - return t: Text '' is set on object '#searchInput'
+
+12-06-2026T13:17:52 - [MESSAGE][PASSED] - Text '' is set on object '#searchInput'
+
+12-06-2026T13:17:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+12-06-2026T13:17:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-06-2026T13:17:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-06-2026T13:17:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260612_131602\\Catalogo\\20260612_131602\\1781263073640.png]]
+
+12-06-2026T13:17:54 - [TEST_STEP][PASSED] - verifyTextNotPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is not present on page
+
+12-06-2026T13:17:54 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is not present on page
+
+12-06-2026T13:17:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-06-2026T13:17:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-06-2026T13:16:18 - [TEST_SUITE][FAILED] - Catalogo: null]]></system-out>
+      <system-err><![CDATA[12-06-2026T13:16:18 - [TEST_SUITE][FAILED] - Catalogo: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,390 @@
+2026-06-17 18:32:54.170 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-17 18:32:54.173 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-17 18:32:54.978 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Catalogo
+2026-06-17 18:32:55.037 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-17 18:32:55.038 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-17 18:32:55.040 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-17 18:32:55.040 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-17 18:32:55.040 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-17 18:32:55.040 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-17 18:32:55.154 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:32:55.154 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_1
+2026-06-17 18:32:55.219 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:55.254 DEBUG testcase.TC_4.1_1                        - 1: openBrowser("")
+2026-06-17 18:32:55.582 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:32:55.623 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-17 18:32:57.147 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 171b5c73cee88a8aaf2a5e1ff38f23cd
+2026-06-17 18:32:57.148 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-17 18:32:57.148 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-17 18:32:57.149 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-17 18:32:57.152 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-17 18:32:57.179 DEBUG testcase.TC_4.1_1                        - 2: navigateToUrl(base + "ProductView.jsp")
+2026-06-17 18:32:57.181 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:57.182 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:57.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Catalogo/TC_4.1_1
+2026-06-17 18:32:57.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:32:57.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_1 - Retry attempt 1
+2026-06-17 18:32:57.199 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:57.202 DEBUG testcase.TC_4.1_1                        - 1: openBrowser("")
+2026-06-17 18:32:57.203 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-17 18:32:57.348 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:32:57.350 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-17 18:32:58.156 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0aa7d0b7226424a1d17c3837be56040c
+2026-06-17 18:32:58.156 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-17 18:32:58.156 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-17 18:32:58.156 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-17 18:32:58.157 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-17 18:32:58.175 DEBUG testcase.TC_4.1_1                        - 2: navigateToUrl(base + "ProductView.jsp")
+2026-06-17 18:32:58.176 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:58.178 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:58.179 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Catalogo/TC_4.1_1
+2026-06-17 18:32:58.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:32:58.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_1 - Retry attempt 2
+2026-06-17 18:32:58.191 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:58.194 DEBUG testcase.TC_4.1_1                        - 1: openBrowser("")
+2026-06-17 18:32:58.195 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-17 18:32:58.329 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:32:58.331 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-17 18:32:59.120 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d5de475635e4fe74b2c47471510757af
+2026-06-17 18:32:59.120 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-17 18:32:59.120 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-17 18:32:59.121 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-17 18:32:59.122 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-17 18:32:59.134 DEBUG testcase.TC_4.1_1                        - 2: navigateToUrl(base + "ProductView.jsp")
+2026-06-17 18:32:59.135 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:59.137 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:59.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Catalogo/TC_4.1_1
+2026-06-17 18:32:59.141 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:32:59.141 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_1 - Retry attempt 3
+2026-06-17 18:32:59.151 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:32:59.152 DEBUG testcase.TC_4.1_1                        - 1: openBrowser("")
+2026-06-17 18:32:59.153 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-17 18:32:59.279 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:32:59.281 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-17 18:33:00.063 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7d9c2489c426bf0e4ae010ad51e66bc8
+2026-06-17 18:33:00.064 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-17 18:33:00.064 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-17 18:33:00.065 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-17 18:33:00.065 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-17 18:33:00.080 DEBUG testcase.TC_4.1_1                        - 2: navigateToUrl(base + "ProductView.jsp")
+2026-06-17 18:33:00.081 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:00.082 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_1.run(TC_4.1_1:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:00.084 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Catalogo/TC_4.1_1
+2026-06-17 18:33:00.087 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:33:00.087 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_2
+2026-06-17 18:33:00.110 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:00.189 DEBUG testcase.TC_4.1_2                        - 1: openBrowser("")
+2026-06-17 18:33:00.191 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-17 18:33:00.305 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:33:00.306 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-17 18:33:01.168 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 46ba5b293dbe9d83e9eb9b3bf2b1c945
+2026-06-17 18:33:01.168 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-17 18:33:01.169 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-17 18:33:01.169 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-17 18:33:01.169 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-17 18:33:01.185 DEBUG testcase.TC_4.1_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-17 18:33:01.186 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_2.run(TC_4.1_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:01.188 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Catalogo/TC_4.1_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: base for class: internal.GlobalVariable
+Possible solutions: class
+	at TC_4.1_2.run(TC_4.1_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:01.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Catalogo/TC_4.1_2
+2026-06-17 18:33:01.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-17 18:33:01.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Catalogo/TC_4.1_2 - Retry attempt 1
+2026-06-17 18:33:01.205 ERROR c.k.k.core.context.internal.TestHooker   - ❌ groovy.lang.MissingPropertyException: No such property: resetSeed for class: internal.GlobalVariable
+	at SeedReset.resetSeedBeforeTestCase(SeedReset.groovy:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:47)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:320)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0617_0.run(S0617_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-06-17 18:33:01.207 DEBUG testcase.TC_4.1_2                        - 1: openBrowser("")
+2026-06-17 18:33:01.208 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-17 18:33:01.299 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-17 18:33:01.301 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

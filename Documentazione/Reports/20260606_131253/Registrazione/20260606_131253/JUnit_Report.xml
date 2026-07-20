@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registrazione" time="51.98" tests="18" passed="18" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Registrazione" tests="18" passed="18" failures="0" errors="0" incompleted="0" skipped="0" time="51.98" timestamp="2026-06-06T11:13:06.985Z" hostname="gianf - Gianfranco" id="Test Suites/Registrazione" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744390215.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744393591.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744396086.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744399055.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744400926.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744403795.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744405602.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744408491.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744410420.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744413372.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744415393.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744418289.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744420230.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744423143.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744425423.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744428280.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744430640.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744433531.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744435361.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744438287.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="c1a6ebea81b0ffdf2eab263276bffa4f"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Registrazione/TC_2.1_1" time="7.476" classname="Test Cases/Registrazione/TC_2.1_1" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:07 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_1: Test Cases/Registrazione/TC_2.1_1
+
+06-06-2026T13:13:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:09 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:10 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744390215.png]]
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:10 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:11 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744393591.png]]
+
+06-06-2026T13:13:14 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false, CONTINUE_ON_FAILURE): Text 'Non hai un account' is present on page 
+
+06-06-2026T13:13:14 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+06-06-2026T13:13:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_2" time="0.033" classname="Test Cases/Registrazione/TC_2.1_2" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_2: Test Cases/Registrazione/TC_2.1_2
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_3" time="0.023" classname="Test Cases/Registrazione/TC_2.1_3" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_3: Test Cases/Registrazione/TC_2.1_3
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_4" time="0.027" classname="Test Cases/Registrazione/TC_2.1_4" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_4: Test Cases/Registrazione/TC_2.1_4
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_5" time="0.028" classname="Test Cases/Registrazione/TC_2.1_5" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_5: Test Cases/Registrazione/TC_2.1_5
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_6" time="0.03" classname="Test Cases/Registrazione/TC_2.1_6" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_6: Test Cases/Registrazione/TC_2.1_6
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_7" time="0.031" classname="Test Cases/Registrazione/TC_2.1_7" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_7: Test Cases/Registrazione/TC_2.1_7
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_8" time="0.031" classname="Test Cases/Registrazione/TC_2.1_8" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_8: Test Cases/Registrazione/TC_2.1_8
+
+06-06-2026T13:13:14 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+
+06-06-2026T13:13:14 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_9" time="4.865" classname="Test Cases/Registrazione/TC_2.1_9" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:14 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_9: Test Cases/Registrazione/TC_2.1_9
+
+06-06-2026T13:13:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:15 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='   ';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='   ';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='   ';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744396086.png]]
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:16 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:17 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744399055.png]]
+
+06-06-2026T13:13:19 - [TEST_STEP][WARNING] - markWarning("Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:19 - [MESSAGE][WARNING] - Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_10" time="4.723" classname="Test Cases/Registrazione/TC_2.1_10" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:19 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_10: Test Cases/Registrazione/TC_2.1_10
+
+06-06-2026T13:13:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:20 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:20 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='   ';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='   ';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='   ';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744400926.png]]
+
+06-06-2026T13:13:21 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:21 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:21 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:21 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:21 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744403795.png]]
+
+06-06-2026T13:13:24 - [TEST_STEP][WARNING] - markWarning("Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:24 - [MESSAGE][WARNING] - Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_11" time="4.831" classname="Test Cases/Registrazione/TC_2.1_11" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:24 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_11: Test Cases/Registrazione/TC_2.1_11
+
+06-06-2026T13:13:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:25 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:25 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='                ';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='                ';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:25 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='                ';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744405602.png]]
+
+06-06-2026T13:13:26 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:26 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:26 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:26 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:26 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744408491.png]]
+
+06-06-2026T13:13:29 - [TEST_STEP][WARNING] - markWarning("Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:29 - [MESSAGE][WARNING] - Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_12" time="4.874" classname="Test Cases/Registrazione/TC_2.1_12" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:29 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_12: Test Cases/Registrazione/TC_2.1_12
+
+06-06-2026T13:13:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:30 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:30 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='   ';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='   ';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='   ';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744410420.png]]
+
+06-06-2026T13:13:31 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:31 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:31 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:31 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:31 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744413372.png]]
+
+06-06-2026T13:13:33 - [TEST_STEP][WARNING] - markWarning("Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:33 - [MESSAGE][WARNING] - Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_13" time="4.857" classname="Test Cases/Registrazione/TC_2.1_13" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:34 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_13: Test Cases/Registrazione/TC_2.1_13
+
+06-06-2026T13:13:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='   ';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='   ';' successfully
+
+06-06-2026T13:13:35 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='   ';' successfully
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744415393.png]]
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:35 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:36 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744418289.png]]
+
+06-06-2026T13:13:38 - [TEST_STEP][WARNING] - markWarning("Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:38 - [MESSAGE][WARNING] - Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_14" time="0.024" classname="Test Cases/Registrazione/TC_2.1_14" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:38 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_14: Test Cases/Registrazione/TC_2.1_14
+
+06-06-2026T13:13:39 - [TEST_STEP][WARNING] - markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email)."): Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email).
+
+06-06-2026T13:13:39 - [MESSAGE][WARNING] - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_15" time="5.248" classname="Test Cases/Registrazione/TC_2.1_15" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:39 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_15: Test Cases/Registrazione/TC_2.1_15
+
+06-06-2026T13:13:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='t.mansi@studenti.unisa.it';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='t.mansi@studenti.unisa.it';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='t.mansi@studenti.unisa.it';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744420230.png]]
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:40 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:41 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744423143.png]]
+
+06-06-2026T13:13:43 - [TEST_STEP][PASSED] - verifyTextNotPresent("Non hai un account", false): Text 'Non hai un account' is not present on page
+
+06-06-2026T13:13:44 - [MESSAGE][PASSED] - Text 'Non hai un account' is not present on page
+
+06-06-2026T13:13:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_16" time="5.072" classname="Test Cases/Registrazione/TC_2.1_16" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:44 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_16: Test Cases/Registrazione/TC_2.1_16
+
+06-06-2026T13:13:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='BRBGFR02B15A508B';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='BRBGFR02B15A508B';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:45 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='BRBGFR02B15A508B';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744425423.png]]
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:45 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:46 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744428280.png]]
+
+06-06-2026T13:13:48 - [TEST_STEP][PASSED] - verifyTextNotPresent("Non hai un account", false): Text 'Non hai un account' is not present on page
+
+06-06-2026T13:13:49 - [MESSAGE][PASSED] - Text 'Non hai un account' is not present on page
+
+06-06-2026T13:13:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_17" time="4.844" classname="Test Cases/Registrazione/TC_2.1_17" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:49 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_17: Test Cases/Registrazione/TC_2.1_17
+
+06-06-2026T13:13:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:50 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:50 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744430640.png]]
+
+06-06-2026T13:13:51 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:51 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:51 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:51 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:51 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744433531.png]]
+
+06-06-2026T13:13:54 - [TEST_STEP][WARNING] - markWarning("CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:54 - [MESSAGE][WARNING] - CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registrazione/TC_2.1_18" time="4.774" classname="Test Cases/Registrazione/TC_2.1_18" status="PASSED">
+         <system-out><![CDATA[06-06-2026T13:13:54 - [TEST_CASE][PASSED] - Test Cases/Registrazione/TC_2.1_18: Test Cases/Registrazione/TC_2.1_18
+
+06-06-2026T13:13:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-06-2026T13:13:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-06-2026T13:13:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-06-2026T13:13:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-06-2026T13:13:54 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839XY';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839XY';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Mario';document.getElementById('cognome').value='Rossi';document.getElementById('data_nascita').value='2000-05-15';document.getElementById('codice_fiscale').value='RSSMRA00E15F839XY';document.getElementById('telefono').value='3331234567';document.getElementById('email').value='mario.rossi@example.com';document.getElementById('password').value='Password1';' successfully
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744435361.png]]
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+06-06-2026T13:13:55 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+06-06-2026T13:13:56 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+06-06-2026T13:13:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-06-2026T13:13:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-06-2026T13:13:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-06-2026T13:13:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260606_131253\\Registrazione\\20260606_131253\\1780744438287.png]]
+
+06-06-2026T13:13:58 - [TEST_STEP][WARNING] - markWarning("CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."): CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:58 - [MESSAGE][WARNING] - CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+
+06-06-2026T13:13:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-06-2026T13:13:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-06-2026T13:13:06 - [TEST_SUITE][PASSED] - Registrazione: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

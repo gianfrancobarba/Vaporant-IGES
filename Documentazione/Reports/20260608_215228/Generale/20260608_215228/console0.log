@@ -1,0 +1,76 @@
+2026-06-08 21:52:41.728 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-08 21:52:41.731 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-08 21:52:42.954 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Generale
+2026-06-08 21:52:43.078 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-08 21:52:43.079 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-08 21:52:43.080 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-08 21:52:43.081 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-08 21:52:43.082 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-08 21:52:43.084 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-08 21:52:43.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:52:43.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Generale/TC_8.1_1
+2026-06-08 21:52:43.698 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_1
+2026-06-08 21:52:43.743 DEBUG testcase.TC_8.1_1                        - 1: openBrowser("")
+2026-06-08 21:52:44.120 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:52:44.171 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:52:46.653 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3686f7912246f782eaa5ae041b65a74c
+2026-06-08 21:52:46.654 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:52:46.656 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:52:46.656 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:52:46.664 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:52:46.728 DEBUG testcase.TC_8.1_1                        - 2: navigateToUrl(base + "Contatti.jsp")
+2026-06-08 21:52:48.359 DEBUG testcase.TC_8.1_1                        - 3: takeScreenshot()
+2026-06-08 21:52:49.169 DEBUG testcase.TC_8.1_1                        - 4: verifyTextPresent("Informazioni di contatto", false)
+2026-06-08 21:52:49.509 DEBUG testcase.TC_8.1_1                        - 5: closeBrowser()
+2026-06-08 21:52:50.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Generale/TC_8.1_1
+2026-06-08 21:52:50.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:52:50.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Generale/TC_8.1_2
+2026-06-08 21:52:50.942 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_2
+2026-06-08 21:52:50.973 DEBUG testcase.TC_8.1_2                        - 1: openBrowser("")
+2026-06-08 21:52:50.976 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:52:50.979 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:52:53.890 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5f3c2fcba90c58de44eff4c251bc7a26
+2026-06-08 21:52:53.892 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:52:53.893 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:52:53.894 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:52:53.896 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:52:53.930 DEBUG testcase.TC_8.1_2                        - 2: navigateToUrl(base + "ChiSiamo.jsp")
+2026-06-08 21:52:58.065 DEBUG testcase.TC_8.1_2                        - 3: takeScreenshot()
+2026-06-08 21:52:58.542 DEBUG testcase.TC_8.1_2                        - 4: verifyTextPresent("Chi Siamo", false)
+2026-06-08 21:52:58.842 DEBUG testcase.TC_8.1_2                        - 5: closeBrowser()
+2026-06-08 21:53:00.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Generale/TC_8.1_2
+2026-06-08 21:53:00.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:53:00.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Generale/TC_8.1_3
+2026-06-08 21:53:00.272 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_3
+2026-06-08 21:53:00.312 DEBUG testcase.TC_8.1_3                        - 1: openBrowser("")
+2026-06-08 21:53:00.314 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:53:00.315 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:53:01.657 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ad782318e0d39e649d37fff4a9245012
+2026-06-08 21:53:01.658 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:53:01.659 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:53:01.659 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:53:01.660 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:53:01.683 DEBUG testcase.TC_8.1_3                        - 2: navigateToUrl(base + "PrivacyPolicy.jsp")
+2026-06-08 21:53:03.373 DEBUG testcase.TC_8.1_3                        - 3: takeScreenshot()
+2026-06-08 21:53:03.839 DEBUG testcase.TC_8.1_3                        - 4: verifyTextPresent("Informativa sulla privacy", false)
+2026-06-08 21:53:04.151 DEBUG testcase.TC_8.1_3                        - 5: closeBrowser()
+2026-06-08 21:53:04.446 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Generale/TC_8.1_3
+2026-06-08 21:53:04.450 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:53:04.450 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Generale/TC_8.1_4
+2026-06-08 21:53:04.567 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_4
+2026-06-08 21:53:04.602 DEBUG testcase.TC_8.1_4                        - 1: openBrowser("")
+2026-06-08 21:53:04.605 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:53:04.607 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:53:05.896 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 42a94750f4be685bc7dcfd23db15692a
+2026-06-08 21:53:05.897 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:53:05.897 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:53:05.898 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:53:05.898 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:53:05.918 DEBUG testcase.TC_8.1_4                        - 2: navigateToUrl(base + "TerminiCondizioni.jsp")
+2026-06-08 21:53:06.404 DEBUG testcase.TC_8.1_4                        - 3: takeScreenshot()
+2026-06-08 21:53:06.849 DEBUG testcase.TC_8.1_4                        - 4: verifyTextPresent("Termini e Condizioni", false)
+2026-06-08 21:53:07.121 DEBUG testcase.TC_8.1_4                        - 5: closeBrowser()
+2026-06-08 21:53:07.441 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Generale/TC_8.1_4
+2026-06-08 21:53:07.470 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-08 21:53:07.470 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Generale
+2026-06-08 21:53:07.470 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

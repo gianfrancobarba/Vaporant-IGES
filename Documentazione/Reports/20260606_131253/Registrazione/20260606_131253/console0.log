@@ -1,0 +1,279 @@
+2026-06-06 13:13:06.410 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-06 13:13:06.411 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-06 13:13:06.942 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Registrazione
+2026-06-06 13:13:07.009 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-06 13:13:07.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-06 13:13:07.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-06 13:13:07.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-06 13:13:07.011 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-06 13:13:07.011 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-06 13:13:07.125 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:07.125 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_1
+2026-06-06 13:13:07.418 DEBUG testcase.TC_2.1_1                        - 1: openBrowser("")
+2026-06-06 13:13:07.634 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:07.672 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:09.249 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 23112b8d5c79f2bc628c698c035e8a0b
+2026-06-06 13:13:09.250 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:09.251 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:09.252 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:09.256 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:09.289 DEBUG testcase.TC_2.1_1                        - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:10.170 DEBUG testcase.TC_2.1_1                        - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:10.197 DEBUG testcase.TC_2.1_1                        - 4: takeScreenshot()
+2026-06-06 13:13:10.764 DEBUG testcase.TC_2.1_1                        - 5: click(css("#submit"))
+2026-06-06 13:13:10.766 DEBUG testcase.TC_2.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:10.776 DEBUG testcase.TC_2.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:10.784 DEBUG testcase.TC_2.1_1                        - 3: return t
+2026-06-06 13:13:11.543 DEBUG testcase.TC_2.1_1                        - 6: delay(2)
+2026-06-06 13:13:13.588 DEBUG testcase.TC_2.1_1                        - 7: takeScreenshot()
+2026-06-06 13:13:14.165 DEBUG testcase.TC_2.1_1                        - 8: verifyTextPresent("Non hai un account", false, CONTINUE_ON_FAILURE)
+2026-06-06 13:13:14.415 DEBUG testcase.TC_2.1_1                        - 9: closeBrowser()
+2026-06-06 13:13:14.602 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_1
+2026-06-06 13:13:14.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_2
+2026-06-06 13:13:14.633 DEBUG testcase.TC_2.1_2                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.637 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.638 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_2
+2026-06-06 13:13:14.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_3
+2026-06-06 13:13:14.661 DEBUG testcase.TC_2.1_3                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.662 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_3
+2026-06-06 13:13:14.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_4
+2026-06-06 13:13:14.691 DEBUG testcase.TC_2.1_4                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.692 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.693 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_4
+2026-06-06 13:13:14.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_5
+2026-06-06 13:13:14.724 DEBUG testcase.TC_2.1_5                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.724 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_5
+2026-06-06 13:13:14.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_6
+2026-06-06 13:13:14.755 DEBUG testcase.TC_2.1_6                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.757 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.759 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_6
+2026-06-06 13:13:14.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_7
+2026-06-06 13:13:14.788 DEBUG testcase.TC_2.1_7                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.789 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_7
+2026-06-06 13:13:14.794 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.794 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_8
+2026-06-06 13:13:14.822 DEBUG testcase.TC_2.1_8                        - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).")
+2026-06-06 13:13:14.824 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio).
+2026-06-06 13:13:14.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_8
+2026-06-06 13:13:14.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:14.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_9
+2026-06-06 13:13:14.894 DEBUG testcase.TC_2.1_9                        - 1: openBrowser("")
+2026-06-06 13:13:14.895 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:14.896 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:15.727 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5e468a58d37a443e1d82217dfefe639c
+2026-06-06 13:13:15.728 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:15.728 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:15.728 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:15.729 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:15.748 DEBUG testcase.TC_2.1_9                        - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:16.068 DEBUG testcase.TC_2.1_9                        - 3: executeJavaScript("document.getElementById('nome').value='   ';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:16.084 DEBUG testcase.TC_2.1_9                        - 4: takeScreenshot()
+2026-06-06 13:13:16.692 DEBUG testcase.TC_2.1_9                        - 5: click(css("#submit"))
+2026-06-06 13:13:16.693 DEBUG testcase.TC_2.1_9                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:16.695 DEBUG testcase.TC_2.1_9                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:16.695 DEBUG testcase.TC_2.1_9                        - 3: return t
+2026-06-06 13:13:17.038 DEBUG testcase.TC_2.1_9                        - 6: delay(2)
+2026-06-06 13:13:19.052 DEBUG testcase.TC_2.1_9                        - 7: takeScreenshot()
+2026-06-06 13:13:19.548 DEBUG testcase.TC_2.1_9                        - 8: markWarning("Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:19.549 WARN  com.kms.katalon.core.util.KeywordUtil    - Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:19.549 DEBUG testcase.TC_2.1_9                        - 9: closeBrowser()
+2026-06-06 13:13:19.693 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_9
+2026-06-06 13:13:19.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:19.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_10
+2026-06-06 13:13:19.758 DEBUG testcase.TC_2.1_10                       - 1: openBrowser("")
+2026-06-06 13:13:19.760 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:19.761 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:20.556 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3a56bca4143d4d323b5713e75bbaaec6
+2026-06-06 13:13:20.556 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:20.556 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:20.557 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:20.557 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:20.570 DEBUG testcase.TC_2.1_10                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:20.911 DEBUG testcase.TC_2.1_10                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='   ';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:20.923 DEBUG testcase.TC_2.1_10                       - 4: takeScreenshot()
+2026-06-06 13:13:21.443 DEBUG testcase.TC_2.1_10                       - 5: click(css("#submit"))
+2026-06-06 13:13:21.444 DEBUG testcase.TC_2.1_10                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:21.445 DEBUG testcase.TC_2.1_10                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:21.446 DEBUG testcase.TC_2.1_10                       - 3: return t
+2026-06-06 13:13:21.785 DEBUG testcase.TC_2.1_10                       - 6: delay(2)
+2026-06-06 13:13:23.794 DEBUG testcase.TC_2.1_10                       - 7: takeScreenshot()
+2026-06-06 13:13:24.306 DEBUG testcase.TC_2.1_10                       - 8: markWarning("Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:24.307 WARN  com.kms.katalon.core.util.KeywordUtil    - Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:24.308 DEBUG testcase.TC_2.1_10                       - 9: closeBrowser()
+2026-06-06 13:13:24.420 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_10
+2026-06-06 13:13:24.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:24.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_11
+2026-06-06 13:13:24.483 DEBUG testcase.TC_2.1_11                       - 1: openBrowser("")
+2026-06-06 13:13:24.485 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:24.486 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:25.252 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = beebe82bea348636a5ccd4fb962326fe
+2026-06-06 13:13:25.252 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:25.252 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:25.252 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:25.253 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:25.267 DEBUG testcase.TC_2.1_11                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:25.580 DEBUG testcase.TC_2.1_11                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='                ';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:25.601 DEBUG testcase.TC_2.1_11                       - 4: takeScreenshot()
+2026-06-06 13:13:26.135 DEBUG testcase.TC_2.1_11                       - 5: click(css("#submit"))
+2026-06-06 13:13:26.137 DEBUG testcase.TC_2.1_11                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:26.138 DEBUG testcase.TC_2.1_11                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:26.139 DEBUG testcase.TC_2.1_11                       - 3: return t
+2026-06-06 13:13:26.484 DEBUG testcase.TC_2.1_11                       - 6: delay(2)
+2026-06-06 13:13:28.489 DEBUG testcase.TC_2.1_11                       - 7: takeScreenshot()
+2026-06-06 13:13:29.107 DEBUG testcase.TC_2.1_11                       - 8: markWarning("Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:29.107 WARN  com.kms.katalon.core.util.KeywordUtil    - Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:29.107 DEBUG testcase.TC_2.1_11                       - 9: closeBrowser()
+2026-06-06 13:13:29.253 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_11
+2026-06-06 13:13:29.257 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:29.257 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_12
+2026-06-06 13:13:29.308 DEBUG testcase.TC_2.1_12                       - 1: openBrowser("")
+2026-06-06 13:13:29.309 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:29.310 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:30.077 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1539447dd08286ead56cfb31d58ce2b0
+2026-06-06 13:13:30.077 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:30.078 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:30.078 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:30.078 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:30.088 DEBUG testcase.TC_2.1_12                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:30.405 DEBUG testcase.TC_2.1_12                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='   ';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:30.418 DEBUG testcase.TC_2.1_12                       - 4: takeScreenshot()
+2026-06-06 13:13:31.039 DEBUG testcase.TC_2.1_12                       - 5: click(css("#submit"))
+2026-06-06 13:13:31.040 DEBUG testcase.TC_2.1_12                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:31.041 DEBUG testcase.TC_2.1_12                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:31.041 DEBUG testcase.TC_2.1_12                       - 3: return t
+2026-06-06 13:13:31.365 DEBUG testcase.TC_2.1_12                       - 6: delay(2)
+2026-06-06 13:13:33.369 DEBUG testcase.TC_2.1_12                       - 7: takeScreenshot()
+2026-06-06 13:13:33.976 DEBUG testcase.TC_2.1_12                       - 8: markWarning("Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:33.976 WARN  com.kms.katalon.core.util.KeywordUtil    - Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:33.977 DEBUG testcase.TC_2.1_12                       - 9: closeBrowser()
+2026-06-06 13:13:34.131 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_12
+2026-06-06 13:13:34.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:34.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_13
+2026-06-06 13:13:34.206 DEBUG testcase.TC_2.1_13                       - 1: openBrowser("")
+2026-06-06 13:13:34.208 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:34.209 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:35.016 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fdefd4aaa8319d01955d8320fb07f5f7
+2026-06-06 13:13:35.017 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:35.017 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:35.017 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:35.018 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:35.029 DEBUG testcase.TC_2.1_13                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:35.364 DEBUG testcase.TC_2.1_13                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='   ';", null)
+2026-06-06 13:13:35.390 DEBUG testcase.TC_2.1_13                       - 4: takeScreenshot()
+2026-06-06 13:13:35.926 DEBUG testcase.TC_2.1_13                       - 5: click(css("#submit"))
+2026-06-06 13:13:35.926 DEBUG testcase.TC_2.1_13                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:35.927 DEBUG testcase.TC_2.1_13                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:35.928 DEBUG testcase.TC_2.1_13                       - 3: return t
+2026-06-06 13:13:36.284 DEBUG testcase.TC_2.1_13                       - 6: delay(2)
+2026-06-06 13:13:38.288 DEBUG testcase.TC_2.1_13                       - 7: takeScreenshot()
+2026-06-06 13:13:38.838 DEBUG testcase.TC_2.1_13                       - 8: markWarning("Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:38.839 WARN  com.kms.katalon.core.util.KeywordUtil    - Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:38.840 DEBUG testcase.TC_2.1_13                       - 9: closeBrowser()
+2026-06-06 13:13:38.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_13
+2026-06-06 13:13:38.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:38.993 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_14
+2026-06-06 13:13:39.016 DEBUG testcase.TC_2.1_14                       - 1: markWarning("Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email).")
+2026-06-06 13:13:39.017 WARN  com.kms.katalon.core.util.KeywordUtil    - Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email).
+2026-06-06 13:13:39.017 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_14
+2026-06-06 13:13:39.020 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:39.020 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_15
+2026-06-06 13:13:39.083 DEBUG testcase.TC_2.1_15                       - 1: openBrowser("")
+2026-06-06 13:13:39.084 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:39.086 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:39.842 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 66a529748ad69268984b8d04d6b0c3c2
+2026-06-06 13:13:39.842 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:39.842 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:39.842 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:39.843 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:39.851 DEBUG testcase.TC_2.1_15                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:40.216 DEBUG testcase.TC_2.1_15                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='t.mansi@studenti.unisa.it';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:40.228 DEBUG testcase.TC_2.1_15                       - 4: takeScreenshot()
+2026-06-06 13:13:40.793 DEBUG testcase.TC_2.1_15                       - 5: click(css("#submit"))
+2026-06-06 13:13:40.794 DEBUG testcase.TC_2.1_15                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:40.794 DEBUG testcase.TC_2.1_15                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:40.794 DEBUG testcase.TC_2.1_15                       - 3: return t
+2026-06-06 13:13:41.130 DEBUG testcase.TC_2.1_15                       - 6: delay(2)
+2026-06-06 13:13:43.142 DEBUG testcase.TC_2.1_15                       - 7: takeScreenshot()
+2026-06-06 13:13:43.846 DEBUG testcase.TC_2.1_15                       - 8: verifyTextNotPresent("Non hai un account", false)
+2026-06-06 13:13:44.113 DEBUG testcase.TC_2.1_15                       - 9: closeBrowser()
+2026-06-06 13:13:44.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_15
+2026-06-06 13:13:44.270 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:44.270 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_16
+2026-06-06 13:13:44.324 DEBUG testcase.TC_2.1_16                       - 1: openBrowser("")
+2026-06-06 13:13:44.325 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:44.327 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:45.078 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 826ddeb5dc7c85fbff6d58b0079c9f8e
+2026-06-06 13:13:45.078 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:45.078 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:45.078 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:45.078 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:45.086 DEBUG testcase.TC_2.1_16                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:45.401 DEBUG testcase.TC_2.1_16                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='BRBGFR02B15A508B';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:45.422 DEBUG testcase.TC_2.1_16                       - 4: takeScreenshot()
+2026-06-06 13:13:45.933 DEBUG testcase.TC_2.1_16                       - 5: click(css("#submit"))
+2026-06-06 13:13:45.933 DEBUG testcase.TC_2.1_16                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:45.933 DEBUG testcase.TC_2.1_16                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:45.934 DEBUG testcase.TC_2.1_16                       - 3: return t
+2026-06-06 13:13:46.271 DEBUG testcase.TC_2.1_16                       - 6: delay(2)
+2026-06-06 13:13:48.278 DEBUG testcase.TC_2.1_16                       - 7: takeScreenshot()
+2026-06-06 13:13:48.938 DEBUG testcase.TC_2.1_16                       - 8: verifyTextNotPresent("Non hai un account", false)
+2026-06-06 13:13:49.194 DEBUG testcase.TC_2.1_16                       - 9: closeBrowser()
+2026-06-06 13:13:49.342 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_16
+2026-06-06 13:13:49.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:49.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_17
+2026-06-06 13:13:49.391 DEBUG testcase.TC_2.1_17                       - 1: openBrowser("")
+2026-06-06 13:13:49.391 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:49.392 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:50.172 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 02601fbe2ae52898b43b0822066dbc26
+2026-06-06 13:13:50.172 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:50.172 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:50.172 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:50.174 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:50.183 DEBUG testcase.TC_2.1_17                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:50.626 DEBUG testcase.TC_2.1_17                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:50.639 DEBUG testcase.TC_2.1_17                       - 4: takeScreenshot()
+2026-06-06 13:13:51.173 DEBUG testcase.TC_2.1_17                       - 5: click(css("#submit"))
+2026-06-06 13:13:51.174 DEBUG testcase.TC_2.1_17                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:51.175 DEBUG testcase.TC_2.1_17                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:51.176 DEBUG testcase.TC_2.1_17                       - 3: return t
+2026-06-06 13:13:51.514 DEBUG testcase.TC_2.1_17                       - 6: delay(2)
+2026-06-06 13:13:53.529 DEBUG testcase.TC_2.1_17                       - 7: takeScreenshot()
+2026-06-06 13:13:54.046 DEBUG testcase.TC_2.1_17                       - 8: markWarning("CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:54.046 WARN  com.kms.katalon.core.util.KeywordUtil    - CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:54.047 DEBUG testcase.TC_2.1_17                       - 9: closeBrowser()
+2026-06-06 13:13:54.188 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_17
+2026-06-06 13:13:54.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-06 13:13:54.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Registrazione/TC_2.1_18
+2026-06-06 13:13:54.239 DEBUG testcase.TC_2.1_18                       - 1: openBrowser("")
+2026-06-06 13:13:54.240 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-06 13:13:54.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-06 13:13:54.987 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c1a6ebea81b0ffdf2eab263276bffa4f
+2026-06-06 13:13:54.987 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-06 13:13:54.987 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-06 13:13:54.987 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-06 13:13:54.988 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-06 13:13:54.996 DEBUG testcase.TC_2.1_18                       - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-06 13:13:55.344 DEBUG testcase.TC_2.1_18                       - 3: executeJavaScript("document.getElementById('nome').value='Mario';" + "document.getElementById('cognome').value='Rossi';" + "document.getElementById('data_nascita').value='2000-05-15';" + "document.getElementById('codice_fiscale').value='RSSMRA00E15F839XY';" + "document.getElementById('telefono').value='3331234567';" + "document.getElementById('email').value='mario.rossi@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-06 13:13:55.360 DEBUG testcase.TC_2.1_18                       - 4: takeScreenshot()
+2026-06-06 13:13:55.914 DEBUG testcase.TC_2.1_18                       - 5: click(css("#submit"))
+2026-06-06 13:13:55.915 DEBUG testcase.TC_2.1_18                       - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-06 13:13:55.915 DEBUG testcase.TC_2.1_18                       - 2: t.addProperty("css", EQUALS, sel)
+2026-06-06 13:13:55.916 DEBUG testcase.TC_2.1_18                       - 3: return t
+2026-06-06 13:13:56.275 DEBUG testcase.TC_2.1_18                       - 6: delay(2)
+2026-06-06 13:13:58.285 DEBUG testcase.TC_2.1_18                       - 7: takeScreenshot()
+2026-06-06 13:13:58.799 DEBUG testcase.TC_2.1_18                       - 8: markWarning("CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.")
+2026-06-06 13:13:58.799 WARN  com.kms.katalon.core.util.KeywordUtil    - CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi.
+2026-06-06 13:13:58.800 DEBUG testcase.TC_2.1_18                       - 9: closeBrowser()
+2026-06-06 13:13:58.964 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Registrazione/TC_2.1_18
+2026-06-06 13:13:58.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-06 13:13:58.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Registrazione
+2026-06-06 13:13:58.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

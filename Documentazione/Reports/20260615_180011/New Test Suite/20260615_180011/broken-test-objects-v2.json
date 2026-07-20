@@ -1,0 +1,31 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "#editButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_180011/New Test Suite/20260615_180011/#editButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#emailInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_180011/New Test Suite/20260615_180011/#emailInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_180011/New Test Suite/20260615_180011/#submitButton_XPATH.png"
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Carrello" time="82.034" tests="13" passed="12" failures="1" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Carrello" tests="13" passed="12" failures="1" errors="0" incompleted="0" skipped="0" time="82.034" timestamp="2026-06-03T13:07:03.197Z" hostname="gianf - Gianfranco" id="Test Suites/Carrello" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492027668.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492030703.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492032897.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492085202.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492088497.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492098767.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492101293.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492104229.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="8b643d22faea37a841c447d36c4f970f"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Carrello/TC_5.1_1" time="5.625" classname="Test Cases/Carrello/TC_5.1_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:07:03 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.1_1: Test Cases/Carrello/TC_5.1_1
+
+03-06-2026T15:07:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:07:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:07:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:07:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:07:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:07:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:07:07 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:07:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492027668.png]]
+
+03-06-2026T15:07:08 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T15:07:08 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T15:07:08 - [TEST_STEP][PASSED] - verifyTextPresent("79.99", false): Text '79.99' is present on page 
+
+03-06-2026T15:07:08 - [MESSAGE][PASSED] - Text '79.99' is present on page 
+
+03-06-2026T15:07:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:07:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.1_2" time="2.443" classname="Test Cases/Carrello/TC_5.1_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:07:08 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.1_2: Test Cases/Carrello/TC_5.1_2
+
+03-06-2026T15:07:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:07:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:07:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:07:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:07:09 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:07:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492030703.png]]
+
+03-06-2026T15:07:10 - [TEST_STEP][PASSED] - verifyTextPresent("0.00", false): Text '0.00' is present on page 
+
+03-06-2026T15:07:11 - [MESSAGE][PASSED] - Text '0.00' is present on page 
+
+03-06-2026T15:07:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:07:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_1" time="2.425" classname="Test Cases/Carrello/TC_5.2_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:07:11 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_1: Test Cases/Carrello/TC_5.2_1
+
+03-06-2026T15:07:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:07:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:07:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:07:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:07:12 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:07:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:07:12 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:07:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:07:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492032897.png]]
+
+03-06-2026T15:07:13 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T15:07:13 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T15:07:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:07:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_2" time="4.643" classname="Test Cases/Carrello/TC_5.2_2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Carrello/TC_5.2_2 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)&#xa;	at TC_5.2_2.run(TC_5.2_2:5)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0603_36.run(S0603_36.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error&#xa;Build info: version: '4.39.0', revision: '126f156aee'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'&#xa;Driver info: driver.version: CChromeDriver&#xa;	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:254)&#xa;	at org.openqa.selenium.bidi.Connection.&lt;init>(Connection.java:90)&#xa;	at org.openqa.selenium.chromium.ChromiumDriver.createBiDi(ChromiumDriver.java:325)&#xa;	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init>(ChromiumDriver.java:132)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:88)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:83)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:72)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:15)&#xa;	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:60)&#xa;	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:248)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:147)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:48)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)&#xa;	at Script1780478320185.run(Script1780478320185.groovy:5)&#xa;	... 16 more&#xa;Caused by: java.net.ConnectException: Permission denied: connect&#xa;	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)&#xa;	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)&#xa;	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)&#xa;	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)&#xa;	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)&#xa;	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)&#xa;	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)&#xa;	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)&#xa;Caused by: java.net.SocketException: Permission denied: connect&#xa;	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)&#xa;	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)&#xa;	... 11 more&#xa;"/>
+         <system-out><![CDATA[03-06-2026T15:07:54 - [TEST_CASE][FAILED] - Test Cases/Carrello/TC_5.2_2: Test Cases/Carrello/TC_5.2_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at TC_5.2_2.run(TC_5.2_2:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0603_36.run(S0603_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: CChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:254)
+	at org.openqa.selenium.bidi.Connection.<init>(Connection.java:90)
+	at org.openqa.selenium.chromium.ChromiumDriver.createBiDi(ChromiumDriver.java:325)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:60)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:248)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:147)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at Script1780478320185.run(Script1780478320185.groovy:5)
+	... 16 more
+Caused by: java.net.ConnectException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)
+Caused by: java.net.SocketException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 11 more
+
+
+03-06-2026T15:07:54 - [TEST_STEP][FAILED] - openBrowser(""): Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at TC_5.2_2.run(TC_5.2_2:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0603_36.run(S0603_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: CChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:254)
+	at org.openqa.selenium.bidi.Connection.<init>(Connection.java:90)
+	at org.openqa.selenium.chromium.ChromiumDriver.createBiDi(ChromiumDriver.java:325)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:60)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:248)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:147)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at Script1780478320185.run(Script1780478320185.groovy:5)
+	... 16 more
+Caused by: java.net.ConnectException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)
+Caused by: java.net.SocketException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 11 more
+)
+
+03-06-2026T15:07:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:07:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:07:59 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at TC_5.2_2.run(TC_5.2_2:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0603_36.run(S0603_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: CChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:254)
+	at org.openqa.selenium.bidi.Connection.<init>(Connection.java:90)
+	at org.openqa.selenium.chromium.ChromiumDriver.createBiDi(ChromiumDriver.java:325)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:60)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:248)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:147)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at Script1780478320185.run(Script1780478320185.groovy:5)
+	... 16 more
+Caused by: java.net.ConnectException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)
+Caused by: java.net.SocketException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 11 more
+)]]></system-out>
+         <system-err><![CDATA[03-06-2026T15:07:54 - [TEST_CASE][FAILED] - Test Cases/Carrello/TC_5.2_2: Test Cases/Carrello/TC_5.2_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at TC_5.2_2.run(TC_5.2_2:5)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0603_36.run(S0603_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: CChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:254)
+	at org.openqa.selenium.bidi.Connection.<init>(Connection.java:90)
+	at org.openqa.selenium.chromium.ChromiumDriver.createBiDi(ChromiumDriver.java:325)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:60)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:248)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:147)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at Script1780478320185.run(Script1780478320185.groovy:5)
+	... 16 more
+Caused by: java.net.ConnectException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)
+Caused by: java.net.SocketException: Permission denied: connect
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 11 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_3" time="2.233" classname="Test Cases/Carrello/TC_5.2_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:03 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_3: Test Cases/Carrello/TC_5.2_3
+
+03-06-2026T15:08:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:08:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:08:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:08:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:08:04 - [TEST_STEP][PASSED] - for ([i = 0, i < 6, (i++)]): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:04 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492085202.png]]
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - verifyTextPresent("voopoo", false): Text 'voopoo' is present on page 
+
+03-06-2026T15:08:05 - [MESSAGE][PASSED] - Text 'voopoo' is present on page 
+
+03-06-2026T15:08:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:08:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_4" time="3.12" classname="Test Cases/Carrello/TC_5.2_4" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:06 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_4: Test Cases/Carrello/TC_5.2_4
+
+03-06-2026T15:08:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:08:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:08:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:08:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:08:06 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=999"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=999' successfully
+
+03-06-2026T15:08:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=999' successfully
+
+03-06-2026T15:08:08 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:08:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492088497.png]]
+
+03-06-2026T15:08:09 - [TEST_STEP][WARNING] - markWarning("Robustezza: verificare se e' stato aggiunto un prodotto \"vuoto\" (bean di default) al carrello."): Robustezza: verificare se e' stato aggiunto un prodotto "vuoto" (bean di default) al carrello.
+
+03-06-2026T15:08:09 - [MESSAGE][WARNING] - Robustezza: verificare se e' stato aggiunto un prodotto "vuoto" (bean di default) al carrello.
+
+03-06-2026T15:08:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:08:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.3_1" time="10.507" classname="Test Cases/Carrello/TC_5.3_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:09 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.3_1: Test Cases/Carrello/TC_5.3_1
+
+03-06-2026T15:08:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:08:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:08:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:08:10 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:18 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=deleteC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=2' successfully
+
+03-06-2026T15:08:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=2' successfully
+
+03-06-2026T15:08:18 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:08:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492098767.png]]
+
+03-06-2026T15:08:19 - [TEST_STEP][PASSED] - verifyTextNotPresent("kiwi", false): Text 'kiwi' is not present on page
+
+03-06-2026T15:08:19 - [MESSAGE][PASSED] - Text 'kiwi' is not present on page
+
+03-06-2026T15:08:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:08:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.3_2" time="2.498" classname="Test Cases/Carrello/TC_5.3_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:19 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.3_2: Test Cases/Carrello/TC_5.3_2
+
+03-06-2026T15:08:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:08:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:08:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:08:20 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:21 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=deleteC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=3' successfully
+
+03-06-2026T15:08:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=3' successfully
+
+03-06-2026T15:08:21 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:08:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492101293.png]]
+
+03-06-2026T15:08:21 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T15:08:22 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T15:08:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:08:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_1" time="2.911" classname="Test Cases/Carrello/TC_5.4_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:22 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_1: Test Cases/Carrello/TC_5.4_1
+
+03-06-2026T15:08:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T15:08:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T15:08:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T15:08:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T15:08:23 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T15:08:24 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=aggiorna&id=2&quantita=3' successfully
+
+03-06-2026T15:08:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=aggiorna&id=2&quantita=3' successfully
+
+03-06-2026T15:08:24 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T15:08:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T15:08:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_150628\\Carrello\\20260603_150628\\1780492104229.png]]
+
+03-06-2026T15:08:24 - [TEST_STEP][PASSED] - verifyTextPresent("239.97", false): Text '239.97' is present on page 
+
+03-06-2026T15:08:24 - [MESSAGE][PASSED] - Text '239.97' is present on page 
+
+03-06-2026T15:08:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T15:08:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_2" time="0.026" classname="Test Cases/Carrello/TC_5.4_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:25 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_2: Test Cases/Carrello/TC_5.4_2
+
+03-06-2026T15:08:25 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1)."): Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1).
+
+03-06-2026T15:08:25 - [MESSAGE][WARNING] - Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_3" time="0.024" classname="Test Cases/Carrello/TC_5.4_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:25 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_3: Test Cases/Carrello/TC_5.4_3
+
+03-06-2026T15:08:25 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'."): Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'.
+
+03-06-2026T15:08:25 - [MESSAGE][WARNING] - Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_4" time="0.026" classname="Test Cases/Carrello/TC_5.4_4" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:25 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_4: Test Cases/Carrello/TC_5.4_4
+
+03-06-2026T15:08:25 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required)."): Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required).
+
+03-06-2026T15:08:25 - [MESSAGE][WARNING] - Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_5" time="0.022" classname="Test Cases/Carrello/TC_5.4_5" status="PASSED">
+         <system-out><![CDATA[03-06-2026T15:08:25 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_5: Test Cases/Carrello/TC_5.4_5
+
+03-06-2026T15:08:25 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number)."): Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number).
+
+03-06-2026T15:08:25 - [MESSAGE][WARNING] - Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-06-2026T15:07:03 - [TEST_SUITE][FAILED] - Carrello: null]]></system-out>
+      <system-err><![CDATA[03-06-2026T15:07:03 - [TEST_SUITE][FAILED] - Carrello: null]]></system-err>
+   </testsuite>
+</testsuites>

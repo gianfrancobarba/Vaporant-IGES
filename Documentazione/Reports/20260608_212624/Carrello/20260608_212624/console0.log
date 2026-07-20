@@ -1,0 +1,1144 @@
+2026-06-08 21:26:37.435 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-08 21:26:37.439 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-08 21:26:38.610 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Carrello
+2026-06-08 21:26:38.732 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-08 21:26:38.733 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-08 21:26:38.735 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-08 21:26:38.735 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-08 21:26:38.736 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-08 21:26:38.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-08 21:26:38.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:26:38.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.1_1
+2026-06-08 21:26:39.346 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.1_1
+2026-06-08 21:26:39.392 DEBUG testcase.TC_5.1_1                        - 1: openBrowser("")
+2026-06-08 21:26:39.737 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:26:39.784 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:26:42.426 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5485e477cbda9721e09e8f547f05f1b2
+2026-06-08 21:26:42.428 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:26:42.429 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:26:42.429 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:26:42.437 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:26:42.500 DEBUG testcase.TC_5.1_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:26:43.965 DEBUG testcase.TC_5.1_1                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:26:44.407 DEBUG testcase.TC_5.1_1                        - 4: takeScreenshot()
+2026-06-08 21:26:45.004 DEBUG testcase.TC_5.1_1                        - 5: verifyTextPresent("kiwi", false)
+2026-06-08 21:26:45.335 DEBUG testcase.TC_5.1_1                        - 6: verifyTextPresent("79.99", false)
+2026-06-08 21:26:45.619 DEBUG testcase.TC_5.1_1                        - 7: closeBrowser()
+2026-06-08 21:26:46.310 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.1_1
+2026-06-08 21:26:46.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:26:46.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.1_2
+2026-06-08 21:26:46.445 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.1_2
+2026-06-08 21:26:46.481 DEBUG testcase.TC_5.1_2                        - 1: openBrowser("")
+2026-06-08 21:26:46.483 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:26:46.487 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:26:48.074 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 36ed9feb4865a8649adfae0446c4dac9
+2026-06-08 21:26:48.075 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:26:48.076 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:26:48.077 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:26:48.080 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:26:48.117 DEBUG testcase.TC_5.1_2                        - 2: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:26:52.778 DEBUG testcase.TC_5.1_2                        - 3: takeScreenshot()
+2026-06-08 21:26:53.243 DEBUG testcase.TC_5.1_2                        - 4: verifyTextPresent("0.00", false)
+2026-06-08 21:26:53.567 DEBUG testcase.TC_5.1_2                        - 5: closeBrowser()
+2026-06-08 21:26:53.830 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.1_2
+2026-06-08 21:26:53.834 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:26:53.835 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_1
+2026-06-08 21:26:53.961 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_1
+2026-06-08 21:26:54.008 DEBUG testcase.TC_5.2_1                        - 1: openBrowser("")
+2026-06-08 21:26:54.011 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:26:54.014 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:26:55.028 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 035d74144d2b3b5b015281276e3cdaf2
+2026-06-08 21:26:55.029 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:26:55.030 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:26:55.031 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:26:55.032 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:26:55.064 DEBUG testcase.TC_5.2_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:26:56.498 DEBUG testcase.TC_5.2_1                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:26:56.674 DEBUG testcase.TC_5.2_1                        - 4: takeScreenshot()
+2026-06-08 21:26:57.226 DEBUG testcase.TC_5.2_1                        - 5: verifyTextPresent("kiwi", false)
+2026-06-08 21:26:57.530 DEBUG testcase.TC_5.2_1                        - 6: closeBrowser()
+2026-06-08 21:26:57.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_1
+2026-06-08 21:26:57.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:26:57.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_2
+2026-06-08 21:26:57.879 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_2
+2026-06-08 21:26:57.911 DEBUG testcase.TC_5.2_2                        - 1: openBrowser("")
+2026-06-08 21:26:57.914 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:26:57.916 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:26:58.983 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8305f2fa341662d93ec8e57bb7594aa6
+2026-06-08 21:26:58.984 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:26:58.984 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:26:58.985 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:26:58.985 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:26:59.007 DEBUG testcase.TC_5.2_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:26:59.504 DEBUG testcase.TC_5.2_2                        - 3: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:26:59.625 DEBUG testcase.TC_5.2_2                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:26:59.690 DEBUG testcase.TC_5.2_2                        - 5: takeScreenshot()
+2026-06-08 21:27:00.243 DEBUG testcase.TC_5.2_2                        - 6: verifyTextPresent("kiwi", false)
+2026-06-08 21:27:00.536 DEBUG testcase.TC_5.2_2                        - 7: closeBrowser()
+2026-06-08 21:27:00.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_2
+2026-06-08 21:27:00.835 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:00.835 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_3
+2026-06-08 21:27:00.963 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_3
+2026-06-08 21:27:01.012 DEBUG testcase.TC_5.2_3                        - 1: openBrowser("")
+2026-06-08 21:27:01.013 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:01.016 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:02.183 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 56e96e2f8ffb8c34e04eb7fd47d5583c
+2026-06-08 21:27:02.185 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:02.186 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:02.186 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:02.188 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:02.212 DEBUG testcase.TC_5.2_3                        - 2: for ([i = 0, i < 6, (i++)])
+2026-06-08 21:27:02.213 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:03.629 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:03.686 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:03.761 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:03.818 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:03.877 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-08 21:27:04.025 DEBUG testcase.TC_5.2_3                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:27:04.080 DEBUG testcase.TC_5.2_3                        - 4: takeScreenshot()
+2026-06-08 21:27:04.645 DEBUG testcase.TC_5.2_3                        - 5: verifyTextPresent("voopoo", false)
+2026-06-08 21:27:04.954 DEBUG testcase.TC_5.2_3                        - 6: closeBrowser()
+2026-06-08 21:27:05.191 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_3
+2026-06-08 21:27:05.195 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:05.195 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:05.324 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:05.408 DEBUG testcase.TC_5.2_4                        - 1: openBrowser("")
+2026-06-08 21:27:05.410 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:05.411 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:06.503 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bee42273dc37f9bf8274cceade8c8996
+2026-06-08 21:27:06.504 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:06.504 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:06.505 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:06.505 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:06.527 DEBUG testcase.TC_5.2_4                        - 2: navigateToUrl(base + "cart?action=addC&id=999")
+2026-06-08 21:27:07.127 DEBUG testcase.TC_5.2_4                        - 3: delay(2)
+2026-06-08 21:27:09.174 DEBUG testcase.TC_5.2_4                        - 4: takeScreenshot()
+2026-06-08 21:27:09.519 DEBUG testcase.TC_5.2_4                        - 5: verifyElementNotPresent(css(".box"), 2, CONTINUE_ON_FAILURE)
+2026-06-08 21:27:09.521 DEBUG testcase.TC_5.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:27:09.537 DEBUG testcase.TC_5.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:27:09.549 DEBUG testcase.TC_5.2_4                        - 3: return t
+2026-06-08 21:27:12.538 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:27:12.558 DEBUG testcase.TC_5.2_4                        - 6: closeBrowser()
+2026-06-08 21:27:12.910 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	... 30 more
+
+2026-06-08 21:27:12.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:12.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:12.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_4 - Retry attempt 1
+2026-06-08 21:27:13.048 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:13.053 DEBUG testcase.TC_5.2_4                        - 1: openBrowser("")
+2026-06-08 21:27:13.054 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:13.055 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:14.152 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cc6e5c1c091f60d13894dd4ca5759ebf
+2026-06-08 21:27:14.153 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:14.155 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:14.156 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:14.156 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:14.177 DEBUG testcase.TC_5.2_4                        - 2: navigateToUrl(base + "cart?action=addC&id=999")
+2026-06-08 21:27:15.574 DEBUG testcase.TC_5.2_4                        - 3: delay(2)
+2026-06-08 21:27:17.578 DEBUG testcase.TC_5.2_4                        - 4: takeScreenshot()
+2026-06-08 21:27:17.908 DEBUG testcase.TC_5.2_4                        - 5: verifyElementNotPresent(css(".box"), 2, CONTINUE_ON_FAILURE)
+2026-06-08 21:27:17.909 DEBUG testcase.TC_5.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:27:17.910 DEBUG testcase.TC_5.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:27:17.910 DEBUG testcase.TC_5.2_4                        - 3: return t
+2026-06-08 21:27:20.603 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:27:20.606 DEBUG testcase.TC_5.2_4                        - 6: closeBrowser()
+2026-06-08 21:27:20.793 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	... 31 more
+
+2026-06-08 21:27:20.795 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:20.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:20.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_4 - Retry attempt 2
+2026-06-08 21:27:20.938 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:20.940 DEBUG testcase.TC_5.2_4                        - 1: openBrowser("")
+2026-06-08 21:27:20.941 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:20.943 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:21.937 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = eea0e1d771ace301ef45b9cd66747bb3
+2026-06-08 21:27:21.938 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:21.938 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:21.939 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:21.939 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:21.955 DEBUG testcase.TC_5.2_4                        - 2: navigateToUrl(base + "cart?action=addC&id=999")
+2026-06-08 21:27:23.471 DEBUG testcase.TC_5.2_4                        - 3: delay(2)
+2026-06-08 21:27:25.478 DEBUG testcase.TC_5.2_4                        - 4: takeScreenshot()
+2026-06-08 21:27:25.812 DEBUG testcase.TC_5.2_4                        - 5: verifyElementNotPresent(css(".box"), 2, CONTINUE_ON_FAILURE)
+2026-06-08 21:27:25.812 DEBUG testcase.TC_5.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:27:25.814 DEBUG testcase.TC_5.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:27:25.815 DEBUG testcase.TC_5.2_4                        - 3: return t
+2026-06-08 21:27:28.486 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:27:28.489 DEBUG testcase.TC_5.2_4                        - 6: closeBrowser()
+2026-06-08 21:27:28.910 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	... 32 more
+
+2026-06-08 21:27:28.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:28.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:28.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_4 - Retry attempt 3
+2026-06-08 21:27:29.045 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:29.047 DEBUG testcase.TC_5.2_4                        - 1: openBrowser("")
+2026-06-08 21:27:29.048 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:29.050 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:30.237 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5f9090cae5e001557d39ee2943660f2f
+2026-06-08 21:27:30.237 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:30.238 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:30.238 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:30.238 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:30.255 DEBUG testcase.TC_5.2_4                        - 2: navigateToUrl(base + "cart?action=addC&id=999")
+2026-06-08 21:27:31.592 DEBUG testcase.TC_5.2_4                        - 3: delay(2)
+2026-06-08 21:27:33.597 DEBUG testcase.TC_5.2_4                        - 4: takeScreenshot()
+2026-06-08 21:27:34.055 DEBUG testcase.TC_5.2_4                        - 5: verifyElementNotPresent(css(".box"), 2, CONTINUE_ON_FAILURE)
+2026-06-08 21:27:34.056 DEBUG testcase.TC_5.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:27:34.057 DEBUG testcase.TC_5.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:27:34.057 DEBUG testcase.TC_5.2_4                        - 3: return t
+2026-06-08 21:27:36.746 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:27:36.748 DEBUG testcase.TC_5.2_4                        - 6: closeBrowser()
+2026-06-08 21:27:36.975 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy57.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:135)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1583)
+	at TC_5.2_4.run(TC_5.2_4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: '.box' located by 'By.cssSelector: .box' is present after '2' second(s)
+	... 33 more
+
+2026-06-08 21:27:36.976 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_4
+2026-06-08 21:27:36.980 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:36.980 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.3_1
+2026-06-08 21:27:37.086 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.3_1
+2026-06-08 21:27:37.120 DEBUG testcase.TC_5.3_1                        - 1: openBrowser("")
+2026-06-08 21:27:37.122 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:37.125 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:38.127 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0cbd0a718332c9b0ebcc77949025b65d
+2026-06-08 21:27:38.127 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:38.128 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:38.128 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:38.129 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:38.160 DEBUG testcase.TC_5.3_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:27:38.566 DEBUG testcase.TC_5.3_1                        - 3: navigateToUrl(base + "cart?action=deleteC&id=2")
+2026-06-08 21:27:38.622 DEBUG testcase.TC_5.3_1                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:27:38.670 DEBUG testcase.TC_5.3_1                        - 5: takeScreenshot()
+2026-06-08 21:27:39.184 DEBUG testcase.TC_5.3_1                        - 6: verifyTextNotPresent("kiwi", false)
+2026-06-08 21:27:39.495 DEBUG testcase.TC_5.3_1                        - 7: closeBrowser()
+2026-06-08 21:27:39.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.3_1
+2026-06-08 21:27:39.770 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:39.770 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.3_2
+2026-06-08 21:27:39.886 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.3_2
+2026-06-08 21:27:39.915 DEBUG testcase.TC_5.3_2                        - 1: openBrowser("")
+2026-06-08 21:27:39.917 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:39.919 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:40.907 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ca93459d5525f93ad7b0cbbc7a54f5f3
+2026-06-08 21:27:40.908 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:40.909 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:40.909 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:40.910 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:40.926 DEBUG testcase.TC_5.3_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:27:42.323 DEBUG testcase.TC_5.3_2                        - 3: navigateToUrl(base + "cart?action=deleteC&id=3")
+2026-06-08 21:27:42.383 DEBUG testcase.TC_5.3_2                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:27:42.429 DEBUG testcase.TC_5.3_2                        - 5: takeScreenshot()
+2026-06-08 21:27:42.962 DEBUG testcase.TC_5.3_2                        - 6: verifyTextPresent("kiwi", false)
+2026-06-08 21:27:43.250 DEBUG testcase.TC_5.3_2                        - 7: closeBrowser()
+2026-06-08 21:27:43.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.3_2
+2026-06-08 21:27:43.462 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:43.462 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_1
+2026-06-08 21:27:43.576 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_1
+2026-06-08 21:27:43.606 DEBUG testcase.TC_5.4_1                        - 1: openBrowser("")
+2026-06-08 21:27:43.608 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:43.610 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:44.568 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4685adf70249ff8c14554d80c0a50940
+2026-06-08 21:27:44.569 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:44.570 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:44.570 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:44.572 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:44.590 DEBUG testcase.TC_5.4_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:27:45.981 DEBUG testcase.TC_5.4_1                        - 3: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=3")
+2026-06-08 21:27:46.035 DEBUG testcase.TC_5.4_1                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-08 21:27:46.072 DEBUG testcase.TC_5.4_1                        - 5: takeScreenshot()
+2026-06-08 21:27:46.649 DEBUG testcase.TC_5.4_1                        - 6: verifyTextPresent("239.97", false)
+2026-06-08 21:27:46.939 DEBUG testcase.TC_5.4_1                        - 7: closeBrowser()
+2026-06-08 21:27:47.225 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_1
+2026-06-08 21:27:47.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:47.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_2
+2026-06-08 21:27:47.344 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_2
+2026-06-08 21:27:47.404 DEBUG testcase.TC_5.4_2                        - 1: openBrowser("")
+2026-06-08 21:27:47.406 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:47.408 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:48.621 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7fc069cb57e3a773e6b3efb0a61291c6
+2026-06-08 21:27:48.622 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:48.623 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:48.624 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:48.624 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:48.646 DEBUG testcase.TC_5.4_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:27:49.072 DEBUG testcase.TC_5.4_2                        - 3: delay(1)
+2026-06-08 21:27:50.087 DEBUG testcase.TC_5.4_2                        - 4: delay(1)
+2026-06-08 21:27:51.095 DEBUG testcase.TC_5.4_2                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = '0';", null)
+2026-06-08 21:27:51.140 DEBUG testcase.TC_5.4_2                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-08 21:27:51.158 DEBUG testcase.TC_5.4_2                        - 7: verifyEqual(valid, false)
+2026-06-08 21:27:51.180 DEBUG testcase.TC_5.4_2                        - 8: click(css("button.btn"))
+2026-06-08 21:27:51.182 DEBUG testcase.TC_5.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:27:51.183 DEBUG testcase.TC_5.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:27:51.186 DEBUG testcase.TC_5.4_2                        - 3: return t
+2026-06-08 21:27:51.623 DEBUG testcase.TC_5.4_2                        - 9: delay(1)
+2026-06-08 21:27:52.638 DEBUG testcase.TC_5.4_2                        - 10: takeScreenshot()
+2026-06-08 21:27:52.990 DEBUG testcase.TC_5.4_2                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-08 21:27:53.267 DEBUG testcase.TC_5.4_2                        - 12: closeBrowser()
+2026-06-08 21:27:53.625 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_2
+2026-06-08 21:27:53.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:27:53.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:27:53.753 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:27:53.823 DEBUG testcase.TC_5.4_3                        - 1: openBrowser("")
+2026-06-08 21:27:53.825 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:27:53.826 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:27:54.803 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7a2dfe3b69d6a5b1a8fd933bb66742a8
+2026-06-08 21:27:54.804 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:27:54.804 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:27:54.804 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:27:54.806 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:27:54.821 DEBUG testcase.TC_5.4_3                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:27:56.345 DEBUG testcase.TC_5.4_3                        - 3: delay(1)
+2026-06-08 21:27:57.353 DEBUG testcase.TC_5.4_3                        - 4: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=30")
+2026-06-08 21:27:57.422 DEBUG testcase.TC_5.4_3                        - 5: delay(2)
+2026-06-08 21:27:59.434 DEBUG testcase.TC_5.4_3                        - 6: takeScreenshot()
+2026-06-08 21:27:59.791 DEBUG testcase.TC_5.4_3                        - 7: qta = executeJavaScript("return document.querySelector('[name=\"quantita\"]').value", null)
+2026-06-08 21:27:59.803 DEBUG testcase.TC_5.4_3                        - 8: verifyEqual(Integer.parseInt(qta.toString()) <= 25, true, CONTINUE_ON_FAILURE)
+2026-06-08 21:27:59.812 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:27:59.817 DEBUG testcase.TC_5.4_3                        - 9: closeBrowser()
+2026-06-08 21:28:00.209 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.4_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 19 more
+
+2026-06-08 21:28:00.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:00.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:28:00.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_3 - Retry attempt 1
+2026-06-08 21:28:00.328 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:00.330 DEBUG testcase.TC_5.4_3                        - 1: openBrowser("")
+2026-06-08 21:28:00.331 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:28:00.333 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:28:01.437 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cf3a94160cfeb4b55a87475c4b8cd03d
+2026-06-08 21:28:01.438 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:28:01.439 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:28:01.439 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:28:01.439 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:28:01.454 DEBUG testcase.TC_5.4_3                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:28:01.935 DEBUG testcase.TC_5.4_3                        - 3: delay(1)
+2026-06-08 21:28:02.943 DEBUG testcase.TC_5.4_3                        - 4: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=30")
+2026-06-08 21:28:03.029 DEBUG testcase.TC_5.4_3                        - 5: delay(2)
+2026-06-08 21:28:05.036 DEBUG testcase.TC_5.4_3                        - 6: takeScreenshot()
+2026-06-08 21:28:05.364 DEBUG testcase.TC_5.4_3                        - 7: qta = executeJavaScript("return document.querySelector('[name=\"quantita\"]').value", null)
+2026-06-08 21:28:05.377 DEBUG testcase.TC_5.4_3                        - 8: verifyEqual(Integer.parseInt(qta.toString()) <= 25, true, CONTINUE_ON_FAILURE)
+2026-06-08 21:28:05.380 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:28:05.382 DEBUG testcase.TC_5.4_3                        - 9: closeBrowser()
+2026-06-08 21:28:05.704 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.4_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+
+2026-06-08 21:28:05.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:05.708 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:28:05.709 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_3 - Retry attempt 2
+2026-06-08 21:28:05.825 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:05.828 DEBUG testcase.TC_5.4_3                        - 1: openBrowser("")
+2026-06-08 21:28:05.828 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:28:05.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:28:06.851 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 859b6a08586acec275f9b36b72934ae8
+2026-06-08 21:28:06.851 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:28:06.851 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:28:06.852 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:28:06.852 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:28:06.866 DEBUG testcase.TC_5.4_3                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:28:07.280 DEBUG testcase.TC_5.4_3                        - 3: delay(1)
+2026-06-08 21:28:08.292 DEBUG testcase.TC_5.4_3                        - 4: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=30")
+2026-06-08 21:28:08.331 DEBUG testcase.TC_5.4_3                        - 5: delay(2)
+2026-06-08 21:28:10.344 DEBUG testcase.TC_5.4_3                        - 6: takeScreenshot()
+2026-06-08 21:28:10.700 DEBUG testcase.TC_5.4_3                        - 7: qta = executeJavaScript("return document.querySelector('[name=\"quantita\"]').value", null)
+2026-06-08 21:28:10.712 DEBUG testcase.TC_5.4_3                        - 8: verifyEqual(Integer.parseInt(qta.toString()) <= 25, true, CONTINUE_ON_FAILURE)
+2026-06-08 21:28:10.715 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:28:10.717 DEBUG testcase.TC_5.4_3                        - 9: closeBrowser()
+2026-06-08 21:28:10.942 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.4_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 21 more
+
+2026-06-08 21:28:10.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:10.945 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:28:10.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_3 - Retry attempt 3
+2026-06-08 21:28:11.050 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:11.052 DEBUG testcase.TC_5.4_3                        - 1: openBrowser("")
+2026-06-08 21:28:11.053 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:28:11.054 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:28:12.061 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 96e843bb3766f084b546a7879e3a5595
+2026-06-08 21:28:12.062 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:28:12.062 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:28:12.062 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:28:12.064 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:28:12.079 DEBUG testcase.TC_5.4_3                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:28:13.465 DEBUG testcase.TC_5.4_3                        - 3: delay(1)
+2026-06-08 21:28:14.473 DEBUG testcase.TC_5.4_3                        - 4: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=30")
+2026-06-08 21:28:14.533 DEBUG testcase.TC_5.4_3                        - 5: delay(2)
+2026-06-08 21:28:16.539 DEBUG testcase.TC_5.4_3                        - 6: takeScreenshot()
+2026-06-08 21:28:16.889 DEBUG testcase.TC_5.4_3                        - 7: qta = executeJavaScript("return document.querySelector('[name=\"quantita\"]').value", null)
+2026-06-08 21:28:16.901 DEBUG testcase.TC_5.4_3                        - 8: verifyEqual(Integer.parseInt(qta.toString()) <= 25, true, CONTINUE_ON_FAILURE)
+2026-06-08 21:28:16.904 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 21:28:16.905 DEBUG testcase.TC_5.4_3                        - 9: closeBrowser()
+2026-06-08 21:28:17.120 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Carrello/TC_5.4_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_5.4_3.run(TC_5.4_3:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_12.run(S0608_12.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 22 more
+
+2026-06-08 21:28:17.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_3
+2026-06-08 21:28:17.125 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:28:17.125 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_4
+2026-06-08 21:28:17.227 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_4
+2026-06-08 21:28:17.284 DEBUG testcase.TC_5.4_4                        - 1: openBrowser("")
+2026-06-08 21:28:17.286 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:28:17.287 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:28:18.302 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3e9c3ff9bdd6f42a5c3d44cb6e9df4e7
+2026-06-08 21:28:18.303 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:28:18.303 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:28:18.303 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:28:18.304 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:28:18.318 DEBUG testcase.TC_5.4_4                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:28:18.716 DEBUG testcase.TC_5.4_4                        - 3: delay(1)
+2026-06-08 21:28:19.735 DEBUG testcase.TC_5.4_4                        - 4: delay(1)
+2026-06-08 21:28:20.748 DEBUG testcase.TC_5.4_4                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = '';", null)
+2026-06-08 21:28:20.760 DEBUG testcase.TC_5.4_4                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-08 21:28:20.772 DEBUG testcase.TC_5.4_4                        - 7: verifyEqual(valid, false)
+2026-06-08 21:28:20.775 DEBUG testcase.TC_5.4_4                        - 8: click(css("button.btn"))
+2026-06-08 21:28:20.776 DEBUG testcase.TC_5.4_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:28:20.778 DEBUG testcase.TC_5.4_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:28:20.779 DEBUG testcase.TC_5.4_4                        - 3: return t
+2026-06-08 21:28:21.182 DEBUG testcase.TC_5.4_4                        - 9: delay(1)
+2026-06-08 21:28:22.197 DEBUG testcase.TC_5.4_4                        - 10: takeScreenshot()
+2026-06-08 21:28:22.541 DEBUG testcase.TC_5.4_4                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-08 21:28:22.811 DEBUG testcase.TC_5.4_4                        - 12: closeBrowser()
+2026-06-08 21:28:23.059 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_4
+2026-06-08 21:28:23.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 21:28:23.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_5
+2026-06-08 21:28:23.178 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_5
+2026-06-08 21:28:23.250 DEBUG testcase.TC_5.4_5                        - 1: openBrowser("")
+2026-06-08 21:28:23.252 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 21:28:23.253 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 21:28:24.227 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2978d13f80950b1e88a44328df3a8b45
+2026-06-08 21:28:24.227 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 21:28:24.227 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 21:28:24.227 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 21:28:24.227 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 21:28:24.243 DEBUG testcase.TC_5.4_5                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 21:28:26.373 DEBUG testcase.TC_5.4_5                        - 3: delay(1)
+2026-06-08 21:28:27.380 DEBUG testcase.TC_5.4_5                        - 4: delay(1)
+2026-06-08 21:28:28.400 DEBUG testcase.TC_5.4_5                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = 'abc';", null)
+2026-06-08 21:28:28.419 DEBUG testcase.TC_5.4_5                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-08 21:28:28.432 DEBUG testcase.TC_5.4_5                        - 7: verifyEqual(valid, false)
+2026-06-08 21:28:28.435 DEBUG testcase.TC_5.4_5                        - 8: click(css("button.btn"))
+2026-06-08 21:28:28.436 DEBUG testcase.TC_5.4_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 21:28:28.438 DEBUG testcase.TC_5.4_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 21:28:28.439 DEBUG testcase.TC_5.4_5                        - 3: return t
+2026-06-08 21:28:28.817 DEBUG testcase.TC_5.4_5                        - 9: delay(1)
+2026-06-08 21:28:29.835 DEBUG testcase.TC_5.4_5                        - 10: takeScreenshot()
+2026-06-08 21:28:30.192 DEBUG testcase.TC_5.4_5                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-08 21:28:30.457 DEBUG testcase.TC_5.4_5                        - 12: closeBrowser()
+2026-06-08 21:28:30.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_5
+2026-06-08 21:28:30.816 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-08 21:28:30.816 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Carrello
+2026-06-08 21:28:30.816 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

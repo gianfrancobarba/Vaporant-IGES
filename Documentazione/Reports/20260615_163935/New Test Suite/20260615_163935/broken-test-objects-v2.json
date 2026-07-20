@@ -1,0 +1,121 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "#editButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#editButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#emailInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#emailInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#submitButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPhoneButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#editPhoneButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#phoneInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#phoneInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitPhoneButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#submitPhoneButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#editPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#oldPasswordInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#oldPasswordInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#newPasswordInput",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#newPasswordInput_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#submitPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#submitPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027checkbox\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#editPasswordButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#citta",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#citta_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#provincia",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260615_163935/New Test Suite/20260615_163935/#provincia_XPATH.png"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ordine,Chrome 148.0.7778.179,Gestione Ordine (RF_GO_19..22). Isolamento garantito da SeedReset. numberOfRerun=0.,,08-06-2026 00:36:27,08-06-2026 00:38:48,"2m - 20,977s",FAILED
+,,,,,,,
+Test Cases/Ordine/TC_6.1_1,Chrome 148.0.7778.179,Visualizzare la pagina di checkout con i prerequisiti soddisfatti,,08-06-2026 00:36:27,08-06-2026 00:36:39,"11,103s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:36:27,08-06-2026 00:36:28,"0,223s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:36:28,08-06-2026 00:36:29,"1,640s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:29,08-06-2026 00:36:30,"0,711s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:30,08-06-2026 00:36:30,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:30,08-06-2026 00:36:30,"0,011s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:30,08-06-2026 00:36:30,"0,009s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:30,08-06-2026 00:36:31,"0,654s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,549s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:31,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:31,08-06-2026 00:36:32,"0,319s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:32,08-06-2026 00:36:34,"2,026s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:34,08-06-2026 00:36:34,"0,338s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:36:34,08-06-2026 00:36:35,"1,014s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:35,08-06-2026 00:36:36,"0,532s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:36,08-06-2026 00:36:38,"2,017s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,313s",PASSED
+"verifyTextPresent(""(?i)Acquista"", true)",Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,265s",PASSED
+"verifyElementPresent(css(""#addressDropdown""), 5)",Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:38,"0,252s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:36:38,08-06-2026 00:36:39,"0,134s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.1_2,Chrome 148.0.7778.179,Negare il checkout a un ospite (atteso redirect a loginForm),,08-06-2026 00:36:39,08-06-2026 00:36:42,"3,500s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:36:39,08-06-2026 00:36:39,"0,071s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:36:39,08-06-2026 00:36:39,"0,708s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:39,08-06-2026 00:36:39,"0,050s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:39,08-06-2026 00:36:41,"2,014s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:36:41,08-06-2026 00:36:42,"0,286s",PASSED
+"verifyTextPresent(""(?i)Non hai un account"", true)",Chrome 148.0.7778.179,,,08-06-2026 00:36:42,08-06-2026 00:36:42,"0,330s",FAILED
+,,,,,,,
+Test Cases/Ordine/TC_6.1_3,Chrome 148.0.7778.179,Checkout di un cliente senza indirizzi (link Aggiungi indirizzo),,08-06-2026 00:36:42,08-06-2026 00:36:53,"11,312s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:36:42,08-06-2026 00:36:42,"0,086s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:36:42,08-06-2026 00:36:43,"0,821s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:43,"0,450s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Cliente';"" + ""document.getElementById('cognome').value='SenzaIndirizzo';"" + ""document.getElementById('data_nascita').value='1999-01-01';"" + ""document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';"" + ""document.getElementById('telefono').value='3310000001';"" + ""document.getElementById('email').value='nessun.indirizzo@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:43,"0,017s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:43,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:43,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:43,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:43,08-06-2026 00:36:44,"0,315s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:44,08-06-2026 00:36:46,"2,017s",PASSED
+"setText(css(""#email""), ""nessun.indirizzo@example.com"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,002s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,644s",PASSED
+"setText(css(""#password""), ""Password1"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:46,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:46,08-06-2026 00:36:47,"0,579s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:36:47,08-06-2026 00:36:47,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:47,08-06-2026 00:36:47,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:47,08-06-2026 00:36:47,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:47,08-06-2026 00:36:47,"0,288s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:47,08-06-2026 00:36:49,"2,005s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:49,08-06-2026 00:36:49,"0,187s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:36:49,08-06-2026 00:36:51,"1,011s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:51,08-06-2026 00:36:51,"0,059s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:51,08-06-2026 00:36:53,"2,011s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:36:53,08-06-2026 00:36:53,"0,306s",PASSED
+"verifyTextPresent(""(?i)Aggiungi indirizzo"", true)",Chrome 148.0.7778.179,,,08-06-2026 00:36:53,08-06-2026 00:36:53,"0,280s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:36:53,08-06-2026 00:36:53,"0,180s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.1_4,Chrome 148.0.7778.179,"Checkout con carrello vuoto/assente (robustezza, incident atteso NPE/500)",,08-06-2026 00:36:53,08-06-2026 00:37:01,"7,572s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:36:53,08-06-2026 00:36:53,"0,066s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:36:53,08-06-2026 00:36:54,"0,684s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:54,08-06-2026 00:36:55,"0,494s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,006s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,004s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,003s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,601s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:55,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:55,08-06-2026 00:36:56,"0,559s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:36:56,08-06-2026 00:36:56,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:36:56,08-06-2026 00:36:56,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:36:56,08-06-2026 00:36:56,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:36:56,08-06-2026 00:36:56,"0,311s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:56,08-06-2026 00:36:58,"2,012s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:36:58,08-06-2026 00:36:58,"0,037s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:36:58,08-06-2026 00:37:00,"2,007s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:00,08-06-2026 00:37:00,"0,304s",PASSED
+"verifyTextPresent(""(?i)Acquista"", true, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,08-06-2026 00:37:00,08-06-2026 00:37:01,"0,252s",FAILED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:37:01,08-06-2026 00:37:01,"0,173s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.2_1,Chrome 148.0.7778.179,Effettuare un acquisto con tutti i campi selezionati,,08-06-2026 00:37:01,08-06-2026 00:37:16,"15,061s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:37:01,08-06-2026 00:37:01,"0,063s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:37:01,08-06-2026 00:37:02,"0,770s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:02,08-06-2026 00:37:03,"0,832s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,590s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:03,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:03,08-06-2026 00:37:04,"0,567s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:04,08-06-2026 00:37:04,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:04,08-06-2026 00:37:04,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:04,08-06-2026 00:37:04,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:04,08-06-2026 00:37:04,"0,320s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:04,08-06-2026 00:37:06,"2,003s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:06,08-06-2026 00:37:06,"0,131s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:06,08-06-2026 00:37:07,"1,006s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:07,08-06-2026 00:37:07,"0,054s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:07,08-06-2026 00:37:09,"2,004s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:09,08-06-2026 00:37:09,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:09,08-06-2026 00:37:09,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:09,08-06-2026 00:37:09,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:09,08-06-2026 00:37:10,"0,582s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,547s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:10,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:10,08-06-2026 00:37:11,"0,298s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:11,08-06-2026 00:37:12,"1,017s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:12,"0,290s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:12,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:12,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:12,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:12,"0,335s",PASSED
+delay(3),Chrome 148.0.7778.179,,,08-06-2026 00:37:12,08-06-2026 00:37:15,"3,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:15,08-06-2026 00:37:16,"0,275s",PASSED
+"verifyTextPresent(""(?i)Acquisto effettuato"", true)",Chrome 148.0.7778.179,,,08-06-2026 00:37:16,08-06-2026 00:37:16,"0,309s",FAILED
+,,,,,,,
+Test Cases/Ordine/TC_6.2_2,Chrome 148.0.7778.179,Rifiuto acquisto senza indirizzo di spedizione (validazione client),,08-06-2026 00:37:16,08-06-2026 00:37:27,"10,908s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:37:16,08-06-2026 00:37:16,"0,064s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:37:16,08-06-2026 00:37:17,"0,955s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:17,08-06-2026 00:37:17,"0,401s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:17,08-06-2026 00:37:17,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:17,08-06-2026 00:37:17,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:17,08-06-2026 00:37:17,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:17,08-06-2026 00:37:18,"0,552s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:37:18,08-06-2026 00:37:18,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:18,08-06-2026 00:37:18,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:18,08-06-2026 00:37:18,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:18,08-06-2026 00:37:19,"0,524s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:19,08-06-2026 00:37:19,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:19,08-06-2026 00:37:19,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:19,08-06-2026 00:37:19,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:19,08-06-2026 00:37:19,"0,297s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:19,08-06-2026 00:37:21,"2,007s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:21,08-06-2026 00:37:21,"0,149s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:21,08-06-2026 00:37:22,"1,006s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:22,08-06-2026 00:37:22,"0,047s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:22,08-06-2026 00:37:24,"2,004s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:24,08-06-2026 00:37:24,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:24,08-06-2026 00:37:24,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:24,08-06-2026 00:37:24,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:24,08-06-2026 00:37:25,"0,539s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,299s",PASSED
+"valid = executeJavaScript(""return document.getElementById('addressDropdown').checkValidity()"", null)",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,005s",PASSED
+"verifyEqual(valid, false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,007s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:25,"0,313s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:25,08-06-2026 00:37:26,"1,005s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:26,08-06-2026 00:37:26,"0,294s",PASSED
+"verifyElementPresent(css(""#addressDropdown""), 5)",Chrome 148.0.7778.179,,,08-06-2026 00:37:26,08-06-2026 00:37:27,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:27,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:27,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:27,"0,237s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:27,"0,150s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.2_3,Chrome 148.0.7778.179,Rifiuto acquisto senza indirizzo di fatturazione (validazione client),,08-06-2026 00:37:27,08-06-2026 00:37:38,"10,843s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:27,"0,075s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:37:27,08-06-2026 00:37:28,"0,751s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:28,08-06-2026 00:37:28,"0,428s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:28,08-06-2026 00:37:28,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:28,08-06-2026 00:37:28,"0,002s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:28,08-06-2026 00:37:28,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:28,08-06-2026 00:37:29,"0,563s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,525s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:29,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:29,08-06-2026 00:37:30,"0,305s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:30,08-06-2026 00:37:32,"2,006s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:32,08-06-2026 00:37:32,"0,119s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:32,08-06-2026 00:37:33,"1,003s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:33,08-06-2026 00:37:33,"0,049s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:33,08-06-2026 00:37:35,"2,008s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,561s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:35,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:35,08-06-2026 00:37:36,"0,316s",PASSED
+"valid = executeJavaScript(""return document.getElementById('addressDropdown2').checkValidity()"", null)",Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,005s",PASSED
+"verifyEqual(valid, false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,001s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:36,"0,326s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:36,08-06-2026 00:37:37,"1,004s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:37,08-06-2026 00:37:37,"0,305s",PASSED
+"verifyElementPresent(css(""#addressDropdown2""), 5)",Chrome 148.0.7778.179,,,08-06-2026 00:37:37,08-06-2026 00:37:37,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:37,08-06-2026 00:37:37,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:37,08-06-2026 00:37:37,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:37,08-06-2026 00:37:38,"0,262s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:37:38,08-06-2026 00:37:38,"0,167s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.2_4,Chrome 148.0.7778.179,Rifiuto acquisto senza metodo di pagamento (validazione client),,08-06-2026 00:37:38,08-06-2026 00:37:49,"11,027s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:37:38,08-06-2026 00:37:38,"0,065s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:37:38,08-06-2026 00:37:39,"0,732s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:39,08-06-2026 00:37:39,"0,424s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:39,08-06-2026 00:37:39,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:39,08-06-2026 00:37:39,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:39,08-06-2026 00:37:39,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:39,08-06-2026 00:37:40,"0,575s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,524s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:40,"0,278s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:40,08-06-2026 00:37:42,"2,014s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:42,08-06-2026 00:37:43,"0,127s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:43,08-06-2026 00:37:44,"1,015s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:44,08-06-2026 00:37:44,"0,048s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:44,08-06-2026 00:37:46,"2,011s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,561s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:46,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:46,08-06-2026 00:37:47,"0,558s",PASSED
+"valid = executeJavaScript(""return document.querySelector(\""form[action='Ordine']\"").checkValidity()"", null)",Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,005s",PASSED
+"verifyEqual(valid, false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,000s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:47,"0,327s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:47,08-06-2026 00:37:48,"1,010s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:37:48,08-06-2026 00:37:48,"0,299s",PASSED
+"verifyElementPresent(css(""#paypal""), 5)",Chrome 148.0.7778.179,,,08-06-2026 00:37:48,08-06-2026 00:37:48,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:48,08-06-2026 00:37:48,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:48,08-06-2026 00:37:48,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:48,08-06-2026 00:37:49,"0,258s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:37:49,08-06-2026 00:37:49,"0,138s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.2_5,Chrome 148.0.7778.179,"Verifica decremento magazzino dopo acquisto (defect-exposing, PASS post-CR_01)",,08-06-2026 00:37:49,08-06-2026 00:38:05,"16,235s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:37:49,08-06-2026 00:37:49,"0,064s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:37:49,08-06-2026 00:37:50,"0,729s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:50,08-06-2026 00:37:50,"0,477s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:50,08-06-2026 00:37:50,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:50,08-06-2026 00:37:50,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:50,08-06-2026 00:37:50,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:50,08-06-2026 00:37:51,"0,554s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,530s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:51,"0,302s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:51,08-06-2026 00:37:53,"2,006s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:53,08-06-2026 00:37:54,"0,133s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:37:54,08-06-2026 00:37:55,"1,003s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:37:55,08-06-2026 00:37:55,"0,050s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:37:55,08-06-2026 00:37:57,"2,013s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,552s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:57,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:57,08-06-2026 00:37:58,"0,545s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,296s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:37:58,"0,298s",PASSED
+delay(3),Chrome 148.0.7778.179,,,08-06-2026 00:37:58,08-06-2026 00:38:01,"3,010s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:01,08-06-2026 00:38:01,"0,030s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:38:01,08-06-2026 00:38:02,"1,013s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:02,08-06-2026 00:38:02,"0,045s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:38:02,08-06-2026 00:38:04,"2,005s",PASSED
+"stockAfter = executeJavaScript(""var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'"", null)",Chrome 148.0.7778.179,,,08-06-2026 00:38:04,08-06-2026 00:38:04,"0,007s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:38:04,08-06-2026 00:38:05,"0,310s",PASSED
+"verifyMatch(stockAfter, ""24"", false, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,08-06-2026 00:38:05,08-06-2026 00:38:05,"0,008s",FAILED
+closeBrowser(),Chrome 148.0.7778.179,,,08-06-2026 00:38:05,08-06-2026 00:38:05,"0,195s",PASSED
+,,,,,,,
+Test Cases/Ordine/TC_6.3_1,Chrome 148.0.7778.179,Visualizzare il riepilogo dopo un acquisto,,08-06-2026 00:38:05,08-06-2026 00:38:18,"13,139s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:38:05,08-06-2026 00:38:05,"0,066s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:38:05,08-06-2026 00:38:06,"0,748s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:06,08-06-2026 00:38:06,"0,442s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:06,08-06-2026 00:38:06,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:06,08-06-2026 00:38:06,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:06,08-06-2026 00:38:06,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:06,08-06-2026 00:38:07,"0,552s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,533s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:07,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:07,08-06-2026 00:38:08,"0,283s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:38:08,08-06-2026 00:38:10,"2,007s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:10,08-06-2026 00:38:10,"0,136s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:38:10,08-06-2026 00:38:11,"1,009s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:11,08-06-2026 00:38:11,"0,045s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:38:11,08-06-2026 00:38:13,"2,008s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,542s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:13,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:13,08-06-2026 00:38:14,"0,546s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,284s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:14,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:14,08-06-2026 00:38:15,"0,303s",PASSED
+delay(3),Chrome 148.0.7778.179,,,08-06-2026 00:38:15,08-06-2026 00:38:18,"3,004s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,08-06-2026 00:38:18,08-06-2026 00:38:18,"0,283s",PASSED
+"verifyTextPresent(""(?i)Acquisto effettuato"", true)",Chrome 148.0.7778.179,,,08-06-2026 00:38:18,08-06-2026 00:38:18,"0,303s",FAILED
+,,,,,,,
+Test Cases/Ordine/TC_6.4_1,Chrome 148.0.7778.179,Scaricare la fattura PDF relativa a un acquisto,,08-06-2026 00:38:18,08-06-2026 00:38:48,"29,999s",FAILED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,08-06-2026 00:38:18,08-06-2026 00:38:18,"0,063s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,08-06-2026 00:38:18,08-06-2026 00:38:19,"0,887s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:19,08-06-2026 00:38:20,"0,425s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,556s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:20,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:20,08-06-2026 00:38:21,"0,522s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:21,08-06-2026 00:38:21,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:21,08-06-2026 00:38:21,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:21,08-06-2026 00:38:21,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:21,08-06-2026 00:38:21,"0,276s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:38:21,08-06-2026 00:38:23,"2,004s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:23,08-06-2026 00:38:23,"0,028s",PASSED
+delay(1),Chrome 148.0.7778.179,,,08-06-2026 00:38:23,08-06-2026 00:38:24,"1,011s",PASSED
+"navigateToUrl(base + ""checkout.jsp"")",Chrome 148.0.7778.179,,,08-06-2026 00:38:24,08-06-2026 00:38:24,"0,037s",PASSED
+delay(2),Chrome 148.0.7778.179,,,08-06-2026 00:38:24,08-06-2026 00:38:26,"2,003s",PASSED
+"selectOptionByValue(css(""#addressDropdown""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:38:26,08-06-2026 00:38:26,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:26,08-06-2026 00:38:26,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:26,08-06-2026 00:38:26,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:26,08-06-2026 00:38:27,"0,548s",PASSED
+"selectOptionByValue(css(""#addressDropdown2""), ""4"", false)",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,525s",PASSED
+"click(css(""#paypal""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,294s",PASSED
+"click(css("".checkout-btn[type=submit]""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:27,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:27,08-06-2026 00:38:28,"0,346s",PASSED
+delay(3),Chrome 148.0.7778.179,,,08-06-2026 00:38:28,08-06-2026 00:38:31,"3,010s",PASSED
+"click(css(""form[action='fattura'] button""))",Chrome 148.0.7778.179,,,08-06-2026 00:38:31,08-06-2026 00:38:31,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,08-06-2026 00:38:31,08-06-2026 00:38:31,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,08-06-2026 00:38:31,08-06-2026 00:38:31,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,08-06-2026 00:38:31,08-06-2026 00:38:48,"17,408s",FAILED

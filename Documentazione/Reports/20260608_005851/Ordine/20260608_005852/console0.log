@@ -1,0 +1,738 @@
+2026-06-08 00:59:04.476 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-08 00:59:04.479 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-08 00:59:05.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Ordine
+2026-06-08 00:59:05.291 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-08 00:59:05.291 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-08 00:59:05.292 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-08 00:59:05.292 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-08 00:59:05.293 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-08 00:59:05.293 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-08 00:59:05.367 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:05.368 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_1
+2026-06-08 00:59:05.618 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+2026-06-08 00:59:05.673 DEBUG testcase.TC_6.1_1                        - 1: openBrowser("")
+2026-06-08 00:59:05.911 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:05.961 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:07.539 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 85f39eb886e3493d4cf70f065c772ee7
+2026-06-08 00:59:07.540 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:07.541 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:07.541 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:07.546 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:07.579 DEBUG testcase.TC_6.1_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 00:59:08.075 DEBUG testcase.TC_6.1_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 00:59:08.076 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:08.088 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:08.097 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-08 00:59:08.748 DEBUG testcase.TC_6.1_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 00:59:08.749 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:08.751 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:08.751 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-08 00:59:09.344 DEBUG testcase.TC_6.1_1                        - 5: click(css("#submit"))
+2026-06-08 00:59:09.345 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:09.346 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:09.346 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-08 00:59:09.680 DEBUG testcase.TC_6.1_1                        - 6: delay(2)
+2026-06-08 00:59:11.722 DEBUG testcase.TC_6.1_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 00:59:12.026 DEBUG testcase.TC_6.1_1                        - 8: delay(1)
+2026-06-08 00:59:13.029 DEBUG testcase.TC_6.1_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:13.524 DEBUG testcase.TC_6.1_1                        - 10: delay(2)
+2026-06-08 00:59:15.537 DEBUG testcase.TC_6.1_1                        - 11: takeScreenshot()
+2026-06-08 00:59:15.891 DEBUG testcase.TC_6.1_1                        - 12: verifyTextPresent("(?i)Acquista", true)
+2026-06-08 00:59:16.145 DEBUG testcase.TC_6.1_1                        - 13: verifyElementPresent(css("#addressDropdown"), 5)
+2026-06-08 00:59:16.146 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:16.146 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:16.146 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-08 00:59:16.391 DEBUG testcase.TC_6.1_1                        - 14: closeBrowser()
+2026-06-08 00:59:16.533 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_1
+2026-06-08 00:59:16.537 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:16.537 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_2
+2026-06-08 00:59:16.623 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+2026-06-08 00:59:16.658 DEBUG testcase.TC_6.1_2                        - 1: openBrowser("")
+2026-06-08 00:59:16.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:16.661 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:17.454 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dec3d34a0d033b458253f304ddc4e72a
+2026-06-08 00:59:17.455 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:17.455 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:17.455 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:17.456 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:17.471 DEBUG testcase.TC_6.1_2                        - 2: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:17.522 DEBUG testcase.TC_6.1_2                        - 3: delay(2)
+2026-06-08 00:59:19.532 DEBUG testcase.TC_6.1_2                        - 4: takeScreenshot()
+2026-06-08 00:59:19.798 DEBUG testcase.TC_6.1_2                        - 5: verifyTextPresent("(?i)Non hai un account", true)
+2026-06-08 00:59:20.053 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text '(?i)Non hai un account' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 00:59:20.102 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text '(?i)Non hai un account' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+2026-06-08 00:59:20.103 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Ordine/TC_6.1_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-06-08 00:59:20.104 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_2
+2026-06-08 00:59:20.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:20.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_3
+2026-06-08 00:59:20.189 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+2026-06-08 00:59:20.237 DEBUG testcase.TC_6.1_3                        - 1: openBrowser("")
+2026-06-08 00:59:20.239 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-08 00:59:20.405 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:20.407 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:21.174 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9378bf197abde74a6dcf95f8b584bc80
+2026-06-08 00:59:21.174 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:21.174 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:21.175 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:21.175 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:21.187 DEBUG testcase.TC_6.1_3                        - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-08 00:59:21.642 DEBUG testcase.TC_6.1_3                        - 3: executeJavaScript("document.getElementById('nome').value='Cliente';" + "document.getElementById('cognome').value='SenzaIndirizzo';" + "document.getElementById('data_nascita').value='1999-01-01';" + "document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';" + "document.getElementById('telefono').value='3310000001';" + "document.getElementById('email').value='nessun.indirizzo@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-08 00:59:21.667 DEBUG testcase.TC_6.1_3                        - 4: click(css("#submit"))
+2026-06-08 00:59:21.671 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:21.674 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:21.676 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-08 00:59:22.006 DEBUG testcase.TC_6.1_3                        - 5: delay(2)
+2026-06-08 00:59:24.009 DEBUG testcase.TC_6.1_3                        - 6: setText(css("#email"), "nessun.indirizzo@example.com")
+2026-06-08 00:59:24.011 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:24.013 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:24.014 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-08 00:59:24.619 DEBUG testcase.TC_6.1_3                        - 7: setText(css("#password"), "Password1")
+2026-06-08 00:59:24.619 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:24.619 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:24.619 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-08 00:59:25.186 DEBUG testcase.TC_6.1_3                        - 8: click(css("#submit"))
+2026-06-08 00:59:25.187 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:25.187 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:25.187 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-08 00:59:25.464 DEBUG testcase.TC_6.1_3                        - 9: delay(2)
+2026-06-08 00:59:27.473 DEBUG testcase.TC_6.1_3                        - 10: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 00:59:27.590 DEBUG testcase.TC_6.1_3                        - 11: delay(1)
+2026-06-08 00:59:28.608 DEBUG testcase.TC_6.1_3                        - 12: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:28.662 DEBUG testcase.TC_6.1_3                        - 13: delay(2)
+2026-06-08 00:59:30.677 DEBUG testcase.TC_6.1_3                        - 14: takeScreenshot()
+2026-06-08 00:59:30.981 DEBUG testcase.TC_6.1_3                        - 15: verifyTextPresent("(?i)Aggiungi indirizzo", true)
+2026-06-08 00:59:31.234 DEBUG testcase.TC_6.1_3                        - 16: closeBrowser()
+2026-06-08 00:59:31.406 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_3
+2026-06-08 00:59:31.408 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:31.409 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_4
+2026-06-08 00:59:31.490 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+2026-06-08 00:59:31.542 DEBUG testcase.TC_6.1_4                        - 1: openBrowser("")
+2026-06-08 00:59:31.543 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:31.544 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:32.297 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 59009d5ba4c149a2965c0dc696a76a2f
+2026-06-08 00:59:32.297 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:32.297 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:32.297 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:32.298 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:32.306 DEBUG testcase.TC_6.1_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 00:59:32.685 DEBUG testcase.TC_6.1_4                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 00:59:32.687 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:32.690 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:32.691 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-08 00:59:33.249 DEBUG testcase.TC_6.1_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 00:59:33.251 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:33.251 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:33.252 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-08 00:59:33.791 DEBUG testcase.TC_6.1_4                        - 5: click(css("#submit"))
+2026-06-08 00:59:33.791 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:33.791 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:33.792 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-08 00:59:34.107 DEBUG testcase.TC_6.1_4                        - 6: delay(2)
+2026-06-08 00:59:36.113 DEBUG testcase.TC_6.1_4                        - 7: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:36.159 DEBUG testcase.TC_6.1_4                        - 8: delay(2)
+2026-06-08 00:59:38.167 DEBUG testcase.TC_6.1_4                        - 9: takeScreenshot()
+2026-06-08 00:59:38.449 DEBUG testcase.TC_6.1_4                        - 10: verifyTextPresent("(?i)Acquista", true, CONTINUE_ON_FAILURE)
+2026-06-08 00:59:38.687 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 00:59:38.689 DEBUG testcase.TC_6.1_4                        - 11: closeBrowser()
+2026-06-08 00:59:38.864 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Ordine/TC_6.1_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	... 22 more
+
+2026-06-08 00:59:38.866 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_4
+2026-06-08 00:59:38.868 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:38.868 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_1
+2026-06-08 00:59:38.947 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+2026-06-08 00:59:38.991 DEBUG testcase.TC_6.2_1                        - 1: openBrowser("")
+2026-06-08 00:59:38.992 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:38.993 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:39.758 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 809d959d8f502ccc31987d4f76b02969
+2026-06-08 00:59:39.759 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:39.759 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:39.759 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:39.759 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:39.773 DEBUG testcase.TC_6.2_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 00:59:40.163 DEBUG testcase.TC_6.2_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 00:59:40.164 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:40.165 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:40.166 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:40.751 DEBUG testcase.TC_6.2_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 00:59:40.752 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:40.752 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:40.752 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:41.291 DEBUG testcase.TC_6.2_1                        - 5: click(css("#submit"))
+2026-06-08 00:59:41.292 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:41.292 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:41.292 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:41.616 DEBUG testcase.TC_6.2_1                        - 6: delay(2)
+2026-06-08 00:59:43.630 DEBUG testcase.TC_6.2_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 00:59:43.809 DEBUG testcase.TC_6.2_1                        - 8: delay(1)
+2026-06-08 00:59:44.816 DEBUG testcase.TC_6.2_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:44.867 DEBUG testcase.TC_6.2_1                        - 10: delay(2)
+2026-06-08 00:59:46.885 DEBUG testcase.TC_6.2_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 00:59:46.886 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:46.886 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:46.887 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:47.446 DEBUG testcase.TC_6.2_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 00:59:47.447 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:47.447 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:47.447 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:47.968 DEBUG testcase.TC_6.2_1                        - 13: click(css("#paypal"))
+2026-06-08 00:59:47.969 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:47.969 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:47.969 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:48.264 DEBUG testcase.TC_6.2_1                        - 14: delay(1)
+2026-06-08 00:59:49.266 DEBUG testcase.TC_6.2_1                        - 15: takeScreenshot()
+2026-06-08 00:59:49.542 DEBUG testcase.TC_6.2_1                        - 16: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 00:59:49.542 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:49.543 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:49.543 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-08 00:59:50.008 DEBUG testcase.TC_6.2_1                        - 17: delay(3)
+2026-06-08 00:59:53.024 DEBUG testcase.TC_6.2_1                        - 18: takeScreenshot()
+2026-06-08 00:59:53.319 DEBUG testcase.TC_6.2_1                        - 19: verifyTextPresent("(?i)Acquisto effettuato", true)
+2026-06-08 00:59:53.560 DEBUG testcase.TC_6.2_1                        - 20: closeBrowser()
+2026-06-08 00:59:53.704 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_1
+2026-06-08 00:59:53.705 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 00:59:53.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_2
+2026-06-08 00:59:53.786 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+2026-06-08 00:59:53.827 DEBUG testcase.TC_6.2_2                        - 1: openBrowser("")
+2026-06-08 00:59:53.828 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 00:59:53.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 00:59:54.622 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 97b8f4c6f6bf407066ce67beaa52e01b
+2026-06-08 00:59:54.623 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 00:59:54.623 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 00:59:54.623 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 00:59:54.623 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 00:59:54.635 DEBUG testcase.TC_6.2_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 00:59:54.994 DEBUG testcase.TC_6.2_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 00:59:54.994 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:54.995 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:54.995 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 00:59:55.539 DEBUG testcase.TC_6.2_2                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 00:59:55.539 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:55.541 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:55.541 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 00:59:56.067 DEBUG testcase.TC_6.2_2                        - 5: click(css("#submit"))
+2026-06-08 00:59:56.068 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 00:59:56.068 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 00:59:56.068 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 00:59:56.373 DEBUG testcase.TC_6.2_2                        - 6: delay(2)
+2026-06-08 00:59:58.375 DEBUG testcase.TC_6.2_2                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 00:59:58.509 DEBUG testcase.TC_6.2_2                        - 8: delay(1)
+2026-06-08 00:59:59.514 DEBUG testcase.TC_6.2_2                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 00:59:59.561 DEBUG testcase.TC_6.2_2                        - 10: delay(2)
+2026-06-08 01:00:01.564 DEBUG testcase.TC_6.2_2                        - 11: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 01:00:01.566 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:01.566 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:01.567 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 01:00:02.147 DEBUG testcase.TC_6.2_2                        - 12: click(css("#paypal"))
+2026-06-08 01:00:02.147 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:02.147 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:02.147 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 01:00:02.442 DEBUG testcase.TC_6.2_2                        - 13: valid = executeJavaScript("return document.getElementById('addressDropdown').checkValidity()", null)
+2026-06-08 01:00:02.450 DEBUG testcase.TC_6.2_2                        - 14: verifyEqual(valid, false)
+2026-06-08 01:00:02.461 DEBUG testcase.TC_6.2_2                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:00:02.461 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:02.461 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:02.462 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 01:00:02.737 DEBUG testcase.TC_6.2_2                        - 16: delay(1)
+2026-06-08 01:00:03.752 DEBUG testcase.TC_6.2_2                        - 17: takeScreenshot()
+2026-06-08 01:00:04.042 DEBUG testcase.TC_6.2_2                        - 18: verifyElementPresent(css("#addressDropdown"), 5)
+2026-06-08 01:00:04.042 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:04.042 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:04.043 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-08 01:00:04.269 DEBUG testcase.TC_6.2_2                        - 19: closeBrowser()
+2026-06-08 01:00:04.434 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_2
+2026-06-08 01:00:04.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 01:00:04.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_3
+2026-06-08 01:00:04.513 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+2026-06-08 01:00:04.573 DEBUG testcase.TC_6.2_3                        - 1: openBrowser("")
+2026-06-08 01:00:04.574 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 01:00:04.576 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 01:00:05.315 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7bf7ad1a77a7e34b8f60fd5dd012e36a
+2026-06-08 01:00:05.315 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 01:00:05.315 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 01:00:05.315 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 01:00:05.316 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 01:00:05.325 DEBUG testcase.TC_6.2_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 01:00:05.757 DEBUG testcase.TC_6.2_3                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 01:00:05.758 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:05.759 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:05.759 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:06.315 DEBUG testcase.TC_6.2_3                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 01:00:06.316 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:06.316 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:06.316 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:06.856 DEBUG testcase.TC_6.2_3                        - 5: click(css("#submit"))
+2026-06-08 01:00:06.856 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:06.857 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:06.857 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:07.168 DEBUG testcase.TC_6.2_3                        - 6: delay(2)
+2026-06-08 01:00:09.185 DEBUG testcase.TC_6.2_3                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:00:09.312 DEBUG testcase.TC_6.2_3                        - 8: delay(1)
+2026-06-08 01:00:10.319 DEBUG testcase.TC_6.2_3                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:00:10.358 DEBUG testcase.TC_6.2_3                        - 10: delay(2)
+2026-06-08 01:00:12.362 DEBUG testcase.TC_6.2_3                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 01:00:12.362 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:12.362 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:12.363 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:12.891 DEBUG testcase.TC_6.2_3                        - 12: click(css("#paypal"))
+2026-06-08 01:00:12.891 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:12.891 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:12.891 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:13.164 DEBUG testcase.TC_6.2_3                        - 13: valid = executeJavaScript("return document.getElementById('addressDropdown2').checkValidity()", null)
+2026-06-08 01:00:13.168 DEBUG testcase.TC_6.2_3                        - 14: verifyEqual(valid, false)
+2026-06-08 01:00:13.170 DEBUG testcase.TC_6.2_3                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:00:13.170 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:13.170 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:13.170 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:13.446 DEBUG testcase.TC_6.2_3                        - 16: delay(1)
+2026-06-08 01:00:14.460 DEBUG testcase.TC_6.2_3                        - 17: takeScreenshot()
+2026-06-08 01:00:14.742 DEBUG testcase.TC_6.2_3                        - 18: verifyElementPresent(css("#addressDropdown2"), 5)
+2026-06-08 01:00:14.742 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:14.743 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:14.744 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-08 01:00:14.972 DEBUG testcase.TC_6.2_3                        - 19: closeBrowser()
+2026-06-08 01:00:15.125 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_3
+2026-06-08 01:00:15.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 01:00:15.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_4
+2026-06-08 01:00:15.214 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+2026-06-08 01:00:15.277 DEBUG testcase.TC_6.2_4                        - 1: openBrowser("")
+2026-06-08 01:00:15.278 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 01:00:15.279 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 01:00:16.015 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 00b643eae920ca5222341dcb156f083f
+2026-06-08 01:00:16.015 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 01:00:16.016 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 01:00:16.016 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 01:00:16.016 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 01:00:16.026 DEBUG testcase.TC_6.2_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 01:00:16.338 DEBUG testcase.TC_6.2_4                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 01:00:16.338 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:16.339 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:16.341 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:17.001 DEBUG testcase.TC_6.2_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 01:00:17.002 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:17.002 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:17.002 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:17.524 DEBUG testcase.TC_6.2_4                        - 5: click(css("#submit"))
+2026-06-08 01:00:17.524 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:17.525 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:17.525 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:17.851 DEBUG testcase.TC_6.2_4                        - 6: delay(2)
+2026-06-08 01:00:19.865 DEBUG testcase.TC_6.2_4                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:00:19.995 DEBUG testcase.TC_6.2_4                        - 8: delay(1)
+2026-06-08 01:00:21.000 DEBUG testcase.TC_6.2_4                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:00:21.049 DEBUG testcase.TC_6.2_4                        - 10: delay(2)
+2026-06-08 01:00:23.059 DEBUG testcase.TC_6.2_4                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 01:00:23.059 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:23.061 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:23.061 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:23.591 DEBUG testcase.TC_6.2_4                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 01:00:23.591 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:23.591 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:23.591 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:24.102 DEBUG testcase.TC_6.2_4                        - 13: valid = executeJavaScript("return document.querySelector(\"form[action='Ordine']\").checkValidity()", null)
+2026-06-08 01:00:24.107 DEBUG testcase.TC_6.2_4                        - 14: verifyEqual(valid, false)
+2026-06-08 01:00:24.108 DEBUG testcase.TC_6.2_4                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:00:24.108 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:24.108 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:24.108 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:24.403 DEBUG testcase.TC_6.2_4                        - 16: delay(1)
+2026-06-08 01:00:25.409 DEBUG testcase.TC_6.2_4                        - 17: takeScreenshot()
+2026-06-08 01:00:25.700 DEBUG testcase.TC_6.2_4                        - 18: verifyElementPresent(css("#paypal"), 5)
+2026-06-08 01:00:25.700 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:25.701 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:25.701 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-08 01:00:25.935 DEBUG testcase.TC_6.2_4                        - 19: closeBrowser()
+2026-06-08 01:00:26.107 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_4
+2026-06-08 01:00:26.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 01:00:26.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_5
+2026-06-08 01:00:26.187 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+2026-06-08 01:00:26.240 DEBUG testcase.TC_6.2_5                        - 1: openBrowser("")
+2026-06-08 01:00:26.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 01:00:26.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 01:00:27.000 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 23f5f3c239ede12f7472645eef797a12
+2026-06-08 01:00:27.000 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 01:00:27.000 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 01:00:27.001 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 01:00:27.001 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 01:00:27.008 DEBUG testcase.TC_6.2_5                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 01:00:27.405 DEBUG testcase.TC_6.2_5                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 01:00:27.406 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:27.408 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:27.409 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:27.998 DEBUG testcase.TC_6.2_5                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 01:00:27.999 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:27.999 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:27.999 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:28.523 DEBUG testcase.TC_6.2_5                        - 5: click(css("#submit"))
+2026-06-08 01:00:28.524 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:28.524 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:28.524 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:28.834 DEBUG testcase.TC_6.2_5                        - 6: delay(2)
+2026-06-08 01:00:30.837 DEBUG testcase.TC_6.2_5                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:00:30.951 DEBUG testcase.TC_6.2_5                        - 8: delay(1)
+2026-06-08 01:00:31.957 DEBUG testcase.TC_6.2_5                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:00:31.995 DEBUG testcase.TC_6.2_5                        - 10: delay(2)
+2026-06-08 01:00:33.998 DEBUG testcase.TC_6.2_5                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 01:00:33.999 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:34.001 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:34.002 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:34.507 DEBUG testcase.TC_6.2_5                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 01:00:34.507 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:34.508 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:34.508 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:35.010 DEBUG testcase.TC_6.2_5                        - 13: click(css("#paypal"))
+2026-06-08 01:00:35.010 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:35.010 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:35.010 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:35.281 DEBUG testcase.TC_6.2_5                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:00:35.281 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:35.281 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:35.281 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-08 01:00:35.605 DEBUG testcase.TC_6.2_5                        - 15: delay(3)
+2026-06-08 01:00:38.615 DEBUG testcase.TC_6.2_5                        - 16: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:00:38.653 DEBUG testcase.TC_6.2_5                        - 17: delay(1)
+2026-06-08 01:00:39.662 DEBUG testcase.TC_6.2_5                        - 18: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:00:39.707 DEBUG testcase.TC_6.2_5                        - 19: delay(2)
+2026-06-08 01:00:41.724 DEBUG testcase.TC_6.2_5                        - 20: stockAfter = executeJavaScript("var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'", null)
+2026-06-08 01:00:41.732 DEBUG testcase.TC_6.2_5                        - 21: takeScreenshot()
+2026-06-08 01:00:42.015 DEBUG testcase.TC_6.2_5                        - 22: verifyMatch(stockAfter, "24", false, CONTINUE_ON_FAILURE)
+2026-06-08 01:00:42.025 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-06-08 01:00:42.025 DEBUG testcase.TC_6.2_5                        - 23: closeBrowser()
+2026-06-08 01:00:42.193 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Ordine/TC_6.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 19 more
+
+2026-06-08 01:00:42.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_5
+2026-06-08 01:00:42.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 01:00:42.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.3_1
+2026-06-08 01:00:42.267 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+2026-06-08 01:00:42.302 DEBUG testcase.TC_6.3_1                        - 1: openBrowser("")
+2026-06-08 01:00:42.302 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 01:00:42.303 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 01:00:42.983 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 94a7354f7f26c80dedf9b7029a58fb8f
+2026-06-08 01:00:42.984 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 01:00:42.984 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 01:00:42.984 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 01:00:42.984 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 01:00:42.992 DEBUG testcase.TC_6.3_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 01:00:43.422 DEBUG testcase.TC_6.3_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 01:00:43.422 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:43.423 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:43.424 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:43.984 DEBUG testcase.TC_6.3_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 01:00:43.985 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:43.985 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:43.985 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:44.505 DEBUG testcase.TC_6.3_1                        - 5: click(css("#submit"))
+2026-06-08 01:00:44.505 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:44.505 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:44.506 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:44.814 DEBUG testcase.TC_6.3_1                        - 6: delay(2)
+2026-06-08 01:00:46.818 DEBUG testcase.TC_6.3_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:00:46.928 DEBUG testcase.TC_6.3_1                        - 8: delay(1)
+2026-06-08 01:00:47.943 DEBUG testcase.TC_6.3_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:00:47.987 DEBUG testcase.TC_6.3_1                        - 10: delay(2)
+2026-06-08 01:00:49.995 DEBUG testcase.TC_6.3_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 01:00:49.996 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:49.996 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:49.997 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:50.501 DEBUG testcase.TC_6.3_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 01:00:50.501 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:50.501 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:50.501 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:51.027 DEBUG testcase.TC_6.3_1                        - 13: click(css("#paypal"))
+2026-06-08 01:00:51.027 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:51.028 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:51.028 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:51.306 DEBUG testcase.TC_6.3_1                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:00:51.307 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:51.307 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:51.307 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-08 01:00:51.637 DEBUG testcase.TC_6.3_1                        - 15: delay(3)
+2026-06-08 01:00:54.653 DEBUG testcase.TC_6.3_1                        - 16: takeScreenshot()
+2026-06-08 01:00:54.924 DEBUG testcase.TC_6.3_1                        - 17: verifyTextPresent("(?i)Acquisto effettuato", true)
+2026-06-08 01:00:55.170 DEBUG testcase.TC_6.3_1                        - 18: verifyTextPresent("(?i)kiwi", true)
+2026-06-08 01:00:55.399 DEBUG testcase.TC_6.3_1                        - 19: closeBrowser()
+2026-06-08 01:00:55.556 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.3_1
+2026-06-08 01:00:55.558 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 01:00:55.558 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.4_1
+2026-06-08 01:00:55.632 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+2026-06-08 01:00:55.673 DEBUG testcase.TC_6.4_1                        - 1: openBrowser("")
+2026-06-08 01:00:55.673 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 01:00:55.674 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 01:00:56.372 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6a8821534ee45f567c6e13cfe34aa085
+2026-06-08 01:00:56.372 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 01:00:56.372 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 01:00:56.372 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 01:00:56.373 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 01:00:56.382 DEBUG testcase.TC_6.4_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 01:00:56.760 DEBUG testcase.TC_6.4_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 01:00:56.761 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:56.762 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:56.762 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:00:57.316 DEBUG testcase.TC_6.4_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 01:00:57.316 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:57.316 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:57.316 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:00:57.826 DEBUG testcase.TC_6.4_1                        - 5: click(css("#submit"))
+2026-06-08 01:00:57.826 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:00:57.827 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:00:57.827 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:00:58.136 DEBUG testcase.TC_6.4_1                        - 6: delay(2)
+2026-06-08 01:01:00.146 DEBUG testcase.TC_6.4_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-08 01:01:00.270 DEBUG testcase.TC_6.4_1                        - 8: delay(1)
+2026-06-08 01:01:01.279 DEBUG testcase.TC_6.4_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-08 01:01:01.327 DEBUG testcase.TC_6.4_1                        - 10: delay(2)
+2026-06-08 01:01:03.332 DEBUG testcase.TC_6.4_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-08 01:01:03.333 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:01:03.333 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:01:03.334 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:01:03.846 DEBUG testcase.TC_6.4_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-08 01:01:03.847 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:01:03.847 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:01:03.847 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:01:04.355 DEBUG testcase.TC_6.4_1                        - 13: click(css("#paypal"))
+2026-06-08 01:01:04.356 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:01:04.356 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:01:04.356 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:01:04.674 DEBUG testcase.TC_6.4_1                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-08 01:01:04.674 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:01:04.674 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:01:04.675 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:01:04.988 DEBUG testcase.TC_6.4_1                        - 15: delay(3)
+2026-06-08 01:01:08.002 DEBUG testcase.TC_6.4_1                        - 16: click(css("form[action='fattura'] button"))
+2026-06-08 01:01:08.002 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 01:01:08.002 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 01:01:08.004 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-08 01:01:09.241 DEBUG testcase.TC_6.4_1                        - 17: delay(3)
+2026-06-08 01:01:12.253 DEBUG testcase.TC_6.4_1                        - 18: takeScreenshot()
+2026-06-08 01:01:12.524 DEBUG testcase.TC_6.4_1                        - 19: verifyTextNotPresent("(?i)Si.*verificato un errore", true, CONTINUE_ON_FAILURE)
+2026-06-08 01:01:12.775 DEBUG testcase.TC_6.4_1                        - 20: closeBrowser()
+2026-06-08 01:01:12.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.4_1
+2026-06-08 01:01:12.945 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-08 01:01:12.945 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Ordine
+2026-06-08 01:01:12.945 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

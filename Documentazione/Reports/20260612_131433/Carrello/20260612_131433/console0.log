@@ -1,0 +1,276 @@
+2026-06-12 13:14:48.629 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-12 13:14:48.632 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-12 13:14:49.578 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Carrello
+2026-06-12 13:14:49.665 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-12 13:14:49.666 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-12 13:14:49.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-12 13:14:49.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-12 13:14:49.668 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-12 13:14:49.669 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-12 13:14:49.808 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:14:49.808 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.1_1
+2026-06-12 13:14:50.116 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.1_1
+2026-06-12 13:14:50.149 DEBUG testcase.TC_5.1_1                        - 1: openBrowser("")
+2026-06-12 13:14:50.425 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:14:50.464 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:14:52.322 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 30317bad447f786227ac5fe5b0035feb
+2026-06-12 13:14:52.323 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:14:52.324 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:14:52.324 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:14:52.329 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:14:52.368 DEBUG testcase.TC_5.1_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:14:53.839 DEBUG testcase.TC_5.1_1                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:14:53.875 DEBUG testcase.TC_5.1_1                        - 4: takeScreenshot()
+2026-06-12 13:14:54.450 DEBUG testcase.TC_5.1_1                        - 5: verifyTextPresent("kiwi", false)
+2026-06-12 13:14:54.722 DEBUG testcase.TC_5.1_1                        - 6: verifyTextPresent("79.99", false)
+2026-06-12 13:14:54.954 DEBUG testcase.TC_5.1_1                        - 7: closeBrowser()
+2026-06-12 13:14:55.129 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.1_1
+2026-06-12 13:14:55.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:14:55.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.1_2
+2026-06-12 13:14:55.230 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.1_2
+2026-06-12 13:14:55.258 DEBUG testcase.TC_5.1_2                        - 1: openBrowser("")
+2026-06-12 13:14:55.259 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:14:55.262 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:14:56.095 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 78b65c1efe1168144d8ed2d0c96c4303
+2026-06-12 13:14:56.095 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:14:56.095 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:14:56.096 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:14:56.096 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:14:56.113 DEBUG testcase.TC_5.1_2                        - 2: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:14:56.474 DEBUG testcase.TC_5.1_2                        - 3: takeScreenshot()
+2026-06-12 13:14:56.883 DEBUG testcase.TC_5.1_2                        - 4: verifyTextPresent("0.00", false)
+2026-06-12 13:14:57.141 DEBUG testcase.TC_5.1_2                        - 5: closeBrowser()
+2026-06-12 13:14:57.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.1_2
+2026-06-12 13:14:57.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:14:57.272 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_1
+2026-06-12 13:14:57.363 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_1
+2026-06-12 13:14:57.392 DEBUG testcase.TC_5.2_1                        - 1: openBrowser("")
+2026-06-12 13:14:57.393 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:14:57.395 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:14:58.187 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 17d5b379d2cd477f6f80b2125f107088
+2026-06-12 13:14:58.188 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:14:58.189 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:14:58.189 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:14:58.190 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:14:58.205 DEBUG testcase.TC_5.2_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:14:58.703 DEBUG testcase.TC_5.2_1                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:14:58.740 DEBUG testcase.TC_5.2_1                        - 4: takeScreenshot()
+2026-06-12 13:14:59.246 DEBUG testcase.TC_5.2_1                        - 5: verifyTextPresent("kiwi", false)
+2026-06-12 13:14:59.498 DEBUG testcase.TC_5.2_1                        - 6: closeBrowser()
+2026-06-12 13:14:59.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_1
+2026-06-12 13:14:59.631 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:14:59.631 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_2
+2026-06-12 13:14:59.728 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_2
+2026-06-12 13:14:59.756 DEBUG testcase.TC_5.2_2                        - 1: openBrowser("")
+2026-06-12 13:14:59.757 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:14:59.760 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:00.556 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 334353b8c410ba54860ed9e9916485ce
+2026-06-12 13:15:00.557 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:00.557 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:00.557 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:00.558 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:00.578 DEBUG testcase.TC_5.2_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:01.965 DEBUG testcase.TC_5.2_2                        - 3: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:02.008 DEBUG testcase.TC_5.2_2                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:15:02.040 DEBUG testcase.TC_5.2_2                        - 5: takeScreenshot()
+2026-06-12 13:15:02.562 DEBUG testcase.TC_5.2_2                        - 6: verifyTextPresent("kiwi", false)
+2026-06-12 13:15:02.810 DEBUG testcase.TC_5.2_2                        - 7: closeBrowser()
+2026-06-12 13:15:02.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_2
+2026-06-12 13:15:02.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:02.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_3
+2026-06-12 13:15:03.075 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_3
+2026-06-12 13:15:03.109 DEBUG testcase.TC_5.2_3                        - 1: openBrowser("")
+2026-06-12 13:15:03.110 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:03.111 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:03.933 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fc5e5b993f28d4dd4f92cc26518cecbb
+2026-06-12 13:15:03.933 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:03.934 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:03.934 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:03.934 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:03.949 DEBUG testcase.TC_5.2_3                        - 2: for ([i = 0, i < 6, (i++)])
+2026-06-12 13:15:03.950 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.409 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.446 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.484 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.524 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.562 DEBUG testcase.TC_5.2_3                        - 1: navigateToUrl(base + "cart?action=addC&id=3")
+2026-06-12 13:15:05.600 DEBUG testcase.TC_5.2_3                        - 3: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:15:05.631 DEBUG testcase.TC_5.2_3                        - 4: takeScreenshot()
+2026-06-12 13:15:06.121 DEBUG testcase.TC_5.2_3                        - 5: verifyTextPresent("voopoo", false)
+2026-06-12 13:15:06.370 DEBUG testcase.TC_5.2_3                        - 6: closeBrowser()
+2026-06-12 13:15:06.534 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_3
+2026-06-12 13:15:06.536 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:06.536 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.2_4
+2026-06-12 13:15:06.622 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.2_4
+2026-06-12 13:15:06.681 DEBUG testcase.TC_5.2_4                        - 1: openBrowser("")
+2026-06-12 13:15:06.682 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:06.684 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:07.463 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 39143a3d1f8c10b4ef3fea605f6b9c5a
+2026-06-12 13:15:07.463 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:07.463 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:07.463 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:07.464 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:07.479 DEBUG testcase.TC_5.2_4                        - 2: navigateToUrl(base + "cart?action=addC&id=999")
+2026-06-12 13:15:08.830 DEBUG testcase.TC_5.2_4                        - 3: delay(2)
+2026-06-12 13:15:10.868 DEBUG testcase.TC_5.2_4                        - 4: takeScreenshot()
+2026-06-12 13:15:11.135 DEBUG testcase.TC_5.2_4                        - 5: verifyElementNotPresent(css(".box"), 2, CONTINUE_ON_FAILURE)
+2026-06-12 13:15:11.135 DEBUG testcase.TC_5.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:15:11.141 DEBUG testcase.TC_5.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:15:11.145 DEBUG testcase.TC_5.2_4                        - 3: return t
+2026-06-12 13:15:11.463 DEBUG testcase.TC_5.2_4                        - 6: closeBrowser()
+2026-06-12 13:15:11.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.2_4
+2026-06-12 13:15:11.636 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:11.636 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.3_1
+2026-06-12 13:15:11.722 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.3_1
+2026-06-12 13:15:11.747 DEBUG testcase.TC_5.3_1                        - 1: openBrowser("")
+2026-06-12 13:15:11.748 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:11.749 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:12.542 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a1c708b1b2fdba2b66c5fe98dd1025b8
+2026-06-12 13:15:12.543 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:12.544 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:12.544 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:12.545 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:12.561 DEBUG testcase.TC_5.3_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:13.934 DEBUG testcase.TC_5.3_1                        - 3: navigateToUrl(base + "cart?action=deleteC&id=2")
+2026-06-12 13:15:13.972 DEBUG testcase.TC_5.3_1                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:15:13.999 DEBUG testcase.TC_5.3_1                        - 5: takeScreenshot()
+2026-06-12 13:15:14.529 DEBUG testcase.TC_5.3_1                        - 6: verifyTextNotPresent("kiwi", false)
+2026-06-12 13:15:14.805 DEBUG testcase.TC_5.3_1                        - 7: closeBrowser()
+2026-06-12 13:15:14.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.3_1
+2026-06-12 13:15:14.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:14.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.3_2
+2026-06-12 13:15:15.047 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.3_2
+2026-06-12 13:15:15.070 DEBUG testcase.TC_5.3_2                        - 1: openBrowser("")
+2026-06-12 13:15:15.071 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:15.072 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:15.892 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 83c6cbea2090947e1ab7a6379527e126
+2026-06-12 13:15:15.892 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:15.893 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:15.893 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:15.894 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:15.904 DEBUG testcase.TC_5.3_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:17.237 DEBUG testcase.TC_5.3_2                        - 3: navigateToUrl(base + "cart?action=deleteC&id=3")
+2026-06-12 13:15:17.275 DEBUG testcase.TC_5.3_2                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:15:17.307 DEBUG testcase.TC_5.3_2                        - 5: takeScreenshot()
+2026-06-12 13:15:17.823 DEBUG testcase.TC_5.3_2                        - 6: verifyTextPresent("kiwi", false)
+2026-06-12 13:15:18.074 DEBUG testcase.TC_5.3_2                        - 7: closeBrowser()
+2026-06-12 13:15:18.237 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.3_2
+2026-06-12 13:15:18.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:18.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_1
+2026-06-12 13:15:18.326 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_1
+2026-06-12 13:15:18.349 DEBUG testcase.TC_5.4_1                        - 1: openBrowser("")
+2026-06-12 13:15:18.350 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:18.352 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:19.120 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1624c2b76546e0117b575a6f40c1edab
+2026-06-12 13:15:19.120 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:19.121 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:19.121 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:19.121 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:19.130 DEBUG testcase.TC_5.4_1                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:20.842 DEBUG testcase.TC_5.4_1                        - 3: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=3")
+2026-06-12 13:15:20.885 DEBUG testcase.TC_5.4_1                        - 4: navigateToUrl(base + "CartView.jsp")
+2026-06-12 13:15:20.913 DEBUG testcase.TC_5.4_1                        - 5: takeScreenshot()
+2026-06-12 13:15:21.416 DEBUG testcase.TC_5.4_1                        - 6: verifyTextPresent("239.97", false)
+2026-06-12 13:15:21.659 DEBUG testcase.TC_5.4_1                        - 7: closeBrowser()
+2026-06-12 13:15:21.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_1
+2026-06-12 13:15:21.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:21.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_2
+2026-06-12 13:15:21.945 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_2
+2026-06-12 13:15:21.998 DEBUG testcase.TC_5.4_2                        - 1: openBrowser("")
+2026-06-12 13:15:21.999 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:22.000 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:22.854 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a477830e0878f8808e8345d3658b0171
+2026-06-12 13:15:22.854 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:22.854 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:22.854 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:22.854 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:22.863 DEBUG testcase.TC_5.4_2                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:24.233 DEBUG testcase.TC_5.4_2                        - 3: delay(1)
+2026-06-12 13:15:25.252 DEBUG testcase.TC_5.4_2                        - 4: delay(1)
+2026-06-12 13:15:26.261 DEBUG testcase.TC_5.4_2                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = '0';", null)
+2026-06-12 13:15:26.277 DEBUG testcase.TC_5.4_2                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-12 13:15:26.284 DEBUG testcase.TC_5.4_2                        - 7: verifyEqual(valid, false)
+2026-06-12 13:15:26.292 DEBUG testcase.TC_5.4_2                        - 8: click(css("button.btn"))
+2026-06-12 13:15:26.292 DEBUG testcase.TC_5.4_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:15:26.293 DEBUG testcase.TC_5.4_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:15:26.294 DEBUG testcase.TC_5.4_2                        - 3: return t
+2026-06-12 13:15:26.606 DEBUG testcase.TC_5.4_2                        - 9: delay(1)
+2026-06-12 13:15:27.616 DEBUG testcase.TC_5.4_2                        - 10: takeScreenshot()
+2026-06-12 13:15:27.914 DEBUG testcase.TC_5.4_2                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-12 13:15:28.160 DEBUG testcase.TC_5.4_2                        - 12: closeBrowser()
+2026-06-12 13:15:28.442 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_2
+2026-06-12 13:15:28.443 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:28.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_3
+2026-06-12 13:15:28.535 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_3
+2026-06-12 13:15:28.579 DEBUG testcase.TC_5.4_3                        - 1: openBrowser("")
+2026-06-12 13:15:28.580 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:28.582 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:29.367 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5b31633da8b8d3a73eb7407150fe2f09
+2026-06-12 13:15:29.367 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:29.367 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:29.368 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:29.368 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:29.376 DEBUG testcase.TC_5.4_3                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:30.718 DEBUG testcase.TC_5.4_3                        - 3: delay(1)
+2026-06-12 13:15:31.734 DEBUG testcase.TC_5.4_3                        - 4: navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=30")
+2026-06-12 13:15:31.770 DEBUG testcase.TC_5.4_3                        - 5: delay(2)
+2026-06-12 13:15:33.784 DEBUG testcase.TC_5.4_3                        - 6: takeScreenshot()
+2026-06-12 13:15:34.054 DEBUG testcase.TC_5.4_3                        - 7: qta = executeJavaScript("return document.querySelector('[name=\"quantita\"]').value", null)
+2026-06-12 13:15:34.060 DEBUG testcase.TC_5.4_3                        - 8: verifyEqual(Integer.parseInt(qta.toString()) <= 25, true, CONTINUE_ON_FAILURE)
+2026-06-12 13:15:34.063 DEBUG testcase.TC_5.4_3                        - 9: closeBrowser()
+2026-06-12 13:15:34.220 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_3
+2026-06-12 13:15:34.223 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:34.223 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_4
+2026-06-12 13:15:34.302 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_4
+2026-06-12 13:15:34.347 DEBUG testcase.TC_5.4_4                        - 1: openBrowser("")
+2026-06-12 13:15:34.348 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:34.349 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:35.130 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5f297977e877d7e90c89c7c5dbe0a886
+2026-06-12 13:15:35.130 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:35.130 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:35.130 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:35.131 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:35.141 DEBUG testcase.TC_5.4_4                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:36.508 DEBUG testcase.TC_5.4_4                        - 3: delay(1)
+2026-06-12 13:15:37.511 DEBUG testcase.TC_5.4_4                        - 4: delay(1)
+2026-06-12 13:15:38.526 DEBUG testcase.TC_5.4_4                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = '';", null)
+2026-06-12 13:15:38.531 DEBUG testcase.TC_5.4_4                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-12 13:15:38.537 DEBUG testcase.TC_5.4_4                        - 7: verifyEqual(valid, false)
+2026-06-12 13:15:38.539 DEBUG testcase.TC_5.4_4                        - 8: click(css("button.btn"))
+2026-06-12 13:15:38.539 DEBUG testcase.TC_5.4_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:15:38.540 DEBUG testcase.TC_5.4_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:15:38.540 DEBUG testcase.TC_5.4_4                        - 3: return t
+2026-06-12 13:15:38.840 DEBUG testcase.TC_5.4_4                        - 9: delay(1)
+2026-06-12 13:15:39.847 DEBUG testcase.TC_5.4_4                        - 10: takeScreenshot()
+2026-06-12 13:15:40.142 DEBUG testcase.TC_5.4_4                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-12 13:15:40.383 DEBUG testcase.TC_5.4_4                        - 12: closeBrowser()
+2026-06-12 13:15:40.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_4
+2026-06-12 13:15:40.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:15:40.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Carrello/TC_5.4_5
+2026-06-12 13:15:40.607 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Carrello/TC_5.4_5
+2026-06-12 13:15:40.658 DEBUG testcase.TC_5.4_5                        - 1: openBrowser("")
+2026-06-12 13:15:40.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:15:40.660 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:15:41.445 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5982a5dc20e4fe12352c231f64da7a2d
+2026-06-12 13:15:41.446 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:15:41.446 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:15:41.446 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:15:41.447 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:15:41.460 DEBUG testcase.TC_5.4_5                        - 2: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:15:42.837 DEBUG testcase.TC_5.4_5                        - 3: delay(1)
+2026-06-12 13:15:43.847 DEBUG testcase.TC_5.4_5                        - 4: delay(1)
+2026-06-12 13:15:44.862 DEBUG testcase.TC_5.4_5                        - 5: executeJavaScript("document.querySelector('[name=\"quantita\"]').value = 'abc';", null)
+2026-06-12 13:15:44.869 DEBUG testcase.TC_5.4_5                        - 6: valid = executeJavaScript("return document.querySelector('[name=\"quantita\"]').checkValidity()", null)
+2026-06-12 13:15:44.876 DEBUG testcase.TC_5.4_5                        - 7: verifyEqual(valid, false)
+2026-06-12 13:15:44.878 DEBUG testcase.TC_5.4_5                        - 8: click(css("button.btn"))
+2026-06-12 13:15:44.878 DEBUG testcase.TC_5.4_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:15:44.879 DEBUG testcase.TC_5.4_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:15:44.879 DEBUG testcase.TC_5.4_5                        - 3: return t
+2026-06-12 13:15:45.168 DEBUG testcase.TC_5.4_5                        - 9: delay(1)
+2026-06-12 13:15:46.181 DEBUG testcase.TC_5.4_5                        - 10: takeScreenshot()
+2026-06-12 13:15:46.496 DEBUG testcase.TC_5.4_5                        - 11: verifyTextPresent("CARRELLO", false)
+2026-06-12 13:15:46.738 DEBUG testcase.TC_5.4_5                        - 12: closeBrowser()
+2026-06-12 13:15:46.928 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Carrello/TC_5.4_5
+2026-06-12 13:15:46.949 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-12 13:15:46.949 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Carrello
+2026-06-12 13:15:46.949 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

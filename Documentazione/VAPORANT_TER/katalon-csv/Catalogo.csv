@@ -1,0 +1,139 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Catalogo,Chrome 148.0.7778.179,,,03-06-2026 17:08:39,03-06-2026 17:10:31,"1m - 52,135s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.1_1,Chrome 148.0.7778.179,Catalogo mostra i 4 prodotti seed,"Navigazione + verifica testo (es. ""kiwi"")",03-06-2026 17:08:39,03-06-2026 17:08:43,"3,969s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:08:40,03-06-2026 17:08:41,"1,840s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:08:41,03-06-2026 17:08:42,"0,919s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:08:42,03-06-2026 17:08:43,"0,489s",PASSED
+"verifyTextPresent(""SCOPRI I NOSTRI PRODOTTI"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:08:43,03-06-2026 17:08:43,"0,268s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:08:43,03-06-2026 17:08:43,"0,234s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.1_2,Chrome 148.0.7778.179,"Catalogo vuoto → messaggio
+
+Richiede DB svuotato → manuale/opzionale, per non alterare la baseline",,03-06-2026 17:08:43,03-06-2026 17:08:43,"0,025s",PASSED
+"markWarning(""Caso manuale: richiede catalogo vuoto (DB svuotato). Non eseguibile al baseline as-delivered."")",Chrome 148.0.7778.179,,,03-06-2026 17:08:43,03-06-2026 17:08:43,"0,003s",WARNING
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_1,Chrome 148.0.7778.179,"Ordinare il catalogo per nome
+Navigazione URL + verifica ordine",,03-06-2026 17:08:49,03-06-2026 17:08:52,"2,867s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:08:49,03-06-2026 17:08:50,"0,831s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:08:50,03-06-2026 17:08:51,"0,750s",PASSED
+"navigateToUrl(base + ""product?sort=nome"")",Chrome 148.0.7778.179,,,03-06-2026 17:08:51,03-06-2026 17:08:51,"0,211s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:08:51,03-06-2026 17:08:52,"0,673s",PASSED
+"verifyTextPresent(""SCOPRI I NOSTRI PRODOTTI"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:08:52,03-06-2026 17:08:52,"0,255s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:08:52,03-06-2026 17:08:52,"0,136s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_2,Chrome 148.0.7778.179,"Ordinare il catalogo per prezzo
+Navigazione URL + verifica ordine",,03-06-2026 17:08:52,03-06-2026 17:09:25,"33,116s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:08:52,03-06-2026 17:08:53,"0,819s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:08:53,03-06-2026 17:09:23,"30,332s",PASSED
+"navigateToUrl(base + ""product?sort=prezzoAttuale"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:23,03-06-2026 17:09:24,"1,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:24,03-06-2026 17:09:25,"0,451s",PASSED
+"verifyTextPresent(""SCOPRI I NOSTRI PRODOTTI"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:09:25,03-06-2026 17:09:25,"0,302s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:25,03-06-2026 17:09:25,"0,167s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_3,Chrome 148.0.7778.179,"Visualizzare il catalogo senza parametro di ordinamento
+Navigazione URL + verifica ordine",,03-06-2026 17:09:25,03-06-2026 17:09:28,"3,110s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:25,03-06-2026 17:09:26,"0,781s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:26,03-06-2026 17:09:27,"1,246s",PASSED
+"navigateToUrl(base + ""product"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:27,03-06-2026 17:09:27,"0,139s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:27,03-06-2026 17:09:28,"0,531s",PASSED
+"verifyTextPresent(""SCOPRI I NOSTRI PRODOTTI"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:09:28,03-06-2026 17:09:28,"0,241s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:28,03-06-2026 17:09:28,"0,145s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_4,Chrome 148.0.7778.179,Ordinamento del catalogo con colonna inesistente (errore gestito atteso; incident reale),Catalogo - ordinamento - caso di errore,03-06-2026 17:09:28,03-06-2026 17:09:31,"2,343s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:28,03-06-2026 17:09:29,"0,772s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:29,03-06-2026 17:09:30,"0,706s",PASSED
+"navigateToUrl(base + ""product?sort=colonna_inesistente"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:30,03-06-2026 17:09:30,"0,094s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:30,03-06-2026 17:09:31,"0,629s",PASSED
+"markWarning(""Sort con colonna inesistente: SQLException inghiottita, sort ignorato. Interpretare lo screenshot (robustezza/CR_02)."")",Chrome 148.0.7778.179,,,03-06-2026 17:09:31,03-06-2026 17:09:31,"0,002s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:31,03-06-2026 17:09:31,"0,105s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_5,Chrome 148.0.7778.179,"Verificare la sanificazione del parametro di ordinamento (SQL injection)
+Navigazione URL + verifica (atteso vulnerabilità → incident)",,03-06-2026 17:09:31,03-06-2026 17:09:32,"1,535s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:31,03-06-2026 17:09:32,"0,836s",PASSED
+"navigateToUrl(base + ""product?sort=nome;--"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:32,03-06-2026 17:09:32,"0,051s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:32,03-06-2026 17:09:32,"0,504s",PASSED
+"markWarning(""Verifica sicurezza SQLi: il parametro sort non e' sanificato. Interpretare lo screenshot."")",Chrome 148.0.7778.179,,,03-06-2026 17:09:32,03-06-2026 17:09:32,"0,002s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:32,03-06-2026 17:09:32,"0,107s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_1,Chrome 148.0.7778.179,"Dettaglio prodotto id 2 (kiwi)
+Click prodotto / URL + verifica nome+prezzo",,03-06-2026 17:09:32,03-06-2026 17:09:35,"3,018s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:32,03-06-2026 17:09:33,"0,797s",PASSED
+"navigateToUrl(base + ""details?action=read&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:33,03-06-2026 17:09:34,"1,210s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:34,03-06-2026 17:09:35,"0,291s",PASSED
+"verifyTextPresent(""(?i)kiwi"", true)",Chrome 148.0.7778.179,,,03-06-2026 17:09:35,03-06-2026 17:09:35,"0,264s",PASSED
+"verifyTextPresent(""79.99"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:09:35,03-06-2026 17:09:35,"0,249s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:35,03-06-2026 17:09:35,"0,175s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_2,Chrome 148.0.7778.179,"Dettaglio id inesistente (999)	
+URL + verifica (atteso robustezza → incident)",,03-06-2026 17:09:38,03-06-2026 17:09:41,"2,529s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:38,03-06-2026 17:09:39,"0,603s",PASSED
+"navigateToUrl(base + ""details?action=read&id=999"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:39,03-06-2026 17:09:40,"1,505s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:40,03-06-2026 17:09:41,"0,304s",PASSED
+"markWarning(""Id inesistente (999): nessun null-check -> mostrato un prodotto di default. Interpretare lo screenshot (robustezza/TIR)."")",Chrome 148.0.7778.179,,,03-06-2026 17:09:41,03-06-2026 17:09:41,"0,000s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:41,03-06-2026 17:09:41,"0,109s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_3,Chrome 148.0.7778.179,"Dettaglio id non numerico (abc)	
+URL + verifica errore 500 (incident)",,03-06-2026 17:09:44,03-06-2026 17:09:45,"1,565s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:44,03-06-2026 17:09:44,"0,632s",PASSED
+"navigateToUrl(base + ""details?action=read&id=abc"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:44,03-06-2026 17:09:45,"0,282s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:45,03-06-2026 17:09:45,"0,508s",PASSED
+"markWarning(""Id non numerico (abc): NumberFormatException -> errore 500. Interpretare lo screenshot (robustezza/TIR)."")",Chrome 148.0.7778.179,,,03-06-2026 17:09:45,03-06-2026 17:09:45,"0,002s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:45,03-06-2026 17:09:45,"0,135s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_1,Chrome 148.0.7778.179,"Ricercare un prodotto per nome esatto
+Digita nel campo ricerca + verifica dropdown",,03-06-2026 17:09:45,03-06-2026 17:09:50,"5,098s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:45,03-06-2026 17:09:46,"0,885s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:46,03-06-2026 17:09:47,"0,556s",PASSED
+"setText(css(""#searchInput""), ""kiwi"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:47,03-06-2026 17:09:47,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 17:09:47,03-06-2026 17:09:47,"0,005s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 17:09:47,03-06-2026 17:09:47,"0,009s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 17:09:47,03-06-2026 17:09:47,"0,618s",PASSED
+delay(2),Chrome 148.0.7778.179,,,03-06-2026 17:09:47,03-06-2026 17:09:49,"2,032s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:09:49,03-06-2026 17:09:50,"0,471s",PASSED
+"verifyTextPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:09:50,03-06-2026 17:09:50,"0,294s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:09:50,03-06-2026 17:09:50,"0,164s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_2,Chrome 148.0.7778.179,"Ricercare un prodotto per corrispondenza parziale
+Digita nel campo ricerca + verifica dropdown",,03-06-2026 17:09:51,03-06-2026 17:10:18,"26,677s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:09:51,03-06-2026 17:09:52,"0,940s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:09:52,03-06-2026 17:10:14,"22,205s",PASSED
+"setText(css(""#searchInput""), ""voo"")",Chrome 148.0.7778.179,,,03-06-2026 17:10:14,03-06-2026 17:10:14,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 17:10:14,03-06-2026 17:10:14,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 17:10:14,03-06-2026 17:10:14,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 17:10:14,03-06-2026 17:10:15,"0,645s",PASSED
+delay(2),Chrome 148.0.7778.179,,,03-06-2026 17:10:15,03-06-2026 17:10:17,"2,017s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:10:17,03-06-2026 17:10:17,"0,446s",PASSED
+"verifyTextPresent(""voopoo"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:10:17,03-06-2026 17:10:18,"0,257s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:10:18,03-06-2026 17:10:18,"0,152s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_3,Chrome 148.0.7778.179,"Ricerca senza corrispondenze
+Digita nel campo ricerca + verifica dropdown",,03-06-2026 17:10:18,03-06-2026 17:10:24,"6,616s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:10:18,03-06-2026 17:10:18,"0,747s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:10:18,03-06-2026 17:10:21,"2,256s",PASSED
+"setText(css(""#searchInput""), ""zzz"")",Chrome 148.0.7778.179,,,03-06-2026 17:10:21,03-06-2026 17:10:21,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 17:10:21,03-06-2026 17:10:21,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 17:10:21,03-06-2026 17:10:21,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 17:10:21,03-06-2026 17:10:21,"0,665s",PASSED
+delay(2),Chrome 148.0.7778.179,,,03-06-2026 17:10:21,03-06-2026 17:10:23,"2,013s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:10:23,03-06-2026 17:10:24,"0,462s",PASSED
+"verifyTextPresent(""Nessun risultato trovato"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:10:24,03-06-2026 17:10:24,"0,262s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:10:24,03-06-2026 17:10:24,"0,157s",PASSED
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_4,Chrome 148.0.7778.179,"Comportamento con campo di ricerca vuoto
+Digita nel campo ricerca + verifica dropdown",,03-06-2026 17:10:24,03-06-2026 17:10:31,"7,103s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 17:10:24,03-06-2026 17:10:25,"0,784s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 17:10:25,03-06-2026 17:10:27,"2,005s",PASSED
+"setText(css(""#searchInput""), ""kiwi"")",Chrome 148.0.7778.179,,,03-06-2026 17:10:27,03-06-2026 17:10:27,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 17:10:27,03-06-2026 17:10:27,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 17:10:27,03-06-2026 17:10:27,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 17:10:27,03-06-2026 17:10:28,"0,718s",PASSED
+delay(1),Chrome 148.0.7778.179,,,03-06-2026 17:10:28,03-06-2026 17:10:29,"1,003s",PASSED
+"setText(css(""#searchInput""), """")",Chrome 148.0.7778.179,,,03-06-2026 17:10:29,03-06-2026 17:10:29,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 17:10:29,03-06-2026 17:10:29,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 17:10:29,03-06-2026 17:10:29,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 17:10:29,03-06-2026 17:10:29,"0,591s",PASSED
+delay(1),Chrome 148.0.7778.179,,,03-06-2026 17:10:29,03-06-2026 17:10:30,"1,017s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 17:10:30,03-06-2026 17:10:31,"0,485s",PASSED
+"verifyTextNotPresent(""Nessun risultato trovato"", false)",Chrome 148.0.7778.179,,,03-06-2026 17:10:31,03-06-2026 17:10:31,"0,293s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 17:10:31,03-06-2026 17:10:31,"0,155s",PASSED

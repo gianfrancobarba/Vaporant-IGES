@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Carrello" time="32.8" tests="13" passed="13" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Carrello" tests="13" passed="13" failures="0" errors="0" incompleted="0" skipped="0" time="32.8" timestamp="2026-06-03T14:23:29.110Z" hostname="gianf - Gianfranco" id="Test Suites/Carrello" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496612591.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496617043.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496619396.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496622040.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496625698.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496628615.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496630728.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496633829.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496640916.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="9348b39e6ae094e0dd20765138ccae32"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Carrello/TC_5.1_1" time="4.534" classname="Test Cases/Carrello/TC_5.1_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:29 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.1_1: Test Cases/Carrello/TC_5.1_1
+
+03-06-2026T16:23:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:31 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496612591.png]]
+
+03-06-2026T16:23:33 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T16:23:33 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T16:23:33 - [TEST_STEP][PASSED] - verifyTextPresent("79.99", false): Text '79.99' is present on page 
+
+03-06-2026T16:23:33 - [MESSAGE][PASSED] - Text '79.99' is present on page 
+
+03-06-2026T16:23:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.1_2" time="3.296" classname="Test Cases/Carrello/TC_5.1_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:34 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.1_2: Test Cases/Carrello/TC_5.1_2
+
+03-06-2026T16:23:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:35 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496617043.png]]
+
+03-06-2026T16:23:37 - [TEST_STEP][PASSED] - verifyTextPresent("0.00", false): Text '0.00' is present on page 
+
+03-06-2026T16:23:37 - [MESSAGE][PASSED] - Text '0.00' is present on page 
+
+03-06-2026T16:23:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_1" time="2.499" classname="Test Cases/Carrello/TC_5.2_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:37 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_1: Test Cases/Carrello/TC_5.2_1
+
+03-06-2026T16:23:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:38 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496619396.png]]
+
+03-06-2026T16:23:39 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T16:23:40 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T16:23:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_2" time="2.618" classname="Test Cases/Carrello/TC_5.2_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:40 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_2: Test Cases/Carrello/TC_5.2_2
+
+03-06-2026T16:23:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:41 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:41 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:42 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496622040.png]]
+
+03-06-2026T16:23:42 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T16:23:42 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T16:23:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_3" time="3.691" classname="Test Cases/Carrello/TC_5.2_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:42 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_3: Test Cases/Carrello/TC_5.2_3
+
+03-06-2026T16:23:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:43 - [TEST_STEP][PASSED] - for ([i = 0, i < 6, (i++)]): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:43 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=3' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496625698.png]]
+
+03-06-2026T16:23:46 - [TEST_STEP][PASSED] - verifyTextPresent("voopoo", false): Text 'voopoo' is present on page 
+
+03-06-2026T16:23:46 - [MESSAGE][PASSED] - Text 'voopoo' is present on page 
+
+03-06-2026T16:23:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.2_4" time="2.514" classname="Test Cases/Carrello/TC_5.2_4" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:46 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.2_4: Test Cases/Carrello/TC_5.2_4
+
+03-06-2026T16:23:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:47 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=999"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=999' successfully
+
+03-06-2026T16:23:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=999' successfully
+
+03-06-2026T16:23:48 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496628615.png]]
+
+03-06-2026T16:23:48 - [TEST_STEP][WARNING] - markWarning("Robustezza: verificare se e' stato aggiunto un prodotto \"vuoto\" (bean di default) al carrello."): Robustezza: verificare se e' stato aggiunto un prodotto "vuoto" (bean di default) al carrello.
+
+03-06-2026T16:23:48 - [MESSAGE][WARNING] - Robustezza: verificare se e' stato aggiunto un prodotto "vuoto" (bean di default) al carrello.
+
+03-06-2026T16:23:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.3_1" time="2.451" classname="Test Cases/Carrello/TC_5.3_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:49 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.3_1: Test Cases/Carrello/TC_5.3_1
+
+03-06-2026T16:23:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:49 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=deleteC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=2' successfully
+
+03-06-2026T16:23:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=2' successfully
+
+03-06-2026T16:23:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496630728.png]]
+
+03-06-2026T16:23:51 - [TEST_STEP][PASSED] - verifyTextNotPresent("kiwi", false): Text 'kiwi' is not present on page
+
+03-06-2026T16:23:51 - [MESSAGE][PASSED] - Text 'kiwi' is not present on page
+
+03-06-2026T16:23:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.3_2" time="3.145" classname="Test Cases/Carrello/TC_5.3_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:51 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.3_2: Test Cases/Carrello/TC_5.3_2
+
+03-06-2026T16:23:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:52 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:23:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=deleteC&id=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=3' successfully
+
+03-06-2026T16:23:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=deleteC&id=3' successfully
+
+03-06-2026T16:23:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:23:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:23:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496633829.png]]
+
+03-06-2026T16:23:54 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T16:23:54 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T16:23:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:23:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_1" time="7.092" classname="Test Cases/Carrello/TC_5.4_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:23:54 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_1: Test Cases/Carrello/TC_5.4_1
+
+03-06-2026T16:23:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T16:23:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T16:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T16:23:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T16:23:55 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:24:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+03-06-2026T16:24:00 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=aggiorna&id=2&quantita=3"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=aggiorna&id=2&quantita=3' successfully
+
+03-06-2026T16:24:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=aggiorna&id=2&quantita=3' successfully
+
+03-06-2026T16:24:00 - [TEST_STEP][PASSED] - navigateToUrl(base + "CartView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:24:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/CartView.jsp' successfully
+
+03-06-2026T16:24:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T16:24:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_162254\\Carrello\\20260603_162254\\1780496640916.png]]
+
+03-06-2026T16:24:01 - [TEST_STEP][PASSED] - verifyTextPresent("239.97", false): Text '239.97' is present on page 
+
+03-06-2026T16:24:01 - [MESSAGE][PASSED] - Text '239.97' is present on page 
+
+03-06-2026T16:24:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T16:24:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_2" time="0.018" classname="Test Cases/Carrello/TC_5.4_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:24:01 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_2: Test Cases/Carrello/TC_5.4_2
+
+03-06-2026T16:24:01 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1)."): Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1).
+
+03-06-2026T16:24:01 - [MESSAGE][WARNING] - Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_3" time="0.018" classname="Test Cases/Carrello/TC_5.4_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:24:01 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_3: Test Cases/Carrello/TC_5.4_3
+
+03-06-2026T16:24:01 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'."): Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'.
+
+03-06-2026T16:24:01 - [MESSAGE][WARNING] - Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_4" time="0.019" classname="Test Cases/Carrello/TC_5.4_4" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:24:01 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_4: Test Cases/Carrello/TC_5.4_4
+
+03-06-2026T16:24:01 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required)."): Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required).
+
+03-06-2026T16:24:01 - [MESSAGE][WARNING] - Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carrello/TC_5.4_5" time="0.019" classname="Test Cases/Carrello/TC_5.4_5" status="PASSED">
+         <system-out><![CDATA[03-06-2026T16:24:01 - [TEST_CASE][PASSED] - Test Cases/Carrello/TC_5.4_5: Test Cases/Carrello/TC_5.4_5
+
+03-06-2026T16:24:01 - [TEST_STEP][WARNING] - markWarning("Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number)."): Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number).
+
+03-06-2026T16:24:01 - [MESSAGE][WARNING] - Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-06-2026T16:23:29 - [TEST_SUITE][PASSED] - Carrello: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

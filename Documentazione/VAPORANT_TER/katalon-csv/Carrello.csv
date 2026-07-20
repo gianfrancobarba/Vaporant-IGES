@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Carrello,Chrome 148.0.7778.179,,,03-06-2026 16:23:29,03-06-2026 16:24:01,"32,817s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.1_1,Chrome 148.0.7778.179,"Visualizzare il carrello contenente prodotti
+Aggiungi → apri carrello → verifica",,03-06-2026 16:23:29,03-06-2026 16:23:33,"4,534s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:29,03-06-2026 16:23:31,"1,807s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:31,03-06-2026 16:23:32,"1,295s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:32,03-06-2026 16:23:32,"0,037s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:32,03-06-2026 16:23:33,"0,539s",PASSED
+"verifyTextPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:33,03-06-2026 16:23:33,"0,256s",PASSED
+"verifyTextPresent(""79.99"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:33,03-06-2026 16:23:33,"0,252s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:33,03-06-2026 16:23:33,"0,137s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.1_2,Chrome 148.0.7778.179,"Visualizzare il carrello vuoto
+Aggiungi → apri carrello → verifica",,03-06-2026 16:23:34,03-06-2026 16:23:37,"3,296s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:34,03-06-2026 16:23:35,"0,786s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:35,03-06-2026 16:23:37,"1,749s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:37,03-06-2026 16:23:37,"0,283s",PASSED
+"verifyTextPresent(""0.00"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:37,03-06-2026 16:23:37,"0,261s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:37,03-06-2026 16:23:37,"0,209s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.2_1,Chrome 148.0.7778.179,"Aggiungere al carrello un prodotto non ancora presente
+URL cart?action=addC&id=.. + verifica",,03-06-2026 16:23:37,03-06-2026 16:23:40,"2,499s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:37,03-06-2026 16:23:38,"0,590s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:38,03-06-2026 16:23:39,"0,892s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:39,03-06-2026 16:23:39,"0,083s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:39,03-06-2026 16:23:39,"0,505s",PASSED
+"verifyTextPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:39,03-06-2026 16:23:40,"0,252s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:40,03-06-2026 16:23:40,"0,146s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.2_2,Chrome 148.0.7778.179,"Aggiungere un prodotto già presente (sotto la disponibilità)
+URL cart?action=addC&id=.. + verifica",,03-06-2026 16:23:40,03-06-2026 16:23:42,"2,618s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:40,03-06-2026 16:23:41,"0,763s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:41,03-06-2026 16:23:41,"0,875s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:41,03-06-2026 16:23:42,"0,046s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:42,03-06-2026 16:23:42,"0,025s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:42,03-06-2026 16:23:42,"0,481s",PASSED
+"verifyTextPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:42,03-06-2026 16:23:42,"0,240s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:42,03-06-2026 16:23:42,"0,158s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.2_3,Chrome 148.0.7778.179,"Aggiungere un prodotto già presente alla quantità massima disponibile
+URL cart?action=addC&id=.. + verifica",,03-06-2026 16:23:42,03-06-2026 16:23:46,"3,691s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:42,03-06-2026 16:23:43,"0,719s",PASSED
+"for ([i = 0, i < 6, (i++)])",Chrome 148.0.7778.179,,,03-06-2026 16:23:43,03-06-2026 16:23:45,"1,977s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:45,03-06-2026 16:23:45,"0,031s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:45,03-06-2026 16:23:46,"0,487s",PASSED
+"verifyTextPresent(""voopoo"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:46,03-06-2026 16:23:46,"0,254s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:46,03-06-2026 16:23:46,"0,172s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.2_4,Chrome 148.0.7778.179,"Aggiungere al carrello un id inesistente
+URL cart?action=addC&id=.. + verifica",,03-06-2026 16:23:46,03-06-2026 16:23:49,"2,514s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:46,03-06-2026 16:23:47,"0,598s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=999"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:47,03-06-2026 16:23:48,"0,851s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:48,03-06-2026 16:23:48,"0,515s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:48,03-06-2026 16:23:48,"0,373s",PASSED
+"markWarning(""Robustezza: verificare se e' stato aggiunto un prodotto \""vuoto\"" (bean di default) al carrello."")",Chrome 148.0.7778.179,,,03-06-2026 16:23:48,03-06-2026 16:23:48,"0,004s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:48,03-06-2026 16:23:49,"0,137s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.3_1,Chrome 148.0.7778.179,"Rimuovere dal carrello un prodotto presente
+URL cart?action=deleteC&id=.. + verifica",,03-06-2026 16:23:49,03-06-2026 16:23:51,"2,451s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:49,03-06-2026 16:23:49,"0,681s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:49,03-06-2026 16:23:50,"0,814s",PASSED
+"navigateToUrl(base + ""cart?action=deleteC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:50,03-06-2026 16:23:50,"0,039s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:50,03-06-2026 16:23:50,"0,029s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:50,03-06-2026 16:23:51,"0,498s",PASSED
+"verifyTextNotPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:51,03-06-2026 16:23:51,"0,246s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:51,03-06-2026 16:23:51,"0,112s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.3_2,Chrome 148.0.7778.179,"Rimuovere un prodotto non presente nel carrello
+URL cart?action=deleteC&id=.. + verifica",,03-06-2026 16:23:51,03-06-2026 16:23:54,"3,145s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:51,03-06-2026 16:23:52,"0,762s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:52,03-06-2026 16:23:53,"1,384s",PASSED
+"navigateToUrl(base + ""cart?action=deleteC&id=3"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:53,03-06-2026 16:23:53,"0,040s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:53,03-06-2026 16:23:53,"0,026s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:23:53,03-06-2026 16:23:54,"0,503s",PASSED
+"verifyTextPresent(""kiwi"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:23:54,03-06-2026 16:23:54,"0,239s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:23:54,03-06-2026 16:23:54,"0,163s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.4_1,Chrome 148.0.7778.179,"Aggiorna quantità a valore valido	
+Form carrello: imposta qty + ""Aggiorna""",,03-06-2026 16:23:54,03-06-2026 16:24:01,"7,092s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 16:23:54,03-06-2026 16:23:55,"0,996s",PASSED
+"navigateToUrl(base + ""cart?action=addC&id=2"")",Chrome 148.0.7778.179,,,03-06-2026 16:23:55,03-06-2026 16:24:00,"5,078s",PASSED
+"navigateToUrl(base + ""cart?action=aggiorna&id=2&quantita=3"")",Chrome 148.0.7778.179,,,03-06-2026 16:24:00,03-06-2026 16:24:00,"0,051s",PASSED
+"navigateToUrl(base + ""CartView.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 16:24:00,03-06-2026 16:24:00,"0,024s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 16:24:00,03-06-2026 16:24:01,"0,488s",PASSED
+"verifyTextPresent(""239.97"", false)",Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,243s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,182s",PASSED
+,,,,,,,
+Test Cases/Carrello/TC_5.4_2,Chrome 148.0.7778.179,"Rifiuto con quantità inferiore a 1
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito",,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,018s",PASSED
+"markWarning(""Caso manuale: nel carrello impostare quantita=0 e cliccare Aggiorna. Atteso: il browser blocca l'invio (min=1)."")",Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,001s",WARNING
+,,,,,,,
+Test Cases/Carrello/TC_5.4_3,Chrome 148.0.7778.179,"Rifiuto con quantità oltre la disponibilità
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito",,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,018s",PASSED
+"markWarning(""Caso manuale: nel carrello impostare quantita=30 (stock 25) e cliccare Aggiorna. Atteso: il browser blocca l'invio (max=25). Robustezza: il server non valida la disponibilita'."")",Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,001s",WARNING
+,,,,,,,
+Test Cases/Carrello/TC_5.4_4,Chrome 148.0.7778.179,"Rifiuto con quantità non compilata
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito",,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,019s",PASSED
+"markWarning(""Caso manuale: nel carrello svuotare il campo quantita e cliccare Aggiorna. Atteso: il browser blocca l'invio (required)."")",Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,003s",WARNING
+,,,,,,,
+Test Cases/Carrello/TC_5.4_5,Chrome 148.0.7778.179,"Rifiuto con quantità non numerica
+vincolo client-side HTML5 → verifica manuale (Katalon non intercetta bene il blocco nativo del browser); annotare l'esito",,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,019s",PASSED
+"markWarning(""Caso manuale: nel carrello inserire quantita=abc e cliccare Aggiorna. Atteso: il browser blocca l'invio (type=number)."")",Chrome 148.0.7778.179,,,03-06-2026 16:24:01,03-06-2026 16:24:01,"0,001s",WARNING

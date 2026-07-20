@@ -1,0 +1,160 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Catalogo,Chrome 149.0.7827.103,,,17-06-2026 18:15:21,17-06-2026 18:17:15,"1m - 53,956s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.1_1,Chrome 149.0.7827.103,Catalogo mostra i 7 prodotti seed,"Navigazione + verifica testo (es. ""kiwi"")",17-06-2026 18:15:26,17-06-2026 18:15:27,"0,953s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:26,17-06-2026 18:15:26,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:26,17-06-2026 18:15:27,"0,939s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:27,17-06-2026 18:15:27,"0,002s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.1_2,Chrome 149.0.7827.103,"Catalogo vuoto → messaggio
+
+Richiede DB svuotato → manuale/opzionale, per non alterare la baseline",,17-06-2026 18:15:30,17-06-2026 18:15:31,"1,049s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:30,17-06-2026 18:15:30,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:30,17-06-2026 18:15:31,"1,030s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:31,17-06-2026 18:15:31,"0,003s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_1,Chrome 149.0.7827.103,"Ordinare il catalogo per nome
+Navigazione URL + verifica ordine",,17-06-2026 18:15:34,17-06-2026 18:15:34,"0,935s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:34,17-06-2026 18:15:34,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:34,17-06-2026 18:15:34,"0,922s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:34,17-06-2026 18:15:34,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_2,Chrome 149.0.7827.103,"Ordinare il catalogo per prezzo
+Navigazione URL + verifica ordine",,17-06-2026 18:15:37,17-06-2026 18:15:38,"0,950s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:37,17-06-2026 18:15:37,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:37,17-06-2026 18:15:38,"0,939s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:38,17-06-2026 18:15:38,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_3,Chrome 149.0.7827.103,"Visualizzare il catalogo senza parametro di ordinamento
+Navigazione URL + verifica ordine",,17-06-2026 18:15:41,17-06-2026 18:15:42,"0,924s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:41,17-06-2026 18:15:41,"0,000s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:41,17-06-2026 18:15:42,"0,914s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:42,17-06-2026 18:15:42,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_4,Chrome 149.0.7827.103,Ordinamento del catalogo con colonna inesistente (errore gestito atteso; incident reale),Catalogo - ordinamento - caso di errore,17-06-2026 18:15:45,17-06-2026 18:15:46,"0,967s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:45,17-06-2026 18:15:45,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:45,17-06-2026 18:15:46,"0,956s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:46,17-06-2026 18:15:46,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.2_5,Chrome 149.0.7827.103,"Verificare la sanificazione del parametro di ordinamento (SQL injection)
+Navigazione URL + verifica (atteso vulnerabilità → incident)",,17-06-2026 18:15:49,17-06-2026 18:15:50,"0,985s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:49,17-06-2026 18:15:49,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:49,17-06-2026 18:15:50,"0,974s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:50,17-06-2026 18:15:50,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_1,Chrome 149.0.7827.103,"Dettaglio prodotto id 2 (kiwi)
+Click prodotto / URL + verifica nome+prezzo",,17-06-2026 18:15:53,17-06-2026 18:15:54,"1,008s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:53,17-06-2026 18:15:53,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:53,17-06-2026 18:15:54,"1,000s",PASSED
+"navigateToUrl(base + ""details?action=read&id=2"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:54,17-06-2026 18:15:54,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_2,Chrome 149.0.7827.103,"Dettaglio id inesistente (999)	
+URL + verifica (atteso robustezza → incident)",,17-06-2026 18:15:57,17-06-2026 18:15:58,"1,021s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:15:57,17-06-2026 18:15:57,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:15:57,17-06-2026 18:15:58,"1,009s",PASSED
+"navigateToUrl(base + ""details?action=read&id=999"")",Chrome 149.0.7827.103,,,17-06-2026 18:15:58,17-06-2026 18:15:58,"0,002s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.3_3,Chrome 149.0.7827.103,"Dettaglio id non numerico (abc)	
+URL + verifica errore 500 (incident)",,17-06-2026 18:16:00,17-06-2026 18:16:01,"0,904s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:01,17-06-2026 18:16:01,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:01,17-06-2026 18:16:01,"0,890s",PASSED
+"navigateToUrl(base + ""details?action=read&id=abc"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:01,17-06-2026 18:16:01,"0,002s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_1,Chrome 149.0.7827.103,"Ricercare un prodotto per nome esatto
+Digita nel campo ricerca + verifica dropdown",,17-06-2026 18:16:04,17-06-2026 18:16:05,"0,999s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:04,17-06-2026 18:16:04,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:04,17-06-2026 18:16:05,"0,988s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:05,17-06-2026 18:16:05,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_2,Chrome 149.0.7827.103,"Ricercare un prodotto per corrispondenza parziale
+Digita nel campo ricerca + verifica dropdown",,17-06-2026 18:16:08,17-06-2026 18:16:09,"0,971s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:08,17-06-2026 18:16:08,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:08,17-06-2026 18:16:09,"0,936s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:09,17-06-2026 18:16:09,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_3,Chrome 149.0.7827.103,"Ricerca senza corrispondenze
+Digita nel campo ricerca + verifica dropdown",,17-06-2026 18:16:12,17-06-2026 18:16:13,"0,967s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:12,17-06-2026 18:16:12,"0,003s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:12,17-06-2026 18:16:13,"0,956s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:13,17-06-2026 18:16:13,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.4_4,Chrome 149.0.7827.103,"Comportamento con campo di ricerca vuoto
+Digita nel campo ricerca + verifica dropdown",,17-06-2026 18:16:16,17-06-2026 18:16:17,"0,983s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:16,17-06-2026 18:16:16,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:16,17-06-2026 18:16:17,"0,972s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:17,17-06-2026 18:16:17,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_1,Chrome 149.0.7827.103,"Filtro fascia di prezzo: range valido [40,70] (RF_GC_26)",,17-06-2026 18:16:20,17-06-2026 18:16:21,"0,900s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:20,17-06-2026 18:16:20,"0,000s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:20,17-06-2026 18:16:21,"0,893s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:21,17-06-2026 18:16:21,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_2,Chrome 149.0.7827.103,Filtro fascia di prezzo: solo prezzo minimo (BVA bordo) (RF_GC_26),,17-06-2026 18:16:24,17-06-2026 18:16:24,"0,915s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:24,17-06-2026 18:16:24,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:24,17-06-2026 18:16:24,"0,903s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:24,17-06-2026 18:16:24,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_3,Chrome 149.0.7827.103,Filtro fascia di prezzo: solo prezzo massimo (RF_GC_26),,17-06-2026 18:16:27,17-06-2026 18:16:28,"0,931s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:27,17-06-2026 18:16:27,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:27,17-06-2026 18:16:28,"0,919s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:28,17-06-2026 18:16:28,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_4,Chrome 149.0.7827.103,Filtro fascia di prezzo: min maggiore di max -> catalogo vuoto (RF_GC_26),,17-06-2026 18:16:31,17-06-2026 18:16:32,"0,957s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:31,17-06-2026 18:16:31,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:31,17-06-2026 18:16:32,"0,945s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:32,17-06-2026 18:16:32,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_5,Chrome 149.0.7827.103,Filtro fascia di prezzo: BVA bordo inferiore di dominio 0.10 (RF_GC_26),,17-06-2026 18:16:35,17-06-2026 18:16:36,"0,982s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:35,17-06-2026 18:16:35,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:35,17-06-2026 18:16:36,"0,974s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:36,17-06-2026 18:16:36,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_6,Chrome 149.0.7827.103,Filtro prezzo non numerico: input ignorato (robustezza) (RF_GC_26),,17-06-2026 18:16:39,17-06-2026 18:16:40,"0,989s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:39,17-06-2026 18:16:39,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:39,17-06-2026 18:16:40,"0,983s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:40,17-06-2026 18:16:40,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_7,Chrome 149.0.7827.103,Filtro prezzo negativo: bound ignorato (robustezza) (RF_GC_26),,17-06-2026 18:16:43,17-06-2026 18:16:44,"0,981s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:43,17-06-2026 18:16:43,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:43,17-06-2026 18:16:44,"0,968s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:44,17-06-2026 18:16:44,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_8,Chrome 149.0.7827.103,Filtro disponibilita': solo prodotti in stock (RF_GC_26),,17-06-2026 18:16:47,17-06-2026 18:16:48,"0,952s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:47,17-06-2026 18:16:47,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:47,17-06-2026 18:16:48,"0,939s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:48,17-06-2026 18:16:48,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_9,Chrome 149.0.7827.103,Ordinamento per prezzo crescente (RF_GC_26),,17-06-2026 18:16:51,17-06-2026 18:16:52,"0,970s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:51,17-06-2026 18:16:51,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:51,17-06-2026 18:16:52,"0,961s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:52,17-06-2026 18:16:52,"0,002s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_10,Chrome 149.0.7827.103,Ordinamento per prezzo decrescente (RF_GC_26),,17-06-2026 18:16:54,17-06-2026 18:16:55,"0,961s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:54,17-06-2026 18:16:54,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:54,17-06-2026 18:16:55,"0,951s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:16:55,17-06-2026 18:16:55,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_11,Chrome 149.0.7827.103,Ordinamento per nome crescente (RF_GC_26),,17-06-2026 18:16:59,17-06-2026 18:17:00,"0,938s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:16:59,17-06-2026 18:16:59,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:16:59,17-06-2026 18:17:00,"0,929s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:17:00,17-06-2026 18:17:00,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_12,Chrome 149.0.7827.103,Ordinamento per nome decrescente (RF_GC_26),,17-06-2026 18:17:03,17-06-2026 18:17:03,"0,924s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:17:03,17-06-2026 18:17:03,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:17:03,17-06-2026 18:17:03,"0,914s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:17:03,17-06-2026 18:17:03,"0,000s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_13,Chrome 149.0.7827.103,Sicurezza: colonna di ordinamento fuori whitelist -> pagina d'errore (RF_GC_26),,17-06-2026 18:17:06,17-06-2026 18:17:07,"0,967s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:17:06,17-06-2026 18:17:06,"0,002s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:17:06,17-06-2026 18:17:07,"0,957s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:17:07,17-06-2026 18:17:07,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_14,Chrome 149.0.7827.103,Sicurezza: SQL injection sul parametro sort -> pagina d'errore (RF_GC_26),,17-06-2026 18:17:10,17-06-2026 18:17:11,"0,877s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:17:10,17-06-2026 18:17:10,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:17:10,17-06-2026 18:17:11,"0,868s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:17:11,17-06-2026 18:17:11,"0,001s",ERROR
+,,,,,,,
+Test Cases/Catalogo/TC_4.5_15,Chrome 149.0.7827.103,Sicurezza: direzione di ordinamento fuori whitelist -> pagina d'errore (RF_GC_26),,17-06-2026 18:17:14,17-06-2026 18:17:15,"0,950s",ERROR
+Start listener action : resetSeedBeforeTestCase,Chrome 149.0.7827.103,,,17-06-2026 18:17:14,17-06-2026 18:17:14,"0,001s",ERROR
+"openBrowser("""")",Chrome 149.0.7827.103,,,17-06-2026 18:17:14,17-06-2026 18:17:15,"0,942s",PASSED
+"navigateToUrl(base + ""ProductView.jsp"")",Chrome 149.0.7827.103,,,17-06-2026 18:17:15,17-06-2026 18:17:15,"0,001s",ERROR

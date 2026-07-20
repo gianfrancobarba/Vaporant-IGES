@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Autenticazione" time="70.285" tests="8" passed="8" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Autenticazione" tests="8" passed="8" failures="0" errors="0" incompleted="0" skipped="0" time="70.285" timestamp="2026-06-11T15:06:44.401Z" hostname="gianf - Gianfranco" id="Test Suites/Autenticazione" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190416275.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190424144.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190432349.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190440692.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190448842.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190456668.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190467087.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190472688.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="59f6ed1a25be0b3fa191efe7114257fd"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_1" time="13.72" classname="Test Cases/Autenticazione/TC_1.1_1" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:06:44 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_1: Test Cases/Autenticazione/TC_1.1_1
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_1
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_1
+
+11-06-2026T17:06:44 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_1
+
+11-06-2026T17:06:44 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_1
+
+11-06-2026T17:06:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:06:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:06:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:06:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:06:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:06:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:06:51 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+11-06-2026T17:06:51 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:06:51 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:06:51 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:06:52 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:06:52 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+11-06-2026T17:06:52 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:06:52 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:06:52 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:06:53 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:06:53 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:06:53 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:06:53 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:06:53 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:06:54 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:06:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:06:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:06:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:06:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190416275.png]]
+
+11-06-2026T17:06:57 - [TEST_STEP][PASSED] - verifyElementPresent(css("a[href='logout']"), 5, CONTINUE_ON_FAILURE): null
+
+11-06-2026T17:06:57 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:06:57 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:06:57 - [TEST_STEP][PASSED] - return t: Object 'a[href='logout']' is present
+
+11-06-2026T17:06:57 - [MESSAGE][PASSED] - Object 'a[href='logout']' is present
+
+11-06-2026T17:06:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:06:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_2" time="8.606" classname="Test Cases/Autenticazione/TC_1.1_2" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:06:58 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_2: Test Cases/Autenticazione/TC_1.1_2
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_2
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_2
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_2
+
+11-06-2026T17:06:58 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_2
+
+11-06-2026T17:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:06:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:06:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:06:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:06:59 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:00 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - setText(css("#password"), "Sbagliata99"): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:00 - [TEST_STEP][PASSED] - return t: Text 'Sbagliata99' is set on object '#password'
+
+11-06-2026T17:07:01 - [MESSAGE][PASSED] - Text 'Sbagliata99' is set on object '#password'
+
+11-06-2026T17:07:01 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:01 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:01 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:01 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:02 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190424144.png]]
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false): Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:06 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_3" time="7.808" classname="Test Cases/Autenticazione/TC_1.1_3" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:06 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_3: Test Cases/Autenticazione/TC_1.1_3
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_3
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_3
+
+11-06-2026T17:07:06 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_3
+
+11-06-2026T17:07:06 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_3
+
+11-06-2026T17:07:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:08 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:08 - [TEST_STEP][PASSED] - setText(css("#email"), "inesistente@studenti.unisa.it"): null
+
+11-06-2026T17:07:08 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:08 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:08 - [TEST_STEP][PASSED] - return t: Text 'inesistente@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:09 - [MESSAGE][PASSED] - Text 'inesistente@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - setText(css("#password"), "Password1"): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - return t: Text 'Password1' is set on object '#password'
+
+11-06-2026T17:07:09 - [MESSAGE][PASSED] - Text 'Password1' is set on object '#password'
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:09 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:10 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190432349.png]]
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false): Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:14 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_4" time="8.605" classname="Test Cases/Autenticazione/TC_1.1_4" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:14 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_4: Test Cases/Autenticazione/TC_1.1_4
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_4
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_4
+
+11-06-2026T17:07:14 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_4
+
+11-06-2026T17:07:14 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_4
+
+11-06-2026T17:07:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:16 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:16 - [TEST_STEP][PASSED] - setText(css("#email"), ""): null
+
+11-06-2026T17:07:16 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:16 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:16 - [TEST_STEP][PASSED] - return t: Text '' is set on object '#email'
+
+11-06-2026T17:07:17 - [MESSAGE][PASSED] - Text '' is set on object '#email'
+
+11-06-2026T17:07:17 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+11-06-2026T17:07:17 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:17 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:17 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:18 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:18 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:18 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:18 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:18 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:18 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190440692.png]]
+
+11-06-2026T17:07:22 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false): Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:23 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_5" time="7.785" classname="Test Cases/Autenticazione/TC_1.1_5" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:23 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_5: Test Cases/Autenticazione/TC_1.1_5
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_5
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_5
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_5
+
+11-06-2026T17:07:23 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_5
+
+11-06-2026T17:07:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:24 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:25 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - setText(css("#password"), ""): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:25 - [TEST_STEP][PASSED] - return t: Text '' is set on object '#password'
+
+11-06-2026T17:07:26 - [MESSAGE][PASSED] - Text '' is set on object '#password'
+
+11-06-2026T17:07:26 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:26 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:26 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:26 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:26 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190448842.png]]
+
+11-06-2026T17:07:30 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false): Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:30 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.1_6" time="7.765" classname="Test Cases/Autenticazione/TC_1.1_6" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:31 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.1_6: Test Cases/Autenticazione/TC_1.1_6
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_6
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_6
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_6
+
+11-06-2026T17:07:31 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_6
+
+11-06-2026T17:07:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:32 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi.studenti.unisa.it"): null
+
+11-06-2026T17:07:32 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:32 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:32 - [TEST_STEP][PASSED] - return t: Text 't.mansi.studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:33 - [MESSAGE][PASSED] - Text 't.mansi.studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:33 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+11-06-2026T17:07:33 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:33 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:33 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:34 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:34 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:34 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:34 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:34 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:34 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190456668.png]]
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - verifyTextPresent("Non hai un account", false): Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:38 - [MESSAGE][PASSED] - Text 'Non hai un account' is present on page 
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.2_1" time="10.106" classname="Test Cases/Autenticazione/TC_1.2_1" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:38 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.2_1: Test Cases/Autenticazione/TC_1.2_1
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_1
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_1
+
+11-06-2026T17:07:38 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_1
+
+11-06-2026T17:07:38 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_1
+
+11-06-2026T17:07:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:40 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+11-06-2026T17:07:40 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+11-06-2026T17:07:40 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:40 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:40 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:41 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:41 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:41 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+11-06-2026T17:07:42 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+11-06-2026T17:07:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:44 - [TEST_STEP][PASSED] - click(css("a[href='logout']")): null
+
+11-06-2026T17:07:44 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:44 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:44 - [TEST_STEP][PASSED] - return t: Object: 'a[href='logout']' is clicked on
+
+11-06-2026T17:07:45 - [MESSAGE][PASSED] - Object: 'a[href='logout']' is clicked on
+
+11-06-2026T17:07:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-06-2026T17:07:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-06-2026T17:07:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190467087.png]]
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - verifyElementPresent(css("a[href='loginForm.jsp']"), 5): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - return t: Object 'a[href='loginForm.jsp']' is present
+
+11-06-2026T17:07:48 - [MESSAGE][PASSED] - Object 'a[href='loginForm.jsp']' is present
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autenticazione/TC_1.2_2" time="5.712" classname="Test Cases/Autenticazione/TC_1.2_2" status="PASSED">
+         <system-out><![CDATA[11-06-2026T17:07:48 - [TEST_CASE][PASSED] - Test Cases/Autenticazione/TC_1.2_2: Test Cases/Autenticazione/TC_1.2_2
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_2
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+11-06-2026T17:07:48 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - if (code != 0): null
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_2
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_2
+
+11-06-2026T17:07:49 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_2
+
+11-06-2026T17:07:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2026T17:07:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2026T17:07:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2026T17:07:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2026T17:07:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "logout"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/logout' successfully
+
+11-06-2026T17:07:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/logout' successfully
+
+11-06-2026T17:07:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-06-2026T17:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-06-2026T17:07:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-06-2026T17:07:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260611_170630\\Autenticazione\\20260611_170630\\1781190472688.png]]
+
+11-06-2026T17:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(css("a[href='loginForm.jsp']"), 5): null
+
+11-06-2026T17:07:53 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+11-06-2026T17:07:53 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+11-06-2026T17:07:53 - [TEST_STEP][PASSED] - return t: Object 'a[href='loginForm.jsp']' is present
+
+11-06-2026T17:07:54 - [MESSAGE][PASSED] - Object 'a[href='loginForm.jsp']' is present
+
+11-06-2026T17:07:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2026T17:07:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2026T17:06:44 - [TEST_SUITE][PASSED] - Autenticazione: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

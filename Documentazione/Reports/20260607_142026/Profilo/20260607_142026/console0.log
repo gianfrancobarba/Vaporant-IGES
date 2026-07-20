@@ -1,0 +1,11 @@
+2026-06-07 14:21:12.739 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-07 14:21:12.741 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-07 14:21:13.493 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Profilo
+2026-06-07 14:21:13.577 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-07 14:21:13.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-07 14:21:13.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-07 14:21:13.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-07 14:21:13.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-07 14:21:13.581 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-07 14:21:13.690 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-07 14:21:13.691 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Profilo/TC_3.1_1

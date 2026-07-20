@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ordine" time="127.652" tests="11" passed="8" failures="3" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Ordine" tests="11" passed="8" failures="3" errors="0" incompleted="0" skipped="0" time="127.652" timestamp="2026-06-07T22:59:05.269Z" hostname="gianf - Gianfranco" id="Test Suites/Ordine" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873155555.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873159532.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873160055.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873170678.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873178168.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873189268.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873193026.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873203753.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873214461.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873225411.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873241733.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873254653.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873272254.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="6a8821534ee45f567c6e13cfe34aa085"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Ordine/TC_6.1_1" time="11.166" classname="Test Cases/Ordine/TC_6.1_1" status="PASSED">
+         <system-out><![CDATA[08-06-2026T00:59:05 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.1_1: Test Cases/Ordine/TC_6.1_1
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+
+08-06-2026T00:59:05 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+
+08-06-2026T00:59:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:07 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:08 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:08 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:09 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:09 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:09 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:09 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:09 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:09 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:11 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T00:59:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T00:59:13 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873155555.png]]
+
+08-06-2026T00:59:15 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)Acquista", true): Text '(?i)Acquista' is present on page  using regular expression
+
+08-06-2026T00:59:16 - [MESSAGE][PASSED] - Text '(?i)Acquista' is present on page  using regular expression
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - verifyElementPresent(css("#addressDropdown"), 5): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - return t: Object '#addressDropdown' is present
+
+08-06-2026T00:59:16 - [MESSAGE][PASSED] - Object '#addressDropdown' is present
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T00:59:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.1_2" time="3.567" classname="Test Cases/Ordine/TC_6.1_2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Ordine/TC_6.1_2 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)&#xa;	at Script178070060102.run(Script178070060102.groovy:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0608_0.run(S0608_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 18 more&#xa;"/>
+         <system-out><![CDATA[08-06-2026T00:59:16 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.1_2: Test Cases/Ordine/TC_6.1_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+
+08-06-2026T00:59:16 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+
+08-06-2026T00:59:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:17 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873159532.png]]
+
+08-06-2026T00:59:19 - [TEST_STEP][FAILED] - verifyTextPresent("(?i)Non hai un account", true): Unable to verify text '(?i)Non hai un account' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+
+08-06-2026T00:59:20 - [MESSAGE][FAILED] - Text '(?i)Non hai un account' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+08-06-2026T00:59:20 - [MESSAGE][FAILED] - Unable to verify text '(?i)Non hai un account' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873160055.png]]]]></system-out>
+         <system-err><![CDATA[08-06-2026T00:59:16 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.1_2: Test Cases/Ordine/TC_6.1_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '(?i)Non hai un account' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1825)
+	at Script178070060102.run(Script178070060102.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Non hai un account' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.1_3" time="11.3" classname="Test Cases/Ordine/TC_6.1_3" status="PASSED">
+         <system-out><![CDATA[08-06-2026T00:59:20 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.1_3: Test Cases/Ordine/TC_6.1_3
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+
+08-06-2026T00:59:20 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+
+08-06-2026T00:59:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-06-2026T00:59:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - navigateToUrl(base + "SignForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+08-06-2026T00:59:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/SignForm.jsp' successfully
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('nome').value='Cliente';" + "document.getElementById('cognome').value='SenzaIndirizzo';" + "document.getElementById('data_nascita').value='1999-01-01';" + "document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';" + "document.getElementById('telefono').value='3310000001';" + "document.getElementById('email').value='nessun.indirizzo@example.com';" + "document.getElementById('password').value='Password1';", null): Execute JavaScript 'document.getElementById('nome').value='Cliente';document.getElementById('cognome').value='SenzaIndirizzo';document.getElementById('data_nascita').value='1999-01-01';document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';document.getElementById('telefono').value='3310000001';document.getElementById('email').value='nessun.indirizzo@example.com';document.getElementById('password').value='Password1';' successfully
+
+08-06-2026T00:59:21 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('nome').value='Cliente';document.getElementById('cognome').value='SenzaIndirizzo';document.getElementById('data_nascita').value='1999-01-01';document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';document.getElementById('telefono').value='3310000001';document.getElementById('email').value='nessun.indirizzo@example.com';document.getElementById('password').value='Password1';' successfully
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:21 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:22 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - setText(css("#email"), "nessun.indirizzo@example.com"): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - return t: Text 'nessun.indirizzo@example.com' is set on object '#email'
+
+08-06-2026T00:59:24 - [MESSAGE][PASSED] - Text 'nessun.indirizzo@example.com' is set on object '#email'
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - setText(css("#password"), "Password1"): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:24 - [TEST_STEP][PASSED] - return t: Text 'Password1' is set on object '#password'
+
+08-06-2026T00:59:25 - [MESSAGE][PASSED] - Text 'Password1' is set on object '#password'
+
+08-06-2026T00:59:25 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:25 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:25 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:27 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T00:59:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T00:59:28 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873170678.png]]
+
+08-06-2026T00:59:30 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)Aggiungi indirizzo", true): Text '(?i)Aggiungi indirizzo' is present on page  using regular expression
+
+08-06-2026T00:59:31 - [MESSAGE][PASSED] - Text '(?i)Aggiungi indirizzo' is present on page  using regular expression
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T00:59:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.1_4" time="7.457" classname="Test Cases/Ordine/TC_6.1_4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Ordine/TC_6.1_4 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at Script178070060104.run(Script178070060104.groovy:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0608_0.run(S0608_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at Script178070060104.run(Script178070060104.groovy:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0608_0.run(S0608_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[08-06-2026T00:59:31 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.1_4: Test Cases/Ordine/TC_6.1_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	... 22 more
+
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+
+08-06-2026T00:59:31 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+
+08-06-2026T00:59:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:32 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T00:59:32 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:32 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:32 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:33 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:33 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:33 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:34 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:36 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873178168.png]]
+
+08-06-2026T00:59:38 - [TEST_STEP][FAILED] - verifyTextPresent("(?i)Acquista", true, CONTINUE_ON_FAILURE): Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+08-06-2026T00:59:38 - [MESSAGE][FAILED] - Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T00:59:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[08-06-2026T00:59:31 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.1_4: Test Cases/Ordine/TC_6.1_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at Script178070060104.run(Script178070060104.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '(?i)Acquista' is not present on page  using regular expression
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.2_1" time="14.836" classname="Test Cases/Ordine/TC_6.2_1" status="PASSED">
+         <system-out><![CDATA[08-06-2026T00:59:38 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.2_1: Test Cases/Ordine/TC_6.2_1
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+
+08-06-2026T00:59:38 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+
+08-06-2026T00:59:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:40 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:40 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:41 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:41 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:41 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:41 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:41 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:41 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:43 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:43 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T00:59:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T00:59:44 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:46 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T00:59:46 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:46 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:46 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T00:59:47 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T00:59:47 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:47 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T00:59:48 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T00:59:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T00:59:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T00:59:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873189268.png]]
+
+08-06-2026T00:59:49 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T00:59:49 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:49 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:49 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T00:59:50 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T00:59:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-06-2026T00:59:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T00:59:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873193026.png]]
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)Acquisto effettuato", true): Text '(?i)Acquisto effettuato' is present on page  using regular expression
+
+08-06-2026T00:59:53 - [MESSAGE][PASSED] - Text '(?i)Acquisto effettuato' is present on page  using regular expression
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T00:59:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.2_2" time="10.728" classname="Test Cases/Ordine/TC_6.2_2" status="PASSED">
+         <system-out><![CDATA[08-06-2026T00:59:53 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.2_2: Test Cases/Ordine/TC_6.2_2
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+
+08-06-2026T00:59:53 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+
+08-06-2026T00:59:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T00:59:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T00:59:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T00:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T00:59:54 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T00:59:54 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T00:59:54 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:54 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:54 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:55 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T00:59:55 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T00:59:55 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:55 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:55 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:56 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T00:59:56 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T00:59:56 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T00:59:56 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T00:59:56 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T00:59:56 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T00:59:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T00:59:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T00:59:58 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T00:59:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T00:59:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T00:59:59 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T00:59:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:01 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T01:00:01 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:01 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:01 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:02 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T01:00:02 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - valid = executeJavaScript("return document.getElementById('addressDropdown').checkValidity()", null): Execute JavaScript 'return document.getElementById('addressDropdown').checkValidity()' successfully
+
+08-06-2026T01:00:02 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('addressDropdown').checkValidity()' successfully
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - verifyEqual(valid, false): Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:02 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:02 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:00:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873203753.png]]
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - verifyElementPresent(css("#addressDropdown"), 5): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - return t: Object '#addressDropdown' is present
+
+08-06-2026T01:00:04 - [MESSAGE][PASSED] - Object '#addressDropdown' is present
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:00:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.2_3" time="10.689" classname="Test Cases/Ordine/TC_6.2_3" status="PASSED">
+         <system-out><![CDATA[08-06-2026T01:00:04 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.2_3: Test Cases/Ordine/TC_6.2_3
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+
+08-06-2026T01:00:04 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+
+08-06-2026T01:00:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T01:00:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T01:00:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T01:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T01:00:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:05 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T01:00:05 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:05 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:05 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:06 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:06 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:06 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T01:00:07 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T01:00:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:09 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:10 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:12 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:12 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T01:00:13 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - valid = executeJavaScript("return document.getElementById('addressDropdown2').checkValidity()", null): Execute JavaScript 'return document.getElementById('addressDropdown2').checkValidity()' successfully
+
+08-06-2026T01:00:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('addressDropdown2').checkValidity()' successfully
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - verifyEqual(valid, false): Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:13 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:13 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:00:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873214461.png]]
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - verifyElementPresent(css("#addressDropdown2"), 5): null
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - return t: Object '#addressDropdown2' is present
+
+08-06-2026T01:00:14 - [MESSAGE][PASSED] - Object '#addressDropdown2' is present
+
+08-06-2026T01:00:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:00:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.2_4" time="10.979" classname="Test Cases/Ordine/TC_6.2_4" status="PASSED">
+         <system-out><![CDATA[08-06-2026T01:00:15 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.2_4: Test Cases/Ordine/TC_6.2_4
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+
+08-06-2026T01:00:15 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+
+08-06-2026T01:00:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T01:00:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T01:00:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T01:00:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T01:00:16 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:16 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T01:00:16 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:16 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:16 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:17 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:17 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T01:00:17 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T01:00:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:19 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:21 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:23 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:23 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:24 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - valid = executeJavaScript("return document.querySelector(\"form[action='Ordine']\").checkValidity()", null): Execute JavaScript 'return document.querySelector("form[action='Ordine']").checkValidity()' successfully
+
+08-06-2026T01:00:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector("form[action='Ordine']").checkValidity()' successfully
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - verifyEqual(valid, false): Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:24 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:24 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:00:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873225411.png]]
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - verifyElementPresent(css("#paypal"), 5): null
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - return t: Object '#paypal' is present
+
+08-06-2026T01:00:25 - [MESSAGE][PASSED] - Object '#paypal' is present
+
+08-06-2026T01:00:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:00:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.2_5" time="16.085" classname="Test Cases/Ordine/TC_6.2_5" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Ordine/TC_6.2_5 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at Script178070060205.run(Script178070060205.groovy:44)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0608_0.run(S0608_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at Script178070060205.run(Script178070060205.groovy:44)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0608_0.run(S0608_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	... 19 more&#xa;"/>
+         <system-out><![CDATA[08-06-2026T01:00:26 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.2_5: Test Cases/Ordine/TC_6.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 19 more
+
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+
+08-06-2026T01:00:26 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+
+08-06-2026T01:00:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T01:00:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T01:00:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T01:00:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:27 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:27 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:28 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:28 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T01:00:28 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:28 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:28 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T01:00:28 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T01:00:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:30 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:31 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:33 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T01:00:33 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:34 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:34 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:35 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T01:00:35 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:35 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-06-2026T01:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-06-2026T01:00:38 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:41 - [TEST_STEP][PASSED] - stockAfter = executeJavaScript("var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'", null): Execute JavaScript 'var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'' successfully
+
+08-06-2026T01:00:41 - [MESSAGE][PASSED] - Execute JavaScript 'var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'' successfully
+
+08-06-2026T01:00:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:00:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873241733.png]]
+
+08-06-2026T01:00:42 - [TEST_STEP][FAILED] - verifyMatch(stockAfter, "24", false, CONTINUE_ON_FAILURE): Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+08-06-2026T01:00:42 - [MESSAGE][FAILED] - Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:00:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[08-06-2026T01:00:26 - [TEST_CASE][FAILED] - Test Cases/Ordine/TC_6.2_5: Test Cases/Ordine/TC_6.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '25' and expected text '24' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script178070060205.run(Script178070060205.groovy:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0608_0.run(S0608_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '25' and expected text '24' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.3_1" time="13.36" classname="Test Cases/Ordine/TC_6.3_1" status="PASSED">
+         <system-out><![CDATA[08-06-2026T01:00:42 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.3_1: Test Cases/Ordine/TC_6.3_1
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+
+08-06-2026T01:00:42 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T01:00:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T01:00:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T01:00:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T01:00:42 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:43 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:43 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:43 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:44 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:44 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T01:00:44 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:44 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:44 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T01:00:44 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T01:00:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:46 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:00:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:00:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:00:47 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:00:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:00:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:00:49 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T01:00:49 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:49 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:49 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:50 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:00:50 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T01:00:50 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:50 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:50 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:51 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T01:00:51 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:51 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:00:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-06-2026T01:00:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-06-2026T01:00:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:00:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873254653.png]]
+
+08-06-2026T01:00:54 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)Acquisto effettuato", true): Text '(?i)Acquisto effettuato' is present on page  using regular expression
+
+08-06-2026T01:00:55 - [MESSAGE][PASSED] - Text '(?i)Acquisto effettuato' is present on page  using regular expression
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)kiwi", true): Text '(?i)kiwi' is present on page  using regular expression
+
+08-06-2026T01:00:55 - [MESSAGE][PASSED] - Text '(?i)kiwi' is present on page  using regular expression
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:00:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ordine/TC_6.4_1" time="17.363" classname="Test Cases/Ordine/TC_6.4_1" status="PASSED">
+         <system-out><![CDATA[08-06-2026T01:00:55 - [TEST_CASE][PASSED] - Test Cases/Ordine/TC_6.4_1: Test Cases/Ordine/TC_6.4_1
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+
+08-06-2026T01:00:55 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+
+08-06-2026T01:00:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T01:00:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T01:00:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T01:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T01:00:56 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+08-06-2026T01:00:56 - [TEST_STEP][PASSED] - setText(css("#email"), "t.mansi@studenti.unisa.it"): null
+
+08-06-2026T01:00:56 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:56 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:56 - [TEST_STEP][PASSED] - return t: Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:57 - [MESSAGE][PASSED] - Text 't.mansi@studenti.unisa.it' is set on object '#email'
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - setText(css("#password"), "321CBA."): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - return t: Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:57 - [MESSAGE][PASSED] - Text '321CBA.' is set on object '#password'
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:00:57 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+08-06-2026T01:00:58 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+08-06-2026T01:00:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:01:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:01:00 - [TEST_STEP][PASSED] - navigateToUrl(base + "cart?action=addC&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:01:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/cart?action=addC&id=2' successfully
+
+08-06-2026T01:01:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-06-2026T01:01:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-06-2026T01:01:01 - [TEST_STEP][PASSED] - navigateToUrl(base + "checkout.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:01:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/checkout.jsp' successfully
+
+08-06-2026T01:01:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-06-2026T01:01:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown"), "4", false): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:01:03 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown' 
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - selectOptionByValue(css("#addressDropdown2"), "4", false): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:01:03 - [TEST_STEP][PASSED] - return t: All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:01:04 - [MESSAGE][PASSED] - All options with value '4' are selected in object '#addressDropdown2' 
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - click(css("#paypal")): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - return t: Object: '#paypal' is clicked on
+
+08-06-2026T01:01:04 - [MESSAGE][PASSED] - Object: '#paypal' is clicked on
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - click(css("form[action='Ordine'] .checkout-btn")): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - return t: Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:01:04 - [MESSAGE][PASSED] - Object: 'form[action='Ordine'] .checkout-btn' is clicked on
+
+08-06-2026T01:01:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-06-2026T01:01:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-06-2026T01:01:08 - [TEST_STEP][PASSED] - click(css("form[action='fattura'] button")): null
+
+08-06-2026T01:01:08 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+08-06-2026T01:01:08 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+08-06-2026T01:01:08 - [TEST_STEP][PASSED] - return t: Object: 'form[action='fattura'] button' is clicked on
+
+08-06-2026T01:01:09 - [MESSAGE][PASSED] - Object: 'form[action='fattura'] button' is clicked on
+
+08-06-2026T01:01:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-06-2026T01:01:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-06-2026T01:01:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T01:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_005851\\Ordine\\20260608_005852\\1780873272254.png]]
+
+08-06-2026T01:01:12 - [TEST_STEP][PASSED] - verifyTextNotPresent("(?i)Si.*verificato un errore", true, CONTINUE_ON_FAILURE): Text '(?i)Si.*verificato un errore' is not present on page using regular expression
+
+08-06-2026T01:01:12 - [MESSAGE][PASSED] - Text '(?i)Si.*verificato un errore' is not present on page using regular expression
+
+08-06-2026T01:01:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T01:01:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-06-2026T00:59:05 - [TEST_SUITE][FAILED] - Ordine: null]]></system-out>
+      <system-err><![CDATA[08-06-2026T00:59:05 - [TEST_SUITE][FAILED] - Ordine: null]]></system-err>
+   </testsuite>
+</testsuites>

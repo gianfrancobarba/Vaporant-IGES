@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Catalogo" time="112.112" tests="14" passed="14" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Catalogo" tests="14" passed="14" failures="0" errors="0" incompleted="0" skipped="0" time="112.112" timestamp="2026-06-03T15:08:39.787Z" hostname="gianf - Gianfranco" id="Test Suites/Catalogo" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499322901.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499331600.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499364862.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499367978.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499370505.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499372166.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499374819.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499380752.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499385040.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499389854.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499417319.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499423912.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499430967.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="1d071e9c429e2b69cc8cc9dbe1cd9580"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Catalogo/TC_4.1_1" time="3.969" classname="Test Cases/Catalogo/TC_4.1_1" status="PASSED" tag="Navigazione + verifica testo (es. &quot;kiwi&quot;)">
+         <system-out><![CDATA[03-06-2026T17:08:39 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_1: Test Cases/Catalogo/TC_4.1_1
+
+03-06-2026T17:08:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:08:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:08:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:08:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:08:41 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:08:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:08:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:08:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499322901.png]]
+
+03-06-2026T17:08:43 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:08:43 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:08:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:08:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.1_2" time="0.025" classname="Test Cases/Catalogo/TC_4.1_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:08:43 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_2: Test Cases/Catalogo/TC_4.1_2
+
+03-06-2026T17:08:43 - [TEST_STEP][WARNING] - markWarning("Caso manuale: richiede catalogo vuoto (DB svuotato). Non eseguibile al baseline as-delivered."): Caso manuale: richiede catalogo vuoto (DB svuotato). Non eseguibile al baseline as-delivered.
+
+03-06-2026T17:08:43 - [MESSAGE][WARNING] - Caso manuale: richiede catalogo vuoto (DB svuotato). Non eseguibile al baseline as-delivered.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_1" time="2.867" classname="Test Cases/Catalogo/TC_4.2_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:08:49 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_1: Test Cases/Catalogo/TC_4.2_1
+
+03-06-2026T17:08:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:08:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:08:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:08:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:08:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:08:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:08:51 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+03-06-2026T17:08:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+03-06-2026T17:08:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:08:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499331600.png]]
+
+03-06-2026T17:08:52 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:08:52 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:08:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:08:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_2" time="33.116" classname="Test Cases/Catalogo/TC_4.2_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:08:52 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_2: Test Cases/Catalogo/TC_4.2_2
+
+03-06-2026T17:08:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:08:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:08:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:08:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:08:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:23 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=prezzoAttuale"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+03-06-2026T17:09:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+03-06-2026T17:09:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499364862.png]]
+
+03-06-2026T17:09:25 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:09:25 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:09:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_3" time="3.11" classname="Test Cases/Catalogo/TC_4.2_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:25 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_3: Test Cases/Catalogo/TC_4.2_3
+
+03-06-2026T17:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:26 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:27 - [TEST_STEP][PASSED] - navigateToUrl(base + "product"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+03-06-2026T17:09:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+03-06-2026T17:09:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499367978.png]]
+
+03-06-2026T17:09:28 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:09:28 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+03-06-2026T17:09:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_4" time="2.343" classname="Test Cases/Catalogo/TC_4.2_4" status="PASSED" tag="Catalogo - ordinamento - caso di errore">
+         <system-out><![CDATA[03-06-2026T17:09:28 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_4: Test Cases/Catalogo/TC_4.2_4
+
+03-06-2026T17:09:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:29 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:30 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=colonna_inesistente"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+03-06-2026T17:09:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+03-06-2026T17:09:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499370505.png]]
+
+03-06-2026T17:09:31 - [TEST_STEP][WARNING] - markWarning("Sort con colonna inesistente: SQLException inghiottita, sort ignorato. Interpretare lo screenshot (robustezza/CR_02)."): Sort con colonna inesistente: SQLException inghiottita, sort ignorato. Interpretare lo screenshot (robustezza/CR_02).
+
+03-06-2026T17:09:31 - [MESSAGE][WARNING] - Sort con colonna inesistente: SQLException inghiottita, sort ignorato. Interpretare lo screenshot (robustezza/CR_02).
+
+03-06-2026T17:09:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_5" time="1.535" classname="Test Cases/Catalogo/TC_4.2_5" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:31 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_5: Test Cases/Catalogo/TC_4.2_5
+
+03-06-2026T17:09:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:32 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome;--"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+03-06-2026T17:09:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+03-06-2026T17:09:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499372166.png]]
+
+03-06-2026T17:09:32 - [TEST_STEP][WARNING] - markWarning("Verifica sicurezza SQLi: il parametro sort non e' sanificato. Interpretare lo screenshot."): Verifica sicurezza SQLi: il parametro sort non e' sanificato. Interpretare lo screenshot.
+
+03-06-2026T17:09:32 - [MESSAGE][WARNING] - Verifica sicurezza SQLi: il parametro sort non e' sanificato. Interpretare lo screenshot.
+
+03-06-2026T17:09:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_1" time="3.018" classname="Test Cases/Catalogo/TC_4.3_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:32 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_1: Test Cases/Catalogo/TC_4.3_1
+
+03-06-2026T17:09:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:33 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+03-06-2026T17:09:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+03-06-2026T17:09:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499374819.png]]
+
+03-06-2026T17:09:35 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)kiwi", true): Text '(?i)kiwi' is present on page  using regular expression
+
+03-06-2026T17:09:35 - [MESSAGE][PASSED] - Text '(?i)kiwi' is present on page  using regular expression
+
+03-06-2026T17:09:35 - [TEST_STEP][PASSED] - verifyTextPresent("79.99", false): Text '79.99' is present on page 
+
+03-06-2026T17:09:35 - [MESSAGE][PASSED] - Text '79.99' is present on page 
+
+03-06-2026T17:09:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_2" time="2.529" classname="Test Cases/Catalogo/TC_4.3_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:38 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_2: Test Cases/Catalogo/TC_4.3_2
+
+03-06-2026T17:09:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:39 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=999"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+03-06-2026T17:09:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+03-06-2026T17:09:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499380752.png]]
+
+03-06-2026T17:09:41 - [TEST_STEP][WARNING] - markWarning("Id inesistente (999): nessun null-check -> mostrato un prodotto di default. Interpretare lo screenshot (robustezza/TIR)."): Id inesistente (999): nessun null-check -> mostrato un prodotto di default. Interpretare lo screenshot (robustezza/TIR).
+
+03-06-2026T17:09:41 - [MESSAGE][WARNING] - Id inesistente (999): nessun null-check -> mostrato un prodotto di default. Interpretare lo screenshot (robustezza/TIR).
+
+03-06-2026T17:09:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_3" time="1.565" classname="Test Cases/Catalogo/TC_4.3_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:44 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_3: Test Cases/Catalogo/TC_4.3_3
+
+03-06-2026T17:09:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:44 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=abc"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+03-06-2026T17:09:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+03-06-2026T17:09:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499385040.png]]
+
+03-06-2026T17:09:45 - [TEST_STEP][WARNING] - markWarning("Id non numerico (abc): NumberFormatException -> errore 500. Interpretare lo screenshot (robustezza/TIR)."): Id non numerico (abc): NumberFormatException -> errore 500. Interpretare lo screenshot (robustezza/TIR).
+
+03-06-2026T17:09:45 - [MESSAGE][WARNING] - Id non numerico (abc): NumberFormatException -> errore 500. Interpretare lo screenshot (robustezza/TIR).
+
+03-06-2026T17:09:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_1" time="5.098" classname="Test Cases/Catalogo/TC_4.4_1" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:45 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_1: Test Cases/Catalogo/TC_4.4_1
+
+03-06-2026T17:09:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:46 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:09:47 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+03-06-2026T17:09:47 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+03-06-2026T17:09:47 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+03-06-2026T17:09:47 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+03-06-2026T17:09:47 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+03-06-2026T17:09:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-06-2026T17:09:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-06-2026T17:09:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:09:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499389854.png]]
+
+03-06-2026T17:09:50 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+03-06-2026T17:09:50 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+03-06-2026T17:09:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:09:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_2" time="26.677" classname="Test Cases/Catalogo/TC_4.4_2" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:09:51 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_2: Test Cases/Catalogo/TC_4.4_2
+
+03-06-2026T17:09:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:09:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:09:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:09:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:09:52 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:14 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "voo"): null
+
+03-06-2026T17:10:14 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+03-06-2026T17:10:14 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+03-06-2026T17:10:14 - [TEST_STEP][PASSED] - return t: Text 'voo' is set on object '#searchInput'
+
+03-06-2026T17:10:15 - [MESSAGE][PASSED] - Text 'voo' is set on object '#searchInput'
+
+03-06-2026T17:10:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-06-2026T17:10:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-06-2026T17:10:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:10:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499417319.png]]
+
+03-06-2026T17:10:17 - [TEST_STEP][PASSED] - verifyTextPresent("voopoo", false): Text 'voopoo' is present on page 
+
+03-06-2026T17:10:18 - [MESSAGE][PASSED] - Text 'voopoo' is present on page 
+
+03-06-2026T17:10:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:10:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_3" time="6.616" classname="Test Cases/Catalogo/TC_4.4_3" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:10:18 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_3: Test Cases/Catalogo/TC_4.4_3
+
+03-06-2026T17:10:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:10:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:10:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:10:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:10:18 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:21 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "zzz"): null
+
+03-06-2026T17:10:21 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+03-06-2026T17:10:21 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+03-06-2026T17:10:21 - [TEST_STEP][PASSED] - return t: Text 'zzz' is set on object '#searchInput'
+
+03-06-2026T17:10:21 - [MESSAGE][PASSED] - Text 'zzz' is set on object '#searchInput'
+
+03-06-2026T17:10:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-06-2026T17:10:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-06-2026T17:10:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:10:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499423912.png]]
+
+03-06-2026T17:10:24 - [TEST_STEP][PASSED] - verifyTextPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is present on page 
+
+03-06-2026T17:10:24 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is present on page 
+
+03-06-2026T17:10:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:10:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_4" time="7.103" classname="Test Cases/Catalogo/TC_4.4_4" status="PASSED">
+         <system-out><![CDATA[03-06-2026T17:10:24 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_4: Test Cases/Catalogo/TC_4.4_4
+
+03-06-2026T17:10:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2026T17:10:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2026T17:10:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2026T17:10:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2026T17:10:25 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+03-06-2026T17:10:27 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+03-06-2026T17:10:27 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+03-06-2026T17:10:27 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+03-06-2026T17:10:27 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+03-06-2026T17:10:28 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+03-06-2026T17:10:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-06-2026T17:10:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-06-2026T17:10:29 - [TEST_STEP][PASSED] - setText(css("#searchInput"), ""): null
+
+03-06-2026T17:10:29 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+03-06-2026T17:10:29 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+03-06-2026T17:10:29 - [TEST_STEP][PASSED] - return t: Text '' is set on object '#searchInput'
+
+03-06-2026T17:10:29 - [MESSAGE][PASSED] - Text '' is set on object '#searchInput'
+
+03-06-2026T17:10:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-06-2026T17:10:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-06-2026T17:10:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+03-06-2026T17:10:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260603_170804\\Catalogo\\20260603_170804\\1780499430967.png]]
+
+03-06-2026T17:10:31 - [TEST_STEP][PASSED] - verifyTextNotPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is not present on page
+
+03-06-2026T17:10:31 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is not present on page
+
+03-06-2026T17:10:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2026T17:10:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-06-2026T17:08:39 - [TEST_SUITE][PASSED] - Catalogo: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

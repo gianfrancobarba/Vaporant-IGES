@@ -1,0 +1,246 @@
+2026-06-08 13:17:57.448 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-08 13:17:57.450 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\StorageSession\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-08 13:17:58.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Autenticazione
+2026-06-08 13:17:58.279 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-08 13:17:58.280 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-08 13:17:58.280 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-08 13:17:58.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-08 13:17:58.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-08 13:17:58.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-08 13:17:58.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:17:58.370 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_1
+2026-06-08 13:17:58.877 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_1
+2026-06-08 13:17:59.274 DEBUG testcase.TC_1.1_1                        - 1: openBrowser("")
+2026-06-08 13:18:00.335 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:00.566 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:05.503 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 74930d35ea78986d4da75af699c78ff6
+2026-06-08 13:18:05.507 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:05.509 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:05.510 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:05.520 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:05.579 DEBUG testcase.TC_1.1_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:06.578 DEBUG testcase.TC_1.1_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 13:18:06.583 DEBUG testcase.TC_1.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:06.614 DEBUG testcase.TC_1.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:06.639 DEBUG testcase.TC_1.1_1                        - 3: return t
+2026-06-08 13:18:08.405 DEBUG testcase.TC_1.1_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 13:18:08.411 DEBUG testcase.TC_1.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:08.415 DEBUG testcase.TC_1.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:08.422 DEBUG testcase.TC_1.1_1                        - 3: return t
+2026-06-08 13:18:09.818 DEBUG testcase.TC_1.1_1                        - 5: click(css("#submit"))
+2026-06-08 13:18:09.826 DEBUG testcase.TC_1.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:09.831 DEBUG testcase.TC_1.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:09.833 DEBUG testcase.TC_1.1_1                        - 3: return t
+2026-06-08 13:18:10.637 DEBUG testcase.TC_1.1_1                        - 6: delay(2)
+2026-06-08 13:18:12.749 DEBUG testcase.TC_1.1_1                        - 7: takeScreenshot()
+2026-06-08 13:18:13.703 DEBUG testcase.TC_1.1_1                        - 8: verifyElementPresent(css("a[href='logout']"), 5, CONTINUE_ON_FAILURE)
+2026-06-08 13:18:13.711 DEBUG testcase.TC_1.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:13.715 DEBUG testcase.TC_1.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:13.719 DEBUG testcase.TC_1.1_1                        - 3: return t
+2026-06-08 13:18:14.093 DEBUG testcase.TC_1.1_1                        - 9: closeBrowser()
+2026-06-08 13:18:14.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_1
+2026-06-08 13:18:14.510 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:14.510 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_2
+2026-06-08 13:18:14.661 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_2
+2026-06-08 13:18:15.032 DEBUG testcase.TC_1.1_2                        - 1: openBrowser("")
+2026-06-08 13:18:15.043 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:15.059 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:15.965 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 591d45f9e04be18e66bd3f4c3ac80834
+2026-06-08 13:18:15.967 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:15.968 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:15.970 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:15.971 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:16.018 DEBUG testcase.TC_1.1_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:16.851 DEBUG testcase.TC_1.1_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 13:18:16.855 DEBUG testcase.TC_1.1_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:16.858 DEBUG testcase.TC_1.1_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:16.861 DEBUG testcase.TC_1.1_2                        - 3: return t
+2026-06-08 13:18:17.697 DEBUG testcase.TC_1.1_2                        - 4: setText(css("#password"), "Sbagliata99")
+2026-06-08 13:18:17.700 DEBUG testcase.TC_1.1_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:17.703 DEBUG testcase.TC_1.1_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:17.705 DEBUG testcase.TC_1.1_2                        - 3: return t
+2026-06-08 13:18:18.621 DEBUG testcase.TC_1.1_2                        - 5: click(css("#submit"))
+2026-06-08 13:18:18.627 DEBUG testcase.TC_1.1_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:18.630 DEBUG testcase.TC_1.1_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:18.634 DEBUG testcase.TC_1.1_2                        - 3: return t
+2026-06-08 13:18:19.133 DEBUG testcase.TC_1.1_2                        - 6: delay(2)
+2026-06-08 13:18:21.163 DEBUG testcase.TC_1.1_2                        - 7: takeScreenshot()
+2026-06-08 13:18:22.093 DEBUG testcase.TC_1.1_2                        - 8: verifyTextPresent("Non hai un account", false)
+2026-06-08 13:18:22.480 DEBUG testcase.TC_1.1_2                        - 9: closeBrowser()
+2026-06-08 13:18:22.863 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_2
+2026-06-08 13:18:22.876 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:22.876 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_3
+2026-06-08 13:18:23.008 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_3
+2026-06-08 13:18:23.256 DEBUG testcase.TC_1.1_3                        - 1: openBrowser("")
+2026-06-08 13:18:23.261 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:23.267 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:24.175 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 04015efc3500792cb8abbf8484d809a1
+2026-06-08 13:18:24.177 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:24.177 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:24.178 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:24.180 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:24.211 DEBUG testcase.TC_1.1_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:24.583 DEBUG testcase.TC_1.1_3                        - 3: setText(css("#email"), "inesistente@studenti.unisa.it")
+2026-06-08 13:18:24.587 DEBUG testcase.TC_1.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:24.590 DEBUG testcase.TC_1.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:24.597 DEBUG testcase.TC_1.1_3                        - 3: return t
+2026-06-08 13:18:25.306 DEBUG testcase.TC_1.1_3                        - 4: setText(css("#password"), "Password1")
+2026-06-08 13:18:25.309 DEBUG testcase.TC_1.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:25.312 DEBUG testcase.TC_1.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:25.313 DEBUG testcase.TC_1.1_3                        - 3: return t
+2026-06-08 13:18:25.992 DEBUG testcase.TC_1.1_3                        - 5: click(css("#submit"))
+2026-06-08 13:18:25.996 DEBUG testcase.TC_1.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:25.998 DEBUG testcase.TC_1.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:25.999 DEBUG testcase.TC_1.1_3                        - 3: return t
+2026-06-08 13:18:26.502 DEBUG testcase.TC_1.1_3                        - 6: delay(2)
+2026-06-08 13:18:28.525 DEBUG testcase.TC_1.1_3                        - 7: takeScreenshot()
+2026-06-08 13:18:30.652 DEBUG testcase.TC_1.1_3                        - 8: verifyTextPresent("Non hai un account", false)
+2026-06-08 13:18:30.973 DEBUG testcase.TC_1.1_3                        - 9: closeBrowser()
+2026-06-08 13:18:31.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_3
+2026-06-08 13:18:31.313 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:31.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_4
+2026-06-08 13:18:31.467 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_4
+2026-06-08 13:18:31.718 DEBUG testcase.TC_1.1_4                        - 1: openBrowser("")
+2026-06-08 13:18:31.722 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:31.727 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:32.567 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2310bd63d4b6450ab6d036568c367ef0
+2026-06-08 13:18:32.568 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:32.570 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:32.571 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:32.572 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:32.601 DEBUG testcase.TC_1.1_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:33.651 DEBUG testcase.TC_1.1_4                        - 3: setText(css("#email"), "")
+2026-06-08 13:18:33.655 DEBUG testcase.TC_1.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:33.657 DEBUG testcase.TC_1.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:33.660 DEBUG testcase.TC_1.1_4                        - 3: return t
+2026-06-08 13:18:34.347 DEBUG testcase.TC_1.1_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 13:18:34.351 DEBUG testcase.TC_1.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:34.352 DEBUG testcase.TC_1.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:34.353 DEBUG testcase.TC_1.1_4                        - 3: return t
+2026-06-08 13:18:35.213 DEBUG testcase.TC_1.1_4                        - 5: click(css("#submit"))
+2026-06-08 13:18:35.215 DEBUG testcase.TC_1.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:35.217 DEBUG testcase.TC_1.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:35.220 DEBUG testcase.TC_1.1_4                        - 3: return t
+2026-06-08 13:18:35.787 DEBUG testcase.TC_1.1_4                        - 6: delay(2)
+2026-06-08 13:18:37.804 DEBUG testcase.TC_1.1_4                        - 7: takeScreenshot()
+2026-06-08 13:18:38.646 DEBUG testcase.TC_1.1_4                        - 8: verifyTextPresent("Non hai un account", false)
+2026-06-08 13:18:38.956 DEBUG testcase.TC_1.1_4                        - 9: closeBrowser()
+2026-06-08 13:18:39.338 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_4
+2026-06-08 13:18:39.351 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:39.351 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_5
+2026-06-08 13:18:39.479 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_5
+2026-06-08 13:18:39.752 DEBUG testcase.TC_1.1_5                        - 1: openBrowser("")
+2026-06-08 13:18:39.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:39.766 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:40.646 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cb5fb5d5b143be040a4f63145732c6a0
+2026-06-08 13:18:40.647 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:40.648 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:40.648 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:40.650 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:40.686 DEBUG testcase.TC_1.1_5                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:41.036 DEBUG testcase.TC_1.1_5                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 13:18:41.040 DEBUG testcase.TC_1.1_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:41.044 DEBUG testcase.TC_1.1_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:41.047 DEBUG testcase.TC_1.1_5                        - 3: return t
+2026-06-08 13:18:41.837 DEBUG testcase.TC_1.1_5                        - 4: setText(css("#password"), "")
+2026-06-08 13:18:41.839 DEBUG testcase.TC_1.1_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:41.841 DEBUG testcase.TC_1.1_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:41.843 DEBUG testcase.TC_1.1_5                        - 3: return t
+2026-06-08 13:18:42.491 DEBUG testcase.TC_1.1_5                        - 5: click(css("#submit"))
+2026-06-08 13:18:42.493 DEBUG testcase.TC_1.1_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:42.494 DEBUG testcase.TC_1.1_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:42.496 DEBUG testcase.TC_1.1_5                        - 3: return t
+2026-06-08 13:18:42.840 DEBUG testcase.TC_1.1_5                        - 6: delay(2)
+2026-06-08 13:18:44.853 DEBUG testcase.TC_1.1_5                        - 7: takeScreenshot()
+2026-06-08 13:18:45.599 DEBUG testcase.TC_1.1_5                        - 8: verifyTextPresent("Non hai un account", false)
+2026-06-08 13:18:45.904 DEBUG testcase.TC_1.1_5                        - 9: closeBrowser()
+2026-06-08 13:18:46.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_5
+2026-06-08 13:18:46.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:46.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.1_6
+2026-06-08 13:18:46.476 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.1_6
+2026-06-08 13:18:46.724 DEBUG testcase.TC_1.1_6                        - 1: openBrowser("")
+2026-06-08 13:18:46.728 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:46.732 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:47.609 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dca414744f2ca32ad366f9845a57eef4
+2026-06-08 13:18:47.611 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:47.612 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:47.612 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:47.613 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:47.641 DEBUG testcase.TC_1.1_6                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:48.454 DEBUG testcase.TC_1.1_6                        - 3: setText(css("#email"), "t.mansi.studenti.unisa.it")
+2026-06-08 13:18:48.458 DEBUG testcase.TC_1.1_6                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:48.462 DEBUG testcase.TC_1.1_6                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:48.466 DEBUG testcase.TC_1.1_6                        - 3: return t
+2026-06-08 13:18:49.480 DEBUG testcase.TC_1.1_6                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 13:18:49.485 DEBUG testcase.TC_1.1_6                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:49.488 DEBUG testcase.TC_1.1_6                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:49.492 DEBUG testcase.TC_1.1_6                        - 3: return t
+2026-06-08 13:18:50.312 DEBUG testcase.TC_1.1_6                        - 5: click(css("#submit"))
+2026-06-08 13:18:50.314 DEBUG testcase.TC_1.1_6                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:50.315 DEBUG testcase.TC_1.1_6                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:50.317 DEBUG testcase.TC_1.1_6                        - 3: return t
+2026-06-08 13:18:50.823 DEBUG testcase.TC_1.1_6                        - 6: delay(2)
+2026-06-08 13:18:52.835 DEBUG testcase.TC_1.1_6                        - 7: takeScreenshot()
+2026-06-08 13:18:54.643 DEBUG testcase.TC_1.1_6                        - 8: verifyTextPresent("Non hai un account", false)
+2026-06-08 13:18:54.996 DEBUG testcase.TC_1.1_6                        - 9: closeBrowser()
+2026-06-08 13:18:55.393 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.1_6
+2026-06-08 13:18:55.404 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:18:55.405 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.2_1
+2026-06-08 13:18:55.530 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_1
+2026-06-08 13:18:55.786 DEBUG testcase.TC_1.2_1                        - 1: openBrowser("")
+2026-06-08 13:18:55.792 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:18:55.796 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:18:56.637 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6bbe81e04bf13edc364a480f6db5d991
+2026-06-08 13:18:56.639 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:18:56.639 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:18:56.640 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:18:56.640 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:18:56.672 DEBUG testcase.TC_1.2_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-08 13:18:57.020 DEBUG testcase.TC_1.2_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-08 13:18:57.026 DEBUG testcase.TC_1.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:57.028 DEBUG testcase.TC_1.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:57.034 DEBUG testcase.TC_1.2_1                        - 3: return t
+2026-06-08 13:18:57.795 DEBUG testcase.TC_1.2_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-08 13:18:57.799 DEBUG testcase.TC_1.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:57.800 DEBUG testcase.TC_1.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:57.801 DEBUG testcase.TC_1.2_1                        - 3: return t
+2026-06-08 13:18:58.476 DEBUG testcase.TC_1.2_1                        - 5: click(css("#submit"))
+2026-06-08 13:18:58.478 DEBUG testcase.TC_1.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:18:58.479 DEBUG testcase.TC_1.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:18:58.480 DEBUG testcase.TC_1.2_1                        - 3: return t
+2026-06-08 13:18:58.783 DEBUG testcase.TC_1.2_1                        - 6: delay(2)
+2026-06-08 13:19:00.805 DEBUG testcase.TC_1.2_1                        - 7: click(css("a[href='logout']"))
+2026-06-08 13:19:00.807 DEBUG testcase.TC_1.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:19:00.810 DEBUG testcase.TC_1.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:19:00.813 DEBUG testcase.TC_1.2_1                        - 3: return t
+2026-06-08 13:19:01.445 DEBUG testcase.TC_1.2_1                        - 8: delay(2)
+2026-06-08 13:19:03.466 DEBUG testcase.TC_1.2_1                        - 9: takeScreenshot()
+2026-06-08 13:19:04.149 DEBUG testcase.TC_1.2_1                        - 10: verifyElementPresent(css("a[href='loginForm.jsp']"), 5)
+2026-06-08 13:19:04.153 DEBUG testcase.TC_1.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:19:04.156 DEBUG testcase.TC_1.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:19:04.159 DEBUG testcase.TC_1.2_1                        - 3: return t
+2026-06-08 13:19:04.449 DEBUG testcase.TC_1.2_1                        - 11: closeBrowser()
+2026-06-08 13:19:04.929 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.2_1
+2026-06-08 13:19:04.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-08 13:19:04.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Autenticazione/TC_1.2_2
+2026-06-08 13:19:05.062 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Autenticazione/TC_1.2_2
+2026-06-08 13:19:05.286 DEBUG testcase.TC_1.2_2                        - 1: openBrowser("")
+2026-06-08 13:19:05.288 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-08 13:19:05.291 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-08 13:19:06.190 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 06686ad4da8f407f616713f9a0504303
+2026-06-08 13:19:06.190 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-08 13:19:06.190 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-08 13:19:06.191 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-08 13:19:06.193 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-08 13:19:06.219 DEBUG testcase.TC_1.2_2                        - 2: navigateToUrl(base + "logout")
+2026-06-08 13:19:07.558 DEBUG testcase.TC_1.2_2                        - 3: delay(1)
+2026-06-08 13:19:08.568 DEBUG testcase.TC_1.2_2                        - 4: takeScreenshot()
+2026-06-08 13:19:09.173 DEBUG testcase.TC_1.2_2                        - 5: verifyElementPresent(css("a[href='loginForm.jsp']"), 5)
+2026-06-08 13:19:09.177 DEBUG testcase.TC_1.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-08 13:19:09.179 DEBUG testcase.TC_1.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-08 13:19:09.182 DEBUG testcase.TC_1.2_2                        - 3: return t
+2026-06-08 13:19:09.490 DEBUG testcase.TC_1.2_2                        - 6: closeBrowser()
+2026-06-08 13:19:09.856 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Autenticazione/TC_1.2_2
+2026-06-08 13:19:09.944 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-08 13:19:09.944 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Autenticazione
+2026-06-08 13:19:09.944 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

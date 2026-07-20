@@ -1,0 +1,167 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Registrazione,Chrome 148.0.7778.179,,,06-06-2026 13:03:24,06-06-2026 13:04:34,"1m - 10,731s",FAILED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_1,Chrome 148.0.7778.179,"Registrazione con dati validi
+Compila form + submit → verifica (atteso Fail: errore)",,06-06-2026 13:03:41,06-06-2026 13:03:46,"5,401s",FAILED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:03:41,06-06-2026 13:03:42,"0,799s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:03:42,06-06-2026 13:03:43,"0,728s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,016s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,566s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:43,"0,320s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:03:43,06-06-2026 13:03:45,"2,009s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:45,06-06-2026 13:03:46,"0,546s",PASSED
+"verifyTextPresent(""Non hai un account"", false, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,263s",FAILED
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,141s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_2,Chrome 148.0.7778.179,Registrazione con Nome non compilato (campo obbligatorio),,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,024s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Nome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,004s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_3,Chrome 148.0.7778.179,Registrazione con Cognome non compilato (campo obbligatorio),,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,028s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Cognome VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,001s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_4,Chrome 148.0.7778.179,Registrazione con Data di Nascita non compilata (campo obbligatorio),,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,019s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Data di Nascita VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:46,06-06-2026 13:03:46,"0,001s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_5,Chrome 148.0.7778.179,Registrazione con Codice Fiscale non compilato (campo obbligatorio),,06-06-2026 13:03:46,06-06-2026 13:03:47,"0,019s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, Telefono=3331234567, Email=mario.rossi@example.com, Password=Password1) lasciando Codice Fiscale VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,001s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_6,Chrome 148.0.7778.179,Registrazione con Telefono non compilato (campo obbligatorio),,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,024s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Email=mario.rossi@example.com, Password=Password1) lasciando Telefono VUOTO, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,002s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_7,Chrome 148.0.7778.179,Registrazione con Email non compilata (campo obbligatorio),,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,022s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) lasciando Email VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,000s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_8,Chrome 148.0.7778.179,Registrazione con Password non compilata (campo obbligatorio),,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,021s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Email=mario.rossi@example.com) lasciando Password VUOTA, poi cliccare Registrati. Atteso: il browser blocca l'invio (campo obbligatorio)."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,000s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_9,Chrome 148.0.7778.179,Registrazione con Nome di soli spazi bianchi (robustezza),,06-06-2026 13:03:47,06-06-2026 13:03:51,"4,850s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:47,"0,806s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:03:47,06-06-2026 13:03:48,"0,410s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='   ';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:48,"0,011s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:48,"0,519s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:48,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:48,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:48,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:03:48,06-06-2026 13:03:49,"0,332s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:03:49,06-06-2026 13:03:51,"2,008s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:51,06-06-2026 13:03:51,"0,510s",PASSED
+"markWarning(""Nome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:51,06-06-2026 13:03:51,"0,002s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:03:51,06-06-2026 13:03:51,"0,192s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_10,Chrome 148.0.7778.179,Registrazione con Cognome di soli spazi bianchi (robustezza),,06-06-2026 13:03:51,06-06-2026 13:03:56,"5,064s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:03:52,06-06-2026 13:03:52,"0,768s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:03:52,06-06-2026 13:03:53,"0,687s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='   ';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:03:53,06-06-2026 13:03:53,"0,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:53,06-06-2026 13:03:54,"0,530s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:03:54,06-06-2026 13:03:54,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:03:54,06-06-2026 13:03:54,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:03:54,06-06-2026 13:03:54,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:03:54,06-06-2026 13:03:54,"0,321s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:03:54,06-06-2026 13:03:56,"2,006s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:03:56,06-06-2026 13:03:56,"0,516s",PASSED
+"markWarning(""Cognome di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:03:56,06-06-2026 13:03:56,"0,001s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:03:56,06-06-2026 13:03:56,"0,138s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_11,Chrome 148.0.7778.179,Registrazione con Codice Fiscale di soli spazi bianchi (robustezza),,06-06-2026 13:03:56,06-06-2026 13:04:05,"8,427s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:03:57,06-06-2026 13:03:57,"0,800s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:03:57,06-06-2026 13:04:01,"3,905s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='                ';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:01,06-06-2026 13:04:01,"0,015s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:01,06-06-2026 13:04:02,"0,544s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:02,06-06-2026 13:04:02,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:02,06-06-2026 13:04:02,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:02,06-06-2026 13:04:02,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:02,06-06-2026 13:04:02,"0,322s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:02,06-06-2026 13:04:04,"2,009s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:04,06-06-2026 13:04:05,"0,582s",PASSED
+"markWarning(""Codice Fiscale di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:05,06-06-2026 13:04:05,"0,000s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:05,06-06-2026 13:04:05,"0,182s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_12,Chrome 148.0.7778.179,Registrazione con Telefono di soli spazi bianchi (robustezza),,06-06-2026 13:04:05,06-06-2026 13:04:10,"4,754s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:05,06-06-2026 13:04:06,"0,800s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:06,06-06-2026 13:04:06,"0,325s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='   ';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:06,06-06-2026 13:04:06,"0,030s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:06,06-06-2026 13:04:07,"0,537s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:07,06-06-2026 13:04:07,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:07,06-06-2026 13:04:07,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:07,06-06-2026 13:04:07,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:07,06-06-2026 13:04:07,"0,319s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:07,06-06-2026 13:04:09,"2,007s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:09,06-06-2026 13:04:10,"0,514s",PASSED
+"markWarning(""Telefono di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:10,06-06-2026 13:04:10,"0,000s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:10,06-06-2026 13:04:10,"0,172s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_13,Chrome 148.0.7778.179,Registrazione con Password di soli spazi bianchi (robustezza),,06-06-2026 13:04:10,06-06-2026 13:04:15,"4,847s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:10,06-06-2026 13:04:11,"0,794s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:11,06-06-2026 13:04:11,"0,333s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='   ';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:11,06-06-2026 13:04:11,"0,021s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:11,06-06-2026 13:04:12,"0,639s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:12,06-06-2026 13:04:12,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:12,06-06-2026 13:04:12,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:12,06-06-2026 13:04:12,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:12,06-06-2026 13:04:12,"0,333s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:12,06-06-2026 13:04:14,"2,005s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:14,06-06-2026 13:04:14,"0,513s",PASSED
+"markWarning(""Password di soli spazi: interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:14,06-06-2026 13:04:14,"0,001s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:14,06-06-2026 13:04:15,"0,157s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_14,Chrome 148.0.7778.179,Registrazione con Email in formato non valido,,06-06-2026 13:04:15,06-06-2026 13:04:15,"0,023s",PASSED
+"markWarning(""Caso manuale: in SignForm.jsp compilare tutti i campi coi valori di riferimento (Nome=Mario, Cognome=Rossi, Data=2000-05-15, CF=RSSMRA00E15F839X, Telefono=3331234567, Password=Password1) e Email = mario.rossi.example.com (senza @), poi cliccare Registrati. Atteso: il browser blocca l'invio (formato email non valido, type=email)."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:15,06-06-2026 13:04:15,"0,001s",WARNING
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_15,Chrome 148.0.7778.179,Registrazione con Email gia' registrata (vincolo di unicita'),,06-06-2026 13:04:15,06-06-2026 13:04:20,"5,092s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:15,06-06-2026 13:04:15,"0,782s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:15,06-06-2026 13:04:16,"0,318s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='t.mansi@studenti.unisa.it';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:16,"0,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:16,"0,612s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:16,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:16,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:16,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:16,06-06-2026 13:04:17,"0,323s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:17,06-06-2026 13:04:19,"2,007s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:19,06-06-2026 13:04:19,"0,551s",PASSED
+"verifyTextNotPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,06-06-2026 13:04:19,06-06-2026 13:04:19,"0,270s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:19,06-06-2026 13:04:20,"0,156s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_16,Chrome 148.0.7778.179,Registrazione con Codice Fiscale gia' registrato (vincolo di unicita'),,06-06-2026 13:04:20,06-06-2026 13:04:25,"5,071s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:20,06-06-2026 13:04:20,"0,796s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:20,06-06-2026 13:04:21,"0,327s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='BRBGFR02B15A508B';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:21,"0,010s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:21,"0,601s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:21,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:21,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:21,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:21,06-06-2026 13:04:22,"0,345s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:22,06-06-2026 13:04:24,"2,013s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:24,06-06-2026 13:04:24,"0,513s",PASSED
+"verifyTextNotPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,06-06-2026 13:04:24,06-06-2026 13:04:25,"0,254s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:25,06-06-2026 13:04:25,"0,168s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_17,Chrome 148.0.7778.179,Registrazione con Codice Fiscale di lunghezza inferiore a 16 caratteri (BVA),,06-06-2026 13:04:25,06-06-2026 13:04:29,"4,767s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:25,06-06-2026 13:04:26,"0,803s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,328s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,030s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,540s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:26,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:26,06-06-2026 13:04:27,"0,330s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:27,06-06-2026 13:04:29,"2,013s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:29,06-06-2026 13:04:29,"0,525s",PASSED
+"markWarning(""CF di 15 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:29,06-06-2026 13:04:29,"0,005s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:29,06-06-2026 13:04:29,"0,137s",PASSED
+,,,,,,,
+Test Cases/Registrazione/TC_2.1_18,Chrome 148.0.7778.179,Registrazione con Codice Fiscale di lunghezza superiore a 16 caratteri (BVA),,06-06-2026 13:04:29,06-06-2026 13:04:34,"4,812s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,06-06-2026 13:04:30,06-06-2026 13:04:30,"0,772s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,06-06-2026 13:04:30,06-06-2026 13:04:31,"0,333s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839XY';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:31,"0,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:31,"0,625s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:31,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:31,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:31,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,06-06-2026 13:04:31,06-06-2026 13:04:32,"0,318s",PASSED
+delay(2),Chrome 148.0.7778.179,,,06-06-2026 13:04:32,06-06-2026 13:04:34,"2,011s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,06-06-2026 13:04:34,06-06-2026 13:04:34,"0,497s",PASSED
+"markWarning(""CF di 17 caratteri (BVA CHAR(16)): interpretare lo screenshot (loginForm = accettato/troncato/incident, SignForm = rifiutato). Eseguire su DB con email/CF di riferimento nuovi."")",Chrome 148.0.7778.179,,,06-06-2026 13:04:34,06-06-2026 13:04:34,"0,001s",WARNING
+closeBrowser(),Chrome 148.0.7778.179,,,06-06-2026 13:04:34,06-06-2026 13:04:34,"0,185s",PASSED

@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Generale,Chrome 148.0.7778.179,,,12-06-2026 13:21:21,12-06-2026 13:21:35,"14,421s",PASSED
+,,,,,,,
+Test Cases/Generale/TC_8.1_1,Chrome 148.0.7778.179,"Pagine info (Contatti, Chi siamo, Privacy, Termini)	
+Click link nel Footer + verifica pagina",,12-06-2026 13:21:21,12-06-2026 13:21:25,"4,510s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,12-06-2026 13:21:21,12-06-2026 13:21:21,"0,257s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,12-06-2026 13:21:21,12-06-2026 13:21:23,"1,888s",PASSED
+"navigateToUrl(base + ""Contatti.jsp"")",Chrome 148.0.7778.179,,,12-06-2026 13:21:23,12-06-2026 13:21:25,"1,520s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,12-06-2026 13:21:25,12-06-2026 13:21:25,"0,330s",PASSED
+"verifyTextPresent(""Informazioni di contatto"", false)",Chrome 148.0.7778.179,,,12-06-2026 13:21:25,12-06-2026 13:21:25,"0,268s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,12-06-2026 13:21:25,12-06-2026 13:21:25,"0,187s",PASSED
+,,,,,,,
+Test Cases/Generale/TC_8.1_2,Chrome 148.0.7778.179,"Pagine info (Contatti, Chi siamo, Privacy, Termini)	Click link nel Footer + verifica pagina",,12-06-2026 13:21:25,12-06-2026 13:21:29,"3,238s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,12-06-2026 13:21:25,12-06-2026 13:21:25,"0,089s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,12-06-2026 13:21:25,12-06-2026 13:21:26,"0,842s",PASSED
+"navigateToUrl(base + ""ChiSiamo.jsp"")",Chrome 148.0.7778.179,,,12-06-2026 13:21:26,12-06-2026 13:21:28,"1,499s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,12-06-2026 13:21:28,12-06-2026 13:21:28,"0,297s",PASSED
+"verifyTextPresent(""Chi Siamo"", false)",Chrome 148.0.7778.179,,,12-06-2026 13:21:28,12-06-2026 13:21:28,"0,257s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,12-06-2026 13:21:28,12-06-2026 13:21:29,"0,216s",PASSED
+,,,,,,,
+Test Cases/Generale/TC_8.1_3,Chrome 148.0.7778.179,"Pagine info (Contatti, Chi siamo, Privacy, Termini)	
+Click link nel Footer + verifica pagina",,12-06-2026 13:21:29,12-06-2026 13:21:32,"3,255s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,12-06-2026 13:21:29,12-06-2026 13:21:29,"0,080s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,12-06-2026 13:21:29,12-06-2026 13:21:30,"0,826s",PASSED
+"navigateToUrl(base + ""PrivacyPolicy.jsp"")",Chrome 148.0.7778.179,,,12-06-2026 13:21:30,12-06-2026 13:21:31,"1,492s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,12-06-2026 13:21:31,12-06-2026 13:21:31,"0,317s",PASSED
+"verifyTextPresent(""Informativa sulla privacy"", false)",Chrome 148.0.7778.179,,,12-06-2026 13:21:31,12-06-2026 13:21:32,"0,260s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,12-06-2026 13:21:32,12-06-2026 13:21:32,"0,247s",PASSED
+,,,,,,,
+Test Cases/Generale/TC_8.1_4,Chrome 148.0.7778.179,"Pagine info (Contatti, Chi siamo, Privacy, Termini)	
+Click link nel Footer + verifica pagina",,12-06-2026 13:21:32,12-06-2026 13:21:35,"3,218s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,12-06-2026 13:21:32,12-06-2026 13:21:32,"0,086s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,12-06-2026 13:21:32,12-06-2026 13:21:33,"0,831s",PASSED
+"navigateToUrl(base + ""TerminiCondizioni.jsp"")",Chrome 148.0.7778.179,,,12-06-2026 13:21:33,12-06-2026 13:21:34,"1,373s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,12-06-2026 13:21:34,12-06-2026 13:21:35,"0,419s",PASSED
+"verifyTextPresent(""Termini e Condizioni"", false)",Chrome 148.0.7778.179,,,12-06-2026 13:21:35,12-06-2026 13:21:35,"0,258s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,12-06-2026 13:21:35,12-06-2026 13:21:35,"0,217s",PASSED

@@ -1,0 +1,22 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "#editButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027pagina principale\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260606_180341/Profilo/20260606_180342/#editButton_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "#editPasswordButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027pagina principale\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260606_180341/Profilo/20260606_180342/#editPasswordButton_XPATH.png"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Autenticazione,Chrome 148.0.7778.179,,,11-06-2026 17:06:44,11-06-2026 17:07:54,"1m - 10,415s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_1,Chrome 148.0.7778.179,"Login con credenziali valide	
+Compila form + submit → verifica (atteso Fail: errore)",,11-06-2026 17:06:44,11-06-2026 17:06:58,"13,720s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:06:44,11-06-2026 17:06:44,"0,288s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:06:45,11-06-2026 17:06:50,"5,425s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:06:50,11-06-2026 17:06:51,"0,638s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:06:51,11-06-2026 17:06:51,"0,007s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:06:51,11-06-2026 17:06:51,"0,029s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:06:51,11-06-2026 17:06:51,"0,025s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:06:51,11-06-2026 17:06:52,"1,182s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,11-06-2026 17:06:52,11-06-2026 17:06:52,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:06:52,11-06-2026 17:06:52,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:06:52,11-06-2026 17:06:52,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:06:52,11-06-2026 17:06:53,"1,008s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:06:53,11-06-2026 17:06:53,"0,004s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:06:53,11-06-2026 17:06:53,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:06:53,11-06-2026 17:06:53,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:06:53,11-06-2026 17:06:54,"0,611s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:06:54,11-06-2026 17:06:56,"2,074s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:06:56,11-06-2026 17:06:57,"1,198s",PASSED
+"verifyElementPresent(css(""a[href='logout']""), 5, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,11-06-2026 17:06:57,11-06-2026 17:06:57,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:06:57,11-06-2026 17:06:57,"0,002s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:06:57,11-06-2026 17:06:57,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:06:57,11-06-2026 17:06:57,"0,353s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:06:57,11-06-2026 17:06:58,"0,426s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_2,Chrome 148.0.7778.179,Login con password errata (accesso negato),,11-06-2026 17:06:58,11-06-2026 17:07:06,"8,606s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:06:58,11-06-2026 17:06:58,"0,116s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:06:58,11-06-2026 17:06:59,"0,993s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:06:59,11-06-2026 17:07:00,"0,350s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,004s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,003s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,848s",PASSED
+"setText(css(""#password""), ""Sbagliata99"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:00,"0,004s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:00,11-06-2026 17:07:01,"0,678s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:01,11-06-2026 17:07:01,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:01,11-06-2026 17:07:01,"0,003s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:01,11-06-2026 17:07:01,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:01,11-06-2026 17:07:02,"0,543s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:02,11-06-2026 17:07:04,"2,016s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:04,11-06-2026 17:07:06,"1,934s",PASSED
+"verifyTextPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,11-06-2026 17:07:06,11-06-2026 17:07:06,"0,330s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:06,11-06-2026 17:07:06,"0,434s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_3,Chrome 148.0.7778.179,Login con email inesistente (accesso negato),,11-06-2026 17:07:06,11-06-2026 17:07:14,"7,808s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:06,11-06-2026 17:07:06,"0,096s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:07,11-06-2026 17:07:08,"0,938s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:08,11-06-2026 17:07:08,"0,349s",PASSED
+"setText(css(""#email""), ""inesistente@studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:08,11-06-2026 17:07:08,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:08,11-06-2026 17:07:08,"0,003s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:08,11-06-2026 17:07:08,"0,005s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:08,11-06-2026 17:07:09,"0,798s",PASSED
+"setText(css(""#password""), ""Password1"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,629s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:09,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:09,11-06-2026 17:07:10,"0,334s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:10,11-06-2026 17:07:12,"2,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:12,11-06-2026 17:07:14,"1,723s",PASSED
+"verifyTextPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,11-06-2026 17:07:14,11-06-2026 17:07:14,"0,279s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:14,11-06-2026 17:07:14,"0,315s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_4,Chrome 148.0.7778.179,Login con campo Email vuoto (accesso negato),,11-06-2026 17:07:14,11-06-2026 17:07:23,"8,605s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:14,11-06-2026 17:07:14,"0,130s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:15,11-06-2026 17:07:16,"0,947s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:16,11-06-2026 17:07:16,"0,766s",PASSED
+"setText(css(""#email""), """")",Chrome 148.0.7778.179,,,11-06-2026 17:07:16,11-06-2026 17:07:16,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:16,11-06-2026 17:07:16,"0,003s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:16,11-06-2026 17:07:16,"0,003s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:16,11-06-2026 17:07:17,"0,673s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,11-06-2026 17:07:17,11-06-2026 17:07:17,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:17,11-06-2026 17:07:17,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:17,11-06-2026 17:07:17,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:17,11-06-2026 17:07:18,"0,686s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:18,11-06-2026 17:07:18,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:18,11-06-2026 17:07:18,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:18,11-06-2026 17:07:18,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:18,11-06-2026 17:07:18,"0,484s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:18,11-06-2026 17:07:20,"2,012s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:20,11-06-2026 17:07:22,"2,029s",PASSED
+"verifyTextPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,11-06-2026 17:07:22,11-06-2026 17:07:23,"0,283s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:23,11-06-2026 17:07:23,"0,277s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_5,Chrome 148.0.7778.179,Login con campo Password vuoto (accesso negato),,11-06-2026 17:07:23,11-06-2026 17:07:31,"7,785s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:23,11-06-2026 17:07:23,"0,110s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:23,11-06-2026 17:07:24,"0,998s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:24,11-06-2026 17:07:25,"0,441s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,005s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,003s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,682s",PASSED
+"setText(css(""#password""), """")",Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:25,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:25,11-06-2026 17:07:26,"0,633s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:26,11-06-2026 17:07:26,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:26,11-06-2026 17:07:26,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:26,11-06-2026 17:07:26,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:26,11-06-2026 17:07:26,"0,363s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:26,11-06-2026 17:07:28,"2,010s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:28,11-06-2026 17:07:30,"1,654s",PASSED
+"verifyTextPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,11-06-2026 17:07:30,11-06-2026 17:07:30,"0,273s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:30,11-06-2026 17:07:31,"0,307s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_6,Chrome 148.0.7778.179,Login con email in formato non valido (invio bloccato dal browser),,11-06-2026 17:07:31,11-06-2026 17:07:38,"7,765s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:31,11-06-2026 17:07:31,"0,123s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:31,11-06-2026 17:07:32,"0,951s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:32,11-06-2026 17:07:32,"0,359s",PASSED
+"setText(css(""#email""), ""t.mansi.studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:32,11-06-2026 17:07:32,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:32,11-06-2026 17:07:32,"0,002s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:32,11-06-2026 17:07:32,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:32,11-06-2026 17:07:33,"0,768s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,11-06-2026 17:07:33,11-06-2026 17:07:33,"0,003s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:33,11-06-2026 17:07:33,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:33,11-06-2026 17:07:33,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:33,11-06-2026 17:07:34,"0,696s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:34,11-06-2026 17:07:34,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:34,11-06-2026 17:07:34,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:34,11-06-2026 17:07:34,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:34,11-06-2026 17:07:34,"0,404s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:34,11-06-2026 17:07:36,"2,009s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:36,11-06-2026 17:07:38,"1,516s",PASSED
+"verifyTextPresent(""Non hai un account"", false)",Chrome 148.0.7778.179,,,11-06-2026 17:07:38,11-06-2026 17:07:38,"0,282s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:38,11-06-2026 17:07:38,"0,377s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.2_1,Chrome 148.0.7778.179,Logout di un utente autenticato,,11-06-2026 17:07:38,11-06-2026 17:07:48,"10,106s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:38,11-06-2026 17:07:38,"0,101s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:39,11-06-2026 17:07:40,"0,896s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:40,11-06-2026 17:07:40,"0,349s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:40,11-06-2026 17:07:40,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:40,11-06-2026 17:07:40,"0,002s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:40,11-06-2026 17:07:40,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:40,11-06-2026 17:07:41,"0,809s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,591s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:41,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:41,11-06-2026 17:07:42,"0,293s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:42,11-06-2026 17:07:44,"2,018s",PASSED
+"click(css(""a[href='logout']""))",Chrome 148.0.7778.179,,,11-06-2026 17:07:44,11-06-2026 17:07:44,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:44,11-06-2026 17:07:44,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:44,11-06-2026 17:07:44,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:44,11-06-2026 17:07:45,"0,795s",PASSED
+delay(2),Chrome 148.0.7778.179,,,11-06-2026 17:07:45,11-06-2026 17:07:47,"2,023s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:47,11-06-2026 17:07:48,"1,227s",PASSED
+"verifyElementPresent(css(""a[href='loginForm.jsp']""), 5)",Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:48,"0,002s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:48,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:48,"0,001s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:48,"0,290s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:48,"0,349s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.2_2,Chrome 148.0.7778.179,Invocazione di /logout da ospite (nessuna sessione),,11-06-2026 17:07:48,11-06-2026 17:07:54,"5,712s",PASSED
+Start listener action : resetSeedBeforeTestCase,Chrome 148.0.7778.179,,,11-06-2026 17:07:48,11-06-2026 17:07:49,"0,109s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,11-06-2026 17:07:49,11-06-2026 17:07:50,"0,975s",PASSED
+"navigateToUrl(base + ""logout"")",Chrome 148.0.7778.179,,,11-06-2026 17:07:50,11-06-2026 17:07:51,"1,345s",PASSED
+delay(1),Chrome 148.0.7778.179,,,11-06-2026 17:07:51,11-06-2026 17:07:52,"1,017s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,11-06-2026 17:07:52,11-06-2026 17:07:53,"1,189s",PASSED
+"verifyElementPresent(css(""a[href='loginForm.jsp']""), 5)",Chrome 148.0.7778.179,,,11-06-2026 17:07:53,11-06-2026 17:07:53,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,11-06-2026 17:07:53,11-06-2026 17:07:53,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,11-06-2026 17:07:53,11-06-2026 17:07:53,"0,002s",PASSED
+return t,Chrome 148.0.7778.179,,,11-06-2026 17:07:53,11-06-2026 17:07:54,"0,312s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,11-06-2026 17:07:54,11-06-2026 17:07:54,"0,486s",PASSED

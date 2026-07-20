@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Catalogo" time="128.342" tests="14" passed="10" failures="4" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Catalogo" tests="14" passed="10" failures="4" errors="0" incompleted="0" skipped="0" time="128.342" timestamp="2026-06-09T19:11:43.394Z" hostname="gianf - Gianfranco" id="Test Suites/Catalogo" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032306302.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032315536.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032318040.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032320955.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032323618.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032330077.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032336393.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032342670.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032349005.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032355426.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032361768.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032368361.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032375557.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032377721.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032382068.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032386562.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032390871.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032394895.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032398539.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032402129.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032405764.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032409374.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032414104.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032418989.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032423830.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032430918.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="195adca95b758a68e473c0f2620487c3"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Catalogo/TC_4.1_1" time="3.8" classname="Test Cases/Catalogo/TC_4.1_1" status="PASSED" tag="Navigazione + verifica testo (es. &quot;kiwi&quot;)">
+         <system-out><![CDATA[09-06-2026T21:11:43 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_1: Test Cases/Catalogo/TC_4.1_1
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+09-06-2026T21:11:43 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_1
+
+09-06-2026T21:11:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:11:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:11:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:11:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:11:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:11:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032306302.png]]
+
+09-06-2026T21:11:46 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:11:47 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:11:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.1_2" time="9.158" classname="Test Cases/Catalogo/TC_4.1_2" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:11:47 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.1_2: Test Cases/Catalogo/TC_4.1_2
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+09-06-2026T21:11:47 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.1_2
+
+09-06-2026T21:11:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:11:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:11:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:11:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:11:48 - [TEST_STEP][PASSED] - navigateToUrl(base + "loginForm.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+09-06-2026T21:11:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/loginForm.jsp' successfully
+
+09-06-2026T21:11:49 - [TEST_STEP][PASSED] - setText(css("#email"), "g.barba14@studenti.unisa.it"): null
+
+09-06-2026T21:11:49 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:11:49 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:11:49 - [TEST_STEP][PASSED] - return t: Text 'g.barba14@studenti.unisa.it' is set on object '#email'
+
+09-06-2026T21:11:50 - [MESSAGE][PASSED] - Text 'g.barba14@studenti.unisa.it' is set on object '#email'
+
+09-06-2026T21:11:50 - [TEST_STEP][PASSED] - setText(css("#password"), "ABC123."): null
+
+09-06-2026T21:11:50 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:11:50 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:11:50 - [TEST_STEP][PASSED] - return t: Text 'ABC123.' is set on object '#password'
+
+09-06-2026T21:11:51 - [MESSAGE][PASSED] - Text 'ABC123.' is set on object '#password'
+
+09-06-2026T21:11:51 - [TEST_STEP][PASSED] - click(css("#submit")): null
+
+09-06-2026T21:11:51 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:11:51 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:11:51 - [TEST_STEP][PASSED] - return t: Object: '#submit' is clicked on
+
+09-06-2026T21:11:51 - [MESSAGE][PASSED] - Object: '#submit' is clicked on
+
+09-06-2026T21:11:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:11:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:11:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "product"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+09-06-2026T21:11:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+09-06-2026T21:11:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:11:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:11:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:11:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032315536.png]]
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - verifyElementPresent(css("input[value='Aggiungi']"), 5): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - return t: Object 'input[value='Aggiungi']' is present
+
+09-06-2026T21:11:56 - [MESSAGE][PASSED] - Object 'input[value='Aggiungi']' is present
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:11:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_1" time="2.483" classname="Test Cases/Catalogo/TC_4.2_1" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:11:56 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_1: Test Cases/Catalogo/TC_4.2_1
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+09-06-2026T21:11:56 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_1
+
+09-06-2026T21:11:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:11:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:11:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:11:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:11:57 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:11:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:11:57 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+09-06-2026T21:11:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome' successfully
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:11:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032318040.png]]
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:11:58 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:11:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_2" time="2.903" classname="Test Cases/Catalogo/TC_4.2_2" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:11:58 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_2: Test Cases/Catalogo/TC_4.2_2
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:11:58 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+09-06-2026T21:11:59 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_2
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:11:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:11:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:11:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:11:59 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:00 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=prezzoAttuale"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+09-06-2026T21:12:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=prezzoAttuale' successfully
+
+09-06-2026T21:12:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:12:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032320955.png]]
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:12:01 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:12:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_3" time="2.66" classname="Test Cases/Catalogo/TC_4.2_3" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:12:01 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.2_3: Test Cases/Catalogo/TC_4.2_3
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+09-06-2026T21:12:01 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_3
+
+09-06-2026T21:12:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:12:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:12:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:12:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:12:02 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:03 - [TEST_STEP][PASSED] - navigateToUrl(base + "product"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+09-06-2026T21:12:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product' successfully
+
+09-06-2026T21:12:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:12:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032323618.png]]
+
+09-06-2026T21:12:04 - [TEST_STEP][PASSED] - verifyTextPresent("SCOPRI I NOSTRI PRODOTTI", false): Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:12:04 - [MESSAGE][PASSED] - Text 'SCOPRI I NOSTRI PRODOTTI' is present on page 
+
+09-06-2026T21:12:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:12:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_4" time="6.302" classname="Test Cases/Catalogo/TC_4.2_4" status="FAILED" tag="Catalogo - ordinamento - caso di errore">
+         <failure type="FAILED" message="Test Cases/Catalogo/TC_4.2_4 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_4.run(TC_4.2_4:19)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_4.run(TC_4.2_4:19)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[09-06-2026T21:12:23 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_4: Test Cases/Catalogo/TC_4.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more
+
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+09-06-2026T21:12:23 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_4
+
+09-06-2026T21:12:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:12:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:12:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:12:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:12:24 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:12:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:12:26 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=colonna_inesistente"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+09-06-2026T21:12:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=colonna_inesistente' successfully
+
+09-06-2026T21:12:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:12:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:12:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032349005.png]]
+
+09-06-2026T21:12:29 - [TEST_STEP][FAILED] - verifyTextPresent("errore", false, CONTINUE_ON_FAILURE): Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:12:29 - [MESSAGE][FAILED] - Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:12:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:12:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[09-06-2026T21:12:23 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_4: Test Cases/Catalogo/TC_4.2_4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_4.run(TC_4.2_4:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.2_5" time="7.161" classname="Test Cases/Catalogo/TC_4.2_5" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Catalogo/TC_4.2_5 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_5.run(TC_4.2_5:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.2_5.run(TC_4.2_5:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page &#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[09-06-2026T21:12:49 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_5: Test Cases/Catalogo/TC_4.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more
+
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+09-06-2026T21:12:49 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.2_5
+
+09-06-2026T21:12:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:12:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:12:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:12:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:12:50 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:12:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:12:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:12:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "product?sort=nome;--"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+09-06-2026T21:12:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/product?sort=nome;--' successfully
+
+09-06-2026T21:12:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:12:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:12:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:12:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032375557.png]]
+
+09-06-2026T21:12:56 - [TEST_STEP][FAILED] - verifyTextPresent("errore", false, CONTINUE_ON_FAILURE): Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:12:56 - [MESSAGE][FAILED] - Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:12:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[09-06-2026T21:12:49 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.2_5: Test Cases/Catalogo/TC_4.2_5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.2_5.run(TC_4.2_5:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'errore' is not present on page 
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_1" time="2.245" classname="Test Cases/Catalogo/TC_4.3_1" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:12:56 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.3_1: Test Cases/Catalogo/TC_4.3_1
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+09-06-2026T21:12:56 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_1
+
+09-06-2026T21:12:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:12:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:12:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:12:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:12:57 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=2"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+09-06-2026T21:12:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=2' successfully
+
+09-06-2026T21:12:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:12:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032377721.png]]
+
+09-06-2026T21:12:58 - [TEST_STEP][PASSED] - verifyTextPresent("(?i)kiwi", true): Text '(?i)kiwi' is present on page  using regular expression
+
+09-06-2026T21:12:58 - [MESSAGE][PASSED] - Text '(?i)kiwi' is present on page  using regular expression
+
+09-06-2026T21:12:58 - [TEST_STEP][PASSED] - verifyTextPresent("79.99", false): Text '79.99' is present on page 
+
+09-06-2026T21:12:58 - [MESSAGE][PASSED] - Text '79.99' is present on page 
+
+09-06-2026T21:12:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:12:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_2" time="4.019" classname="Test Cases/Catalogo/TC_4.3_2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Catalogo/TC_4.3_2 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.3_2.run(TC_4.3_2:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)&#xa;	at TC_4.3_2.run(TC_4.3_2:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page &#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[09-06-2026T21:13:11 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.3_2: Test Cases/Catalogo/TC_4.3_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	... 25 more
+
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+09-06-2026T21:13:11 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_2
+
+09-06-2026T21:13:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:12 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=999"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+09-06-2026T21:13:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=999' successfully
+
+09-06-2026T21:13:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:13:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:13:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032394895.png]]
+
+09-06-2026T21:13:15 - [TEST_STEP][FAILED] - verifyTextPresent("Prodotto non trovato", false, CONTINUE_ON_FAILURE): Text 'Prodotto non trovato' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:13:15 - [MESSAGE][FAILED] - Text 'Prodotto non trovato' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:13:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[09-06-2026T21:13:11 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.3_2: Test Cases/Catalogo/TC_4.3_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1809)
+	at TC_4.3_2.run(TC_4.3_2:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Prodotto non trovato' is not present on page 
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.3_3" time="3.626" classname="Test Cases/Catalogo/TC_4.3_3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Catalogo/TC_4.3_3 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)&#xa;	at TC_4.3_3.run(TC_4.3_3:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)&#xa;	at TC_4.3_3.run(TC_4.3_3:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0609_0.run(S0609_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page &#xa;	... 25 more&#xa;"/>
+         <system-out><![CDATA[09-06-2026T21:13:26 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.3_3: Test Cases/Catalogo/TC_4.3_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	... 25 more
+
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+09-06-2026T21:13:26 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.3_3
+
+09-06-2026T21:13:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:27 - [TEST_STEP][PASSED] - navigateToUrl(base + "details?action=read&id=abc"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+09-06-2026T21:13:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/details?action=read&id=abc' successfully
+
+09-06-2026T21:13:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:13:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:13:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032409374.png]]
+
+09-06-2026T21:13:29 - [TEST_STEP][FAILED] - verifyTextNotPresent("Errore del Server", false, CONTINUE_ON_FAILURE): Text 'Errore del Server' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:13:29 - [MESSAGE][FAILED] - Text 'Errore del Server' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+09-06-2026T21:13:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[09-06-2026T21:13:26 - [TEST_CASE][FAILED] - Test Cases/Catalogo/TC_4.3_3: Test Cases/Catalogo/TC_4.3_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:103)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1842)
+	at TC_4.3_3.run(TC_4.3_3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0609_0.run(S0609_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Errore del Server' is present on page 
+	... 25 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_1" time="4.879" classname="Test Cases/Catalogo/TC_4.4_1" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:13:30 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_1: Test Cases/Catalogo/TC_4.4_1
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+09-06-2026T21:13:30 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_1
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:30 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:31 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+09-06-2026T21:13:31 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:13:31 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:13:31 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+09-06-2026T21:13:32 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+09-06-2026T21:13:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:13:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032414104.png]]
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - verifyTextPresent("kiwi", false): Text 'kiwi' is present on page 
+
+09-06-2026T21:13:34 - [MESSAGE][PASSED] - Text 'kiwi' is present on page 
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_2" time="4.914" classname="Test Cases/Catalogo/TC_4.4_2" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:13:34 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_2: Test Cases/Catalogo/TC_4.4_2
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:34 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+09-06-2026T21:13:35 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_2
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:35 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:36 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "voo"): null
+
+09-06-2026T21:13:36 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:13:36 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:13:36 - [TEST_STEP][PASSED] - return t: Text 'voo' is set on object '#searchInput'
+
+09-06-2026T21:13:36 - [MESSAGE][PASSED] - Text 'voo' is set on object '#searchInput'
+
+09-06-2026T21:13:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:13:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:13:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032418989.png]]
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - verifyTextPresent("voopoo", false): Text 'voopoo' is present on page 
+
+09-06-2026T21:13:39 - [MESSAGE][PASSED] - Text 'voopoo' is present on page 
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_3" time="4.746" classname="Test Cases/Catalogo/TC_4.4_3" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:13:39 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_3: Test Cases/Catalogo/TC_4.4_3
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+09-06-2026T21:13:39 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+09-06-2026T21:13:39 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_3
+
+09-06-2026T21:13:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:40 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:41 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "zzz"): null
+
+09-06-2026T21:13:41 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:13:41 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:13:41 - [TEST_STEP][PASSED] - return t: Text 'zzz' is set on object '#searchInput'
+
+09-06-2026T21:13:41 - [MESSAGE][PASSED] - Text 'zzz' is set on object '#searchInput'
+
+09-06-2026T21:13:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-06-2026T21:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-06-2026T21:13:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032423830.png]]
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - verifyTextPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is present on page 
+
+09-06-2026T21:13:44 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is present on page 
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Catalogo/TC_4.4_4" time="7.08" classname="Test Cases/Catalogo/TC_4.4_4" status="PASSED">
+         <system-out><![CDATA[09-06-2026T21:13:44 - [TEST_CASE][PASSED] - Test Cases/Catalogo/TC_4.4_4: Test Cases/Catalogo/TC_4.4_4
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - if (code != 0): null
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+09-06-2026T21:13:44 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Catalogo/TC_4.4_4
+
+09-06-2026T21:13:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-06-2026T21:13:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-06-2026T21:13:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-06-2026T21:13:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-06-2026T21:13:45 - [TEST_STEP][PASSED] - navigateToUrl(base + "ProductView.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ProductView.jsp' successfully
+
+09-06-2026T21:13:47 - [TEST_STEP][PASSED] - setText(css("#searchInput"), "kiwi"): null
+
+09-06-2026T21:13:47 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:13:47 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:13:47 - [TEST_STEP][PASSED] - return t: Text 'kiwi' is set on object '#searchInput'
+
+09-06-2026T21:13:48 - [MESSAGE][PASSED] - Text 'kiwi' is set on object '#searchInput'
+
+09-06-2026T21:13:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-06-2026T21:13:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+09-06-2026T21:13:49 - [TEST_STEP][PASSED] - setText(css("#searchInput"), ""): null
+
+09-06-2026T21:13:49 - [TEST_STEP][PASSED] - t = new com.kms.katalon.core.testobject.TestObject(sel): null
+
+09-06-2026T21:13:49 - [TEST_STEP][PASSED] - t.addProperty("css", EQUALS, sel): null
+
+09-06-2026T21:13:49 - [TEST_STEP][PASSED] - return t: Text '' is set on object '#searchInput'
+
+09-06-2026T21:13:49 - [MESSAGE][PASSED] - Text '' is set on object '#searchInput'
+
+09-06-2026T21:13:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-06-2026T21:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+09-06-2026T21:13:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+09-06-2026T21:13:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260609_211129\\Catalogo\\20260609_211130\\1781032430918.png]]
+
+09-06-2026T21:13:51 - [TEST_STEP][PASSED] - verifyTextNotPresent("Nessun risultato trovato", false): Text 'Nessun risultato trovato' is not present on page
+
+09-06-2026T21:13:51 - [MESSAGE][PASSED] - Text 'Nessun risultato trovato' is not present on page
+
+09-06-2026T21:13:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-06-2026T21:13:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-06-2026T21:11:43 - [TEST_SUITE][FAILED] - Catalogo: null]]></system-out>
+      <system-err><![CDATA[09-06-2026T21:11:43 - [TEST_SUITE][FAILED] - Catalogo: null]]></system-err>
+   </testsuite>
+</testsuites>

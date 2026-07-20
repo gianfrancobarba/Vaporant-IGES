@@ -1,0 +1,502 @@
+2026-06-12 13:22:05.910 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gianf\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-12 13:22:05.912 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gianf\Documents\Vaporant-IGES\testing\katalon\Vaporant-Baseline\Include\config\log.properties
+2026-06-12 13:22:06.774 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Ordine
+2026-06-12 13:22:06.840 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gianfranco Barba
+2026-06-12 13:22:06.841 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Vaporant-Baseline
+2026-06-12 13:22:06.841 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gianf - Gianfranco
+2026-06-12 13:22:06.841 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-12 13:22:06.842 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.38.161.220
+2026-06-12 13:22:06.843 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-12 13:22:06.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:06.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_1
+2026-06-12 13:22:07.250 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_1
+2026-06-12 13:22:07.310 DEBUG testcase.TC_6.1_1                        - 1: openBrowser("")
+2026-06-12 13:22:07.569 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:07.609 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:09.306 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7e9ceffe30d81a3038c7370ec1969f1d
+2026-06-12 13:22:09.307 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:09.307 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:09.308 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:09.313 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:09.352 DEBUG testcase.TC_6.1_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:22:09.705 DEBUG testcase.TC_6.1_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:22:09.707 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:09.717 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:09.726 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-12 13:22:10.437 DEBUG testcase.TC_6.1_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:22:10.439 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:10.440 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:10.441 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-12 13:22:11.067 DEBUG testcase.TC_6.1_1                        - 5: click(css("#submit"))
+2026-06-12 13:22:11.068 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:11.068 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:11.070 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-12 13:22:11.444 DEBUG testcase.TC_6.1_1                        - 6: delay(2)
+2026-06-12 13:22:13.487 DEBUG testcase.TC_6.1_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:22:13.604 DEBUG testcase.TC_6.1_1                        - 8: delay(1)
+2026-06-12 13:22:14.615 DEBUG testcase.TC_6.1_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:22:14.714 DEBUG testcase.TC_6.1_1                        - 10: delay(2)
+2026-06-12 13:22:16.720 DEBUG testcase.TC_6.1_1                        - 11: takeScreenshot()
+2026-06-12 13:22:17.025 DEBUG testcase.TC_6.1_1                        - 12: verifyTextPresent("(?i)Acquista", true)
+2026-06-12 13:22:17.272 DEBUG testcase.TC_6.1_1                        - 13: verifyElementPresent(css("#addressDropdown"), 5)
+2026-06-12 13:22:17.273 DEBUG testcase.TC_6.1_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:17.274 DEBUG testcase.TC_6.1_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:17.275 DEBUG testcase.TC_6.1_1                        - 3: return t
+2026-06-12 13:22:17.524 DEBUG testcase.TC_6.1_1                        - 14: closeBrowser()
+2026-06-12 13:22:17.779 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_1
+2026-06-12 13:22:17.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:17.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_2
+2026-06-12 13:22:17.870 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_2
+2026-06-12 13:22:17.913 DEBUG testcase.TC_6.1_2                        - 1: openBrowser("")
+2026-06-12 13:22:17.915 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:17.917 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:18.740 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ead14ff3e01392f5604fedd9adad6171
+2026-06-12 13:22:18.741 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:18.741 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:18.741 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:18.742 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:18.760 DEBUG testcase.TC_6.1_2                        - 2: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:22:19.172 DEBUG testcase.TC_6.1_2                        - 3: delay(2)
+2026-06-12 13:22:21.179 DEBUG testcase.TC_6.1_2                        - 4: takeScreenshot()
+2026-06-12 13:22:21.778 DEBUG testcase.TC_6.1_2                        - 5: verifyTextPresent("(?i)Non hai un account", true)
+2026-06-12 13:22:22.042 DEBUG testcase.TC_6.1_2                        - 6: closeBrowser()
+2026-06-12 13:22:22.206 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_2
+2026-06-12 13:22:22.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:22.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_3
+2026-06-12 13:22:22.302 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_3
+2026-06-12 13:22:22.351 DEBUG testcase.TC_6.1_3                        - 1: openBrowser("")
+2026-06-12 13:22:22.352 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:22.353 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:23.188 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b365b82d56c0cab743174f63e70f349d
+2026-06-12 13:22:23.189 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:23.189 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:23.189 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:23.190 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:23.207 DEBUG testcase.TC_6.1_3                        - 2: navigateToUrl(base + "SignForm.jsp")
+2026-06-12 13:22:23.592 DEBUG testcase.TC_6.1_3                        - 3: executeJavaScript("document.getElementById('nome').value='Cliente';" + "document.getElementById('cognome').value='SenzaIndirizzo';" + "document.getElementById('data_nascita').value='1999-01-01';" + "document.getElementById('codice_fiscale').value='CLTSNI99A01F839X';" + "document.getElementById('telefono').value='3310000001';" + "document.getElementById('email').value='nessun.indirizzo@example.com';" + "document.getElementById('password').value='Password1';", null)
+2026-06-12 13:22:23.619 DEBUG testcase.TC_6.1_3                        - 4: click(css("#submit"))
+2026-06-12 13:22:23.620 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:23.620 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:23.622 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-12 13:22:23.951 DEBUG testcase.TC_6.1_3                        - 5: delay(2)
+2026-06-12 13:22:25.962 DEBUG testcase.TC_6.1_3                        - 6: setText(css("#email"), "nessun.indirizzo@example.com")
+2026-06-12 13:22:25.962 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:25.963 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:25.963 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-12 13:22:26.558 DEBUG testcase.TC_6.1_3                        - 7: setText(css("#password"), "Password1")
+2026-06-12 13:22:26.558 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:26.559 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:26.559 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-12 13:22:27.121 DEBUG testcase.TC_6.1_3                        - 8: click(css("#submit"))
+2026-06-12 13:22:27.122 DEBUG testcase.TC_6.1_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:27.123 DEBUG testcase.TC_6.1_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:27.123 DEBUG testcase.TC_6.1_3                        - 3: return t
+2026-06-12 13:22:27.437 DEBUG testcase.TC_6.1_3                        - 9: delay(2)
+2026-06-12 13:22:29.451 DEBUG testcase.TC_6.1_3                        - 10: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:22:29.562 DEBUG testcase.TC_6.1_3                        - 11: delay(1)
+2026-06-12 13:22:30.568 DEBUG testcase.TC_6.1_3                        - 12: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:22:30.604 DEBUG testcase.TC_6.1_3                        - 13: delay(2)
+2026-06-12 13:22:32.611 DEBUG testcase.TC_6.1_3                        - 14: takeScreenshot()
+2026-06-12 13:22:32.881 DEBUG testcase.TC_6.1_3                        - 15: verifyTextPresent("(?i)Aggiungi indirizzo", true)
+2026-06-12 13:22:33.129 DEBUG testcase.TC_6.1_3                        - 16: closeBrowser()
+2026-06-12 13:22:33.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_3
+2026-06-12 13:22:33.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:33.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.1_4
+2026-06-12 13:22:33.373 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.1_4
+2026-06-12 13:22:33.432 DEBUG testcase.TC_6.1_4                        - 1: openBrowser("")
+2026-06-12 13:22:33.434 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:33.435 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:34.230 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 97fdcf86f585861dfd3c0e9942ce162a
+2026-06-12 13:22:34.230 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:34.230 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:34.231 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:34.231 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:34.245 DEBUG testcase.TC_6.1_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:22:34.611 DEBUG testcase.TC_6.1_4                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:22:34.612 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:34.613 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:34.614 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-12 13:22:35.192 DEBUG testcase.TC_6.1_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:22:35.193 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:35.194 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:35.195 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-12 13:22:35.765 DEBUG testcase.TC_6.1_4                        - 5: click(css("#submit"))
+2026-06-12 13:22:35.766 DEBUG testcase.TC_6.1_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:35.766 DEBUG testcase.TC_6.1_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:35.766 DEBUG testcase.TC_6.1_4                        - 3: return t
+2026-06-12 13:22:36.095 DEBUG testcase.TC_6.1_4                        - 6: delay(2)
+2026-06-12 13:22:38.099 DEBUG testcase.TC_6.1_4                        - 7: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:22:38.144 DEBUG testcase.TC_6.1_4                        - 8: delay(2)
+2026-06-12 13:22:40.155 DEBUG testcase.TC_6.1_4                        - 9: takeScreenshot()
+2026-06-12 13:22:40.439 DEBUG testcase.TC_6.1_4                        - 10: verifyTextPresent("(?i)Acquista", true, CONTINUE_ON_FAILURE)
+2026-06-12 13:22:40.689 DEBUG testcase.TC_6.1_4                        - 11: closeBrowser()
+2026-06-12 13:22:40.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.1_4
+2026-06-12 13:22:40.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:40.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_1
+2026-06-12 13:22:40.929 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_1
+2026-06-12 13:22:40.975 DEBUG testcase.TC_6.2_1                        - 1: openBrowser("")
+2026-06-12 13:22:40.976 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:40.977 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:41.762 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d2d2dd16d522198b6fdb2e60988600ce
+2026-06-12 13:22:41.763 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:41.763 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:41.763 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:41.764 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:41.776 DEBUG testcase.TC_6.2_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:22:42.112 DEBUG testcase.TC_6.2_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:22:42.114 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:42.115 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:42.116 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:42.703 DEBUG testcase.TC_6.2_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:22:42.704 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:42.705 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:42.705 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:43.268 DEBUG testcase.TC_6.2_1                        - 5: click(css("#submit"))
+2026-06-12 13:22:43.269 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:43.269 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:43.270 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:43.603 DEBUG testcase.TC_6.2_1                        - 6: delay(2)
+2026-06-12 13:22:45.619 DEBUG testcase.TC_6.2_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:22:45.746 DEBUG testcase.TC_6.2_1                        - 8: delay(1)
+2026-06-12 13:22:46.756 DEBUG testcase.TC_6.2_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:22:46.787 DEBUG testcase.TC_6.2_1                        - 10: delay(2)
+2026-06-12 13:22:48.795 DEBUG testcase.TC_6.2_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:22:48.796 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:48.796 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:48.796 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:49.358 DEBUG testcase.TC_6.2_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:22:49.358 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:49.359 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:49.359 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:49.879 DEBUG testcase.TC_6.2_1                        - 13: click(css("#paypal"))
+2026-06-12 13:22:49.879 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:49.880 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:49.880 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:50.159 DEBUG testcase.TC_6.2_1                        - 14: delay(1)
+2026-06-12 13:22:51.177 DEBUG testcase.TC_6.2_1                        - 15: takeScreenshot()
+2026-06-12 13:22:51.493 DEBUG testcase.TC_6.2_1                        - 16: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:22:51.493 DEBUG testcase.TC_6.2_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:51.493 DEBUG testcase.TC_6.2_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:51.494 DEBUG testcase.TC_6.2_1                        - 3: return t
+2026-06-12 13:22:51.871 DEBUG testcase.TC_6.2_1                        - 17: delay(3)
+2026-06-12 13:22:54.879 DEBUG testcase.TC_6.2_1                        - 18: takeScreenshot()
+2026-06-12 13:22:55.163 DEBUG testcase.TC_6.2_1                        - 19: verifyTextPresent("(?i)Acquisto effettuato", true)
+2026-06-12 13:22:55.422 DEBUG testcase.TC_6.2_1                        - 20: closeBrowser()
+2026-06-12 13:22:55.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_1
+2026-06-12 13:22:55.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:22:55.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_2
+2026-06-12 13:22:55.803 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_2
+2026-06-12 13:22:55.856 DEBUG testcase.TC_6.2_2                        - 1: openBrowser("")
+2026-06-12 13:22:55.857 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:22:55.858 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:22:56.674 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ff896ad956bf1f33cee562af7433cbf6
+2026-06-12 13:22:56.674 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:22:56.674 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:22:56.674 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:22:56.674 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:22:56.683 DEBUG testcase.TC_6.2_2                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:22:57.112 DEBUG testcase.TC_6.2_2                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:22:57.113 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:57.114 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:57.115 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:22:57.714 DEBUG testcase.TC_6.2_2                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:22:57.715 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:57.715 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:57.715 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:22:58.278 DEBUG testcase.TC_6.2_2                        - 5: click(css("#submit"))
+2026-06-12 13:22:58.278 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:22:58.279 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:22:58.279 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:22:58.609 DEBUG testcase.TC_6.2_2                        - 6: delay(2)
+2026-06-12 13:23:00.621 DEBUG testcase.TC_6.2_2                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:23:00.726 DEBUG testcase.TC_6.2_2                        - 8: delay(1)
+2026-06-12 13:23:01.742 DEBUG testcase.TC_6.2_2                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:23:01.780 DEBUG testcase.TC_6.2_2                        - 10: delay(2)
+2026-06-12 13:23:03.785 DEBUG testcase.TC_6.2_2                        - 11: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:23:03.786 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:03.786 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:03.786 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:23:04.350 DEBUG testcase.TC_6.2_2                        - 12: click(css("#paypal"))
+2026-06-12 13:23:04.351 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:04.352 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:04.352 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:23:04.654 DEBUG testcase.TC_6.2_2                        - 13: valid = executeJavaScript("return document.getElementById('addressDropdown').checkValidity()", null)
+2026-06-12 13:23:04.664 DEBUG testcase.TC_6.2_2                        - 14: verifyEqual(valid, false)
+2026-06-12 13:23:04.672 DEBUG testcase.TC_6.2_2                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:23:04.672 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:04.673 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:04.674 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:23:04.985 DEBUG testcase.TC_6.2_2                        - 16: delay(1)
+2026-06-12 13:23:05.991 DEBUG testcase.TC_6.2_2                        - 17: takeScreenshot()
+2026-06-12 13:23:06.286 DEBUG testcase.TC_6.2_2                        - 18: verifyElementPresent(css("#addressDropdown"), 5)
+2026-06-12 13:23:06.287 DEBUG testcase.TC_6.2_2                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:06.287 DEBUG testcase.TC_6.2_2                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:06.287 DEBUG testcase.TC_6.2_2                        - 3: return t
+2026-06-12 13:23:06.516 DEBUG testcase.TC_6.2_2                        - 19: closeBrowser()
+2026-06-12 13:23:06.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_2
+2026-06-12 13:23:06.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:23:06.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_3
+2026-06-12 13:23:06.766 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_3
+2026-06-12 13:23:06.815 DEBUG testcase.TC_6.2_3                        - 1: openBrowser("")
+2026-06-12 13:23:06.816 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:23:06.817 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:23:07.584 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7b4437e697c86792a3f5366f08b01eae
+2026-06-12 13:23:07.584 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:23:07.584 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:23:07.584 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:23:07.585 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:23:07.594 DEBUG testcase.TC_6.2_3                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:23:18.880 DEBUG testcase.TC_6.2_3                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:23:18.882 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:18.882 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:18.883 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:19.633 DEBUG testcase.TC_6.2_3                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:23:19.633 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:19.634 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:19.634 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:20.386 DEBUG testcase.TC_6.2_3                        - 5: click(css("#submit"))
+2026-06-12 13:23:20.386 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:20.387 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:20.387 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:20.797 DEBUG testcase.TC_6.2_3                        - 6: delay(2)
+2026-06-12 13:23:22.801 DEBUG testcase.TC_6.2_3                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:23:23.040 DEBUG testcase.TC_6.2_3                        - 8: delay(1)
+2026-06-12 13:23:24.049 DEBUG testcase.TC_6.2_3                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:23:24.124 DEBUG testcase.TC_6.2_3                        - 10: delay(2)
+2026-06-12 13:23:26.138 DEBUG testcase.TC_6.2_3                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:23:26.139 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:26.139 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:26.139 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:26.732 DEBUG testcase.TC_6.2_3                        - 12: click(css("#paypal"))
+2026-06-12 13:23:26.733 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:26.733 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:26.733 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:27.064 DEBUG testcase.TC_6.2_3                        - 13: valid = executeJavaScript("return document.getElementById('addressDropdown2').checkValidity()", null)
+2026-06-12 13:23:27.072 DEBUG testcase.TC_6.2_3                        - 14: verifyEqual(valid, false)
+2026-06-12 13:23:27.074 DEBUG testcase.TC_6.2_3                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:23:27.074 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:27.074 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:27.074 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:27.420 DEBUG testcase.TC_6.2_3                        - 16: delay(1)
+2026-06-12 13:23:28.428 DEBUG testcase.TC_6.2_3                        - 17: takeScreenshot()
+2026-06-12 13:23:28.810 DEBUG testcase.TC_6.2_3                        - 18: verifyElementPresent(css("#addressDropdown2"), 5)
+2026-06-12 13:23:28.810 DEBUG testcase.TC_6.2_3                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:28.810 DEBUG testcase.TC_6.2_3                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:28.811 DEBUG testcase.TC_6.2_3                        - 3: return t
+2026-06-12 13:23:29.053 DEBUG testcase.TC_6.2_3                        - 19: closeBrowser()
+2026-06-12 13:23:29.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_3
+2026-06-12 13:23:29.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:23:29.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_4
+2026-06-12 13:23:29.474 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_4
+2026-06-12 13:23:29.527 DEBUG testcase.TC_6.2_4                        - 1: openBrowser("")
+2026-06-12 13:23:29.527 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:23:29.528 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:23:30.326 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1dac23d3f265095aeea7e0ab2942e94c
+2026-06-12 13:23:30.326 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:23:30.326 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:23:30.327 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:23:30.327 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:23:30.339 DEBUG testcase.TC_6.2_4                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:23:32.211 DEBUG testcase.TC_6.2_4                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:23:32.213 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:32.214 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:32.215 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:32.928 DEBUG testcase.TC_6.2_4                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:23:32.928 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:32.929 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:32.929 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:33.508 DEBUG testcase.TC_6.2_4                        - 5: click(css("#submit"))
+2026-06-12 13:23:33.508 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:33.509 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:33.509 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:33.822 DEBUG testcase.TC_6.2_4                        - 6: delay(2)
+2026-06-12 13:23:35.835 DEBUG testcase.TC_6.2_4                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:23:37.138 DEBUG testcase.TC_6.2_4                        - 8: delay(1)
+2026-06-12 13:23:38.152 DEBUG testcase.TC_6.2_4                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:23:38.237 DEBUG testcase.TC_6.2_4                        - 10: delay(2)
+2026-06-12 13:23:40.240 DEBUG testcase.TC_6.2_4                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:23:40.241 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:40.242 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:40.243 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:40.858 DEBUG testcase.TC_6.2_4                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:23:40.858 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:40.858 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:40.859 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:41.442 DEBUG testcase.TC_6.2_4                        - 13: valid = executeJavaScript("return document.querySelector(\"form[action='Ordine']\").checkValidity()", null)
+2026-06-12 13:23:41.451 DEBUG testcase.TC_6.2_4                        - 14: verifyEqual(valid, false)
+2026-06-12 13:23:41.452 DEBUG testcase.TC_6.2_4                        - 15: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:23:41.452 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:41.453 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:41.453 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:41.816 DEBUG testcase.TC_6.2_4                        - 16: delay(1)
+2026-06-12 13:23:42.829 DEBUG testcase.TC_6.2_4                        - 17: takeScreenshot()
+2026-06-12 13:23:43.169 DEBUG testcase.TC_6.2_4                        - 18: verifyElementPresent(css("#paypal"), 5)
+2026-06-12 13:23:43.169 DEBUG testcase.TC_6.2_4                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:43.169 DEBUG testcase.TC_6.2_4                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:43.170 DEBUG testcase.TC_6.2_4                        - 3: return t
+2026-06-12 13:23:43.407 DEBUG testcase.TC_6.2_4                        - 19: closeBrowser()
+2026-06-12 13:23:43.575 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_4
+2026-06-12 13:23:43.577 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:23:43.577 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.2_5
+2026-06-12 13:23:43.665 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.2_5
+2026-06-12 13:23:43.714 DEBUG testcase.TC_6.2_5                        - 1: openBrowser("")
+2026-06-12 13:23:43.715 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:23:43.716 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:23:44.503 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ede0dfc27817ebc4a34684d9e2777cd0
+2026-06-12 13:23:44.503 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:23:44.503 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:23:44.504 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:23:44.504 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:23:44.515 DEBUG testcase.TC_6.2_5                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:23:44.874 DEBUG testcase.TC_6.2_5                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:23:44.875 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:44.876 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:44.877 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:45.449 DEBUG testcase.TC_6.2_5                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:23:45.450 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:45.450 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:45.450 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:46.006 DEBUG testcase.TC_6.2_5                        - 5: click(css("#submit"))
+2026-06-12 13:23:46.007 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:46.007 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:46.008 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:46.340 DEBUG testcase.TC_6.2_5                        - 6: delay(2)
+2026-06-12 13:23:48.343 DEBUG testcase.TC_6.2_5                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:23:48.521 DEBUG testcase.TC_6.2_5                        - 8: delay(1)
+2026-06-12 13:23:49.527 DEBUG testcase.TC_6.2_5                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:23:49.646 DEBUG testcase.TC_6.2_5                        - 10: delay(2)
+2026-06-12 13:23:51.650 DEBUG testcase.TC_6.2_5                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:23:51.651 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:51.651 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:51.652 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:52.299 DEBUG testcase.TC_6.2_5                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:23:52.299 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:52.300 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:52.300 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:52.847 DEBUG testcase.TC_6.2_5                        - 13: click(css("#paypal"))
+2026-06-12 13:23:52.848 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:52.848 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:52.848 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:53.190 DEBUG testcase.TC_6.2_5                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:23:53.190 DEBUG testcase.TC_6.2_5                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:23:53.191 DEBUG testcase.TC_6.2_5                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:23:53.191 DEBUG testcase.TC_6.2_5                        - 3: return t
+2026-06-12 13:23:53.590 DEBUG testcase.TC_6.2_5                        - 15: delay(3)
+2026-06-12 13:23:56.606 DEBUG testcase.TC_6.2_5                        - 16: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:23:56.688 DEBUG testcase.TC_6.2_5                        - 17: delay(1)
+2026-06-12 13:23:57.696 DEBUG testcase.TC_6.2_5                        - 18: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:23:57.775 DEBUG testcase.TC_6.2_5                        - 19: delay(2)
+2026-06-12 13:23:59.789 DEBUG testcase.TC_6.2_5                        - 20: stockAfter = executeJavaScript("var el = document.getElementById('quantita'); return el ? el.getAttribute('max') : '-1'", null)
+2026-06-12 13:23:59.800 DEBUG testcase.TC_6.2_5                        - 21: takeScreenshot()
+2026-06-12 13:24:00.185 DEBUG testcase.TC_6.2_5                        - 22: verifyMatch(stockAfter, "24", false, CONTINUE_ON_FAILURE)
+2026-06-12 13:24:00.195 DEBUG testcase.TC_6.2_5                        - 23: closeBrowser()
+2026-06-12 13:24:00.351 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.2_5
+2026-06-12 13:24:00.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:24:00.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.3_1
+2026-06-12 13:24:00.436 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.3_1
+2026-06-12 13:24:00.475 DEBUG testcase.TC_6.3_1                        - 1: openBrowser("")
+2026-06-12 13:24:00.477 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:24:00.478 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:24:01.269 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5c671a46fd755f106e688344564c42f3
+2026-06-12 13:24:01.269 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:24:01.269 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:24:01.270 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:24:01.270 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:24:01.281 DEBUG testcase.TC_6.3_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:24:01.624 DEBUG testcase.TC_6.3_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:24:01.625 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:01.625 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:01.626 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:02.313 DEBUG testcase.TC_6.3_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:24:02.314 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:02.314 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:02.315 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:02.901 DEBUG testcase.TC_6.3_1                        - 5: click(css("#submit"))
+2026-06-12 13:24:02.902 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:02.902 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:02.902 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:03.252 DEBUG testcase.TC_6.3_1                        - 6: delay(2)
+2026-06-12 13:24:05.265 DEBUG testcase.TC_6.3_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:24:05.437 DEBUG testcase.TC_6.3_1                        - 8: delay(1)
+2026-06-12 13:24:06.444 DEBUG testcase.TC_6.3_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:24:06.522 DEBUG testcase.TC_6.3_1                        - 10: delay(2)
+2026-06-12 13:24:08.535 DEBUG testcase.TC_6.3_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:24:08.536 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:08.536 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:08.536 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:09.194 DEBUG testcase.TC_6.3_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:24:09.195 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:09.195 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:09.195 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:09.770 DEBUG testcase.TC_6.3_1                        - 13: click(css("#paypal"))
+2026-06-12 13:24:09.770 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:09.770 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:09.771 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:10.161 DEBUG testcase.TC_6.3_1                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:24:10.161 DEBUG testcase.TC_6.3_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:10.162 DEBUG testcase.TC_6.3_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:10.162 DEBUG testcase.TC_6.3_1                        - 3: return t
+2026-06-12 13:24:10.542 DEBUG testcase.TC_6.3_1                        - 15: delay(3)
+2026-06-12 13:24:13.554 DEBUG testcase.TC_6.3_1                        - 16: takeScreenshot()
+2026-06-12 13:24:13.902 DEBUG testcase.TC_6.3_1                        - 17: verifyTextPresent("(?i)Acquisto effettuato", true)
+2026-06-12 13:24:14.178 DEBUG testcase.TC_6.3_1                        - 18: verifyTextPresent("(?i)kiwi", true)
+2026-06-12 13:24:14.447 DEBUG testcase.TC_6.3_1                        - 19: closeBrowser()
+2026-06-12 13:24:14.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.3_1
+2026-06-12 13:24:14.681 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-12 13:24:14.681 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Ordine/TC_6.4_1
+2026-06-12 13:24:14.765 INFO  com.kms.katalon.core.util.KeywordUtil    - Seed ripristinato prima di: Test Cases/Ordine/TC_6.4_1
+2026-06-12 13:24:14.814 DEBUG testcase.TC_6.4_1                        - 1: openBrowser("")
+2026-06-12 13:24:14.815 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-12 13:24:14.815 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-12 13:24:15.603 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b5e54a1a55a58e6633c47ce9dc65ef71
+2026-06-12 13:24:15.604 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-06-12 13:24:15.604 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-12 13:24:15.604 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-12 13:24:15.604 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-12 13:24:15.612 DEBUG testcase.TC_6.4_1                        - 2: navigateToUrl(base + "loginForm.jsp")
+2026-06-12 13:24:18.290 DEBUG testcase.TC_6.4_1                        - 3: setText(css("#email"), "t.mansi@studenti.unisa.it")
+2026-06-12 13:24:18.291 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:18.291 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:18.293 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:18.886 DEBUG testcase.TC_6.4_1                        - 4: setText(css("#password"), "321CBA.")
+2026-06-12 13:24:18.887 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:18.887 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:18.887 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:19.449 DEBUG testcase.TC_6.4_1                        - 5: click(css("#submit"))
+2026-06-12 13:24:19.450 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:19.450 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:19.450 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:19.761 DEBUG testcase.TC_6.4_1                        - 6: delay(2)
+2026-06-12 13:24:21.775 DEBUG testcase.TC_6.4_1                        - 7: navigateToUrl(base + "cart?action=addC&id=2")
+2026-06-12 13:24:21.869 DEBUG testcase.TC_6.4_1                        - 8: delay(1)
+2026-06-12 13:24:22.886 DEBUG testcase.TC_6.4_1                        - 9: navigateToUrl(base + "checkout.jsp")
+2026-06-12 13:24:22.911 DEBUG testcase.TC_6.4_1                        - 10: delay(2)
+2026-06-12 13:24:24.921 DEBUG testcase.TC_6.4_1                        - 11: selectOptionByValue(css("#addressDropdown"), "4", false)
+2026-06-12 13:24:24.921 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:24.921 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:24.921 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:25.415 DEBUG testcase.TC_6.4_1                        - 12: selectOptionByValue(css("#addressDropdown2"), "4", false)
+2026-06-12 13:24:25.415 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:25.415 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:25.415 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:25.904 DEBUG testcase.TC_6.4_1                        - 13: click(css("#paypal"))
+2026-06-12 13:24:25.904 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:25.904 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:25.904 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:26.194 DEBUG testcase.TC_6.4_1                        - 14: click(css("form[action='Ordine'] .checkout-btn"))
+2026-06-12 13:24:26.194 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:26.194 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:26.194 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:26.494 DEBUG testcase.TC_6.4_1                        - 15: delay(3)
+2026-06-12 13:24:29.500 DEBUG testcase.TC_6.4_1                        - 16: click(css("form[action='fattura'] button"))
+2026-06-12 13:24:29.501 DEBUG testcase.TC_6.4_1                        - 1: t = new com.kms.katalon.core.testobject.TestObject(sel)
+2026-06-12 13:24:29.501 DEBUG testcase.TC_6.4_1                        - 2: t.addProperty("css", EQUALS, sel)
+2026-06-12 13:24:29.502 DEBUG testcase.TC_6.4_1                        - 3: return t
+2026-06-12 13:24:30.096 DEBUG testcase.TC_6.4_1                        - 17: delay(3)
+2026-06-12 13:24:33.099 DEBUG testcase.TC_6.4_1                        - 18: takeScreenshot()
+2026-06-12 13:24:33.380 DEBUG testcase.TC_6.4_1                        - 19: verifyTextNotPresent("(?i)Si.*verificato un errore", true, CONTINUE_ON_FAILURE)
+2026-06-12 13:24:33.630 DEBUG testcase.TC_6.4_1                        - 20: closeBrowser()
+2026-06-12 13:24:33.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ordine/TC_6.4_1
+2026-06-12 13:24:33.850 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-12 13:24:33.850 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Ordine
+2026-06-12 13:24:33.850 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

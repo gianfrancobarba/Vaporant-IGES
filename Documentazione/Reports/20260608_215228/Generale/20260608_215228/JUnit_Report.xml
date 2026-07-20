@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Generale" time="24.4" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Generale" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0" time="24.4" timestamp="2026-06-08T19:52:43.041Z" hostname="gianf - Gianfranco" id="Test Suites/Generale" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228"/>
+         <property name="logFiles" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\console0.log, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948368388.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948378070.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948383376.png, C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948386408.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="gianf - Gianfranco"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Gianfranco Barba"/>
+         <property name="hostAddress" value="26.38.161.220"/>
+         <property name="sessionId" value="42a94750f4be685bc7dcfd23db15692a"/>
+         <property name="projectName" value="Vaporant-Baseline"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Generale/TC_8.1_1" time="7.454" classname="Test Cases/Generale/TC_8.1_1" status="PASSED">
+         <system-out><![CDATA[08-06-2026T21:52:43 - [TEST_CASE][PASSED] - Test Cases/Generale/TC_8.1_1: Test Cases/Generale/TC_8.1_1
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_1
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_1
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Generale/TC_8.1_1
+
+08-06-2026T21:52:43 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_1
+
+08-06-2026T21:52:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T21:52:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T21:52:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T21:52:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T21:52:46 - [TEST_STEP][PASSED] - navigateToUrl(base + "Contatti.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/Contatti.jsp' successfully
+
+08-06-2026T21:52:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/Contatti.jsp' successfully
+
+08-06-2026T21:52:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T21:52:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948368388.png]]
+
+08-06-2026T21:52:49 - [TEST_STEP][PASSED] - verifyTextPresent("Informazioni di contatto", false): Text 'Informazioni di contatto' is present on page 
+
+08-06-2026T21:52:49 - [MESSAGE][PASSED] - Text 'Informazioni di contatto' is present on page 
+
+08-06-2026T21:52:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T21:52:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generale/TC_8.1_2" time="9.406" classname="Test Cases/Generale/TC_8.1_2" status="PASSED">
+         <system-out><![CDATA[08-06-2026T21:52:50 - [TEST_CASE][PASSED] - Test Cases/Generale/TC_8.1_2: Test Cases/Generale/TC_8.1_2
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_2
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_2
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Generale/TC_8.1_2
+
+08-06-2026T21:52:50 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_2
+
+08-06-2026T21:52:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T21:52:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T21:52:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T21:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T21:52:53 - [TEST_STEP][PASSED] - navigateToUrl(base + "ChiSiamo.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ChiSiamo.jsp' successfully
+
+08-06-2026T21:52:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/ChiSiamo.jsp' successfully
+
+08-06-2026T21:52:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T21:52:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948378070.png]]
+
+08-06-2026T21:52:58 - [TEST_STEP][PASSED] - verifyTextPresent("Chi Siamo", false): Text 'Chi Siamo' is present on page 
+
+08-06-2026T21:52:58 - [MESSAGE][PASSED] - Text 'Chi Siamo' is present on page 
+
+08-06-2026T21:52:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T21:53:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generale/TC_8.1_3" time="4.302" classname="Test Cases/Generale/TC_8.1_3" status="PASSED">
+         <system-out><![CDATA[08-06-2026T21:53:00 - [TEST_CASE][PASSED] - Test Cases/Generale/TC_8.1_3: Test Cases/Generale/TC_8.1_3
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_3
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_3
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Generale/TC_8.1_3
+
+08-06-2026T21:53:00 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_3
+
+08-06-2026T21:53:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T21:53:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T21:53:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T21:53:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T21:53:01 - [TEST_STEP][PASSED] - navigateToUrl(base + "PrivacyPolicy.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/PrivacyPolicy.jsp' successfully
+
+08-06-2026T21:53:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/PrivacyPolicy.jsp' successfully
+
+08-06-2026T21:53:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T21:53:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948383376.png]]
+
+08-06-2026T21:53:03 - [TEST_STEP][PASSED] - verifyTextPresent("Informativa sulla privacy", false): Text 'Informativa sulla privacy' is present on page 
+
+08-06-2026T21:53:04 - [MESSAGE][PASSED] - Text 'Informativa sulla privacy' is present on page 
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T21:53:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generale/TC_8.1_4" time="2.991" classname="Test Cases/Generale/TC_8.1_4" status="PASSED">
+         <system-out><![CDATA[08-06-2026T21:53:04 - [TEST_CASE][PASSED] - Test Cases/Generale/TC_8.1_4: Test Cases/Generale/TC_8.1_4
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - Start listener action : resetSeedBeforeTestCase: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_4
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - if (resetSeed == false): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - script = new java.io.File(projectDir, Data Files/reset-seed.sql): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - if (!(script.exists())): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - cmd = [mysqlExe, "--user=" + dbUser, "--password=" + dbPass, dbName]: null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - log = new java.io.File(java.lang.System.getProperty(java.io.tmpdir), seedreset.log): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - pb = new java.lang.ProcessBuilder(cmd): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - pb.redirectInput(script): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - pb.redirectErrorStream(true): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - pb.redirectOutput(log): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - p = pb.start(): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - finished = p.waitFor(20, SECONDS): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - if (!(finished)): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - code = p.exitValue(): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - if (code != 0): null
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - else: Seed ripristinato prima di: Test Cases/Generale/TC_8.1_4
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - logInfo("Seed ripristinato prima di: " + context.getTestCaseId()): Seed ripristinato prima di: Test Cases/Generale/TC_8.1_4
+
+08-06-2026T21:53:04 - [MESSAGE][INFO] - Seed ripristinato prima di: Test Cases/Generale/TC_8.1_4
+
+08-06-2026T21:53:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-06-2026T21:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-06-2026T21:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-06-2026T21:53:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-06-2026T21:53:05 - [TEST_STEP][PASSED] - navigateToUrl(base + "TerminiCondizioni.jsp"): Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/TerminiCondizioni.jsp' successfully
+
+08-06-2026T21:53:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/Vaporant_IGES_war_exploded/TerminiCondizioni.jsp' successfully
+
+08-06-2026T21:53:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+08-06-2026T21:53:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gianf\\Documents\\Vaporant-IGES\\StorageSession\\testing\\katalon\\Vaporant-Baseline\\Reports\\20260608_215228\\Generale\\20260608_215228\\1780948386408.png]]
+
+08-06-2026T21:53:06 - [TEST_STEP][PASSED] - verifyTextPresent("Termini e Condizioni", false): Text 'Termini e Condizioni' is present on page 
+
+08-06-2026T21:53:07 - [MESSAGE][PASSED] - Text 'Termini e Condizioni' is present on page 
+
+08-06-2026T21:53:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-06-2026T21:53:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-06-2026T21:52:43 - [TEST_SUITE][PASSED] - Generale: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

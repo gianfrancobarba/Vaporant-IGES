@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Autenticazione,Chrome 148.0.7778.179,,,03-06-2026 15:04:08,03-06-2026 15:05:01,"53,561s",FAILED
+,,,,,,,
+Test Cases/Autenticazione/TC_1.1_1,Chrome 148.0.7778.179,"Login con credenziali valide	
+Compila form + submit → verifica (atteso Fail: errore)",,03-06-2026 15:04:45,03-06-2026 15:04:56,"11,146s",FAILED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 15:04:45,03-06-2026 15:04:46,"0,817s",PASSED
+"navigateToUrl(base + ""loginForm.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 15:04:46,03-06-2026 15:04:46,"0,732s",PASSED
+"setText(css(""#email""), ""t.mansi@studenti.unisa.it"")",Chrome 148.0.7778.179,,,03-06-2026 15:04:46,03-06-2026 15:04:46,"0,001s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 15:04:46,03-06-2026 15:04:46,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 15:04:46,03-06-2026 15:04:46,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 15:04:46,03-06-2026 15:04:47,"0,560s",PASSED
+"setText(css(""#password""), ""321CBA."")",Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,576s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:47,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 15:04:47,03-06-2026 15:04:48,"0,297s",PASSED
+delay(2),Chrome 148.0.7778.179,,,03-06-2026 15:04:48,03-06-2026 15:04:50,"2,008s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 15:04:50,03-06-2026 15:04:50,"0,636s",PASSED
+"verifyElementPresent(css(""a[href='logout']""), 5, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,03-06-2026 15:04:50,03-06-2026 15:04:50,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 15:04:50,03-06-2026 15:04:50,"0,000s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 15:04:50,03-06-2026 15:04:50,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 15:04:50,03-06-2026 15:04:56,"5,339s",FAILED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 15:04:56,03-06-2026 15:04:56,"0,161s",PASSED
+,,,,,,,
+Test Cases/Autenticazione/TC_2.1_1,Chrome 148.0.7778.179,"Registrazione con dati validi
+Compila form + submit → verifica (atteso Fail: errore)",,03-06-2026 15:04:56,03-06-2026 15:05:01,"5,508s",PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,03-06-2026 15:04:56,03-06-2026 15:04:57,"0,762s",PASSED
+"navigateToUrl(base + ""SignForm.jsp"")",Chrome 148.0.7778.179,,,03-06-2026 15:04:57,03-06-2026 15:04:58,"0,849s",PASSED
+"executeJavaScript(""document.getElementById('nome').value='Mario';"" + ""document.getElementById('cognome').value='Rossi';"" + ""document.getElementById('data_nascita').value='2000-05-15';"" + ""document.getElementById('codice_fiscale').value='RSSMRA00E15F839X';"" + ""document.getElementById('telefono').value='3331234567';"" + ""document.getElementById('email').value='mario.rossi@example.com';"" + ""document.getElementById('password').value='Password1';"", null)",Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,019s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,536s",PASSED
+"click(css(""#submit""))",Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,000s",PASSED
+t = new com.kms.katalon.core.testobject.TestObject(sel),Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,001s",PASSED
+"t.addProperty(""css"", EQUALS, sel)",Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,000s",PASSED
+return t,Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:04:58,"0,297s",PASSED
+delay(2),Chrome 148.0.7778.179,,,03-06-2026 15:04:58,03-06-2026 15:05:00,"2,006s",PASSED
+takeScreenshot(),Chrome 148.0.7778.179,,,03-06-2026 15:05:00,03-06-2026 15:05:01,"0,550s",PASSED
+"verifyTextPresent(""Accedi"", false, CONTINUE_ON_FAILURE)",Chrome 148.0.7778.179,,,03-06-2026 15:05:01,03-06-2026 15:05:01,"0,254s",PASSED
+closeBrowser(),Chrome 148.0.7778.179,,,03-06-2026 15:05:01,03-06-2026 15:05:01,"0,174s",PASSED
